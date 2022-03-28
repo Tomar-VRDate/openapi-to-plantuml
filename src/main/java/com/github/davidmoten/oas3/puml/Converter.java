@@ -42,13 +42,11 @@ public final class Converter {
 					                                                                FileFormat.XMI_STANDARD.name(),
 					                                                                FileFormat.XMI_STAR.name())));
 
-	public static final Set<String> SUPPORTED_FORMATS = Arrays.stream(FileFormat.values())
-	                                                          .sorted(Comparator.comparing(Object::toString))
-	                                                          .map(FileFormat::name)
-	                                                          .filter(fileFormat -> !UNSUPPORTED_FORMATS.contains(fileFormat))
-	                                                          .collect(Collectors.toCollection(LinkedHashSet::new));
-
-
+	public static final  Set<String>  SUPPORTED_FORMATS                  = Arrays.stream(FileFormat.values())
+	                                                                             .sorted(Comparator.comparing(Object::toString))
+	                                                                             .map(FileFormat::name)
+	                                                                             .filter(fileFormat -> !UNSUPPORTED_FORMATS.contains(fileFormat))
+	                                                                             .collect(Collectors.toCollection(LinkedHashSet::new));
 	private static final FileFormat[] SUPPORTED_FILE_FORMAT_ARRAY        = Arrays.stream(FileFormat.values())
 	                                                                             .sorted(Comparator.comparing(Object::toString))
 	                                                                             .filter(Converter::isFileFormatSupported)
@@ -58,6 +56,8 @@ public final class Converter {
 	                                                                             .map(Converter::toString)
 	                                                                             .collect(Collectors.joining());
 	public static final  String       SUPPORTED_FORMATS_STRING           = SUPPORTED_FORMATS.toString();
+	public static final  Set<String>  EXTENSIONS                         = new LinkedHashSet<>(Arrays.asList("yml",
+	                                                                                                         "yaml"));
 	public static final  String       DELIMITER                          = ", ";
 	private static final String       COLON                              = " : ";
 	private static final String       SPACE                              = " ";
@@ -178,26 +178,28 @@ public final class Converter {
 	private static Set<File> toOpenApiFiles(File openApiDirectoryFile) {
 		Set<File> openApiFiles = null;
 		if (openApiDirectoryFile.isDirectory()) {
-			File[] openApiFileArray = openApiDirectoryFile.listFiles(Converter::acceptOpenApiYamlFileAtDirectory);
+			File[] openApiFileArray = openApiDirectoryFile.listFiles(Converter::hasExtension);
 			openApiFiles = toOpenApiFiles(openApiFileArray);
-		} else if (acceptOpenApiYamlFile(openApiDirectoryFile)) {
+		} else if (acceptFileExtension(openApiDirectoryFile)) {
 			openApiFiles = new LinkedHashSet<>();
 			openApiFiles.add(openApiDirectoryFile);
 		}
 		return openApiFiles;
 	}
 
-	private static boolean acceptOpenApiYamlFile(File openApiFile) {
-		boolean acceptFile = acceptOpenApiYamlFileAtDirectory(openApiFile.getParentFile(),
-		                                                      openApiFile.getName());
+	private static boolean acceptFileExtension(File openApiFile) {
+		boolean acceptFile = hasExtension(openApiFile.getParentFile(),
+		                                  openApiFile.getName());
 		return acceptFile;
 	}
 
-	private static boolean acceptOpenApiYamlFileAtDirectory(File dir,
-	                                                        String name) {
+	private static boolean hasExtension(File dir,
+	                                    String name) {
 		String  nameToLowerCase = name.toLowerCase(Locale.ROOT);
-		boolean isYaml          = nameToLowerCase.endsWith(".yml") || nameToLowerCase.endsWith(".yaml");
-		return isYaml;
+		int     lastIndexOfDot  = nameToLowerCase.lastIndexOf(".");
+		String  extension       = nameToLowerCase.substring(lastIndexOfDot + 1);
+		boolean hasExtension    = EXTENSIONS.contains(extension);
+		return hasExtension;
 	}
 
 	private static Set<File> toOpenApiFiles(File... openApiFileArray) {
