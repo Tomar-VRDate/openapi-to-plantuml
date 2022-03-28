@@ -52,7 +52,7 @@ Add this dependency to your pom.xml:
 <dependency>
   <groupId>com.github.davidmoten</groupId>
   <artifactId>openapi-to-plantuml</artifactId>
-  <version>2022-01-01-SNAPSHOT</version>
+  <version>2022-04-01-SNAPSHOT</version>
 </dependency>
 ```
 
