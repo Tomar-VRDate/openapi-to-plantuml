@@ -7,14 +7,29 @@
       <option name="url" value="https://repo.maven.apache.org/maven2" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="csi" />
+      <option name="name" value="csi" />
+      <option name="url" value="http://mavencentral.it.att.com:8081/nexus/content/groups/csi" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="central" />
       <option name="name" value="Maven Central repository" />
       <option name="url" value="https://repo1.maven.org/maven2" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="EDA" />
+      <option name="name" value="EDA" />
+      <option name="url" value="https://pkgs.dev.azure.com/ACC-Azure-07/_packaging/EDA/maven/v1" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="jboss.community" />
       <option name="name" value="JBoss Community repository" />
       <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="attrepo" />
+      <option name="name" value="attrepo" />
+      <option name="url" value="http://mavencentral.it.att.com:8081/nexus/content/groups/att-public-group" />
     </remote-repository>
   </component>
 </project>

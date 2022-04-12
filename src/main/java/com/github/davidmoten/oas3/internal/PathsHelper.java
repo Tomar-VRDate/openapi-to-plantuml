@@ -257,8 +257,10 @@ public final class PathsHelper {
 						                 MediaType mediaType = contentEntry.getValue();
 						                 Schema<?> sch       = mediaType.getSchema();
 						                 if (sch == null) {
-							                 // TODO
-							                 System.out.println("TODO handle null schema in response");
+							                 // TODO handle null schema in response
+							                 System.err.printf("JSON Schema not found contentType=%s mediaType=%s%n",
+							                                   contentType,
+							                                   mediaType);
 						                 } else if (sch.get$ref() != null) {
 							                 String returnClassName = names.refToClassName(sch.get$ref());
 							                 m = m.add(Association.from(className)

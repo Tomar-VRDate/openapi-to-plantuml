@@ -56,9 +56,9 @@ public final class Converter {
 	                                                                             .map(Converter::toString)
 	                                                                             .collect(Collectors.joining());
 	public static final  String       SUPPORTED_FORMATS_STRING           = SUPPORTED_FORMATS.toString();
-	public static final  Set<String>  EXTENSIONS                         = new LinkedHashSet<>(Arrays.asList("yml",
-	                                                                                                         "yaml"));
 	public static final  String       DELIMITER                          = ", ";
+	private static final Set<String>  SUPPORTED_OPEN_API_EXTENSIONS      = new LinkedHashSet<>(Arrays.asList("yml",
+	                                                                                                         "yaml"));
 	private static final String       COLON                              = " : ";
 	private static final String       SPACE                              = " ";
 
@@ -174,31 +174,30 @@ public final class Converter {
 		return openApiFiles;
 	}
 
-
 	private static Set<File> toOpenApiFiles(File openApiDirectoryFile) {
 		Set<File> openApiFiles = null;
 		if (openApiDirectoryFile.isDirectory()) {
-			File[] openApiFileArray = openApiDirectoryFile.listFiles(Converter::hasExtension);
+			File[] openApiFileArray = openApiDirectoryFile.listFiles(Converter::isSupportedOpenApiFileNameByExtension);
 			openApiFiles = toOpenApiFiles(openApiFileArray);
-		} else if (acceptFileExtension(openApiDirectoryFile)) {
+		} else if (isSupportedOpenApiFileByExtension(openApiDirectoryFile)) {
 			openApiFiles = new LinkedHashSet<>();
 			openApiFiles.add(openApiDirectoryFile);
 		}
 		return openApiFiles;
 	}
 
-	private static boolean acceptFileExtension(File openApiFile) {
-		boolean acceptFile = hasExtension(openApiFile.getParentFile(),
-		                                  openApiFile.getName());
+	private static boolean isSupportedOpenApiFileByExtension(File file) {
+		boolean acceptFile = isSupportedOpenApiFileNameByExtension(file.getParentFile(),
+		                                                           file.getName());
 		return acceptFile;
 	}
 
-	private static boolean hasExtension(File dir,
-	                                    String name) {
-		String  nameToLowerCase = name.toLowerCase(Locale.ROOT);
+	private static boolean isSupportedOpenApiFileNameByExtension(File folder,
+	                                                             String fileName) {
+		String  nameToLowerCase = fileName.toLowerCase(Locale.ROOT);
 		int     lastIndexOfDot  = nameToLowerCase.lastIndexOf(".");
 		String  extension       = nameToLowerCase.substring(lastIndexOfDot + 1);
-		boolean hasExtension    = EXTENSIONS.contains(extension);
+		boolean hasExtension    = SUPPORTED_OPEN_API_EXTENSIONS.contains(extension);
 		return hasExtension;
 	}
 

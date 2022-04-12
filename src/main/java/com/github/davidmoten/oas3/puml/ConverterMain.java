@@ -4,9 +4,17 @@ import com.github.davidmoten.oas3.internal.model.Throwables;
 
 public final class ConverterMain {
 
-	public static final String JAVA_JAR = "java -jar openapi-to-plantuml-all.jar <OPENAPI_YAML> <OUTPUT_DIRECTORY> "
-	                                      + "<FILE_FORMAT>|<[FILE_FORMAT1, FILE_FORMAT1...]>\n";
-	public static final String USAGE    = JAVA_JAR
+	public static final String VERSION  = "2022-04-12";
+	public static final String TITLE    = "openapi-to-plantuml " + VERSION + " by Dave Moten & Tomer Bar-Shlomo";
+	public static final String JAVA_JAR = "java -jar openapi-to-plantuml-"
+	                                      + VERSION
+	                                      + "-SNAPSHOT-jar-with-dependencies.jar"
+	                                      + " <OPENAPI_YAML>"
+	                                      + " <OUTPUT_DIRECTORY>"
+	                                      + " <FILE_FORMAT>|<[FILE_FORMAT1, FILE_FORMAT1...]>\n";
+	public static final String USAGE    = TITLE
+	                                      + " Usage:\n"
+	                                      + JAVA_JAR
 	                                      + "<OPENAPI_YAML> file or Directory containing *.yml or *.yaml files\n"
 	                                      + "<OUTPUT_DIRECTORY> output Directory\n"
 	                                      + "<FILE_FORMAT> optional file format default PUML and SVG only\n"
@@ -41,12 +49,13 @@ public final class ConverterMain {
 			                                                      2,
 			                                                      "FILE_FORMAT",
 			                                                      "SVG");
+			System.out.println(TITLE);
 			Converter.writeOpenApiToPumlAndTo(openApiFilePath,
 			                                  outputDirectoryPath,
 			                                  fileFormatsString);
 		} catch (Exception | Throwables throwable) {
 			Converter.error(throwable,
-			                "%nUsage:%n%s%n",
+			                "%n%s%n",
 			                USAGE);
 			throw throwable;
 		}

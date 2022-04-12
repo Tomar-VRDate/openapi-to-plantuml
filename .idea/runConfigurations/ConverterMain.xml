@@ -1,0 +1,15 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="ConverterMain" type="Application" factoryName="Application" nameIsGenerated="true">
+    <option name="MAIN_CLASS_NAME" value="com.github.davidmoten.oas3.puml.ConverterMain" />
+    <module name="openapi-to-plantuml" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="com.github.davidmoten.oas3.puml.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

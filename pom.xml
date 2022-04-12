@@ -5,13 +5,14 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.davidmoten</groupId>
     <artifactId>openapi-to-plantuml</artifactId>
-    <version>2022-04-01-SNAPSHOT</version>
-    <name>${project.artifactId}-2022-04-01</name>
+    <version>${project.version}-SNAPSHOT</version>
+    <name>${project.artifactId}-${project.version}</name>
     <description>Generates PlantUML file from an OpenAPI 3.0 Definition</description>
     <packaging>jar</packaging>
     <url>http://github.com/davidmoten/openapi-to-plantuml</url>
 
     <properties>
+        <project.version>2022-04-12</project.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven.compiler.target>11</maven.compiler.target>

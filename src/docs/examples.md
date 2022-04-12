@@ -1,5 +1,6 @@
 ## openapi-to-plantuml examples
 
+
 * [all-of-class-level.yml](../../src/test/resources/inputs/all-of-class-level.yml)
 
 <img src="../../src/docs/tests/all-of-class-level.puml.svg"/>
