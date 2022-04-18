@@ -29,7 +29,7 @@ Supports all features of OpenAPI 3.0 including
 
 [openapi-example.yml](src/test/resources/openapi-example.yml):
 
-<img style="background-color:white" src="src/docs/openapi-example.svg"/>
+<img style="background-color:white" src="src/test/resources/outputs/openapi-example.svg"/>
 
 ## How to build
 
@@ -52,7 +52,7 @@ Add this dependency to your pom.xml:
 <dependency>
   <groupId>com.github.davidmoten</groupId>
   <artifactId>openapi-to-plantuml</artifactId>
-  <version>2022-04-01-SNAPSHOT</version>
+  <version>2022-04-18-SNAPSHOT</version>
 </dependency>
 ```
 
@@ -62,11 +62,14 @@ the `target` directory if you have built the project locally):
 
 ## Usage
 
+openapi-to-plantuml-popup-menu [IntelliJ Live Plugin](https://plugins.jetbrains.com/plugin/7282-liveplugin) at
+[src/main/live-plugins/openapi-to-plantuml-popup-menu/plugin.kts](src/main/live-plugins/openapi-to-plantuml-popup-menu/plugin.kts)
+
 Read com.github.davidmoten.oas3.puml.ConverterMainTest for more examples
 
 ```bash
-Usage:
-java -jar openapi-to-plantuml-all.jar <OPENAPI_YAML> <OUTPUT_DIRECTORY> <FILE_FORMAT>|<[FILE_FORMAT1, FILE_FORMAT1...]>
+openapi-to-plantuml 2022-04-18 by Dave Moten & Tomer Bar-Shlomo Usage:
+java -jar openapi-to-plantuml-2022-04-18-SNAPSHOT-jar-with-dependencies.jar <OPENAPI_YAML> <OUTPUT_DIRECTORY> <FILE_FORMAT>|<[FILE_FORMAT1, FILE_FORMAT1...]>
 <OPENAPI_YAML> file or Directory containing *.yml or *.yaml files
 <OUTPUT_DIRECTORY> output Directory
 <FILE_FORMAT> optional file format default PUML and SVG only
@@ -86,16 +89,16 @@ UTXT	*.utxt	text/plain;charset=UTF-8
 VDX	*.vdx	application/vnd.visio.xml
 ```
 
-all demo files at src/test/resources/demo to target/converted-puml as PUML & SVG by default
+all demo files at src/test/resources/demo to target/demo-outputs as PUML & SVG by default
 
 ```bash
-java -jar target/openapi-to-plantuml-2022-01-01-SNAPSHOT-jar-with-dependencies.jar src/test/resources/demo target/converted-puml
+java -jar target/openapi-to-plantuml-2022-04-18-SNAPSHOT-jar-with-dependencies.jar src/test/resources/demo target/demo-outputs
 ```
 
-all demo files at src/test/resources/demo to target/converted-puml as PUML, SVG & PNG
+all demo files at src/test/resources/demo to target/demo-outputs as PUML, SVG & PNG
 
 ```bash
-java -jar target/openapi-to-plantuml-2022-01-01-SNAPSHOT-jar-with-dependencies.jar src/test/resources/demo target/converted-puml "[SVG, PNG]"
+java -jar target/openapi-to-plantuml-2022-04-18-SNAPSHOT-jar-with-dependencies.jar src/test/resources/demo target/demo-outputs "[SVG, PNG]"
 ```
 
 ## Usage
@@ -120,33 +123,33 @@ Converter.writeOpenApiDirectoryFileToPumlAndTo(OPEN_API_DIRECTORY_FILE,
 
 ## Examples
 
-Unit test examples are [here](src/docs/examples.md).
+Unit test examples are [at examples.md](./examples.md).
 
 [petstore-expanded.yml](src/test/resources/inputs/petstore-expanded.yml):
 
-<img src="src/docs/tests/petstore-expanded.puml.svg"/>
+<img src="src/test/resources/outputs/petstore-expanded.puml.svg"/>
 
 [bookstore.yml](src/test/resources/demos/bookstore.yml):
 
-<img src="src/docs/demos/bookstore.svg"/>
+<img src="src/test/resources/demo-outputs/bookstore.puml.svg"/>
 
 [ecommerce.yml](src/test/resources/demos/ecommerce.yml)
 
-<img src="src/docs/demos/ecommerce.svg"/>
+<img src="src/test/resources/demo-outputs/ecommerce.puml.svg"/>
 
 [news.yml](src/test/resources/demos/news.yml):
 
-<img src="src/docs/demos/news.svg"/>
+<img src="src/test/resources/demo-outputs/news.puml.svg"/>
 
 [strava.yml](src/test/resources/demos/strava.yml):
 
-<img src="src/docs/demos/strava.svg"/>
+<img src="src/test/resources/demo-outputs/strava.puml.svg"/>
 
 [twitter.yml](src/test/resources/demos/twitter.yml):
 
-<img src="src/docs/demos/twitter.svg"/>
+<img src="src/test/resources/demo-outputs/twitter.puml.svg"/>
 
 [ebay.yml](src/test/resources/demos/ebay.yml):
 
-<img src="src/docs/demos/ebay.svg"/>
+<img src="src/test/resources/demo-outputs/ebay.puml.svg"/>
 

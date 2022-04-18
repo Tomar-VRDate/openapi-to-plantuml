@@ -11,7 +11,7 @@ public class ConverterMainTest {
 					throws
 					Throwables {
 		String[] args = new String[]{"src/test/resources/openapi-example.yml",
-		                             "target/converted-puml/",
+		                             "target/demo-outputs/",
 		                             Converter.UNSUPPORTED_FORMATS.toString()};
 		ConverterMain.main(args);
 	}
@@ -21,7 +21,7 @@ public class ConverterMainTest {
 					throws
 					Throwables {
 		String[] args = new String[]{"src/test/resources/log4j.properties",
-		                             "target/converted-puml/",
+		                             "target/demo-outputs/",
 		                             Converter.SUPPORTED_FORMATS.toString()};
 		ConverterMain.main(args);
 	}
@@ -41,7 +41,7 @@ public class ConverterMainTest {
 					throws
 					Throwables {
 		String[] args = new String[]{"src/test/resources/openapi-example.yml",
-		                             "target/converted-puml",
+		                             "target/demo-outputs",
 		                             "PUML"};
 		ConverterMain.main(args);
 	}
@@ -51,7 +51,7 @@ public class ConverterMainTest {
 					throws
 					Throwables {
 		String[] args = new String[]{"src/test/resources/openapi-example.yml",
-		                             "target/converted-puml",
+		                             "target/demo-outputs",
 		                             "SVG"};
 		ConverterMain.main(args);
 	}
@@ -61,7 +61,7 @@ public class ConverterMainTest {
 					throws
 					Throwables {
 		String[] args = new String[]{"src/test/resources/demo",
-		                             "target/converted-puml/demo",
+		                             "target/demo-outputs/demo",
 		                             Converter.SUPPORTED_FORMATS.toString()};
 		ConverterMain.main(args);
 	}

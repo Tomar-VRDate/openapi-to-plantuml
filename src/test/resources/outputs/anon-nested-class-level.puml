@@ -7,16 +7,16 @@ hide empty fields
 set namespaceSeparator none
 
 class "Customer.name.standardName" {
-  {field} firstName : string
-  {field} lastName : string
+  {field} string firstName *
+  {field} string lastName *
 }
 
 class "Customer.name" {
-  {field} origin : string {O}
+  {field} string origin 
 }
 
 class "Customer" {
-  {field} heightMetres : decimal {O}
+  {field} decimal heightMetres 
 }
 
 "Customer.name" --> "0..1" "Customer.name.standardName"  :  "standardName"

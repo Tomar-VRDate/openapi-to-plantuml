@@ -1,0 +1,32 @@
+                                                                                                          ,------------------------.                                   
+                                                                                                          |GET /books              |                                   
+                                                                                                          |------------------------|                                   
+                                                                                                          |{field} integer offset *|                                   
+                                                                                                          |{field} integer limit * |                                   
+                                                                                                          |{field} string search   |                                   
+                                                                                                          `------------------------'                                   
+                                                                                                                                                                       
+                                                                                                                                                                       
+                                        ,-----------.                                                         ,-----------.   ,--------------.   ,----------------.    
+                                        |POST /login|                                                         |POST /books|   |GET /books 200|   |GET /books.genre|    
+                                        |           |                                                         |           |   |              |   |                |    
+                                        `-----------'                                                         `-----------'   `--------------'   `----------------'    
+                                               |                                                                                      |                                
+                                               |                                                                     ,--------------------------------.                
+,-----------------------------.  ,-------------------------.   ,---------------------------.                         |Book                            |                
+|AccessToken                  |  |POST /login Request      |   |Error                      |   ,-----------------.   |--------------------------------|                
+|-----------------------------|  |-------------------------|   |---------------------------|   |UnauthorizedError|   |{field} integer id *            |                
+|{field} string accessToken * |  |{field} string username *|   |{field} string code *      |   |                 |   |{field} string title *          |                
+|{field} timestamp expiresAt *|  |{field} string password *|   |{field} timestamp message *|   `-----------------'   |{field} integer totalPages *    |                
+`-----------------------------'  `-------------------------'   `---------------------------'                         |{field} string publishingHouse *|                
+                                                                                                                     `--------------------------------'                
+                                                                                                                                                                       
+                                                                                                                                                                       
+                                                                                                                 ,-------------------------.                           
+                                                                                                                 |Author                   |   ,----------------------.
+                                                                                                                 |-------------------------|   |BookGenre             |
+                                                                                                                 |{field} string fullname *|   |----------------------|
+                                                                                                                 |{field} string country   |   |{field} string value *|
+                                                                                                                 |{field} date birthYear   |   `----------------------'
+                                                                                                                 |{field} string gender    |                           
+                                                                                                                 `-------------------------'                           

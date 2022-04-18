@@ -7,8 +7,8 @@ hide empty fields
 set namespaceSeparator none
 
 class "Customers.1" {
-  {field} firstName : string
-  {field} lastName : string
+  {field} string firstName *
+  {field} string lastName *
 }
 
 class "Customers" {

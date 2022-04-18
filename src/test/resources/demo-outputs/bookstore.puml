@@ -1,0 +1,95 @@
+@startuml
+hide <<Path>> circle
+hide <<Response>> circle
+hide <<Parameter>> circle
+hide empty methods
+hide empty fields
+set namespaceSeparator none
+
+class "AccessToken" {
+  {field} string accessToken *
+  {field} timestamp expiresAt *
+}
+
+class "Error" {
+  {field} string code *
+  {field} timestamp message *
+}
+
+class "Author" {
+  {field} string fullname *
+  {field} string country 
+  {field} date birthYear 
+  {field} string gender 
+}
+
+class "BookGenre" {
+  {field} string value *
+}
+
+class "Book" {
+  {field} integer id *
+  {field} string title *
+  {field} integer totalPages *
+  {field} string publishingHouse *
+}
+
+class "UnauthorizedError" <<Response>> {
+}
+
+class "POST /login" <<Path>> {
+}
+
+class "POST /login Request" <<RequestBody>> {
+  {field} string username *
+  {field} string password *
+}
+
+class "GET /books" <<Path>> {
+  {field} integer offset *
+  {field} integer limit *
+  {field} string search 
+}
+
+class "GET /books.genre" <<Parameter>> {
+}
+
+class "GET /books 200" <<Response>> {
+}
+
+class "POST /books" <<Path>> {
+}
+
+"Book" --> "0..1" "BookGenre"  :  "genre"
+
+"Book" --> "1" "Author"  :  "author"
+
+"POST /login" ..> "1" "AccessToken"  :  "200"
+
+"POST /login" ..> "1" "Error"  :  "400"
+
+"POST /login" --> "1" "POST /login Request"
+
+"GET /books.genre" --> "1" "BookGenre"
+
+"GET /books" --> "0..1" "GET /books.genre"  :  "genre"
+
+"GET /books 200" --> "*" "Book"
+
+"GET /books" ..> "1" "GET /books 200"  :  "200"
+
+"GET /books" ..> "1" "UnauthorizedError"  :  "401"
+
+"GET /books" ..> "1" "Error"  :  "400"
+
+"POST /books" ..> "1" "Book"  :  "201"
+
+"POST /books" ..> "1" "Book"  :  "201 application/xml"
+
+"POST /books" ..> "1" "Error"  :  "400"
+
+"POST /books" ..> "1" "UnauthorizedError"  :  "401"
+
+"POST /books" --> "1" "Book"
+
+@enduml

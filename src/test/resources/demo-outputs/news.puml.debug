@@ -1,0 +1,4529 @@
+DPI: 96
+dimension: [ 9759.8372 ; 745.0000 ]
+scaleFactor: 1.0000
+seed: 779341750657950578
+svgLinkTarget: _top
+hoverPathColorRGB: null
+preserveAspectRatio: none
+
+COMMENT: class indexSearchQuery.value
+RECTANGLE:
+  pt1: [ 1132.5000 ; 162.5000 ]
+  pt2: [ 1458.5335 ; 213.5000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 1132.5000 ; 162.5000 ]
+  pt2: [ 1158.5000 ; 194.5000 ]
+
+ELLIPSE:
+  pt1: [ 1136.5000 ; 167.5000 ]
+  pt2: [ 1158.5000 ; 189.5000 ]
+  start: 0.0
+  extend: 0.0
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffadd1b2
+
+CENTERED_CHAR:
+  char: C
+  position: [ 1147.5000 ; 178.5000 ]
+  font: Monospaced.bold/17
+  color: ff000000
+
+EMPTY:
+  pt1: [ 1158.5000 ; 172.5000 ]
+  pt2: [ 1458.5335 ; 184.5000 ]
+
+TEXT:
+  text: indexSearchQuery.value
+  position: [ 1161.5000 ; 181.8333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+LINE:
+  pt1: [ 1133.5000 ; 194.5000 ]
+  pt2: [ 1457.5335 ; 194.5000 ]
+  stroke: 0.0-0.0-1.5
+  shadow: 0
+  color: ffa80036
+
+EMPTY:
+  pt1: [ 1132.5000 ; 194.5000 ]
+  pt2: [ 1310.5857 ; 213.5000 ]
+
+TEXT:
+  text: string value *
+  position: [ 1138.5000 ; 207.0556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class indexSearchQuery.value.1.1
+RECTANGLE:
+  pt1: [ 7.0000 ; 316.0000 ]
+  pt2: [ 442.1681 ; 367.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 7.0000 ; 316.0000 ]
+  pt2: [ 33.0000 ; 348.0000 ]
+
+ELLIPSE:
+  pt1: [ 11.0000 ; 321.0000 ]
+  pt2: [ 33.0000 ; 343.0000 ]
+  start: 0.0
+  extend: 0.0
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffadd1b2
+
+CENTERED_CHAR:
+  char: C
+  position: [ 22.0000 ; 332.0000 ]
+  font: Monospaced.bold/17
+  color: ff000000
+
+EMPTY:
+  pt1: [ 33.0000 ; 326.0000 ]
+  pt2: [ 442.1681 ; 338.0000 ]
+
+TEXT:
+  text: indexSearchQuery.value.1.1
+  position: [ 36.0000 ; 335.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+LINE:
+  pt1: [ 8.0000 ; 348.0000 ]
+  pt2: [ 441.1681 ; 348.0000 ]
+  stroke: 0.0-0.0-1.5
+  shadow: 0
+  color: ffa80036
+
+EMPTY:
+  pt1: [ 7.0000 ; 348.0000 ]
+  pt2: [ 185.0857 ; 367.0000 ]
+
+TEXT:
+  text: string value *
+  position: [ 13.0000 ; 360.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class indexSearchQuery.value.1
+RECTANGLE:
+  pt1: [ 61.5000 ; 172.0000 ]
+  pt2: [ 387.2319 ; 204.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 61.5000 ; 172.0000 ]
+  pt2: [ 87.5000 ; 204.0000 ]
+
+ELLIPSE:
+  pt1: [ 65.5000 ; 177.0000 ]
+  pt2: [ 87.5000 ; 199.0000 ]
+  start: 0.0
+  extend: 0.0
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffadd1b2
+
+CENTERED_CHAR:
+  char: C
+  position: [ 76.5000 ; 188.0000 ]
+  font: Monospaced.bold/17
+  color: ff000000
+
+EMPTY:
+  pt1: [ 87.5000 ; 182.0000 ]
+  pt2: [ 387.2319 ; 194.0000 ]
+
+TEXT:
+  text: indexSearchQuery.value.1
+  position: [ 90.5000 ; 191.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class indexSearchQuery
+RECTANGLE:
+  pt1: [ 848.0000 ; 135.0000 ]
+  pt2: [ 1097.1808 ; 241.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 848.0000 ; 135.0000 ]
+  pt2: [ 874.0000 ; 167.0000 ]
+
+ELLIPSE:
+  pt1: [ 852.0000 ; 140.0000 ]
+  pt2: [ 874.0000 ; 162.0000 ]
+  start: 0.0
+  extend: 0.0
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffadd1b2
+
+CENTERED_CHAR:
+  char: C
+  position: [ 863.0000 ; 151.0000 ]
+  font: Monospaced.bold/17
+  color: ff000000
+
+EMPTY:
+  pt1: [ 874.0000 ; 145.0000 ]
+  pt2: [ 1097.1808 ; 157.0000 ]
+
+TEXT:
+  text: indexSearchQuery
+  position: [ 877.0000 ; 154.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+LINE:
+  pt1: [ 849.0000 ; 167.0000 ]
+  pt2: [ 1096.1808 ; 167.0000 ]
+  stroke: 0.0-0.0-1.5
+  shadow: 0
+  color: ffa80036
+
+EMPTY:
+  pt1: [ 848.0000 ; 167.0000 ]
+  pt2: [ 1081.2542 ; 241.0000 ]
+
+TEXT:
+  text: string key *
+  position: [ 854.0000 ; 179.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: integer count
+  position: [ 854.0000 ; 190.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: integer offset
+  position: [ 854.0000 ; 201.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: timestamp minDate
+  position: [ 854.0000 ; 212.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: timestamp maxDate
+  position: [ 854.0000 ; 223.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: string order
+  position: [ 854.0000 ; 234.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class articleSearchQuery.publisher
+RECTANGLE:
+  pt1: [ 5407.5000 ; 162.5000 ]
+  pt2: [ 5757.4299 ; 213.5000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 5407.5000 ; 162.5000 ]
+  pt2: [ 5433.5000 ; 194.5000 ]
+
+ELLIPSE:
+  pt1: [ 5411.5000 ; 167.5000 ]
+  pt2: [ 5433.5000 ; 189.5000 ]
+  start: 0.0
+  extend: 0.0
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffadd1b2
+
+CENTERED_CHAR:
+  char: C
+  position: [ 5422.5000 ; 178.5000 ]
+  font: Monospaced.bold/17
+  color: ff000000
+
+EMPTY:
+  pt1: [ 5433.5000 ; 172.5000 ]
+  pt2: [ 5757.4299 ; 184.5000 ]
+
+TEXT:
+  text: articleSearchQuery.publisher
+  position: [ 5436.5000 ; 181.8333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+LINE:
+  pt1: [ 5408.5000 ; 194.5000 ]
+  pt2: [ 5756.4299 ; 194.5000 ]
+  stroke: 0.0-0.0-1.5
+  shadow: 0
+  color: ffa80036
+
+EMPTY:
+  pt1: [ 5407.5000 ; 194.5000 ]
+  pt2: [ 5585.5857 ; 213.5000 ]
+
+TEXT:
+  text: string value *
+  position: [ 5413.5000 ; 207.0556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class articleSearchQuery.publisher.1.1
+RECTANGLE:
+  pt1: [ 5031.0000 ; 316.0000 ]
+  pt2: [ 5372.2069 ; 367.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 5031.0000 ; 316.0000 ]
+  pt2: [ 5057.0000 ; 348.0000 ]
+
+ELLIPSE:
+  pt1: [ 5035.0000 ; 321.0000 ]
+  pt2: [ 5057.0000 ; 343.0000 ]
+  start: 0.0
+  extend: 0.0
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffadd1b2
+
+CENTERED_CHAR:
+  char: C
+  position: [ 5046.0000 ; 332.0000 ]
+  font: Monospaced.bold/17
+  color: ff000000
+
+EMPTY:
+  pt1: [ 5057.0000 ; 326.0000 ]
+  pt2: [ 5372.2069 ; 338.0000 ]
+
+TEXT:
+  text: articleSearchQuery.publisher.1.1
+  position: [ 5060.0000 ; 335.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+LINE:
+  pt1: [ 5032.0000 ; 348.0000 ]
+  pt2: [ 5371.2069 ; 348.0000 ]
+  stroke: 0.0-0.0-1.5
+  shadow: 0
+  color: ffa80036
+
+EMPTY:
+  pt1: [ 5031.0000 ; 348.0000 ]
+  pt2: [ 5209.0857 ; 367.0000 ]
+
+TEXT:
+  text: string value *
+  position: [ 5037.0000 ; 360.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class articleSearchQuery.publisher.1
+RECTANGLE:
+  pt1: [ 5030.5000 ; 172.0000 ]
+  pt2: [ 5372.8534 ; 204.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 5030.5000 ; 172.0000 ]
+  pt2: [ 5056.5000 ; 204.0000 ]
+
+ELLIPSE:
+  pt1: [ 5034.5000 ; 177.0000 ]
+  pt2: [ 5056.5000 ; 199.0000 ]
+  start: 0.0
+  extend: 0.0
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffadd1b2
+
+CENTERED_CHAR:
+  char: C
+  position: [ 5045.5000 ; 188.0000 ]
+  font: Monospaced.bold/17
+  color: ff000000
+
+EMPTY:
+  pt1: [ 5056.5000 ; 182.0000 ]
+  pt2: [ 5372.8534 ; 194.0000 ]
+
+TEXT:
+  text: articleSearchQuery.publisher.1
+  position: [ 5059.5000 ; 191.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class articleSearchQuery.provider
+RECTANGLE:
+  pt1: [ 6916.0000 ; 162.5000 ]
+  pt2: [ 7237.4685 ; 213.5000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 6916.0000 ; 162.5000 ]
+  pt2: [ 6942.0000 ; 194.5000 ]
+
+ELLIPSE:
+  pt1: [ 6920.0000 ; 167.5000 ]
+  pt2: [ 6942.0000 ; 189.5000 ]
+  start: 0.0
+  extend: 0.0
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffadd1b2
+
+CENTERED_CHAR:
+  char: C
+  position: [ 6931.0000 ; 178.5000 ]
+  font: Monospaced.bold/17
+  color: ff000000
+
+EMPTY:
+  pt1: [ 6942.0000 ; 172.5000 ]
+  pt2: [ 7237.4685 ; 184.5000 ]
+
+TEXT:
+  text: articleSearchQuery.provider
+  position: [ 6945.0000 ; 181.8333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+LINE:
+  pt1: [ 6917.0000 ; 194.5000 ]
+  pt2: [ 7236.4685 ; 194.5000 ]
+  stroke: 0.0-0.0-1.5
+  shadow: 0
+  color: ffa80036
+
+EMPTY:
+  pt1: [ 6916.0000 ; 194.5000 ]
+  pt2: [ 7094.0857 ; 213.5000 ]
+
+TEXT:
+  text: string value *
+  position: [ 6922.0000 ; 207.0556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class articleSearchQuery.provider.1.1
+RECTANGLE:
+  pt1: [ 6160.5000 ; 316.0000 ]
+  pt2: [ 6560.3831 ; 367.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 6160.5000 ; 316.0000 ]
+  pt2: [ 6186.5000 ; 348.0000 ]
+
+ELLIPSE:
+  pt1: [ 6164.5000 ; 321.0000 ]
+  pt2: [ 6186.5000 ; 343.0000 ]
+  start: 0.0
+  extend: 0.0
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffadd1b2
+
+CENTERED_CHAR:
+  char: C
+  position: [ 6175.5000 ; 332.0000 ]
+  font: Monospaced.bold/17
+  color: ff000000
+
+EMPTY:
+  pt1: [ 6186.5000 ; 326.0000 ]
+  pt2: [ 6560.3831 ; 338.0000 ]
+
+TEXT:
+  text: articleSearchQuery.provider.1.1
+  position: [ 6189.5000 ; 335.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+LINE:
+  pt1: [ 6161.5000 ; 348.0000 ]
+  pt2: [ 6559.3831 ; 348.0000 ]
+  stroke: 0.0-0.0-1.5
+  shadow: 0
+  color: ffa80036
+
+EMPTY:
+  pt1: [ 6160.5000 ; 348.0000 ]
+  pt2: [ 6338.5857 ; 367.0000 ]
+
+TEXT:
+  text: string value *
+  position: [ 6166.5000 ; 360.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class articleSearchQuery.provider.1
+RECTANGLE:
+  pt1: [ 6142.0000 ; 172.0000 ]
+  pt2: [ 6579.1831 ; 204.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 6142.0000 ; 172.0000 ]
+  pt2: [ 6168.0000 ; 204.0000 ]
+
+ELLIPSE:
+  pt1: [ 6146.0000 ; 177.0000 ]
+  pt2: [ 6168.0000 ; 199.0000 ]
+  start: 0.0
+  extend: 0.0
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffadd1b2
+
+CENTERED_CHAR:
+  char: C
+  position: [ 6157.0000 ; 188.0000 ]
+  font: Monospaced.bold/17
+  color: ff000000
+
+EMPTY:
+  pt1: [ 6168.0000 ; 182.0000 ]
+  pt2: [ 6579.1831 ; 194.0000 ]
+
+TEXT:
+  text: articleSearchQuery.provider.1
+  position: [ 6171.0000 ; 191.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class articleSearchQuery.type
+RECTANGLE:
+  pt1: [ 7272.5000 ; 162.5000 ]
+  pt2: [ 7530.4972 ; 213.5000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 7272.5000 ; 162.5000 ]
+  pt2: [ 7298.5000 ; 194.5000 ]
+
+ELLIPSE:
+  pt1: [ 7276.5000 ; 167.5000 ]
+  pt2: [ 7298.5000 ; 189.5000 ]
+  start: 0.0
+  extend: 0.0
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffadd1b2
+
+CENTERED_CHAR:
+  char: C
+  position: [ 7287.5000 ; 178.5000 ]
+  font: Monospaced.bold/17
+  color: ff000000
+
+EMPTY:
+  pt1: [ 7298.5000 ; 172.5000 ]
+  pt2: [ 7530.4972 ; 184.5000 ]
+
+TEXT:
+  text: articleSearchQuery.type
+  position: [ 7301.5000 ; 181.8333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+LINE:
+  pt1: [ 7273.5000 ; 194.5000 ]
+  pt2: [ 7529.4972 ; 194.5000 ]
+  stroke: 0.0-0.0-1.5
+  shadow: 0
+  color: ffa80036
+
+EMPTY:
+  pt1: [ 7272.5000 ; 194.5000 ]
+  pt2: [ 7450.5857 ; 213.5000 ]
+
+TEXT:
+  text: string value *
+  position: [ 7278.5000 ; 207.0556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class articleSearchQuery.type.1.1
+RECTANGLE:
+  pt1: [ 7494.0000 ; 316.0000 ]
+  pt2: [ 7941.0608 ; 367.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 7494.0000 ; 316.0000 ]
+  pt2: [ 7520.0000 ; 348.0000 ]
+
+ELLIPSE:
+  pt1: [ 7498.0000 ; 321.0000 ]
+  pt2: [ 7520.0000 ; 343.0000 ]
+  start: 0.0
+  extend: 0.0
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffadd1b2
+
+CENTERED_CHAR:
+  char: C
+  position: [ 7509.0000 ; 332.0000 ]
+  font: Monospaced.bold/17
+  color: ff000000
+
+EMPTY:
+  pt1: [ 7520.0000 ; 326.0000 ]
+  pt2: [ 7941.0608 ; 338.0000 ]
+
+TEXT:
+  text: articleSearchQuery.type.1.1
+  position: [ 7523.0000 ; 335.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+LINE:
+  pt1: [ 7495.0000 ; 348.0000 ]
+  pt2: [ 7940.0608 ; 348.0000 ]
+  stroke: 0.0-0.0-1.5
+  shadow: 0
+  color: ffa80036
+
+EMPTY:
+  pt1: [ 7494.0000 ; 348.0000 ]
+  pt2: [ 7672.0857 ; 367.0000 ]
+
+TEXT:
+  text: string value *
+  position: [ 7500.0000 ; 360.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class articleSearchQuery.type.1
+RECTANGLE:
+  pt1: [ 7566.0000 ; 172.0000 ]
+  pt2: [ 7869.4617 ; 204.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 7566.0000 ; 172.0000 ]
+  pt2: [ 7592.0000 ; 204.0000 ]
+
+ELLIPSE:
+  pt1: [ 7570.0000 ; 177.0000 ]
+  pt2: [ 7592.0000 ; 199.0000 ]
+  start: 0.0
+  extend: 0.0
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffadd1b2
+
+CENTERED_CHAR:
+  char: C
+  position: [ 7581.0000 ; 188.0000 ]
+  font: Monospaced.bold/17
+  color: ff000000
+
+EMPTY:
+  pt1: [ 7592.0000 ; 182.0000 ]
+  pt2: [ 7869.4617 ; 194.0000 ]
+
+TEXT:
+  text: articleSearchQuery.type.1
+  position: [ 7595.0000 ; 191.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class articleSearchQuery
+RECTANGLE:
+  pt1: [ 6614.0000 ; 135.0000 ]
+  pt2: [ 6880.6650 ; 241.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 6614.0000 ; 135.0000 ]
+  pt2: [ 6640.0000 ; 167.0000 ]
+
+ELLIPSE:
+  pt1: [ 6618.0000 ; 140.0000 ]
+  pt2: [ 6640.0000 ; 162.0000 ]
+  start: 0.0
+  extend: 0.0
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffadd1b2
+
+CENTERED_CHAR:
+  char: C
+  position: [ 6629.0000 ; 151.0000 ]
+  font: Monospaced.bold/17
+  color: ff000000
+
+EMPTY:
+  pt1: [ 6640.0000 ; 145.0000 ]
+  pt2: [ 6880.6650 ; 157.0000 ]
+
+TEXT:
+  text: articleSearchQuery
+  position: [ 6643.0000 ; 154.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+LINE:
+  pt1: [ 6615.0000 ; 167.0000 ]
+  pt2: [ 6879.6650 ; 167.0000 ]
+  stroke: 0.0-0.0-1.5
+  shadow: 0
+  color: ffa80036
+
+EMPTY:
+  pt1: [ 6614.0000 ; 167.0000 ]
+  pt2: [ 6847.2542 ; 241.0000 ]
+
+TEXT:
+  text: string fullText
+  position: [ 6620.0000 ; 179.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: integer count
+  position: [ 6620.0000 ; 190.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: integer offset
+  position: [ 6620.0000 ; 201.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: timestamp minDate
+  position: [ 6620.0000 ; 212.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: timestamp maxDate
+  position: [ 6620.0000 ; 223.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: string language
+  position: [ 6620.0000 ; 234.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class article.metaData
+RECTANGLE:
+  pt1: [ 2958.0000 ; 700.0000 ]
+  pt2: [ 3194.7113 ; 732.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 2958.0000 ; 700.0000 ]
+  pt2: [ 2984.0000 ; 732.0000 ]
+
+ELLIPSE:
+  pt1: [ 2962.0000 ; 705.0000 ]
+  pt2: [ 2984.0000 ; 727.0000 ]
+  start: 0.0
+  extend: 0.0
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffadd1b2
+
+CENTERED_CHAR:
+  char: C
+  position: [ 2973.0000 ; 716.0000 ]
+  font: Monospaced.bold/17
+  color: ff000000
+
+EMPTY:
+  pt1: [ 2984.0000 ; 710.0000 ]
+  pt2: [ 3194.7113 ; 722.0000 ]
+
+TEXT:
+  text: article.metaData
+  position: [ 2987.0000 ; 719.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class article.normalizedData
+RECTANGLE:
+  pt1: [ 3230.5000 ; 700.0000 ]
+  pt2: [ 3498.6305 ; 732.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 3230.5000 ; 700.0000 ]
+  pt2: [ 3256.5000 ; 732.0000 ]
+
+ELLIPSE:
+  pt1: [ 3234.5000 ; 705.0000 ]
+  pt2: [ 3256.5000 ; 727.0000 ]
+  start: 0.0
+  extend: 0.0
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffadd1b2
+
+CENTERED_CHAR:
+  char: C
+  position: [ 3245.5000 ; 716.0000 ]
+  font: Monospaced.bold/17
+  color: ff000000
+
+EMPTY:
+  pt1: [ 3256.5000 ; 710.0000 ]
+  pt2: [ 3498.6305 ; 722.0000 ]
+
+TEXT:
+  text: article.normalizedData
+  position: [ 3259.5000 ; 719.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class article
+RECTANGLE:
+  pt1: [ 3072.0000 ; 442.0000 ]
+  pt2: [ 3368.8315 ; 625.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 3162.1002 ; 442.0000 ]
+  pt2: [ 3188.1002 ; 474.0000 ]
+
+ELLIPSE:
+  pt1: [ 3166.1002 ; 447.0000 ]
+  pt2: [ 3188.1002 ; 469.0000 ]
+  start: 0.0
+  extend: 0.0
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffadd1b2
+
+CENTERED_CHAR:
+  char: C
+  position: [ 3177.1002 ; 458.0000 ]
+  font: Monospaced.bold/17
+  color: ff000000
+
+EMPTY:
+  pt1: [ 3194.6002 ; 452.0000 ]
+  pt2: [ 3278.7313 ; 464.0000 ]
+
+TEXT:
+  text: article
+  position: [ 3197.6002 ; 461.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+LINE:
+  pt1: [ 3073.0000 ; 474.0000 ]
+  pt2: [ 3367.8315 ; 474.0000 ]
+  stroke: 0.0-0.0-1.5
+  shadow: 0
+  color: ffa80036
+
+EMPTY:
+  pt1: [ 3072.0000 ; 474.0000 ]
+  pt2: [ 3368.8315 ; 625.0000 ]
+
+TEXT:
+  text: string provider *
+  position: [ 3078.0000 ; 486.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: string publisher
+  position: [ 3078.0000 ; 497.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: string headline *
+  position: [ 3078.0000 ; 508.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: string link
+  position: [ 3078.0000 ; 519.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: timestamp date *
+  position: [ 3078.0000 ; 530.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: timestamp expires
+  position: [ 3078.0000 ; 541.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: string slug *
+  position: [ 3078.0000 ; 552.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: string summary
+  position: [ 3078.0000 ; 563.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: string firstParagraph
+  position: [ 3078.0000 ; 574.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: string bodyId
+  position: [ 3078.0000 ; 585.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: string language
+  position: [ 3078.0000 ; 596.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: string visiblity
+  position: [ 3078.0000 ; 607.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: integer quality *
+  position: [ 3078.0000 ; 618.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class multipleArticleResponse
+RECTANGLE:
+  pt1: [ 3289.0000 ; 316.0000 ]
+  pt2: [ 3610.0014 ; 367.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 3289.0000 ; 316.0000 ]
+  pt2: [ 3315.0000 ; 348.0000 ]
+
+ELLIPSE:
+  pt1: [ 3293.0000 ; 321.0000 ]
+  pt2: [ 3315.0000 ; 343.0000 ]
+  start: 0.0
+  extend: 0.0
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffadd1b2
+
+CENTERED_CHAR:
+  char: C
+  position: [ 3304.0000 ; 332.0000 ]
+  font: Monospaced.bold/17
+  color: ff000000
+
+EMPTY:
+  pt1: [ 3315.0000 ; 326.0000 ]
+  pt2: [ 3610.0014 ; 338.0000 ]
+
+TEXT:
+  text: multipleArticleResponse
+  position: [ 3318.0000 ; 335.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+LINE:
+  pt1: [ 3290.0000 ; 348.0000 ]
+  pt2: [ 3609.0014 ; 348.0000 ]
+  stroke: 0.0-0.0-1.5
+  shadow: 0
+  color: ffa80036
+
+EMPTY:
+  pt1: [ 3289.0000 ; 348.0000 ]
+  pt2: [ 3493.7919 ; 367.0000 ]
+
+TEXT:
+  text: boolean success *
+  position: [ 3295.0000 ; 360.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class singleArticleResponse
+RECTANGLE:
+  pt1: [ 2949.5000 ; 316.0000 ]
+  pt2: [ 3253.0571 ; 367.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 2949.5000 ; 316.0000 ]
+  pt2: [ 2975.5000 ; 348.0000 ]
+
+ELLIPSE:
+  pt1: [ 2953.5000 ; 321.0000 ]
+  pt2: [ 2975.5000 ; 343.0000 ]
+  start: 0.0
+  extend: 0.0
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffadd1b2
+
+CENTERED_CHAR:
+  char: C
+  position: [ 2964.5000 ; 332.0000 ]
+  font: Monospaced.bold/17
+  color: ff000000
+
+EMPTY:
+  pt1: [ 2975.5000 ; 326.0000 ]
+  pt2: [ 3253.0571 ; 338.0000 ]
+
+TEXT:
+  text: singleArticleResponse
+  position: [ 2978.5000 ; 335.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+LINE:
+  pt1: [ 2950.5000 ; 348.0000 ]
+  pt2: [ 3252.0571 ; 348.0000 ]
+  stroke: 0.0-0.0-1.5
+  shadow: 0
+  color: ffa80036
+
+EMPTY:
+  pt1: [ 2949.5000 ; 348.0000 ]
+  pt2: [ 3154.2919 ; 367.0000 ]
+
+TEXT:
+  text: boolean success *
+  position: [ 2955.5000 ; 360.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class articleBodyResponse.body
+RECTANGLE:
+  pt1: [ 8654.5000 ; 316.0000 ]
+  pt2: [ 8934.6511 ; 367.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 8654.5000 ; 316.0000 ]
+  pt2: [ 8680.5000 ; 348.0000 ]
+
+ELLIPSE:
+  pt1: [ 8658.5000 ; 321.0000 ]
+  pt2: [ 8680.5000 ; 343.0000 ]
+  start: 0.0
+  extend: 0.0
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffadd1b2
+
+CENTERED_CHAR:
+  char: C
+  position: [ 8669.5000 ; 332.0000 ]
+  font: Monospaced.bold/17
+  color: ff000000
+
+EMPTY:
+  pt1: [ 8680.5000 ; 326.0000 ]
+  pt2: [ 8934.6511 ; 338.0000 ]
+
+TEXT:
+  text: articleBodyResponse.body
+  position: [ 8683.5000 ; 335.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+LINE:
+  pt1: [ 8655.5000 ; 348.0000 ]
+  pt2: [ 8933.6511 ; 348.0000 ]
+  stroke: 0.0-0.0-1.5
+  shadow: 0
+  color: ffa80036
+
+EMPTY:
+  pt1: [ 8654.5000 ; 348.0000 ]
+  pt2: [ 8787.6101 ; 367.0000 ]
+
+TEXT:
+  text: decimal v *
+  position: [ 8660.5000 ; 360.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class articleBodyResponse
+RECTANGLE:
+  pt1: [ 8650.5000 ; 162.5000 ]
+  pt2: [ 8938.8899 ; 213.5000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 8650.5000 ; 162.5000 ]
+  pt2: [ 8676.5000 ; 194.5000 ]
+
+ELLIPSE:
+  pt1: [ 8654.5000 ; 167.5000 ]
+  pt2: [ 8676.5000 ; 189.5000 ]
+  start: 0.0
+  extend: 0.0
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffadd1b2
+
+CENTERED_CHAR:
+  char: C
+  position: [ 8665.5000 ; 178.5000 ]
+  font: Monospaced.bold/17
+  color: ff000000
+
+EMPTY:
+  pt1: [ 8676.5000 ; 172.5000 ]
+  pt2: [ 8938.8899 ; 184.5000 ]
+
+TEXT:
+  text: articleBodyResponse
+  position: [ 8679.5000 ; 181.8333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+LINE:
+  pt1: [ 8651.5000 ; 194.5000 ]
+  pt2: [ 8937.8899 ; 194.5000 ]
+  stroke: 0.0-0.0-1.5
+  shadow: 0
+  color: ffa80036
+
+EMPTY:
+  pt1: [ 8650.5000 ; 194.5000 ]
+  pt2: [ 8855.2919 ; 213.5000 ]
+
+TEXT:
+  text: boolean success *
+  position: [ 8656.5000 ; 207.0556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class articleBodyChunk
+RECTANGLE:
+  pt1: [ 8683.0000 ; 497.0000 ]
+  pt2: [ 8906.0402 ; 570.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 8683.0000 ; 497.0000 ]
+  pt2: [ 8709.0000 ; 529.0000 ]
+
+ELLIPSE:
+  pt1: [ 8687.0000 ; 502.0000 ]
+  pt2: [ 8709.0000 ; 524.0000 ]
+  start: 0.0
+  extend: 0.0
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffadd1b2
+
+CENTERED_CHAR:
+  char: C
+  position: [ 8698.0000 ; 513.0000 ]
+  font: Monospaced.bold/17
+  color: ff000000
+
+EMPTY:
+  pt1: [ 8709.0000 ; 507.0000 ]
+  pt2: [ 8906.0402 ; 519.0000 ]
+
+TEXT:
+  text: articleBodyChunk
+  position: [ 8712.0000 ; 516.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+LINE:
+  pt1: [ 8684.0000 ; 529.0000 ]
+  pt2: [ 8905.0402 ; 529.0000 ]
+  stroke: 0.0-0.0-1.5
+  shadow: 0
+  color: ffa80036
+
+EMPTY:
+  pt1: [ 8683.0000 ; 529.0000 ]
+  pt2: [ 8860.0070 ; 570.0000 ]
+
+TEXT:
+  text: string name *
+  position: [ 8689.0000 ; 541.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: string format *
+  position: [ 8689.0000 ; 552.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: string content *
+  position: [ 8689.0000 ; 563.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class POST /search/indexedData
+RECTANGLE:
+  pt1: [ 1149.5000 ; 16.5000 ]
+  pt2: [ 1511.6558 ; 50.5000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 1289.7932 ; 21.5000 ]
+  pt2: [ 1371.3626 ; 33.5000 ]
+
+TEXT:
+  text: «Path»
+  position: [ 1290.7932 ; 30.8333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 1149.5000 ; 33.5000 ]
+  pt2: [ 1511.6558 ; 45.5000 ]
+
+TEXT:
+  text: POST /search/indexedData
+  position: [ 1152.5000 ; 42.8333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class POST /search/indexedData 200
+RECTANGLE:
+  pt1: [ 1919.0000 ; 171.0000 ]
+  pt2: [ 2280.2359 ; 205.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 2026.4491 ; 176.0000 ]
+  pt2: [ 2172.7868 ; 188.0000 ]
+
+TEXT:
+  text: «Response»
+  position: [ 2027.4491 ; 185.3333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 1919.0000 ; 188.0000 ]
+  pt2: [ 2280.2359 ; 200.0000 ]
+
+TEXT:
+  text: POST /search/indexedData 200
+  position: [ 1922.0000 ; 197.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class POST /search/indexedData 400
+RECTANGLE:
+  pt1: [ 1493.5000 ; 171.0000 ]
+  pt2: [ 1883.5410 ; 205.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 1615.3517 ; 176.0000 ]
+  pt2: [ 1761.6893 ; 188.0000 ]
+
+TEXT:
+  text: «Response»
+  position: [ 1616.3517 ; 185.3333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 1493.5000 ; 188.0000 ]
+  pt2: [ 1883.5410 ; 200.0000 ]
+
+TEXT:
+  text: POST /search/indexedData 400
+  position: [ 1496.5000 ; 197.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class POST /search/indexedData 403
+RECTANGLE:
+  pt1: [ 422.5000 ; 171.0000 ]
+  pt2: [ 812.5560 ; 205.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 544.3592 ; 176.0000 ]
+  pt2: [ 690.6968 ; 188.0000 ]
+
+TEXT:
+  text: «Response»
+  position: [ 545.3592 ; 185.3333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 422.5000 ; 188.0000 ]
+  pt2: [ 812.5560 ; 200.0000 ]
+
+TEXT:
+  text: POST /search/indexedData 403
+  position: [ 425.5000 ; 197.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class POST /search/article
+RECTANGLE:
+  pt1: [ 5241.5000 ; 16.5000 ]
+  pt2: [ 5545.7795 ; 50.5000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 5352.8550 ; 21.5000 ]
+  pt2: [ 5434.4245 ; 33.5000 ]
+
+TEXT:
+  text: «Path»
+  position: [ 5353.8550 ; 30.8333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 5241.5000 ; 33.5000 ]
+  pt2: [ 5545.7795 ; 45.5000 ]
+
+TEXT:
+  text: POST /search/article
+  position: [ 5244.5000 ; 42.8333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class POST /search/article 200
+RECTANGLE:
+  pt1: [ 4357.0000 ; 171.0000 ]
+  pt2: [ 4646.1216 ; 205.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 4428.3920 ; 176.0000 ]
+  pt2: [ 4574.7296 ; 188.0000 ]
+
+TEXT:
+  text: «Response»
+  position: [ 4429.3920 ; 185.3333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 4357.0000 ; 188.0000 ]
+  pt2: [ 4646.1216 ; 200.0000 ]
+
+TEXT:
+  text: POST /search/article 200
+  position: [ 4360.0000 ; 197.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class POST /search/article 400
+RECTANGLE:
+  pt1: [ 4681.5000 ; 171.0000 ]
+  pt2: [ 4995.4148 ; 205.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 4765.2886 ; 176.0000 ]
+  pt2: [ 4911.6262 ; 188.0000 ]
+
+TEXT:
+  text: «Response»
+  position: [ 4766.2886 ; 185.3333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 4681.5000 ; 188.0000 ]
+  pt2: [ 4995.4148 ; 200.0000 ]
+
+TEXT:
+  text: POST /search/article 400
+  position: [ 4684.5000 ; 197.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class POST /search/article 403
+RECTANGLE:
+  pt1: [ 5792.5000 ; 171.0000 ]
+  pt2: [ 6106.3761 ; 205.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 5876.2692 ; 176.0000 ]
+  pt2: [ 6022.6069 ; 188.0000 ]
+
+TEXT:
+  text: «Response»
+  position: [ 5877.2692 ; 185.3333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 5792.5000 ; 188.0000 ]
+  pt2: [ 6106.3761 ; 200.0000 ]
+
+TEXT:
+  text: POST /search/article 403
+  position: [ 5795.5000 ; 197.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class GET /article/{slug}
+RECTANGLE:
+  pt1: [ 2727.5000 ; 7.0000 ]
+  pt2: [ 2953.6962 ; 60.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 2799.8134 ; 12.0000 ]
+  pt2: [ 2881.3828 ; 24.0000 ]
+
+TEXT:
+  text: «Path»
+  position: [ 2800.8134 ; 21.3333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 2727.5000 ; 24.0000 ]
+  pt2: [ 2953.6962 ; 36.0000 ]
+
+TEXT:
+  text: GET /article/{slug}
+  position: [ 2730.5000 ; 33.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+LINE:
+  pt1: [ 2728.5000 ; 41.0000 ]
+  pt2: [ 2952.6962 ; 41.0000 ]
+  stroke: 0.0-0.0-1.5
+  shadow: 0
+  color: ffa80036
+
+EMPTY:
+  pt1: [ 2727.5000 ; 41.0000 ]
+  pt2: [ 2855.9733 ; 60.0000 ]
+
+TEXT:
+  text: string slug *
+  position: [ 2733.5000 ; 53.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class GET /article/{slug} 200
+RECTANGLE:
+  pt1: [ 2315.0000 ; 171.0000 ]
+  pt2: [ 2679.6343 ; 205.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 2424.1483 ; 176.0000 ]
+  pt2: [ 2570.4860 ; 188.0000 ]
+
+TEXT:
+  text: «Response»
+  position: [ 2425.1483 ; 185.3333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 2315.0000 ; 188.0000 ]
+  pt2: [ 2679.6343 ; 200.0000 ]
+
+TEXT:
+  text: GET /article/{slug} 200
+  position: [ 2318.0000 ; 197.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class GET /article/{slug} 400
+RECTANGLE:
+  pt1: [ 3000.5000 ; 171.0000 ]
+  pt2: [ 3250.7956 ; 205.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 3052.4790 ; 176.0000 ]
+  pt2: [ 3198.8166 ; 188.0000 ]
+
+TEXT:
+  text: «Response»
+  position: [ 3053.4790 ; 185.3333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 3000.5000 ; 188.0000 ]
+  pt2: [ 3250.7956 ; 200.0000 ]
+
+TEXT:
+  text: GET /article/{slug} 400
+  position: [ 3003.5000 ; 197.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class GET /article/{slug} 403
+RECTANGLE:
+  pt1: [ 2715.5000 ; 171.0000 ]
+  pt2: [ 2965.8080 ; 205.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 2767.4852 ; 176.0000 ]
+  pt2: [ 2913.8228 ; 188.0000 ]
+
+TEXT:
+  text: «Response»
+  position: [ 2768.4852 ; 185.3333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 2715.5000 ; 188.0000 ]
+  pt2: [ 2965.8080 ; 200.0000 ]
+
+TEXT:
+  text: GET /article/{slug} 403
+  position: [ 2718.5000 ; 197.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class GET /article/{id}
+RECTANGLE:
+  pt1: [ 3670.5000 ; 7.0000 ]
+  pt2: [ 3904.7717 ; 60.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 3746.8511 ; 12.0000 ]
+  pt2: [ 3828.4205 ; 24.0000 ]
+
+TEXT:
+  text: «Path»
+  position: [ 3747.8511 ; 21.3333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 3670.5000 ; 24.0000 ]
+  pt2: [ 3904.7717 ; 36.0000 ]
+
+TEXT:
+  text: GET /article/{id}
+  position: [ 3673.5000 ; 33.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+LINE:
+  pt1: [ 3671.5000 ; 41.0000 ]
+  pt2: [ 3903.7717 ; 41.0000 ]
+  stroke: 0.0-0.0-1.5
+  shadow: 0
+  color: ffa80036
+
+EMPTY:
+  pt1: [ 3670.5000 ; 41.0000 ]
+  pt2: [ 3788.1732 ; 60.0000 ]
+
+TEXT:
+  text: integer id *
+  position: [ 3676.5000 ; 53.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class GET /article/{id} 200
+RECTANGLE:
+  pt1: [ 3285.5000 ; 171.0000 ]
+  pt2: [ 3585.7845 ; 205.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 3362.4734 ; 176.0000 ]
+  pt2: [ 3508.8111 ; 188.0000 ]
+
+TEXT:
+  text: «Response»
+  position: [ 3363.4734 ; 185.3333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 3285.5000 ; 188.0000 ]
+  pt2: [ 3585.7845 ; 200.0000 ]
+
+TEXT:
+  text: GET /article/{id} 200
+  position: [ 3288.5000 ; 197.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class GET /article/{id} 400
+RECTANGLE:
+  pt1: [ 3989.0000 ; 171.0000 ]
+  pt2: [ 4322.4464 ; 205.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 4082.5544 ; 176.0000 ]
+  pt2: [ 4228.8920 ; 188.0000 ]
+
+TEXT:
+  text: «Response»
+  position: [ 4083.5544 ; 185.3333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 3989.0000 ; 188.0000 ]
+  pt2: [ 4322.4464 ; 200.0000 ]
+
+TEXT:
+  text: GET /article/{id} 400
+  position: [ 3992.0000 ; 197.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class GET /article/{id} 403
+RECTANGLE:
+  pt1: [ 3621.0000 ; 171.0000 ]
+  pt2: [ 3954.4577 ; 205.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 3714.5600 ; 176.0000 ]
+  pt2: [ 3860.8977 ; 188.0000 ]
+
+TEXT:
+  text: «Response»
+  position: [ 3715.5600 ; 185.3333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 3621.0000 ; 188.0000 ]
+  pt2: [ 3954.4577 ; 200.0000 ]
+
+TEXT:
+  text: GET /article/{id} 403
+  position: [ 3624.0000 ; 197.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class GET /body/{bodyId}
+RECTANGLE:
+  pt1: [ 8305.5000 ; 7.0000 ]
+  pt2: [ 8587.5995 ; 60.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 8405.7650 ; 12.0000 ]
+  pt2: [ 8487.3345 ; 24.0000 ]
+
+TEXT:
+  text: «Path»
+  position: [ 8406.7650 ; 21.3333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 8305.5000 ; 24.0000 ]
+  pt2: [ 8587.5995 ; 36.0000 ]
+
+TEXT:
+  text: GET /body/{bodyId}
+  position: [ 8308.5000 ; 33.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+LINE:
+  pt1: [ 8306.5000 ; 41.0000 ]
+  pt2: [ 8586.5995 ; 41.0000 ]
+  stroke: 0.0-0.0-1.5
+  shadow: 0
+  color: ffa80036
+
+EMPTY:
+  pt1: [ 8305.5000 ; 41.0000 ]
+  pt2: [ 8479.2935 ; 60.0000 ]
+
+TEXT:
+  text: string bodyId *
+  position: [ 8311.5000 ; 53.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class GET /body/{bodyId} 400
+RECTANGLE:
+  pt1: [ 8277.5000 ; 171.0000 ]
+  pt2: [ 8615.6179 ; 205.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 8373.3901 ; 176.0000 ]
+  pt2: [ 8519.7278 ; 188.0000 ]
+
+TEXT:
+  text: «Response»
+  position: [ 8374.3901 ; 185.3333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 8277.5000 ; 188.0000 ]
+  pt2: [ 8615.6179 ; 200.0000 ]
+
+TEXT:
+  text: GET /body/{bodyId} 400
+  position: [ 8280.5000 ; 197.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class GET /body/{bodyId} 403
+RECTANGLE:
+  pt1: [ 7904.5000 ; 171.0000 ]
+  pt2: [ 8242.5351 ; 205.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 8000.3487 ; 176.0000 ]
+  pt2: [ 8146.6864 ; 188.0000 ]
+
+TEXT:
+  text: «Response»
+  position: [ 8001.3487 ; 185.3333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 7904.5000 ; 188.0000 ]
+  pt2: [ 8242.5351 ; 200.0000 ]
+
+TEXT:
+  text: GET /body/{bodyId} 403
+  position: [ 7907.5000 ; 197.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class GET /body/{bodyId}/render
+RECTANGLE:
+  pt1: [ 9022.5000 ; 7.0000 ]
+  pt2: [ 9294.7969 ; 60.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 9117.8637 ; 12.0000 ]
+  pt2: [ 9199.4332 ; 24.0000 ]
+
+TEXT:
+  text: «Path»
+  position: [ 9118.8637 ; 21.3333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 9022.5000 ; 24.0000 ]
+  pt2: [ 9294.7969 ; 36.0000 ]
+
+TEXT:
+  text: GET /body/{bodyId}/render
+  position: [ 9025.5000 ; 33.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+LINE:
+  pt1: [ 9023.5000 ; 41.0000 ]
+  pt2: [ 9293.7969 ; 41.0000 ]
+  stroke: 0.0-0.0-1.5
+  shadow: 0
+  color: ffa80036
+
+EMPTY:
+  pt1: [ 9022.5000 ; 41.0000 ]
+  pt2: [ 9196.2935 ; 60.0000 ]
+
+TEXT:
+  text: string bodyId *
+  position: [ 9028.5000 ; 53.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class GET /body/{bodyId}/render 400
+RECTANGLE:
+  pt1: [ 8974.0000 ; 171.0000 ]
+  pt2: [ 9342.8840 ; 205.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 9085.2732 ; 176.0000 ]
+  pt2: [ 9231.6108 ; 188.0000 ]
+
+TEXT:
+  text: «Response»
+  position: [ 9086.2732 ; 185.3333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 8974.0000 ; 188.0000 ]
+  pt2: [ 9342.8840 ; 200.0000 ]
+
+TEXT:
+  text: GET /body/{bodyId}/render 400
+  position: [ 8977.0000 ; 197.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class GET /body/{bodyId}/render 403
+RECTANGLE:
+  pt1: [ 9378.0000 ; 171.0000 ]
+  pt2: [ 9746.8372 ; 205.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 9489.2498 ; 176.0000 ]
+  pt2: [ 9635.5874 ; 188.0000 ]
+
+TEXT:
+  text: «Response»
+  position: [ 9490.2498 ; 185.3333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 9378.0000 ; 188.0000 ]
+  pt2: [ 9746.8372 ; 200.0000 ]
+
+TEXT:
+  text: GET /body/{bodyId}/render 403
+  position: [ 9381.0000 ; 197.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class POST /article
+RECTANGLE:
+  pt1: [ 2673.0000 ; 324.5000 ]
+  pt2: [ 2840.3091 ; 358.5000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 2715.8698 ; 329.5000 ]
+  pt2: [ 2797.4393 ; 341.5000 ]
+
+TEXT:
+  text: «Path»
+  position: [ 2716.8698 ; 338.8333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 2673.0000 ; 341.5000 ]
+  pt2: [ 2840.3091 ; 353.5000 ]
+
+TEXT:
+  text: POST /article
+  position: [ 2676.0000 ; 350.8333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class POST /article 200
+RECTANGLE:
+  pt1: [ 2590.0000 ; 501.5000 ]
+  pt2: [ 2794.7919 ; 565.5000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 2619.2271 ; 506.5000 ]
+  pt2: [ 2765.5648 ; 518.5000 ]
+
+TEXT:
+  text: «Response»
+  position: [ 2620.2271 ; 515.8333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 2602.3513 ; 518.5000 ]
+  pt2: [ 2782.4406 ; 530.5000 ]
+
+TEXT:
+  text: POST /article 200
+  position: [ 2605.3513 ; 527.8333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+LINE:
+  pt1: [ 2591.0000 ; 535.5000 ]
+  pt2: [ 2793.7919 ; 535.5000 ]
+  stroke: 0.0-0.0-1.5
+  shadow: 0
+  color: ffa80036
+
+EMPTY:
+  pt1: [ 2590.0000 ; 535.5000 ]
+  pt2: [ 2794.7919 ; 565.5000 ]
+
+TEXT:
+  text: boolean success *
+  position: [ 2596.0000 ; 548.0556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: integer id *
+  position: [ 2596.0000 ; 559.0556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class POST /article 400
+RECTANGLE:
+  pt1: [ 2830.0000 ; 516.5000 ]
+  pt2: [ 3037.0078 ; 550.5000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 2860.3351 ; 521.5000 ]
+  pt2: [ 3006.6727 ; 533.5000 ]
+
+TEXT:
+  text: «Response»
+  position: [ 2861.3351 ; 530.8333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 2830.0000 ; 533.5000 ]
+  pt2: [ 3037.0078 ; 545.5000 ]
+
+TEXT:
+  text: POST /article 400
+  position: [ 2833.0000 ; 542.8333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class POST /article 403
+RECTANGLE:
+  pt1: [ 2348.0000 ; 516.5000 ]
+  pt2: [ 2554.9438 ; 550.5000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 2378.3031 ; 521.5000 ]
+  pt2: [ 2524.6407 ; 533.5000 ]
+
+TEXT:
+  text: «Response»
+  position: [ 2379.3031 ; 530.8333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 2348.0000 ; 533.5000 ]
+  pt2: [ 2554.9438 ; 545.5000 ]
+
+TEXT:
+  text: POST /article 403
+  position: [ 2351.0000 ; 542.8333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 972.5000 ; 329.5000 ]
+   - [ 984.5000 ; 341.5000 ]
+   - [ 972.5000 ; 353.5000 ]
+   - [ 960.5000 ; 341.5000 ]
+   - [ 972.5000 ; 329.5000 ]
+  stroke: 0.0-0.0-1.5
+  shadow: 5
+  color: ffa80036
+  backcolor: fffefece
+
+POLYGON:
+  points:
+   - [ 5582.5000 ; 329.5000 ]
+   - [ 5594.5000 ; 341.5000 ]
+   - [ 5582.5000 ; 353.5000 ]
+   - [ 5570.5000 ; 341.5000 ]
+   - [ 5582.5000 ; 329.5000 ]
+  stroke: 0.0-0.0-1.5
+  shadow: 5
+  color: ffa80036
+  backcolor: fffefece
+
+POLYGON:
+  points:
+   - [ 6747.5000 ; 329.5000 ]
+   - [ 6759.5000 ; 341.5000 ]
+   - [ 6747.5000 ; 353.5000 ]
+   - [ 6735.5000 ; 341.5000 ]
+   - [ 6747.5000 ; 329.5000 ]
+  stroke: 0.0-0.0-1.5
+  shadow: 5
+  color: ffa80036
+  backcolor: fffefece
+
+POLYGON:
+  points:
+   - [ 7401.5000 ; 329.5000 ]
+   - [ 7413.5000 ; 341.5000 ]
+   - [ 7401.5000 ; 353.5000 ]
+   - [ 7389.5000 ; 341.5000 ]
+   - [ 7401.5000 ; 329.5000 ]
+  stroke: 0.0-0.0-1.5
+  shadow: 5
+  color: ffa80036
+  backcolor: fffefece
+
+COMMENT: link indexSearchQuery.value.1 to indexSearchQuery.value.1.1
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 217.5000 ; 205.0800 ]
+   - type: SEG_CUBICTO
+     pt1: [ 217.5000 ; 229.7700 ]
+     pt2: [ 217.5000 ; 279.2900 ]
+     pt3: [ 217.5000 ; 311.3800 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 224.5000 ; 315.7700 ]
+   - [ 228.5000 ; 306.7700 ]
+   - [ 224.5000 ; 310.7700 ]
+   - [ 220.5000 ; 306.7700 ]
+   - [ 224.5000 ; 315.7700 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+TEXT:
+  text: *
+  position: [ 211.0525 ; 305.0250 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link indexSearchQuery to anon1
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 965.5000 ; 242.1400 ]
+   - type: SEG_CUBICTO
+     pt1: [ 965.5000 ; 271.2400 ]
+     pt2: [ 965.5000 ; 305.5100 ]
+     pt3: [ 965.5000 ; 325.2500 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 972.5000 ; 329.4200 ]
+   - [ 976.5000 ; 320.4200 ]
+   - [ 972.5000 ; 324.4200 ]
+   - [ 968.5000 ; 320.4200 ]
+   - [ 972.5000 ; 329.4200 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 972.5000 ; 271.0000 ]
+  pt2: [ 1033.2791 ; 286.0000 ]
+
+TEXT:
+  text: value
+  position: [ 973.5000 ; 282.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: 0..1
+  position: [ 908.0612 ; 318.4024 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link indexSearchQuery.value to anon1
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 1236.2500 ; 214.5100 ]
+   - type: SEG_CUBICTO
+     pt1: [ 1166.2600 ; 247.3400 ]
+     pt2: [ 1044.7300 ; 304.3400 ]
+     pt3: [ 991.6100 ; 329.2500 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 1001.4600 ; 334.6500 ]
+   - [ 980.3800 ; 336.8000 ]
+   - [ 995.5200 ; 321.9700 ]
+   - [ 1001.4600 ; 334.6500 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+COMMENT: link indexSearchQuery.value.1 to anon1
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 264.5100 ; 205.0900 ]
+   - type: SEG_CUBICTO
+     pt1: [ 300.6200 ; 216.3100 ]
+     pt2: [ 351.8600 ; 231.4400 ]
+     pt3: [ 397.5000 ; 242.0000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 601.4500 ; 289.1800 ]
+     pt2: [ 851.1900 ; 325.6700 ]
+     pt3: [ 935.8300 ; 337.4600 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 943.8400 ; 329.5300 ]
+   - [ 962.7000 ; 339.1900 ]
+   - [ 941.9300 ; 343.4000 ]
+   - [ 943.8400 ; 329.5300 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+COMMENT: link articleSearchQuery.publisher.1 to articleSearchQuery.publisher.1.1
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 5194.5000 ; 205.0800 ]
+   - type: SEG_CUBICTO
+     pt1: [ 5194.5000 ; 229.7700 ]
+     pt2: [ 5194.5000 ; 279.2900 ]
+     pt3: [ 5194.5000 ; 311.3800 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 5201.5000 ; 315.7700 ]
+   - [ 5205.5000 ; 306.7700 ]
+   - [ 5201.5000 ; 310.7700 ]
+   - [ 5197.5000 ; 306.7700 ]
+   - [ 5201.5000 ; 315.7700 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+TEXT:
+  text: *
+  position: [ 5188.0478 ; 305.0250 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link articleSearchQuery to anon2
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 6606.7600 ; 237.8700 ]
+   - type: SEG_CUBICTO
+     pt1: [ 6600.9600 ; 239.3700 ]
+     pt2: [ 6595.1900 ; 240.7600 ]
+     pt3: [ 6589.5000 ; 242.0000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 6191.2900 ; 328.8500 ]
+     pt2: [ 5688.4800 ; 339.9600 ]
+     pt3: [ 5591.9300 ; 341.3200 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 5593.6500 ; 340.3900 ]
+   - [ 5602.6951 ; 344.2869 ]
+   - [ 5598.6497 ; 340.3329 ]
+   - [ 5602.6037 ; 336.2874 ]
+   - [ 5593.6500 ; 340.3900 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 6433.5000 ; 271.0000 ]
+  pt2: [ 6569.0378 ; 286.0000 ]
+
+TEXT:
+  text: publisher
+  position: [ 6434.5000 ; 282.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: 0..1
+  position: [ 5602.4385 ; 335.7413 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link articleSearchQuery.publisher to anon2
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 5575.5000 ; 214.6800 ]
+   - type: SEG_CUBICTO
+     pt1: [ 5575.5000 ; 240.7500 ]
+     pt2: [ 5575.5000 ; 281.9300 ]
+     pt3: [ 5575.5000 ; 310.2500 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 5589.5000 ; 309.4000 ]
+   - [ 5582.5000 ; 329.4000 ]
+   - [ 5575.5000 ; 309.4000 ]
+   - [ 5589.5000 ; 309.4000 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+COMMENT: link articleSearchQuery.publisher.1 to anon2
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 5232.4200 ; 205.0800 ]
+   - type: SEG_CUBICTO
+     pt1: [ 5309.3700 ; 235.6800 ]
+     pt2: [ 5482.1600 ; 304.3800 ]
+     pt3: [ 5548.6800 ; 330.8400 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 5558.4500 ; 323.4100 ]
+   - [ 5574.4500 ; 337.3000 ]
+   - [ 5553.2800 ; 336.4100 ]
+   - [ 5558.4500 ; 323.4100 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+COMMENT: link articleSearchQuery.provider.1 to articleSearchQuery.provider.1.1
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 6353.5000 ; 205.0800 ]
+   - type: SEG_CUBICTO
+     pt1: [ 6353.5000 ; 229.7700 ]
+     pt2: [ 6353.5000 ; 279.2900 ]
+     pt3: [ 6353.5000 ; 311.3800 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 6360.5000 ; 315.7700 ]
+   - [ 6364.5000 ; 306.7700 ]
+   - [ 6360.5000 ; 310.7700 ]
+   - [ 6356.5000 ; 306.7700 ]
+   - [ 6360.5000 ; 315.7700 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+TEXT:
+  text: *
+  position: [ 6347.0873 ; 305.0250 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link articleSearchQuery to anon3
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 6740.5000 ; 242.1400 ]
+   - type: SEG_CUBICTO
+     pt1: [ 6740.5000 ; 271.2400 ]
+     pt2: [ 6740.5000 ; 305.5100 ]
+     pt3: [ 6740.5000 ; 325.2500 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 6747.5000 ; 329.4200 ]
+   - [ 6751.5000 ; 320.4200 ]
+   - [ 6747.5000 ; 324.4200 ]
+   - [ 6743.5000 ; 320.4200 ]
+   - [ 6747.5000 ; 329.4200 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 6747.5000 ; 271.0000 ]
+  pt2: [ 6884.6824 ; 286.0000 ]
+
+TEXT:
+  text: provider
+  position: [ 6748.5000 ; 282.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: 0..1
+  position: [ 6683.0612 ; 318.4024 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link articleSearchQuery.provider to anon3
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 7026.4000 ; 214.7000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 6989.5900 ; 235.3100 ]
+     pt2: [ 6934.9100 ; 264.8000 ]
+     pt3: [ 6885.5000 ; 287.0000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 6845.4300 ; 305.0100 ]
+     pt2: [ 6797.4700 ; 322.2200 ]
+     pt3: [ 6767.9900 ; 332.3200 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 6777.0100 ; 338.0300 ]
+   - [ 6755.8200 ; 337.7800 ]
+   - [ 6772.5400 ; 324.7600 ]
+   - [ 6777.0100 ; 338.0300 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+COMMENT: link articleSearchQuery.provider.1 to anon3
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 6398.8200 ; 205.0500 ]
+   - type: SEG_CUBICTO
+     pt1: [ 6445.4800 ; 220.8000 ]
+     pt2: [ 6520.1100 ; 246.7100 ]
+     pt3: [ 6583.5000 ; 272.0000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 6630.2900 ; 290.6700 ]
+     pt2: [ 6683.7100 ; 314.9700 ]
+     pt3: [ 6714.6300 ; 329.3400 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 6724.6000 ; 322.0000 ]
+   - [ 6739.7500 ; 336.8200 ]
+   - [ 6718.6600 ; 334.6800 ]
+   - [ 6724.6000 ; 322.0000 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+COMMENT: link articleSearchQuery.type.1 to articleSearchQuery.type.1.1
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 7710.5000 ; 205.0800 ]
+   - type: SEG_CUBICTO
+     pt1: [ 7710.5000 ; 229.7700 ]
+     pt2: [ 7710.5000 ; 279.2900 ]
+     pt3: [ 7710.5000 ; 311.3800 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 7717.5000 ; 315.7700 ]
+   - [ 7721.5000 ; 306.7700 ]
+   - [ 7717.5000 ; 310.7700 ]
+   - [ 7713.5000 ; 306.7700 ]
+   - [ 7717.5000 ; 315.7700 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+TEXT:
+  text: *
+  position: [ 7704.0656 ; 305.0250 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link articleSearchQuery to anon4
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 6874.4100 ; 237.1700 ]
+   - type: SEG_CUBICTO
+     pt1: [ 6880.1600 ; 238.8700 ]
+     pt2: [ 6885.8800 ; 240.4800 ]
+     pt3: [ 6891.5000 ; 242.0000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 7081.7200 ; 293.3100 ]
+     pt2: [ 7318.9900 ; 330.2700 ]
+     pt3: [ 7379.7800 ; 339.3400 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 7391.8000 ; 339.0900 ]
+   - [ 7383.4944 ; 333.7968 ]
+   - [ 7386.8555 ; 338.3469 ]
+   - [ 7382.3055 ; 341.7080 ]
+   - [ 7391.8000 ; 339.0900 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 7091.5000 ; 271.0000 ]
+  pt2: [ 7152.5805 ; 286.0000 ]
+
+TEXT:
+  text: type
+  position: [ 7092.5000 ; 282.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: 0..1
+  position: [ 7327.8222 ; 333.4724 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link articleSearchQuery.type to anon4
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 7394.5000 ; 214.6800 ]
+   - type: SEG_CUBICTO
+     pt1: [ 7394.5000 ; 240.7500 ]
+     pt2: [ 7394.5000 ; 281.9300 ]
+     pt3: [ 7394.5000 ; 310.2500 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 7408.5000 ; 309.4000 ]
+   - [ 7401.5000 ; 329.4000 ]
+   - [ 7394.5000 ; 309.4000 ]
+   - [ 7408.5000 ; 309.4000 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+COMMENT: link articleSearchQuery.type.1 to anon4
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 7679.0500 ; 205.0800 ]
+   - type: SEG_CUBICTO
+     pt1: [ 7616.6100 ; 235.0100 ]
+     pt2: [ 7478.1100 ; 301.4100 ]
+     pt3: [ 7420.4600 ; 329.0500 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 7430.2100 ; 334.5000 ]
+   - [ 7409.1500 ; 336.8300 ]
+   - [ 7424.1600 ; 321.8800 ]
+   - [ 7430.2100 ; 334.5000 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+COMMENT: link article to article.metaData
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 3141.2900 ; 626.0100 ]
+   - type: SEG_CUBICTO
+     pt1: [ 3119.9400 ; 652.7700 ]
+     pt2: [ 3098.6200 ; 679.5000 ]
+     pt3: [ 3084.8300 ; 696.7900 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 3088.4900 ; 699.9800 ]
+   - [ 3097.2317 ; 695.4431 ]
+   - [ 3091.6100 ; 696.0729 ]
+   - [ 3090.9803 ; 690.4512 ]
+   - [ 3088.4900 ; 699.9800 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 3123.5000 ; 655.0000 ]
+  pt2: [ 3250.3729 ; 670.0000 ]
+
+TEXT:
+  text: metaData
+  position: [ 3124.5000 ; 666.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: 0..1
+  position: [ 3030.4984 ; 689.0684 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link article to article.normalizedData
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 3285.7100 ; 626.0100 ]
+   - type: SEG_CUBICTO
+     pt1: [ 3307.0600 ; 652.7700 ]
+     pt2: [ 3328.3800 ; 679.5000 ]
+     pt3: [ 3342.1700 ; 696.7900 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 3352.5100 ; 699.9800 ]
+   - [ 3350.0197 ; 690.4512 ]
+   - [ 3349.3900 ; 696.0729 ]
+   - [ 3343.7683 ; 695.4431 ]
+   - [ 3352.5100 ; 699.9800 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 3326.5000 ; 655.0000 ]
+  pt2: [ 3531.2225 ; 670.0000 ]
+
+TEXT:
+  text: normalizedData
+  position: [ 3327.5000 ; 666.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: 0..1
+  position: [ 3285.9009 ; 689.0684 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link multipleArticleResponse to article
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 3412.5600 ; 368.3400 ]
+   - type: SEG_CUBICTO
+     pt1: [ 3390.3100 ; 386.8000 ]
+     pt2: [ 3358.4300 ; 413.2500 ]
+     pt3: [ 3326.6900 ; 439.5900 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 3329.8200 ; 441.8000 ]
+   - [ 3339.3016 ; 439.1355 ]
+   - [ 3333.6693 ; 438.6089 ]
+   - [ 3334.1959 ; 432.9767 ]
+   - [ 3329.8200 ; 441.8000 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 3382.5000 ; 397.0000 ]
+  pt2: [ 3436.4330 ; 412.0000 ]
+
+TEXT:
+  text: rows
+  position: [ 3383.5000 ; 408.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: *
+  position: [ 3326.0716 ; 431.0858 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link singleArticleResponse to article
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 3110.0600 ; 368.3400 ]
+   - type: SEG_CUBICTO
+     pt1: [ 3121.4300 ; 386.5000 ]
+     pt2: [ 3137.6500 ; 412.3900 ]
+     pt3: [ 3153.8800 ; 438.3000 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 3163.6900 ; 441.8000 ]
+   - [ 3162.2884 ; 432.0514 ]
+   - [ 3161.0297 ; 437.5664 ]
+   - [ 3155.5147 ; 436.3078 ]
+   - [ 3163.6900 ; 441.8000 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 3143.5000 ; 397.0000 ]
+  pt2: [ 3194.0979 ; 412.0000 ]
+
+TEXT:
+  text: doc
+  position: [ 3144.5000 ; 408.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: 1
+  position: [ 3146.7030 ; 431.0858 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link articleBodyResponse.body to articleBodyChunk
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 8787.5000 ; 368.3400 ]
+   - type: SEG_CUBICTO
+     pt1: [ 8787.5000 ; 399.8800 ]
+     pt2: [ 8787.5000 ; 454.7400 ]
+     pt3: [ 8787.5000 ; 492.5200 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 8794.5000 ; 496.9700 ]
+   - [ 8798.5000 ; 487.9700 ]
+   - [ 8794.5000 ; 491.9700 ]
+   - [ 8790.5000 ; 487.9700 ]
+   - [ 8794.5000 ; 496.9700 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 8794.5000 ; 397.0000 ]
+  pt2: [ 8897.8267 ; 412.0000 ]
+
+TEXT:
+  text: chunks
+  position: [ 8795.5000 ; 408.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: *
+  position: [ 8781.4169 ; 486.1475 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link articleBodyResponse to articleBodyResponse.body
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 8787.5000 ; 214.6800 ]
+   - type: SEG_CUBICTO
+     pt1: [ 8787.5000 ; 241.2000 ]
+     pt2: [ 8787.5000 ; 283.3600 ]
+     pt3: [ 8787.5000 ; 311.7100 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 8794.5000 ; 315.8300 ]
+   - [ 8798.5000 ; 306.8300 ]
+   - [ 8794.5000 ; 310.8300 ]
+   - [ 8790.5000 ; 306.8300 ]
+   - [ 8794.5000 ; 315.8300 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 8794.5000 ; 271.0000 ]
+  pt2: [ 8844.5230 ; 286.0000 ]
+
+TEXT:
+  text: body
+  position: [ 8795.5000 ; 282.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: 0..1
+  position: [ 8735.1086 ; 305.0997 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link POST /search/indexedData 200 to multipleArticleResponse
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 2143.2300 ; 206.0200 ]
+   - type: SEG_CUBICTO
+     pt1: [ 2182.9100 ; 217.8900 ]
+     pt2: [ 2239.6800 ; 233.4400 ]
+     pt3: [ 2290.5000 ; 242.0000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 2718.2000 ; 314.0400 ]
+     pt2: [ 2832.2300 ; 270.9000 ]
+     pt3: [ 3263.5000 ; 317.0000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 3267.7600 ; 317.4600 ]
+     pt2: [ 3272.0700 ; 317.9300 ]
+     pt3: [ 3276.4200 ; 318.4300 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 3288.5500 ; 318.0100 ]
+   - [ 3280.0656 ; 313.0084 ]
+   - [ 3283.5827 ; 317.4390 ]
+   - [ 3279.1521 ; 320.9561 ]
+   - [ 3288.5500 ; 318.0100 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+TEXT:
+  text: *
+  position: [ 3268.4704 ; 313.6685 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link POST /search/indexedData to POST /search/indexedData 200
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 1429.3200 ; 51.5300 ]
+   - type: SEG_CUBICTO
+     pt1: [ 1544.1400 ; 69.5300 ]
+     pt2: [ 1732.6200 ; 100.8600 ]
+     pt3: [ 1893.5000 ; 136.0000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 1939.9100 ; 146.1400 ]
+     pt2: [ 1991.8200 ; 159.7800 ]
+     pt3: [ 2030.9800 ; 170.5500 ]
+  stroke: 7.0-7.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 2043.1800 ; 170.9800 ]
+   - [ 2035.5636 ; 164.7357 ]
+   - [ 2038.3592 ; 169.6536 ]
+   - [ 2033.4413 ; 172.4491 ]
+   - [ 2043.1800 ; 170.9800 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 1745.5000 ; 90.0000 ]
+  pt2: [ 1791.4570 ; 105.0000 ]
+
+TEXT:
+  text: 200
+  position: [ 1746.5000 ; 101.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: 1
+  position: [ 2009.7663 ; 160.0061 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link POST /search/indexedData to POST /search/indexedData 400
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 1361.1400 ; 51.5300 ]
+   - type: SEG_CUBICTO
+     pt1: [ 1428.2800 ; 80.1300 ]
+     pt2: [ 1568.2900 ; 139.7700 ]
+     pt3: [ 1638.8700 ; 169.8400 ]
+  stroke: 7.0-7.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 1650.8300 ; 170.9500 ]
+   - [ 1644.1144 ; 163.7458 ]
+   - [ 1646.2291 ; 168.9925 ]
+   - [ 1640.9824 ; 171.1072 ]
+   - [ 1650.8300 ; 170.9500 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 1488.5000 ; 90.0000 ]
+  pt2: [ 1528.6943 ; 105.0000 ]
+
+TEXT:
+  text: 400
+  position: [ 1489.5000 ; 101.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: 1
+  position: [ 1623.8608 ; 159.9658 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link POST /search/indexedData to POST /search/indexedData 403
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 1238.3500 ; 51.5100 ]
+   - type: SEG_CUBICTO
+     pt1: [ 1138.6600 ; 70.5100 ]
+     pt2: [ 968.7000 ; 103.7000 ]
+     pt3: [ 823.5000 ; 136.0000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 774.7600 ; 146.8400 ]
+     pt2: [ 720.0500 ; 160.2300 ]
+     pt3: [ 678.2800 ; 170.7000 ]
+  stroke: 7.0-7.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 680.2500 ; 170.9600 ]
+   - [ 689.9526 ; 172.6510 ]
+   - [ 685.0999 ; 169.7440 ]
+   - [ 688.0069 ; 164.8912 ]
+   - [ 680.2500 ; 170.9600 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 1036.5000 ; 90.0000 ]
+  pt2: [ 1076.7450 ; 105.0000 ]
+
+TEXT:
+  text: 403
+  position: [ 1037.5000 ; 101.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: 1
+  position: [ 687.7976 ; 159.9792 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link POST /search/indexedData to indexSearchQuery
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 1285.8600 ; 51.5300 ]
+   - type: SEG_CUBICTO
+     pt1: [ 1240.2000 ; 70.9900 ]
+     pt2: [ 1160.8200 ; 104.8000 ]
+     pt3: [ 1092.5100 ; 133.9000 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 1094.6100 ; 134.9900 ]
+   - [ 1104.4576 ; 135.1472 ]
+   - [ 1099.2109 ; 133.0325 ]
+   - [ 1101.3256 ; 127.7858 ]
+   - [ 1094.6100 ; 134.9900 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+TEXT:
+  text: 1
+  position: [ 1098.2194 ; 124.1045 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link POST /search/article 200 to multipleArticleResponse
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 4452.4900 ; 206.0400 ]
+   - type: SEG_CUBICTO
+     pt1: [ 4420.1500 ; 217.7500 ]
+     pt2: [ 4374.0900 ; 233.0900 ]
+     pt3: [ 4332.5000 ; 242.0000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 4083.2300 ; 295.3800 ]
+     pt2: [ 3788.1700 ; 321.2000 ]
+     pt3: [ 3608.2300 ; 332.8700 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 3610.2100 ; 332.1900 ]
+   - [ 3619.4536 ; 335.5895 ]
+   - [ 3615.1992 ; 331.8612 ]
+   - [ 3618.9275 ; 327.6068 ]
+   - [ 3610.2100 ; 332.1900 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+TEXT:
+  text: *
+  position: [ 3617.7706 ; 328.5847 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link POST /search/article to POST /search/article 200
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 5234.4700 ; 48.6600 ]
+   - type: SEG_CUBICTO
+     pt1: [ 5085.8400 ; 63.3400 ]
+     pt2: [ 4853.7500 ; 91.1200 ]
+     pt3: [ 4656.5000 ; 136.0000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 4617.5400 ; 144.8600 ]
+     pt2: [ 4574.5200 ; 158.8800 ]
+     pt3: [ 4542.6200 ; 170.1300 ]
+  stroke: 7.0-7.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 4544.5900 ; 170.9100 ]
+   - [ 4554.4093 ; 171.6726 ]
+   - [ 4549.3026 ; 169.2392 ]
+   - [ 4551.7360 ; 164.1325 ]
+   - [ 4544.5900 ; 170.9100 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 4902.5000 ; 90.0000 ]
+  pt2: [ 4948.4570 ; 105.0000 ]
+
+TEXT:
+  text: 200
+  position: [ 4903.5000 ; 101.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: 1
+  position: [ 4544.9035 ; 160.2069 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link POST /search/article to POST /search/article 400
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 5323.3000 ; 51.5000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 5247.5700 ; 70.8300 ]
+     pt2: [ 5116.9600 ; 104.6500 ]
+     pt3: [ 5005.5000 ; 136.0000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 4966.3000 ; 147.0200 ]
+     pt2: [ 4922.3700 ; 160.1600 ]
+     pt3: [ 4888.4600 ; 170.4700 ]
+  stroke: 7.0-7.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 4890.5300 ; 170.9700 ]
+   - [ 4900.3049 ; 172.1751 ]
+   - [ 4895.3132 ; 169.5136 ]
+   - [ 4897.9747 ; 164.5220 ]
+   - [ 4890.5300 ; 170.9700 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 5169.5000 ; 90.0000 ]
+  pt2: [ 5209.6943 ; 105.0000 ]
+
+TEXT:
+  text: 400
+  position: [ 5170.5000 ; 101.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: 1
+  position: [ 4894.4168 ; 159.9927 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link POST /search/article to POST /search/article 403
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 5449.7000 ; 51.5300 ]
+   - type: SEG_CUBICTO
+     pt1: [ 5525.4100 ; 70.8900 ]
+     pt2: [ 5656.0200 ; 104.7400 ]
+     pt3: [ 5767.5000 ; 136.0000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 5806.9100 ; 147.0500 ]
+     pt2: [ 5851.1000 ; 160.1900 ]
+     pt3: [ 5885.2100 ; 170.4900 ]
+  stroke: 7.0-7.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 5897.1700 ; 170.9900 ]
+   - [ 5889.7253 ; 164.5420 ]
+   - [ 5892.3868 ; 169.5336 ]
+   - [ 5887.3951 ; 172.1951 ]
+   - [ 5897.1700 ; 170.9900 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 5660.5000 ; 90.0000 ]
+  pt2: [ 5700.7450 ; 105.0000 ]
+
+TEXT:
+  text: 403
+  position: [ 5661.5000 ; 101.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: 1
+  position: [ 5865.1897 ; 160.0195 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link POST /search/article to articleSearchQuery
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 5538.7500 ; 36.1800 ]
+   - type: SEG_CUBICTO
+     pt1: [ 5768.7700 ; 39.9000 ]
+     pt2: [ 6217.5300 ; 57.6900 ]
+     pt3: [ 6589.5000 ; 136.0000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 6593.6000 ; 136.8600 ]
+     pt2: [ 6597.7300 ; 137.8000 ]
+     pt3: [ 6601.8900 ; 138.8100 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 6613.7900 ; 139.0200 ]
+   - [ 6606.0121 ; 132.9781 ]
+   - [ 6608.9359 ; 137.8208 ]
+   - [ 6604.0933 ; 140.7446 ]
+   - [ 6613.7900 ; 139.0200 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+TEXT:
+  text: 1
+  position: [ 6593.7310 ; 132.9237 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link GET /article/{slug} 200 to singleArticleResponse
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 2551.2800 ; 206.0200 ]
+   - type: SEG_CUBICTO
+     pt1: [ 2590.8900 ; 216.4100 ]
+     pt2: [ 2643.7200 ; 230.1600 ]
+     pt3: [ 2690.5000 ; 242.0000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 2791.2300 ; 267.5000 ]
+     pt2: [ 2906.3100 ; 295.7500 ]
+     pt3: [ 2987.8100 ; 315.6200 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 3000.1300 ; 315.9200 ]
+   - [ 2992.3354 ; 309.8997 ]
+   - [ 2995.2726 ; 314.7342 ]
+   - [ 2990.4381 ; 317.6715 ]
+   - [ 3000.1300 ; 315.9200 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+TEXT:
+  text: *
+  position: [ 2962.0481 ; 305.2116 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link GET /article/{slug} to GET /article/{slug} 200
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 2776.0900 ; 61.0300 ]
+   - type: SEG_CUBICTO
+     pt1: [ 2706.7600 ; 91.8500 ]
+     pt2: [ 2591.9100 ; 142.9100 ]
+     pt3: [ 2531.1300 ; 169.9400 ]
+  stroke: 7.0-7.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 2533.4900 ; 171.0000 ]
+   - [ 2543.3389 ; 171.0057 ]
+   - [ 2538.0602 ; 168.9720 ]
+   - [ 2540.0940 ; 163.6933 ]
+   - [ 2533.4900 ; 171.0000 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 2710.5000 ; 90.0000 ]
+  pt2: [ 2756.4570 ; 105.0000 ]
+
+TEXT:
+  text: 200
+  position: [ 2711.5000 ; 101.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: 1
+  position: [ 2531.9113 ; 160.0330 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link GET /article/{slug} to GET /article/{slug} 400
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 2881.2000 ; 61.0300 ]
+   - type: SEG_CUBICTO
+     pt1: [ 2938.5800 ; 91.7300 ]
+     pt2: [ 3033.4800 ; 142.5000 ]
+     pt3: [ 3084.1300 ; 169.6100 ]
+  stroke: 7.0-7.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 3095.6000 ; 171.0000 ]
+   - [ 3089.5556 ; 163.2241 ]
+   - [ 3091.1926 ; 168.6389 ]
+   - [ 3085.7778 ; 170.2759 ]
+   - [ 3095.6000 ; 171.0000 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 2966.5000 ; 90.0000 ]
+  pt2: [ 3006.6943 ; 105.0000 ]
+
+TEXT:
+  text: 400
+  position: [ 2967.5000 ; 101.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: 1
+  position: [ 3071.2579 ; 160.0330 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link GET /article/{slug} to GET /article/{slug} 403
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 2833.5000 ; 61.0300 ]
+   - type: SEG_CUBICTO
+     pt1: [ 2833.5000 ; 90.6000 ]
+     pt2: [ 2833.5000 ; 138.7900 ]
+     pt3: [ 2833.5000 ; 166.5200 ]
+  stroke: 7.0-7.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 2840.5000 ; 170.7900 ]
+   - [ 2844.5000 ; 161.7900 ]
+   - [ 2840.5000 ; 165.7900 ]
+   - [ 2836.5000 ; 161.7900 ]
+   - [ 2840.5000 ; 170.7900 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 2840.5000 ; 90.0000 ]
+  pt2: [ 2880.7450 ; 105.0000 ]
+
+TEXT:
+  text: 403
+  position: [ 2841.5000 ; 101.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: 1
+  position: [ 2826.5091 ; 160.0472 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link GET /article/{id} 200 to singleArticleResponse
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 3393.0700 ; 206.0700 ]
+   - type: SEG_CUBICTO
+     pt1: [ 3336.0200 ; 231.9500 ]
+     pt2: [ 3223.1600 ; 283.1400 ]
+     pt3: [ 3153.7200 ; 314.6400 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 3155.7900 ; 315.8700 ]
+   - [ 3165.6385 ; 315.7872 ]
+   - [ 3160.3418 ; 313.8010 ]
+   - [ 3162.3281 ; 308.5043 ]
+   - [ 3155.7900 ; 315.8700 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+TEXT:
+  text: *
+  position: [ 3155.6502 ; 305.1494 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link GET /article/{id} to GET /article/{id} 200
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 3721.5800 ; 61.0300 ]
+   - type: SEG_CUBICTO
+     pt1: [ 3650.4400 ; 91.8500 ]
+     pt2: [ 3532.5700 ; 142.9100 ]
+     pt3: [ 3470.1900 ; 169.9400 ]
+  stroke: 7.0-7.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 3472.4300 ; 171.0000 ]
+   - [ 3482.2784 ; 171.0943 ]
+   - [ 3477.0183 ; 169.0132 ]
+   - [ 3479.0995 ; 163.7531 ]
+   - [ 3472.4300 ; 171.0000 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 3653.5000 ; 90.0000 ]
+  pt2: [ 3699.4570 ; 105.0000 ]
+
+TEXT:
+  text: 200
+  position: [ 3654.5000 ; 101.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: 1
+  position: [ 3471.0627 ; 160.0330 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link GET /article/{id} to GET /article/{id} 400
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 3842.0900 ; 61.0300 ]
+   - type: SEG_CUBICTO
+     pt1: [ 3916.4800 ; 91.8500 ]
+     pt2: [ 4039.7000 ; 142.9100 ]
+     pt3: [ 4104.9100 ; 169.9400 ]
+  stroke: 7.0-7.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 4116.8900 ; 171.0000 ]
+   - [ 4110.1098 ; 163.8566 ]
+   - [ 4112.2717 ; 169.0840 ]
+   - [ 4107.0442 ; 171.2459 ]
+   - [ 4116.8900 ; 171.0000 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 3949.5000 ; 90.0000 ]
+  pt2: [ 3989.6943 ; 105.0000 ]
+
+TEXT:
+  text: 400
+  position: [ 3950.5000 ; 101.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: 1
+  position: [ 4089.5280 ; 160.0330 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link GET /article/{id} to GET /article/{id} 403
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 3780.5000 ; 61.0300 ]
+   - type: SEG_CUBICTO
+     pt1: [ 3780.5000 ; 90.6000 ]
+     pt2: [ 3780.5000 ; 138.7900 ]
+     pt3: [ 3780.5000 ; 166.5200 ]
+  stroke: 7.0-7.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 3787.5000 ; 170.7900 ]
+   - [ 3791.5000 ; 161.7900 ]
+   - [ 3787.5000 ; 165.7900 ]
+   - [ 3783.5000 ; 161.7900 ]
+   - [ 3787.5000 ; 170.7900 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 3787.5000 ; 90.0000 ]
+  pt2: [ 3827.7450 ; 105.0000 ]
+
+TEXT:
+  text: 403
+  position: [ 3788.5000 ; 101.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: 1
+  position: [ 3773.4843 ; 160.0472 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link GET /body/{bodyId} to articleBodyResponse
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 8497.7500 ; 61.0300 ]
+   - type: SEG_CUBICTO
+     pt1: [ 8561.1100 ; 88.7900 ]
+     pt2: [ 8661.9500 ; 132.9800 ]
+     pt3: [ 8726.4100 ; 161.2300 ]
+  stroke: 7.0-7.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 8738.3700 ; 162.4000 ]
+   - [ 8731.7195 ; 155.1356 ]
+   - [ 8733.7869 ; 160.4012 ]
+   - [ 8728.5214 ; 162.4685 ]
+   - [ 8738.3700 ; 162.4000 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 8600.5000 ; 90.0000 ]
+  pt2: [ 8646.4570 ; 105.0000 ]
+
+TEXT:
+  text: 200
+  position: [ 8601.5000 ; 101.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: 1
+  position: [ 8711.2133 ; 151.6867 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link GET /body/{bodyId} to GET /body/{bodyId} 400
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 8439.5000 ; 61.0300 ]
+   - type: SEG_CUBICTO
+     pt1: [ 8439.5000 ; 90.6000 ]
+     pt2: [ 8439.5000 ; 138.7900 ]
+     pt3: [ 8439.5000 ; 166.5200 ]
+  stroke: 7.0-7.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 8446.5000 ; 170.7900 ]
+   - [ 8450.5000 ; 161.7900 ]
+   - [ 8446.5000 ; 165.7900 ]
+   - [ 8442.5000 ; 161.7900 ]
+   - [ 8446.5000 ; 170.7900 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 8446.5000 ; 90.0000 ]
+  pt2: [ 8486.6943 ; 105.0000 ]
+
+TEXT:
+  text: 400
+  position: [ 8447.5000 ; 101.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: 1
+  position: [ 8432.5406 ; 160.0472 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link GET /body/{bodyId} to GET /body/{bodyId} 403
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 8377.0700 ; 61.0300 ]
+   - type: SEG_CUBICTO
+     pt1: [ 8301.5200 ; 91.9100 ]
+     pt2: [ 8176.2800 ; 143.1200 ]
+     pt3: [ 8110.2800 ; 170.1000 ]
+  stroke: 7.0-7.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 8112.6400 ; 171.0000 ]
+   - [ 8122.4848 ; 171.2827 ]
+   - [ 8117.2655 ; 169.1013 ]
+   - [ 8119.4468 ; 163.8819 ]
+   - [ 8112.6400 ; 171.0000 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 8304.5000 ; 90.0000 ]
+  pt2: [ 8344.7450 ; 105.0000 ]
+
+TEXT:
+  text: 403
+  position: [ 8305.5000 ; 101.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: 1
+  position: [ 8112.0752 ; 160.0330 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link GET /body/{bodyId}/render to articleBodyResponse
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 9090.5700 ; 61.0300 ]
+   - type: SEG_CUBICTO
+     pt1: [ 9024.1700 ; 88.8500 ]
+     pt2: [ 8918.4000 ; 133.1600 ]
+     pt3: [ 8851.0000 ; 161.4000 ]
+  stroke: 7.0-7.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 8853.2100 ; 162.4000 ]
+   - [ 8863.0566 ; 162.6091 ]
+   - [ 8857.8211 ; 160.4668 ]
+   - [ 8859.9635 ; 155.2313 ]
+   - [ 8853.2100 ; 162.4000 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 9020.5000 ; 90.0000 ]
+  pt2: [ 9066.4570 ; 105.0000 ]
+
+TEXT:
+  text: 200
+  position: [ 9021.5000 ; 101.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: 1
+  position: [ 8854.0456 ; 151.6867 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link GET /body/{bodyId}/render to GET /body/{bodyId}/render 400
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 9151.5000 ; 61.0300 ]
+   - type: SEG_CUBICTO
+     pt1: [ 9151.5000 ; 90.6000 ]
+     pt2: [ 9151.5000 ; 138.7900 ]
+     pt3: [ 9151.5000 ; 166.5200 ]
+  stroke: 7.0-7.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 9158.5000 ; 170.7900 ]
+   - [ 9162.5000 ; 161.7900 ]
+   - [ 9158.5000 ; 165.7900 ]
+   - [ 9154.5000 ; 161.7900 ]
+   - [ 9158.5000 ; 170.7900 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 9158.5000 ; 90.0000 ]
+  pt2: [ 9198.6943 ; 105.0000 ]
+
+TEXT:
+  text: 400
+  position: [ 9159.5000 ; 101.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: 1
+  position: [ 9144.5793 ; 160.0472 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link GET /body/{bodyId}/render to GET /body/{bodyId}/render 403
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 9219.1200 ; 61.0300 ]
+   - type: SEG_CUBICTO
+     pt1: [ 9300.9400 ; 91.9100 ]
+     pt2: [ 9436.6000 ; 143.1200 ]
+     pt3: [ 9508.0800 ; 170.1000 ]
+  stroke: 7.0-7.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 9520.1100 ; 171.0000 ]
+   - [ 9513.1130 ; 164.0688 ]
+   - [ 9515.4348 ; 169.2272 ]
+   - [ 9510.2765 ; 171.5490 ]
+   - [ 9520.1100 ; 171.0000 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 9336.5000 ; 90.0000 ]
+  pt2: [ 9376.7450 ; 105.0000 ]
+
+TEXT:
+  text: 403
+  position: [ 9337.5000 ; 101.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: 1
+  position: [ 9491.5533 ; 160.0330 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link POST /article to POST /article 200
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 2744.0400 ; 359.7000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 2733.8200 ; 390.0500 ]
+     pt2: [ 2711.5500 ; 456.1600 ]
+     pt3: [ 2697.6200 ; 497.5300 ]
+  stroke: 7.0-7.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 2702.9600 ; 501.4400 ]
+   - [ 2709.6074 ; 494.1728 ]
+   - [ 2704.5454 ; 496.6980 ]
+   - [ 2702.0202 ; 491.6361 ]
+   - [ 2702.9600 ; 501.4400 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 2738.5000 ; 397.0000 ]
+  pt2: [ 2784.4570 ; 412.0000 ]
+
+TEXT:
+  text: 200
+  position: [ 2739.5000 ; 408.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: 1
+  position: [ 2691.9310 ; 490.5981 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link POST /article to POST /article 400
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 2764.5900 ; 359.7000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 2796.8600 ; 394.3300 ]
+     pt2: [ 2872.4700 ; 475.5100 ]
+     pt3: [ 2907.7600 ; 513.3800 ]
+  stroke: 7.0-7.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 2918.4500 ; 516.3400 ]
+   - [ 2915.2321 ; 507.0317 ]
+   - [ 2915.0379 ; 512.6852 ]
+   - [ 2909.3844 ; 512.4910 ]
+   - [ 2918.4500 ; 516.3400 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 2819.5000 ; 397.0000 ]
+  pt2: [ 2859.6943 ; 412.0000 ]
+
+TEXT:
+  text: 400
+  position: [ 2820.5000 ; 408.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: 1
+  position: [ 2899.5235 ; 505.6137 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link POST /article to POST /article 403
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 2716.4400 ; 359.5400 ]
+   - type: SEG_CUBICTO
+     pt1: [ 2678.9500 ; 378.1300 ]
+     pt2: [ 2616.4400 ; 410.4200 ]
+     pt3: [ 2565.5000 ; 443.0000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 2530.4000 ; 465.4400 ]
+     pt2: [ 2492.2800 ; 494.8700 ]
+     pt3: [ 2468.4000 ; 513.9800 ]
+  stroke: 7.0-7.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 2471.4000 ; 516.1900 ]
+   - [ 2480.9232 ; 513.6785 ]
+   - [ 2475.3002 ; 513.0613 ]
+   - [ 2475.9173 ; 507.4382 ]
+   - [ 2471.4000 ; 516.1900 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 2647.5000 ; 397.0000 ]
+  pt2: [ 2687.7450 ; 412.0000 ]
+
+TEXT:
+  text: 403
+  position: [ 2648.5000 ; 408.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: 1
+  position: [ 2463.8854 ; 505.7117 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link POST /article to article
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 2807.4800 ; 359.5400 ]
+   - type: SEG_CUBICTO
+     pt1: [ 2868.3700 ; 377.1500 ]
+     pt2: [ 2966.3600 ; 407.6700 ]
+     pt3: [ 3047.5000 ; 443.0000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 3051.7000 ; 444.8300 ]
+     pt2: [ 3055.9300 ; 446.7300 ]
+     pt3: [ 3060.1900 ; 448.6800 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 3071.8100 ; 449.8200 ]
+   - [ 3065.3190 ; 442.4128 ]
+   - [ 3067.2715 ; 447.7220 ]
+   - [ 3061.9622 ; 449.6744 ]
+   - [ 3071.8100 ; 449.8200 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+TEXT:
+  text: 1
+  position: [ 3051.8455 ; 442.2812 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+

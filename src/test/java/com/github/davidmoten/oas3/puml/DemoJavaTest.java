@@ -10,7 +10,7 @@ public class DemoJavaTest {
 
 	private static final String OPEN_API_DIRECTORY      = "src/test/resources/demo/";
 	public static final  File   OPEN_API_DIRECTORY_FILE = new File(OPEN_API_DIRECTORY);
-	private static final String OUTPUT_DIRECTORY        = "target/converted-puml/demo";
+	private static final String OUTPUT_DIRECTORY        = "target/demo-outputs/demo";
 	public static final  File   OUTPUT_DIRECTORY_FILE   = new File(OUTPUT_DIRECTORY);
 
 	@Test

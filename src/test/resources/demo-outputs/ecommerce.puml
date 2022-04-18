@@ -1,0 +1,358 @@
+@startuml
+hide <<Path>> circle
+hide <<Response>> circle
+hide <<Parameter>> circle
+hide empty methods
+hide empty fields
+set namespaceSeparator none
+
+class "Company" {
+  {field} string CompanyId 
+  {field} string CompanyName 
+  {field} integer CompanyNumber 
+  {field} integer VATNumber 
+}
+
+class "TaxRate" {
+  {field} integer TaxRateId 
+  {field} string Name 
+  {field} decimal Rate 
+  {field} string CountryCode 
+}
+
+class "ExchangeRate" {
+  {field} string CurrencyCode 
+  {field} string CountryCode 
+  {field} string Description 
+  {field} decimal RateVsGbp 
+}
+
+class "StockCategory" {
+  {field} integer CategoryId 
+  {field} string CategoryName 
+}
+
+class "Product" {
+  {field} integer StockItemId 
+  {field} string StockItemCode 
+  {field} string StockItemName 
+  {field} string StockItemDescription 
+  {field} decimal SalesUoM 
+  {field} decimal ListPrice 
+  {field} string ManufacturerPartNumber 
+  {field} string ManufacturerPartName 
+  {field} decimal Weight 
+  {field} string Url 
+  {field} decimal LeadTime 
+  {field} integer Barcode 
+}
+
+class "Customer" {
+  {field} string CustomerCode 
+  {field} string AccountCode 
+  {field} string AccountName 
+  {field} integer VatNumber 
+  {field} string VatType 
+  {field} string Currency 
+  {field} string AccountStatus 
+}
+
+class "SalesOrder" {
+  {field} string SalesOrderCode 
+  {field} string CustomerCode 
+  {field} string OrderDescription 
+  {field} string Status 
+  {field} string CustomerRef 
+  {field} string VatType 
+  {field} string Currency 
+  {field} string StockItemCode 
+  {field} decimal Quantity 
+  {field} decimal Total 
+  {field} timestamp PickedDate 
+}
+
+class "Receipt" {
+  {field} integer Id 
+  {field} string CustomerCode 
+  {field} string BankAccount 
+  {field} decimal Amount 
+  {field} string Currency 
+  {field} timestamp Date 
+  {field} string Reference 
+}
+
+class "BankAccount" {
+  {field} string AccountCode 
+  {field} string AccountName 
+}
+
+class "Discount" {
+  {field} string CustomerCode 
+  {field} string ProductCode 
+  {field} decimal DiscountRate 
+  {field} timestamp DiscountStart 
+  {field} timestamp DiscountEnd 
+}
+
+class "Address" {
+  {field} string AddressLine1 
+  {field} string AddressLine2 
+  {field} string AddressLine3 
+  {field} string AddressLine4 
+  {field} string PostalCode 
+  {field} string CountryCode 
+}
+
+class "Contact" {
+  {field} string Name 
+}
+
+class "ContactMethod" {
+  {field} string Type 
+  {field} string Address 
+}
+
+class "Location" {
+  {field} string LocationCode 
+  {field} string Name 
+}
+
+class "Error" {
+  {field} string Reference 
+  {field} string Message 
+}
+
+class "Product.1" <<RequestBody>> {
+}
+
+class "Customer.1" <<RequestBody>> {
+}
+
+class "SalesOrder.1" <<RequestBody>> {
+}
+
+class "Receipt.1" <<RequestBody>> {
+}
+
+class "GET /companies" <<Path>> {
+}
+
+class "GET /companies 200" <<Response>> {
+}
+
+class "GET /tax-rates" <<Path>> {
+}
+
+class "GET /tax-rates 200" <<Response>> {
+}
+
+class "GET /exchange-rates" <<Path>> {
+}
+
+class "GET /exchange-rates 200" <<Response>> {
+}
+
+class "GET /products/categories" <<Path>> {
+}
+
+class "GET /products/categories 200" <<Response>> {
+}
+
+class "GET /products" <<Path>> {
+}
+
+class "GET /products 200" <<Response>> {
+}
+
+class "POST /products" <<Path>> {
+}
+
+class "POST /products 201" <<Response>> {
+}
+
+class "PUT /products/{stockItemCode}" <<Path>> {
+  {field} integer stockItemCode *
+}
+
+class "PUT /products/{stockItemCode} 200" <<Response>> {
+}
+
+class "GET /customers" <<Path>> {
+}
+
+class "GET /customers 200" <<Response>> {
+}
+
+class "POST /customers" <<Path>> {
+}
+
+class "POST /customers 201" <<Response>> {
+}
+
+class "PUT /customers/{customerCode}" <<Path>> {
+  {field} string customerCode *
+}
+
+class "PUT /customers/{customerCode} 200" <<Response>> {
+}
+
+class "GET /sales-orders" <<Path>> {
+}
+
+class "GET /sales-orders 200" <<Response>> {
+}
+
+class "POST /sales-orders" <<Path>> {
+}
+
+class "POST /sales-orders 201" <<Response>> {
+}
+
+class "GET /receipts" <<Path>> {
+}
+
+class "GET /receipts 200" <<Response>> {
+}
+
+class "POST /receipts" <<Path>> {
+}
+
+class "POST /receipts 201" <<Response>> {
+}
+
+class "PUT /receipts/{id}" <<Path>> {
+  {field} integer id *
+}
+
+class "PUT /receipts/{id} 200" <<Response>> {
+}
+
+class "GET /locations" <<Path>> {
+}
+
+class "GET /locations 200" <<Response>> {
+}
+
+class "GET /bank-accounts" <<Path>> {
+}
+
+class "GET /bank-accounts 200" <<Response>> {
+}
+
+class "GET /discounts" <<Path>> {
+}
+
+class "GET /discounts 200" <<Response>> {
+}
+
+class "GET /ping" <<Path>> {
+}
+
+class "GET /ping 200" <<Response>> {
+}
+
+"Company" --> "0..1" "Address"
+
+"Product" --> "0..1" "TaxRate"  :  "VatRate"
+
+"Product" --> "0..1" "Location"  :  "DefaultStockLocation"
+
+"Customer" --> "0..1" "Address"
+
+"Customer" --> "0..1" "Contact"  :  "MainContact"
+
+"Customer" --> "0..1" "Address"  :  "DeliveryAddress"
+
+"Customer" --> "*" "Discount"  :  "Discounts"
+
+"Contact" --> "*" "ContactMethod"  :  "ContactMethods"
+
+"Contact" --> "0..1" "Address"
+
+"Location" --> "0..1" "Address"
+
+"Product.1" --> "1" "Product"
+
+"Customer.1" --> "1" "Customer"
+
+"SalesOrder.1" --> "1" "SalesOrder"
+
+"Receipt.1" --> "1" "Receipt"
+
+"GET /companies 200" --> "*" "Company"
+
+"GET /companies" ..> "1" "GET /companies 200"  :  "200"
+
+"GET /companies" ..> "1" "Error"  :  "400"
+
+"GET /tax-rates 200" --> "*" "TaxRate"
+
+"GET /tax-rates" ..> "1" "GET /tax-rates 200"  :  "200"
+
+"GET /exchange-rates 200" --> "*" "ExchangeRate"
+
+"GET /exchange-rates" ..> "1" "GET /exchange-rates 200"  :  "200"
+
+"GET /products/categories 200" --> "*" "StockCategory"
+
+"GET /products/categories" ..> "1" "GET /products/categories 200"  :  "200"
+
+"GET /products 200" --> "*" "Product"
+
+"GET /products" ..> "1" "GET /products 200"  :  "200"
+
+"POST /products" ..> "1" "POST /products 201"  :  "201"
+
+"POST /products" --> "1" "Product.1"
+
+"PUT /products/{stockItemCode}" ..> "1" "PUT /products/{stockItemCode} 200"  :  "200"
+
+"PUT /products/{stockItemCode}" --> "1" "Product.1"
+
+"GET /customers 200" --> "*" "Customer"
+
+"GET /customers" ..> "1" "GET /customers 200"  :  "200"
+
+"POST /customers" ..> "1" "POST /customers 201"  :  "201"
+
+"POST /customers" --> "1" "Customer.1"
+
+"PUT /customers/{customerCode}" ..> "1" "PUT /customers/{customerCode} 200"  :  "200"
+
+"PUT /customers/{customerCode}" --> "1" "Customer.1"
+
+"GET /sales-orders 200" --> "*" "SalesOrder"
+
+"GET /sales-orders" ..> "1" "GET /sales-orders 200"  :  "200"
+
+"POST /sales-orders" ..> "1" "POST /sales-orders 201"  :  "201"
+
+"POST /sales-orders" --> "1" "SalesOrder.1"
+
+"GET /receipts 200" --> "*" "Receipt"
+
+"GET /receipts" ..> "1" "GET /receipts 200"  :  "200"
+
+"POST /receipts" ..> "1" "POST /receipts 201"  :  "201"
+
+"POST /receipts" --> "1" "Receipt.1"
+
+"PUT /receipts/{id}" ..> "1" "PUT /receipts/{id} 200"  :  "200"
+
+"PUT /receipts/{id}" --> "1" "Receipt.1"
+
+"GET /locations 200" --> "*" "Location"
+
+"GET /locations" ..> "1" "GET /locations 200"  :  "200"
+
+"GET /bank-accounts 200" --> "*" "BankAccount"
+
+"GET /bank-accounts" ..> "1" "GET /bank-accounts 200"  :  "200"
+
+"GET /discounts 200" --> "*" "Discount"
+
+"GET /discounts" ..> "1" "GET /discounts 200"  :  "200"
+
+"GET /ping" ..> "1" "GET /ping 200"  :  "200"
+
+@enduml

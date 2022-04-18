@@ -22,6 +22,7 @@ import java.util.Optional;
 import static com.github.davidmoten.oas3.internal.Util.first;
 import static com.github.davidmoten.oas3.internal.Util.nullListToEmpty;
 
+@SuppressWarnings("UnnecessaryLocalVariable")
 public final class PathsHelper {
 
 	private PathsHelper() {
@@ -219,78 +220,77 @@ public final class PathsHelper {
 		                 .getResponses() //
 		                 .entrySet() //
 		                 .stream() //
-		                 .map(ent -> {
-			                 String responseCode = ent.getKey();
-			                 // TODO only using the first content
-			                 ApiResponse r = ent.getValue();
-			                 final Model model;
-			                 if (r.get$ref() != null) {
-				                 String returnClassName = names.refToClassName(r.get$ref());
-				                 model = new Model(Association.from(className)
-				                                              .to(returnClassName)
-				                                              .one()
-				                                              .responseCode(responseCode)
-				                                              .build());
-			                 } else {
-
-				                 if (r.getContent() == null) {
-					                 final String newReturnClassName = className + " " + responseCode;
-					                 Model m = new Model(new Class(newReturnClassName,
-					                                               ClassType.RESPONSE));
-					                 String returnClassName = newReturnClassName;
-					                 model = m.add(Association.from(className)
-					                                          .to(returnClassName)
-					                                          .one()
-					                                          .responseCode(responseCode)
-					                                          .build());
-				                 } else {
-					                 Model m = Model.EMPTY;
-					                 for (Entry<String, MediaType> contentEntry : r.getContent()
-					                                                               .entrySet()) {
-						                 String contentType = contentEntry.getKey();
-						                 final String newReturnClassName = className
-						                                                   + " "
-						                                                   + responseCode
-						                                                   + ("application/json".equals(contentType)
-						                                                      ? ""
-						                                                      : " " + contentType);
-						                 MediaType mediaType = contentEntry.getValue();
-						                 Schema<?> sch       = mediaType.getSchema();
-						                 if (sch == null) {
-							                 // TODO handle null schema in response
-							                 System.err.printf("JSON Schema not found contentType=%s mediaType=%s%n",
-							                                   contentType,
-							                                   mediaType);
-						                 } else if (sch.get$ref() != null) {
-							                 String returnClassName = names.refToClassName(sch.get$ref());
-							                 m = m.add(Association.from(className)
-							                                      .to(returnClassName)
-							                                      .one()
-							                                      .responseCode(responseCode)
-							                                      .responseContentType(contentType)
-							                                      .build());
-						                 } else {
-							                 String returnClassName = newReturnClassName;
-							                 m = m.add(Common.toModelClass(returnClassName,
-							                                               sch,
-							                                               names,
-							                                               ClassType.RESPONSE));
-							                 m = m.add(Association.from(className)
-							                                      .to(returnClassName)
-							                                      .one()
-							                                      .responseCode(responseCode)
-							                                      .responseContentType(contentType)
-							                                      .build());
-						                 }
-
-					                 }
-					                 model = m;
-				                 }
-			                 }
-			                 return model;
-		                 })
+		                 .map(ent -> getModel(names,
+		                                      className,
+		                                      ent))
 		                 .reduce(Model.EMPTY,
-		                         (a, b) -> a.add(b));
+		                         Model::add);
+	}
+
+	private static Model getModel(Names names,
+	                              String className,
+	                              Entry<String, ApiResponse> ent) {
+		String responseCode = ent.getKey();
+		// TODO only using the first content
+		ApiResponse r = ent.getValue();
+		final Model model;
+		if (r.get$ref() != null) {
+			String returnClassName = names.refToClassName(r.get$ref());
+			model = new Model(Association.from(className)
+			                             .to(returnClassName)
+			                             .one()
+			                             .responseCode(responseCode)
+			                             .build());
+		} else {
+			if (r.getContent() == null) {
+				final String newReturnClassName = className + " " + responseCode;
+				Model m = new Model(new Class(newReturnClassName,
+				                              ClassType.RESPONSE));
+				String returnClassName = newReturnClassName;
+				model = m.add(Association.from(className)
+				                         .to(returnClassName)
+				                         .one()
+				                         .responseCode(responseCode)
+				                         .build());
+			} else {
+				Model m = Model.EMPTY;
+				for (Entry<String, MediaType> contentEntry : r.getContent()
+				                                              .entrySet()) {
+					String contentType = contentEntry.getKey();
+					final String newReturnClassName = className + " " + responseCode + ("application/json".equals(contentType)
+					                                                                    ? ""
+					                                                                    : " " + contentType);
+					MediaType mediaType = contentEntry.getValue();
+					Schema<?> sch       = mediaType.getSchema();
+					// TODO handle null schema in response
+					if (sch != null) {
+						if (sch.get$ref() != null) {
+							String returnClassName = names.refToClassName(sch.get$ref());
+							m = m.add(Association.from(className)
+							                     .to(returnClassName)
+							                     .one()
+							                     .responseCode(responseCode)
+							                     .responseContentType(contentType)
+							                     .build());
+						} else {
+							String returnClassName = newReturnClassName;
+							m = m.add(Common.toModelClass(returnClassName,
+							                              sch,
+							                              names,
+							                              ClassType.RESPONSE));
+							m = m.add(Association.from(className)
+							                     .to(returnClassName)
+							                     .one()
+							                     .responseCode(responseCode)
+							                     .responseContentType(contentType)
+							                     .build());
+						}
+					}
+				}
+				model = m;
+			}
+		}
+		return model;
 	}
 
 	private static final class FieldsWithModel {

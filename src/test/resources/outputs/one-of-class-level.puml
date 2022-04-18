@@ -10,11 +10,11 @@ class "employee" {
 }
 
 class "nurse" {
-  {field} level : integer
+  {field} integer level *
 }
 
 class "doctor" {
-  {field} income : decimal
+  {field} decimal income *
 }
 
 "doctor" --|> "employee"

@@ -12,7 +12,7 @@
     <url>http://github.com/davidmoten/openapi-to-plantuml</url>
 
     <properties>
-        <project.version>2022-04-12</project.version>
+        <project.version>2022-04-18</project.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven.compiler.target>11</maven.compiler.target>

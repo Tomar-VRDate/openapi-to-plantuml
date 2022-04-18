@@ -7,8 +7,8 @@ hide empty fields
 set namespaceSeparator none
 
 class "Customer" {
-  {field} firstName : string {O}
-  {field} lastName : string {O}
+  {field} string firstName 
+  {field} string lastName 
 }
 
 class "GET /customer/expired" <<Path>> {

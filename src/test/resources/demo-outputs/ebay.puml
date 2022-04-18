@@ -1,0 +1,1038 @@
+@startuml
+hide <<Path>> circle
+hide <<Response>> circle
+hide <<Parameter>> circle
+hide empty methods
+hide empty fields
+set namespaceSeparator none
+
+class "AddCartItemInput" {
+  {field} string itemId 
+  {field} integer quantity 
+}
+
+class "AdditionalProductIdentity" {
+}
+
+class "Address" {
+  {field} string addressLine1 
+  {field} string addressLine2 
+  {field} string city 
+  {field} string country 
+  {field} string county 
+  {field} string postalCode 
+  {field} string stateOrProvince 
+}
+
+class "Amount" {
+  {field} string currency 
+  {field} string value 
+}
+
+class "Aspect" {
+  {field} string localizedName 
+  {field} string[] localizedValues 
+}
+
+class "AspectDistribution" {
+  {field} string localizedAspectName 
+}
+
+class "AspectGroup" {
+  {field} string localizedGroupName 
+}
+
+class "AspectValueDistribution" {
+  {field} string localizedAspectValue 
+  {field} integer matchCount 
+  {field} string refinementHref 
+}
+
+class "AttributeNameValue" {
+  {field} string name 
+  {field} string value 
+}
+
+class "AuthenticityVerificationProgram" {
+  {field} string description 
+  {field} string termsWebUrl 
+}
+
+class "AutoCorrections" {
+  {field} string q 
+}
+
+class "AvailableCoupon" {
+  {field} string constraint 
+  {field} string discountType 
+  {field} string message 
+  {field} string redemptionCode 
+  {field} string termsWebUrl 
+}
+
+class "BuyingOptionDistribution" {
+  {field} string buyingOption 
+  {field} integer matchCount 
+  {field} string refinementHref 
+}
+
+class "CartItem" {
+  {field} string cartItemId 
+  {field} string itemId 
+  {field} string itemWebUrl 
+  {field} integer quantity 
+  {field} string title 
+}
+
+class "Category" {
+  {field} string categoryId 
+}
+
+class "CategoryDistribution" {
+  {field} string categoryId 
+  {field} string categoryName 
+  {field} integer matchCount 
+  {field} string refinementHref 
+}
+
+class "CommonDescriptions" {
+  {field} string description 
+  {field} string[] itemIds 
+}
+
+class "CompatibilityPayload" {
+}
+
+class "CompatibilityProperty" {
+  {field} string localizedName 
+  {field} string name 
+  {field} string value 
+}
+
+class "CompatibilityResponse" {
+  {field} string compatibilityStatus 
+}
+
+class "ConditionDistribution" {
+  {field} string condition 
+  {field} string conditionId 
+  {field} integer matchCount 
+  {field} string refinementHref 
+}
+
+class "ConvertedAmount" {
+  {field} string convertedFromCurrency 
+  {field} string convertedFromValue 
+  {field} string currency 
+  {field} string value 
+}
+
+class "CoreItem" {
+  {field} boolean adultOnly 
+  {field} string ageGroup 
+  {field} integer bidCount 
+  {field} string brand 
+  {field} string[] buyingOptions 
+  {field} string categoryId 
+  {field} string categoryPath 
+  {field} string color 
+  {field} string condition 
+  {field} string conditionDescription 
+  {field} string conditionId 
+  {field} string description 
+  {field} boolean eligibleForInlineCheckout 
+  {field} boolean enabledForGuestCheckout 
+  {field} string energyEfficiencyClass 
+  {field} string epid 
+  {field} string gender 
+  {field} string gtin 
+  {field} string inferredEpid 
+  {field} string itemAffiliateWebUrl 
+  {field} string itemEndDate 
+  {field} string itemId 
+  {field} string itemWebUrl 
+  {field} string legacyItemId 
+  {field} integer lotSize 
+  {field} string material 
+  {field} string mpn 
+  {field} string pattern 
+  {field} string priceDisplayCondition 
+  {field} string productFicheWebUrl 
+  {field} string[] qualifiedPrograms 
+  {field} integer quantityLimitPerBuyer 
+  {field} boolean reservePriceMet 
+  {field} string sellerItemRevision 
+  {field} string shortDescription 
+  {field} string size 
+  {field} string sizeSystem 
+  {field} string sizeType 
+  {field} string subtitle 
+  {field} string title 
+  {field} boolean topRatedBuyingExperience 
+  {field} integer uniqueBidderCount 
+  {field} string unitPricingMeasure 
+}
+
+class "Error" {
+  {field} string category 
+  {field} string domain 
+  {field} integer errorId 
+  {field} string[] inputRefIds 
+  {field} string longMessage 
+  {field} string message 
+  {field} string[] outputRefIds 
+  {field} string subdomain 
+}
+
+class "ErrorParameter" {
+  {field} string name 
+  {field} string value 
+}
+
+class "EstimatedAvailability" {
+  {field} integer availabilityThreshold 
+  {field} string availabilityThresholdType 
+  {field} string[] deliveryOptions 
+  {field} string estimatedAvailabilityStatus 
+  {field} integer estimatedAvailableQuantity 
+  {field} integer estimatedSoldQuantity 
+}
+
+class "Image" {
+  {field} integer height 
+  {field} string imageUrl 
+  {field} integer width 
+}
+
+class "Item" {
+  {field} boolean adultOnly 
+  {field} string ageGroup 
+  {field} integer bidCount 
+  {field} string brand 
+  {field} string[] buyingOptions 
+  {field} string categoryId 
+  {field} string categoryPath 
+  {field} string color 
+  {field} string condition 
+  {field} string conditionDescription 
+  {field} string conditionId 
+  {field} string description 
+  {field} boolean eligibleForInlineCheckout 
+  {field} boolean enabledForGuestCheckout 
+  {field} string energyEfficiencyClass 
+  {field} string epid 
+  {field} string gender 
+  {field} string gtin 
+  {field} string inferredEpid 
+  {field} string itemAffiliateWebUrl 
+  {field} string itemEndDate 
+  {field} string itemId 
+  {field} string itemWebUrl 
+  {field} string legacyItemId 
+  {field} integer lotSize 
+  {field} string material 
+  {field} string mpn 
+  {field} string pattern 
+  {field} string priceDisplayCondition 
+  {field} string productFicheWebUrl 
+  {field} string[] qualifiedPrograms 
+  {field} integer quantityLimitPerBuyer 
+  {field} boolean reservePriceMet 
+  {field} string sellerItemRevision 
+  {field} string shortDescription 
+  {field} string size 
+  {field} string sizeSystem 
+  {field} string sizeType 
+  {field} string subtitle 
+  {field} string title 
+  {field} boolean topRatedBuyingExperience 
+  {field} integer uniqueBidderCount 
+  {field} string unitPricingMeasure 
+}
+
+class "ItemGroup" {
+}
+
+class "ItemGroupSummary" {
+  {field} string itemGroupHref 
+  {field} string itemGroupId 
+  {field} string itemGroupTitle 
+  {field} string itemGroupType 
+}
+
+class "ItemLocationImpl" {
+  {field} string addressLine1 
+  {field} string addressLine2 
+  {field} string city 
+  {field} string country 
+  {field} string county 
+  {field} string postalCode 
+  {field} string stateOrProvince 
+}
+
+class "ItemReturnTerms" {
+  {field} boolean extendedHolidayReturnsOffered 
+  {field} string refundMethod 
+  {field} string restockingFeePercentage 
+  {field} string returnInstructions 
+  {field} string returnMethod 
+  {field} boolean returnsAccepted 
+  {field} string returnShippingCostPayer 
+}
+
+class "ItemSummary" {
+  {field} boolean adultOnly 
+  {field} boolean availableCoupons 
+  {field} integer bidCount 
+  {field} string[] buyingOptions 
+  {field} string compatibilityMatch 
+  {field} string condition 
+  {field} string conditionId 
+  {field} string energyEfficiencyClass 
+  {field} string epid 
+  {field} string itemAffiliateWebUrl 
+  {field} string itemGroupHref 
+  {field} string itemGroupType 
+  {field} string itemHref 
+  {field} string itemId 
+  {field} string itemWebUrl 
+  {field} string legacyItemId 
+  {field} string priceDisplayCondition 
+  {field} string[] qualifiedPrograms 
+  {field} string shortDescription 
+  {field} string title 
+  {field} string unitPricingMeasure 
+}
+
+class "Items" {
+  {field} integer total 
+}
+
+class "LegalAddress" {
+  {field} string addressLine1 
+  {field} string addressLine2 
+  {field} string city 
+  {field} string country 
+  {field} string countryName 
+  {field} string county 
+  {field} string postalCode 
+  {field} string stateOrProvince 
+}
+
+class "MarketingPrice" {
+  {field} string discountPercentage 
+  {field} string priceTreatment 
+}
+
+class "PaymentMethod" {
+  {field} string paymentMethodType 
+  {field} string[] paymentInstructions 
+  {field} string[] sellerInstructions 
+}
+
+class "PaymentMethodBrand" {
+  {field} string paymentMethodBrandType 
+}
+
+class "PickupOptionSummary" {
+  {field} string pickupLocationType 
+}
+
+class "Price" {
+  {field} string convertedFromCurrency 
+  {field} string convertedFromValue 
+  {field} string currency 
+  {field} string value 
+}
+
+class "Product" {
+  {field} string brand 
+  {field} string description 
+  {field} string[] gtins 
+  {field} string[] mpns 
+  {field} string title 
+}
+
+class "ProductIdentity" {
+  {field} string identifierType 
+  {field} string identifierValue 
+}
+
+class "RatingHistogram" {
+  {field} integer count 
+  {field} string rating 
+}
+
+class "Refinement" {
+  {field} string dominantCategoryId 
+}
+
+class "Region" {
+  {field} string regionName 
+  {field} string regionType 
+}
+
+class "RemoteShopcartResponse" {
+  {field} string cartWebUrl 
+}
+
+class "RemoveCartItemInput" {
+  {field} string cartItemId 
+}
+
+class "ReviewRating" {
+  {field} string averageRating 
+  {field} integer reviewCount 
+}
+
+class "SearchByImageRequest" {
+  {field} string image 
+}
+
+class "SearchPagedCollection" {
+  {field} string href 
+  {field} integer limit 
+  {field} string next 
+  {field} integer offset 
+  {field} string prev 
+  {field} integer total 
+}
+
+class "Seller" {
+  {field} string feedbackPercentage 
+  {field} integer feedbackScore 
+  {field} string sellerAccountType 
+  {field} string username 
+}
+
+class "SellerDetail" {
+  {field} string feedbackPercentage 
+  {field} integer feedbackScore 
+  {field} string sellerAccountType 
+  {field} string username 
+}
+
+class "SellerLegalInfo" {
+  {field} string email 
+  {field} string fax 
+  {field} string imprint 
+  {field} string legalContactFirstName 
+  {field} string legalContactLastName 
+  {field} string name 
+  {field} string phone 
+  {field} string registrationNumber 
+  {field} string termsOfService 
+}
+
+class "ShipToLocation" {
+  {field} string country 
+  {field} string postalCode 
+}
+
+class "ShipToLocations" {
+}
+
+class "ShipToRegion" {
+  {field} string regionId 
+  {field} string regionName 
+  {field} string regionType 
+}
+
+class "ShippingOption" {
+  {field} string cutOffDateUsedForEstimate 
+  {field} string fulfilledThrough 
+  {field} boolean guaranteedDelivery 
+  {field} string maxEstimatedDeliveryDate 
+  {field} string minEstimatedDeliveryDate 
+  {field} integer quantityUsedForEstimate 
+  {field} string shippingCarrierCode 
+  {field} string shippingCostType 
+  {field} string shippingServiceCode 
+  {field} string trademarkSymbol 
+  {field} string type 
+}
+
+class "ShippingOptionSummary" {
+  {field} boolean guaranteedDelivery 
+  {field} string maxEstimatedDeliveryDate 
+  {field} string minEstimatedDeliveryDate 
+  {field} string shippingCostType 
+}
+
+class "TargetLocation" {
+  {field} string unitOfMeasure 
+  {field} string value 
+}
+
+class "TaxJurisdiction" {
+  {field} string taxJurisdictionId 
+}
+
+class "Taxes" {
+  {field} boolean ebayCollectAndRemitTax 
+  {field} boolean includedInPrice 
+  {field} boolean shippingAndHandlingTaxed 
+  {field} string taxPercentage 
+  {field} string taxType 
+}
+
+class "TimeDuration" {
+  {field} string unit 
+  {field} integer value 
+}
+
+class "TypedNameValue" {
+  {field} string name 
+  {field} string type 
+  {field} string value 
+}
+
+class "UpdateCartItemInput" {
+  {field} string cartItemId 
+  {field} integer quantity 
+}
+
+class "VatDetail" {
+  {field} string issuingCountry 
+  {field} string vatId 
+}
+
+class "GET /item_summary/search" <<Path>> {
+  {field} string aspect_filter 
+  {field} string auto_correct 
+  {field} string category_ids 
+  {field} string charity_ids 
+  {field} string compatibility_filter 
+  {field} string epid 
+  {field} string fieldgroups 
+  {field} string filter 
+  {field} string gtin 
+  {field} string limit 
+  {field} string offset 
+  {field} string q 
+  {field} string sort 
+}
+
+class "GET /item_summary/search 400" <<Response>> {
+}
+
+class "GET /item_summary/search 409" <<Response>> {
+}
+
+class "GET /item_summary/search 500" <<Response>> {
+}
+
+class "POST /item_summary/search_by_image" <<Path>> {
+  {field} string aspect_filter 
+  {field} string category_ids 
+  {field} string charity_ids 
+  {field} string fieldgroups 
+  {field} string filter 
+  {field} string limit 
+  {field} string offset 
+  {field} string sort 
+}
+
+class "POST /item_summary/search_by_image 400" <<Response>> {
+}
+
+class "POST /item_summary/search_by_image 409" <<Response>> {
+}
+
+class "POST /item_summary/search_by_image 500" <<Response>> {
+}
+
+class "GET /item/{item_id}" <<Path>> {
+  {field} string fieldgroups 
+  {field} string item_id *
+}
+
+class "GET /item/{item_id} 400" <<Response>> {
+}
+
+class "GET /item/{item_id} 404" <<Response>> {
+}
+
+class "GET /item/{item_id} 409" <<Response>> {
+}
+
+class "GET /item/{item_id} 500" <<Response>> {
+}
+
+class "GET /item/get_item_by_legacy_id" <<Path>> {
+  {field} string fieldgroups 
+  {field} string legacy_item_id *
+  {field} string legacy_variation_id 
+  {field} string legacy_variation_sku 
+}
+
+class "GET /item/get_item_by_legacy_id 400" <<Response>> {
+}
+
+class "GET /item/get_item_by_legacy_id 404" <<Response>> {
+}
+
+class "GET /item/get_item_by_legacy_id 409" <<Response>> {
+}
+
+class "GET /item/get_item_by_legacy_id 500" <<Response>> {
+}
+
+class "GET /item/" <<Path>> {
+  {field} string item_ids 
+  {field} string item_group_ids 
+}
+
+class "GET /item/ 400" <<Response>> {
+}
+
+class "GET /item/ 404" <<Response>> {
+}
+
+class "GET /item/ 409" <<Response>> {
+}
+
+class "GET /item/ 500" <<Response>> {
+}
+
+class "GET /item/get_items_by_item_group" <<Path>> {
+  {field} string item_group_id *
+}
+
+class "GET /item/get_items_by_item_group 400" <<Response>> {
+}
+
+class "GET /item/get_items_by_item_group 404" <<Response>> {
+}
+
+class "GET /item/get_items_by_item_group 409" <<Response>> {
+}
+
+class "GET /item/get_items_by_item_group 500" <<Response>> {
+}
+
+class "POST /item/{item_id}/check_compatibility" <<Path>> {
+  {field} string item_id *
+  {field} string X-EBAY-C-MARKETPLACE-ID *
+}
+
+class "POST /item/{item_id}/check_compatibility 400" <<Response>> {
+}
+
+class "POST /item/{item_id}/check_compatibility 404" <<Response>> {
+}
+
+class "POST /item/{item_id}/check_compatibility 409" <<Response>> {
+}
+
+class "POST /item/{item_id}/check_compatibility 500" <<Response>> {
+}
+
+class "POST /shopping_cart/add_item" <<Path>> {
+}
+
+class "POST /shopping_cart/add_item 204" <<Response>> {
+}
+
+class "POST /shopping_cart/add_item 400" <<Response>> {
+}
+
+class "POST /shopping_cart/add_item 403" <<Response>> {
+}
+
+class "POST /shopping_cart/add_item 409" <<Response>> {
+}
+
+class "POST /shopping_cart/add_item 500" <<Response>> {
+}
+
+class "GET /shopping_cart/" <<Path>> {
+}
+
+class "GET /shopping_cart/ 204" <<Response>> {
+}
+
+class "GET /shopping_cart/ 400" <<Response>> {
+}
+
+class "GET /shopping_cart/ 403" <<Response>> {
+}
+
+class "GET /shopping_cart/ 404" <<Response>> {
+}
+
+class "GET /shopping_cart/ 500" <<Response>> {
+}
+
+class "POST /shopping_cart/remove_item" <<Path>> {
+}
+
+class "POST /shopping_cart/remove_item 204" <<Response>> {
+}
+
+class "POST /shopping_cart/remove_item 400" <<Response>> {
+}
+
+class "POST /shopping_cart/remove_item 403" <<Response>> {
+}
+
+class "POST /shopping_cart/remove_item 409" <<Response>> {
+}
+
+class "POST /shopping_cart/remove_item 500" <<Response>> {
+}
+
+class "POST /shopping_cart/update_quantity" <<Path>> {
+}
+
+class "POST /shopping_cart/update_quantity 400" <<Response>> {
+}
+
+class "POST /shopping_cart/update_quantity 403" <<Response>> {
+}
+
+class "POST /shopping_cart/update_quantity 409" <<Response>> {
+}
+
+class "POST /shopping_cart/update_quantity 500" <<Response>> {
+}
+
+"AdditionalProductIdentity" --> "*" "ProductIdentity"  :  "productIdentity"
+
+"AspectDistribution" --> "*" "AspectValueDistribution"  :  "aspectValueDistributions"
+
+"AspectGroup" --> "*" "Aspect"  :  "aspects"
+
+"AvailableCoupon" --> "0..1" "Amount"  :  "discountAmount"
+
+"CartItem" --> "0..1" "Amount"  :  "cartItemSubtotal"
+
+"CartItem" --> "0..1" "Image"  :  "image"
+
+"CartItem" --> "0..1" "Price"  :  "price"
+
+"CompatibilityPayload" --> "*" "AttributeNameValue"  :  "compatibilityProperties"
+
+"CompatibilityResponse" --> "*" "Error"  :  "warnings"
+
+"CoreItem" --> "*" "Image"  :  "additionalImages"
+
+"CoreItem" --> "0..1" "AuthenticityVerificationProgram"  :  "authenticityVerification"
+
+"CoreItem" --> "*" "AvailableCoupon"  :  "availableCoupons"
+
+"CoreItem" --> "0..1" "ConvertedAmount"  :  "currentBidPrice"
+
+"CoreItem" --> "*" "EstimatedAvailability"  :  "estimatedAvailabilities"
+
+"CoreItem" --> "0..1" "Image"  :  "image"
+
+"CoreItem" --> "0..1" "Address"  :  "itemLocation"
+
+"CoreItem" --> "*" "TypedNameValue"  :  "localizedAspects"
+
+"CoreItem" --> "0..1" "MarketingPrice"  :  "marketingPrice"
+
+"CoreItem" --> "0..1" "ConvertedAmount"  :  "minimumPriceToBid"
+
+"CoreItem" --> "*" "PaymentMethod"  :  "paymentMethods"
+
+"CoreItem" --> "0..1" "ConvertedAmount"  :  "price"
+
+"CoreItem" --> "0..1" "ItemGroupSummary"  :  "primaryItemGroup"
+
+"CoreItem" --> "0..1" "ReviewRating"  :  "primaryProductReviewRating"
+
+"CoreItem" --> "0..1" "Product"  :  "product"
+
+"CoreItem" --> "0..1" "ItemReturnTerms"  :  "returnTerms"
+
+"CoreItem" --> "0..1" "SellerDetail"  :  "seller"
+
+"CoreItem" --> "*" "ShippingOption"  :  "shippingOptions"
+
+"CoreItem" --> "0..1" "ShipToLocations"  :  "shipToLocations"
+
+"CoreItem" --> "*" "Taxes"  :  "taxes"
+
+"CoreItem" --> "0..1" "ConvertedAmount"  :  "unitPrice"
+
+"Error" --> "*" "ErrorParameter"  :  "parameters"
+
+"Item" --> "*" "Image"  :  "additionalImages"
+
+"Item" --> "0..1" "AuthenticityVerificationProgram"  :  "authenticityVerification"
+
+"Item" --> "*" "AvailableCoupon"  :  "availableCoupons"
+
+"Item" --> "0..1" "ConvertedAmount"  :  "currentBidPrice"
+
+"Item" --> "*" "EstimatedAvailability"  :  "estimatedAvailabilities"
+
+"Item" --> "0..1" "Image"  :  "image"
+
+"Item" --> "0..1" "Address"  :  "itemLocation"
+
+"Item" --> "*" "TypedNameValue"  :  "localizedAspects"
+
+"Item" --> "0..1" "MarketingPrice"  :  "marketingPrice"
+
+"Item" --> "0..1" "ConvertedAmount"  :  "minimumPriceToBid"
+
+"Item" --> "*" "PaymentMethod"  :  "paymentMethods"
+
+"Item" --> "0..1" "ConvertedAmount"  :  "price"
+
+"Item" --> "0..1" "ItemGroupSummary"  :  "primaryItemGroup"
+
+"Item" --> "0..1" "ReviewRating"  :  "primaryProductReviewRating"
+
+"Item" --> "0..1" "Product"  :  "product"
+
+"Item" --> "0..1" "ItemReturnTerms"  :  "returnTerms"
+
+"Item" --> "0..1" "SellerDetail"  :  "seller"
+
+"Item" --> "*" "ShippingOption"  :  "shippingOptions"
+
+"Item" --> "0..1" "ShipToLocations"  :  "shipToLocations"
+
+"Item" --> "*" "Taxes"  :  "taxes"
+
+"Item" --> "0..1" "ConvertedAmount"  :  "unitPrice"
+
+"Item" --> "*" "Error"  :  "warnings"
+
+"ItemGroup" --> "*" "CommonDescriptions"  :  "commonDescriptions"
+
+"ItemGroup" --> "*" "Item"  :  "items"
+
+"ItemGroup" --> "*" "Error"  :  "warnings"
+
+"ItemGroupSummary" --> "*" "Image"  :  "itemGroupAdditionalImages"
+
+"ItemGroupSummary" --> "0..1" "Image"  :  "itemGroupImage"
+
+"ItemReturnTerms" --> "0..1" "TimeDuration"  :  "returnPeriod"
+
+"ItemSummary" --> "*" "Image"  :  "additionalImages"
+
+"ItemSummary" --> "*" "Category"  :  "categories"
+
+"ItemSummary" --> "*" "CompatibilityProperty"  :  "compatibilityProperties"
+
+"ItemSummary" --> "0..1" "ConvertedAmount"  :  "currentBidPrice"
+
+"ItemSummary" --> "0..1" "TargetLocation"  :  "distanceFromPickupLocation"
+
+"ItemSummary" --> "0..1" "Image"  :  "image"
+
+"ItemSummary" --> "0..1" "ItemLocationImpl"  :  "itemLocation"
+
+"ItemSummary" --> "0..1" "MarketingPrice"  :  "marketingPrice"
+
+"ItemSummary" --> "*" "PickupOptionSummary"  :  "pickupOptions"
+
+"ItemSummary" --> "0..1" "ConvertedAmount"  :  "price"
+
+"ItemSummary" --> "0..1" "Seller"  :  "seller"
+
+"ItemSummary" --> "*" "ShippingOptionSummary"  :  "shippingOptions"
+
+"ItemSummary" --> "*" "Image"  :  "thumbnailImages"
+
+"ItemSummary" --> "0..1" "ConvertedAmount"  :  "unitPrice"
+
+"Items" --> "*" "CoreItem"  :  "items"
+
+"Items" --> "*" "Error"  :  "warnings"
+
+"MarketingPrice" --> "0..1" "ConvertedAmount"  :  "discountAmount"
+
+"MarketingPrice" --> "0..1" "ConvertedAmount"  :  "originalPrice"
+
+"PaymentMethod" --> "*" "PaymentMethodBrand"  :  "paymentMethodBrands"
+
+"PaymentMethodBrand" --> "0..1" "Image"  :  "logoImage"
+
+"Product" --> "*" "Image"  :  "additionalImages"
+
+"Product" --> "*" "AdditionalProductIdentity"  :  "additionalProductIdentities"
+
+"Product" --> "*" "AspectGroup"  :  "aspectGroups"
+
+"Product" --> "0..1" "Image"  :  "image"
+
+"Refinement" --> "*" "AspectDistribution"  :  "aspectDistributions"
+
+"Refinement" --> "*" "BuyingOptionDistribution"  :  "buyingOptionDistributions"
+
+"Refinement" --> "*" "CategoryDistribution"  :  "categoryDistributions"
+
+"Refinement" --> "*" "ConditionDistribution"  :  "conditionDistributions"
+
+"RemoteShopcartResponse" --> "*" "CartItem"  :  "cartItems"
+
+"RemoteShopcartResponse" --> "0..1" "Amount"  :  "cartSubtotal"
+
+"RemoteShopcartResponse" --> "*" "CartItem"  :  "unavailableCartItems"
+
+"RemoteShopcartResponse" --> "*" "Error"  :  "warnings"
+
+"ReviewRating" --> "*" "RatingHistogram"  :  "ratingHistograms"
+
+"SearchPagedCollection" --> "0..1" "AutoCorrections"  :  "autoCorrections"
+
+"SearchPagedCollection" --> "*" "ItemSummary"  :  "itemSummaries"
+
+"SearchPagedCollection" --> "0..1" "Refinement"  :  "refinement"
+
+"SearchPagedCollection" --> "*" "Error"  :  "warnings"
+
+"SellerDetail" --> "0..1" "SellerLegalInfo"  :  "sellerLegalInfo"
+
+"SellerLegalInfo" --> "0..1" "LegalAddress"  :  "sellerProvidedLegalAddress"
+
+"SellerLegalInfo" --> "*" "VatDetail"  :  "vatDetails"
+
+"ShipToLocations" --> "*" "ShipToRegion"  :  "regionExcluded"
+
+"ShipToLocations" --> "*" "ShipToRegion"  :  "regionIncluded"
+
+"ShippingOption" --> "0..1" "ConvertedAmount"  :  "additionalShippingCostPerUnit"
+
+"ShippingOption" --> "0..1" "ConvertedAmount"  :  "importCharges"
+
+"ShippingOption" --> "0..1" "ConvertedAmount"  :  "shippingCost"
+
+"ShippingOption" --> "0..1" "ShipToLocation"  :  "shipToLocationUsedForEstimate"
+
+"ShippingOptionSummary" --> "0..1" "ConvertedAmount"  :  "shippingCost"
+
+"TaxJurisdiction" --> "0..1" "Region"  :  "region"
+
+"Taxes" --> "0..1" "TaxJurisdiction"  :  "taxJurisdiction"
+
+"GET /item_summary/search" ..> "1" "SearchPagedCollection"  :  "200"
+
+"GET /item_summary/search" ..> "1" "GET /item_summary/search 400"  :  "400"
+
+"GET /item_summary/search" ..> "1" "GET /item_summary/search 409"  :  "409"
+
+"GET /item_summary/search" ..> "1" "GET /item_summary/search 500"  :  "500"
+
+"POST /item_summary/search_by_image" ..> "1" "SearchPagedCollection"  :  "200"
+
+"POST /item_summary/search_by_image" ..> "1" "POST /item_summary/search_by_image 400"  :  "400"
+
+"POST /item_summary/search_by_image" ..> "1" "POST /item_summary/search_by_image 409"  :  "409"
+
+"POST /item_summary/search_by_image" ..> "1" "POST /item_summary/search_by_image 500"  :  "500"
+
+"POST /item_summary/search_by_image" --> "1" "SearchByImageRequest"
+
+"GET /item/{item_id}" ..> "1" "Item"  :  "200"
+
+"GET /item/{item_id}" ..> "1" "GET /item/{item_id} 400"  :  "400"
+
+"GET /item/{item_id}" ..> "1" "GET /item/{item_id} 404"  :  "404"
+
+"GET /item/{item_id}" ..> "1" "GET /item/{item_id} 409"  :  "409"
+
+"GET /item/{item_id}" ..> "1" "GET /item/{item_id} 500"  :  "500"
+
+"GET /item/get_item_by_legacy_id" ..> "1" "Item"  :  "200"
+
+"GET /item/get_item_by_legacy_id" ..> "1" "GET /item/get_item_by_legacy_id 400"  :  "400"
+
+"GET /item/get_item_by_legacy_id" ..> "1" "GET /item/get_item_by_legacy_id 404"  :  "404"
+
+"GET /item/get_item_by_legacy_id" ..> "1" "GET /item/get_item_by_legacy_id 409"  :  "409"
+
+"GET /item/get_item_by_legacy_id" ..> "1" "GET /item/get_item_by_legacy_id 500"  :  "500"
+
+"GET /item/" ..> "1" "Items"  :  "200"
+
+"GET /item/" ..> "1" "GET /item/ 400"  :  "400"
+
+"GET /item/" ..> "1" "GET /item/ 404"  :  "404"
+
+"GET /item/" ..> "1" "GET /item/ 409"  :  "409"
+
+"GET /item/" ..> "1" "GET /item/ 500"  :  "500"
+
+"GET /item/get_items_by_item_group" ..> "1" "ItemGroup"  :  "200"
+
+"GET /item/get_items_by_item_group" ..> "1" "GET /item/get_items_by_item_group 400"  :  "400"
+
+"GET /item/get_items_by_item_group" ..> "1" "GET /item/get_items_by_item_group 404"  :  "404"
+
+"GET /item/get_items_by_item_group" ..> "1" "GET /item/get_items_by_item_group 409"  :  "409"
+
+"GET /item/get_items_by_item_group" ..> "1" "GET /item/get_items_by_item_group 500"  :  "500"
+
+"POST /item/{item_id}/check_compatibility" ..> "1" "CompatibilityResponse"  :  "200"
+
+"POST /item/{item_id}/check_compatibility" ..> "1" "POST /item/{item_id}/check_compatibility 400"  :  "400"
+
+"POST /item/{item_id}/check_compatibility" ..> "1" "POST /item/{item_id}/check_compatibility 404"  :  "404"
+
+"POST /item/{item_id}/check_compatibility" ..> "1" "POST /item/{item_id}/check_compatibility 409"  :  "409"
+
+"POST /item/{item_id}/check_compatibility" ..> "1" "POST /item/{item_id}/check_compatibility 500"  :  "500"
+
+"POST /item/{item_id}/check_compatibility" --> "1" "CompatibilityPayload"
+
+"POST /shopping_cart/add_item" ..> "1" "RemoteShopcartResponse"  :  "200"
+
+"POST /shopping_cart/add_item" ..> "1" "POST /shopping_cart/add_item 204"  :  "204"
+
+"POST /shopping_cart/add_item" ..> "1" "POST /shopping_cart/add_item 400"  :  "400"
+
+"POST /shopping_cart/add_item" ..> "1" "POST /shopping_cart/add_item 403"  :  "403"
+
+"POST /shopping_cart/add_item" ..> "1" "POST /shopping_cart/add_item 409"  :  "409"
+
+"POST /shopping_cart/add_item" ..> "1" "POST /shopping_cart/add_item 500"  :  "500"
+
+"POST /shopping_cart/add_item" --> "1" "AddCartItemInput"
+
+"GET /shopping_cart/" ..> "1" "RemoteShopcartResponse"  :  "200"
+
+"GET /shopping_cart/" ..> "1" "GET /shopping_cart/ 204"  :  "204"
+
+"GET /shopping_cart/" ..> "1" "GET /shopping_cart/ 400"  :  "400"
+
+"GET /shopping_cart/" ..> "1" "GET /shopping_cart/ 403"  :  "403"
+
+"GET /shopping_cart/" ..> "1" "GET /shopping_cart/ 404"  :  "404"
+
+"GET /shopping_cart/" ..> "1" "GET /shopping_cart/ 500"  :  "500"
+
+"POST /shopping_cart/remove_item" ..> "1" "RemoteShopcartResponse"  :  "200"
+
+"POST /shopping_cart/remove_item" ..> "1" "POST /shopping_cart/remove_item 204"  :  "204"
+
+"POST /shopping_cart/remove_item" ..> "1" "POST /shopping_cart/remove_item 400"  :  "400"
+
+"POST /shopping_cart/remove_item" ..> "1" "POST /shopping_cart/remove_item 403"  :  "403"
+
+"POST /shopping_cart/remove_item" ..> "1" "POST /shopping_cart/remove_item 409"  :  "409"
+
+"POST /shopping_cart/remove_item" ..> "1" "POST /shopping_cart/remove_item 500"  :  "500"
+
+"POST /shopping_cart/remove_item" --> "1" "RemoveCartItemInput"
+
+"POST /shopping_cart/update_quantity" ..> "1" "RemoteShopcartResponse"  :  "200"
+
+"POST /shopping_cart/update_quantity" ..> "1" "POST /shopping_cart/update_quantity 400"  :  "400"
+
+"POST /shopping_cart/update_quantity" ..> "1" "POST /shopping_cart/update_quantity 403"  :  "403"
+
+"POST /shopping_cart/update_quantity" ..> "1" "POST /shopping_cart/update_quantity 409"  :  "409"
+
+"POST /shopping_cart/update_quantity" ..> "1" "POST /shopping_cart/update_quantity 500"  :  "500"
+
+"POST /shopping_cart/update_quantity" --> "1" "UpdateCartItemInput"
+
+@enduml

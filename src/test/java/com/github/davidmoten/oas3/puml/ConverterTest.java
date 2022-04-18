@@ -123,16 +123,16 @@ public class ConverterTest {
 	public void generateExamplesMd()
 					throws
 					IOException {
-		File          file = new File("src/docs/examples.md");
+		File          file = new File("./examples.md");
 		StringBuilder b    = new StringBuilder();
-		b.append("## openapi-to-plantuml examples\n");
+		b.append("## Unit test examples\n");
 		for (File f : new File("src/test/resources/inputs").listFiles()) {
-			b.append("\n\n* [" + f.getName() + "](../../src/test/resources/inputs/" + f.getName() + ")");
+			b.append("\n\n* [" + f.getName() + "](./src/test/resources/inputs/" + f.getName() + ")");
 			String svg = f.getName()
 			              .substring(0,
 			                         f.getName()
 			                          .lastIndexOf(".")) + ".puml.svg";
-			b.append("\n\n<img src=\"../../src/docs/tests/" + svg + "\"/>");
+			b.append("\n\n<img src=\"./src/test/resources/outputs/" + svg + "\"/>");
 		}
 
 		file.delete();

@@ -1,0 +1,1536 @@
+@startuml
+hide <<Path>> circle
+hide <<Response>> circle
+hide <<Parameter>> circle
+hide empty methods
+hide empty fields
+set namespaceSeparator none
+
+class "AddOrDeleteRulesRequest" {
+}
+
+class "AddOrDeleteRulesResponse" {
+}
+
+class "AddRulesRequest" {
+}
+
+class "AddRulesResponse" {
+}
+
+class "AnimatedGif.1" {
+  {field} string preview_image_url 
+  {field} string type 
+}
+
+class "AnimatedGif" {
+}
+
+class "CashtagEntity" {
+}
+
+class "CashtagFields" {
+  {field} string tag *
+}
+
+class "ClientDisconnectedProblem.1" {
+  {field} string type 
+}
+
+class "ClientDisconnectedProblem" {
+}
+
+class "ClientForbiddenProblem.1" {
+  {field} string reason 
+  {field} string registration_url 
+  {field} string type 
+}
+
+class "ClientForbiddenProblem" {
+}
+
+class "CommonMediaFields" {
+}
+
+class "ConnectionExceptionProblem.1" {
+  {field} string connection_issue 
+  {field} string type 
+}
+
+class "ConnectionExceptionProblem" {
+}
+
+class "ContextAnnotation" {
+}
+
+class "ContextAnnotationDomainFields" {
+  {field} string description 
+  {field} string id *
+  {field} string name 
+}
+
+class "ContextAnnotationEntityFields" {
+  {field} string description 
+  {field} string id *
+  {field} string name 
+}
+
+class "CountryCode" {
+  {field} string value *
+}
+
+class "DeleteRulesRequest" {
+}
+
+class "DeleteRulesResponse" {
+}
+
+class "DisallowedResourceProblem.1" {
+  {field} string resource_id *
+  {field} string resource_type *
+  {field} string section *
+  {field} string type 
+}
+
+class "DisallowedResourceProblem" {
+}
+
+class "DuplicateRuleProblem.1" {
+  {field} string type 
+}
+
+class "DuplicateRuleProblem" {
+}
+
+class "EntityIndices" {
+  {field} integer end *
+  {field} integer start *
+}
+
+class "Error" {
+  {field} integer code *
+  {field} string message *
+}
+
+class "Expansions" {
+}
+
+class "FieldUnauthorizedProblem.1" {
+  {field} string field *
+  {field} string resource_type *
+  {field} string section *
+  {field} string type 
+}
+
+class "FieldUnauthorizedProblem" {
+}
+
+class "FilteredStreamingTweet.1.matching_rules" {
+  {field} string tag 
+}
+
+class "FilteredStreamingTweet.1" {
+}
+
+class "FilteredStreamingTweet.2" {
+}
+
+class "FilteredStreamingTweet" {
+}
+
+class "FullTextEntities" {
+}
+
+class "GenericProblem.1" {
+  {field} integer status *
+  {field} string type 
+}
+
+class "GenericProblem" {
+}
+
+class "GenericTweetsTimelineResponse" {
+}
+
+class "Geo.properties" {
+}
+
+class "Geo" {
+  {field} decimal[] bbox *
+  {field} string type *
+}
+
+class "HTTPStatusCode" {
+  {field} integer value *
+}
+
+class "HashtagEntity" {
+}
+
+class "HashtagFields" {
+  {field} string tag *
+}
+
+class "InvalidRequestProblem.1.errors" {
+  {field} string message 
+  {field} map parameters 
+}
+
+class "InvalidRequestProblem.1" {
+  {field} string type 
+}
+
+class "InvalidRequestProblem" {
+}
+
+class "InvalidRuleProblem.1" {
+  {field} string type 
+}
+
+class "InvalidRuleProblem" {
+}
+
+class "Media" {
+}
+
+class "MediaHeight" {
+  {field} integer value *
+}
+
+class "MediaKey" {
+  {field} string value *
+}
+
+class "MediaWidth" {
+  {field} integer value *
+}
+
+class "MentionEntity" {
+}
+
+class "MentionFields" {
+}
+
+class "OperationalDisconnectProblem.1" {
+  {field} string disconnect_type 
+  {field} string type 
+}
+
+class "OperationalDisconnectProblem" {
+}
+
+class "Photo.1" {
+  {field} string type 
+  {field} string url 
+}
+
+class "Photo" {
+}
+
+class "Place" {
+  {field} string country 
+  {field} string full_name *
+  {field} string name 
+}
+
+class "PlaceId" {
+  {field} string value *
+}
+
+class "PlaceType" {
+  {field} string value *
+}
+
+class "Point" {
+  {field} string type *
+}
+
+class "Poll" {
+  {field} integer duration_minutes 
+  {field} timestamp end_datetime 
+  {field} string voting_status 
+}
+
+class "PollId" {
+  {field} string value *
+}
+
+class "PollOption" {
+  {field} string label *
+  {field} integer position *
+  {field} integer votes *
+}
+
+class "Position.1" {
+  {field} decimal value *
+}
+
+class "Position" {
+}
+
+class "Problem" {
+}
+
+class "ProblemFields" {
+  {field} string detail *
+  {field} string title *
+}
+
+class "ReplySettings" {
+  {field} string value *
+}
+
+class "ResourceNotFoundProblem.1" {
+  {field} string parameter *
+  {field} string resource_type *
+  {field} string type 
+}
+
+class "ResourceNotFoundProblem" {
+}
+
+class "ResourceUnauthorizedProblem.1" {
+  {field} string parameter *
+  {field} string resource_type *
+  {field} string section *
+  {field} string type 
+  {field} string value *
+}
+
+class "ResourceUnauthorizedProblem" {
+}
+
+class "Rule" {
+}
+
+class "RuleId" {
+  {field} string value *
+}
+
+class "RuleNoId" {
+}
+
+class "RuleTag" {
+  {field} string value *
+}
+
+class "RuleValue" {
+  {field} string value *
+}
+
+class "RulesCapProblem.1" {
+  {field} string type 
+}
+
+class "RulesCapProblem" {
+}
+
+class "RulesRequestSummary.1" {
+  {field} integer created *
+  {field} integer not_created *
+}
+
+class "RulesRequestSummary.2" {
+  {field} integer deleted *
+  {field} integer not_deleted *
+}
+
+class "RulesRequestSummary" {
+}
+
+class "RulesResponseMetadata" {
+  {field} string sent *
+}
+
+class "SingleTweetLookupResponse" {
+}
+
+class "SingleUserLookupResponse" {
+}
+
+class "StreamingTweet.1" {
+}
+
+class "StreamingTweet" {
+}
+
+class "Tweet.attachments" {
+}
+
+class "Tweet.geo" {
+}
+
+class "Tweet.non_public_metrics" {
+  {field} integer impression_count 
+}
+
+class "Tweet.organic_metrics" {
+  {field} integer impression_count *
+  {field} integer like_count *
+  {field} integer reply_count *
+  {field} integer retweet_count *
+}
+
+class "Tweet.promoted_metrics" {
+  {field} integer impression_count 
+  {field} integer like_count 
+  {field} integer reply_count 
+  {field} integer retweet_count 
+}
+
+class "Tweet.public_metrics" {
+  {field} integer like_count *
+  {field} integer quote_count 
+  {field} integer reply_count *
+  {field} integer retweet_count *
+}
+
+class "Tweet.referenced_tweets" {
+  {field} string type *
+}
+
+class "Tweet" {
+  {field} timestamp created_at 
+  {field} string lang 
+  {field} boolean possibly_sensitive 
+  {field} string source 
+  {field} string text *
+}
+
+class "TweetID" {
+  {field} string value *
+}
+
+class "TweetLookupResponse.meta" {
+  {field} string newest_id 
+  {field} string next_token 
+  {field} string oldest_id 
+  {field} string previous_token 
+  {field} integer result_count 
+}
+
+class "TweetLookupResponse" {
+}
+
+class "TweetSearchResponse.meta" {
+  {field} string newest_id 
+  {field} string next_token 
+  {field} string oldest_id 
+  {field} integer result_count 
+}
+
+class "TweetSearchResponse" {
+}
+
+class "TweetWithheld" {
+  {field} boolean copyright *
+  {field} string scope 
+}
+
+class "URL" {
+  {field} string value *
+}
+
+class "URLFields" {
+  {field} string description 
+  {field} string display_url 
+  {field} string title 
+  {field} string unwound_url 
+}
+
+class "URLImage" {
+}
+
+class "UnsupportedAuthenticationProblem.1" {
+  {field} string type 
+}
+
+class "UnsupportedAuthenticationProblem" {
+}
+
+class "UrlEntity" {
+}
+
+class "UsageCapExceededProblem.1" {
+  {field} string period 
+  {field} string scope 
+  {field} string type 
+}
+
+class "UsageCapExceededProblem" {
+}
+
+class "User.entities.url" {
+}
+
+class "User.entities" {
+}
+
+class "User.public_metrics" {
+  {field} integer followers_count *
+  {field} integer following_count *
+  {field} integer listed_count *
+  {field} integer tweet_count *
+}
+
+class "User" {
+  {field} timestamp created_at 
+  {field} string description 
+  {field} string location 
+  {field} string name *
+  {field} string profile_image_url 
+  {field} boolean protected 
+  {field} string url 
+  {field} boolean verified 
+}
+
+class "UserID" {
+  {field} string value *
+}
+
+class "UserLookupResponse" {
+}
+
+class "UserName" {
+  {field} string value *
+}
+
+class "UserWithheld" {
+  {field} string scope 
+}
+
+class "UsersFollowersLookupResponse.meta" {
+  {field} string next_token 
+  {field} string previous_token 
+  {field} integer result_count 
+}
+
+class "UsersFollowersLookupResponse" {
+}
+
+class "UsersFollowingCreateResponse.data" {
+  {field} boolean following 
+  {field} boolean pending_follow 
+}
+
+class "UsersFollowingCreateResponse" {
+}
+
+class "UsersFollowingDeleteResponse.data" {
+  {field} boolean following 
+}
+
+class "UsersFollowingDeleteResponse" {
+}
+
+class "UsersFollowingLookupResponse.meta" {
+  {field} string next_token 
+  {field} string previous_token 
+  {field} integer result_count 
+}
+
+class "UsersFollowingLookupResponse" {
+}
+
+class "Video.1.non_public_metrics" {
+  {field} integer playback_0_count 
+  {field} integer playback_100_count 
+  {field} integer playback_25_count 
+  {field} integer playback_50_count 
+  {field} integer playback_75_count 
+}
+
+class "Video.1.organic_metrics" {
+  {field} integer playback_0_count 
+  {field} integer playback_100_count 
+  {field} integer playback_25_count 
+  {field} integer playback_50_count 
+  {field} integer playback_75_count 
+  {field} integer view_count 
+}
+
+class "Video.1.promoted_metrics" {
+  {field} integer playback_0_count 
+  {field} integer playback_100_count 
+  {field} integer playback_25_count 
+  {field} integer playback_50_count 
+  {field} integer playback_75_count 
+  {field} integer view_count 
+}
+
+class "Video.1.public_metrics" {
+  {field} integer view_count 
+}
+
+class "Video.1" {
+  {field} integer duration_ms 
+  {field} string preview_image_url 
+  {field} string type 
+}
+
+class "Video" {
+}
+
+class "EndTimeRequestParameter" <<Parameter>> {
+  {field} timestamp value *
+}
+
+class "MaxResultsRequestParameter" <<Parameter>> {
+  {field} integer value *
+}
+
+class "MediaFieldsParameter.1" <<Parameter>> {
+  {field} string value *
+}
+
+class "MediaFieldsParameter" <<Parameter>> {
+}
+
+class "PaginationTokenRequestParameter" <<Parameter>> {
+  {field} string value *
+}
+
+class "PlaceFieldsParameter.1" <<Parameter>> {
+  {field} string value *
+}
+
+class "PlaceFieldsParameter" <<Parameter>> {
+}
+
+class "PollFieldsParameter.1" <<Parameter>> {
+  {field} string value *
+}
+
+class "PollFieldsParameter" <<Parameter>> {
+}
+
+class "SinceIdRequestParameter" <<Parameter>> {
+}
+
+class "StartTimeRequestParameter" <<Parameter>> {
+  {field} timestamp value *
+}
+
+class "TweetExpansionsParameter.1" <<Parameter>> {
+  {field} string value *
+}
+
+class "TweetExpansionsParameter" <<Parameter>> {
+}
+
+class "TweetFieldsParameter.1" <<Parameter>> {
+  {field} string value *
+}
+
+class "TweetFieldsParameter" <<Parameter>> {
+}
+
+class "TweetTypeExcludesRequestParameter.1" <<Parameter>> {
+  {field} string value *
+}
+
+class "TweetTypeExcludesRequestParameter" <<Parameter>> {
+}
+
+class "UntilIdRequestParameter" <<Parameter>> {
+}
+
+class "UserExpansionsParameter.1" <<Parameter>> {
+  {field} string value *
+}
+
+class "UserExpansionsParameter" <<Parameter>> {
+}
+
+class "UserFieldsParameter.1" <<Parameter>> {
+  {field} string value *
+}
+
+class "UserFieldsParameter" <<Parameter>> {
+}
+
+class "HttpErrorResponse" <<Response>> {
+}
+
+class "GET /2/openapi.json" <<Path>> {
+}
+
+class "GET /2/openapi.json 200" <<Response>> {
+}
+
+class "GET /2/tweets" <<Path>> {
+}
+
+class "GET /2/tweets.ids" <<Parameter>> {
+}
+
+class "GET /2/tweets/sample/stream" <<Path>> {
+}
+
+class "GET /2/tweets/search/all" <<Path>> {
+  {field} string query *
+  {field} timestamp start_time 
+  {field} timestamp end_time 
+  {field} integer max_results 
+  {field} string next_token 
+}
+
+class "GET /2/tweets/search/all.since_id" <<Parameter>> {
+}
+
+class "GET /2/tweets/search/all.until_id" <<Parameter>> {
+}
+
+class "GET /2/tweets/search/all 200.meta" <<Response>> {
+  {field} string newest_id 
+  {field} string next_token 
+  {field} string oldest_id 
+  {field} integer result_count 
+}
+
+class "GET /2/tweets/search/all 200" <<Response>> {
+}
+
+class "GET /2/tweets/search/recent" <<Path>> {
+  {field} string query *
+  {field} timestamp start_time 
+  {field} timestamp end_time 
+  {field} integer max_results 
+  {field} string next_token 
+}
+
+class "GET /2/tweets/search/recent.since_id" <<Parameter>> {
+}
+
+class "GET /2/tweets/search/recent.until_id" <<Parameter>> {
+}
+
+class "GET /2/tweets/search/stream" <<Path>> {
+}
+
+class "GET /2/tweets/search/stream/rules" <<Path>> {
+}
+
+class "GET /2/tweets/search/stream/rules.ids" <<Parameter>> {
+}
+
+class "GET /2/tweets/search/stream/rules 200" <<Response>> {
+}
+
+class "POST /2/tweets/search/stream/rules" <<Path>> {
+  {field} boolean dry_run 
+}
+
+class "GET /2/tweets/{id}" <<Path>> {
+}
+
+class "GET /2/tweets/{id}.id" <<Parameter>> {
+}
+
+class "PUT /2/tweets/{id}/hidden" <<Path>> {
+}
+
+class "PUT /2/tweets/{id}/hidden.id" <<Parameter>> {
+}
+
+class "PUT /2/tweets/{id}/hidden 200.data" <<Response>> {
+  {field} boolean hidden 
+}
+
+class "PUT /2/tweets/{id}/hidden 200" <<Response>> {
+}
+
+class "PUT /2/tweets/{id}/hidden Request" <<RequestBody>> {
+  {field} boolean hidden 
+}
+
+class "GET /2/users" <<Path>> {
+}
+
+class "GET /2/users.ids" <<Parameter>> {
+}
+
+class "GET /2/users/by" <<Path>> {
+}
+
+class "GET /2/users/by.usernames" <<Parameter>> {
+}
+
+class "GET /2/users/by/username/{username}" <<Path>> {
+}
+
+class "GET /2/users/by/username/{username}.username" <<Parameter>> {
+}
+
+class "GET /2/users/{id}" <<Path>> {
+}
+
+class "GET /2/users/{id}.id" <<Parameter>> {
+}
+
+class "GET /2/users/{id}/followers" <<Path>> {
+  {field} integer max_results 
+  {field} string pagination_token 
+}
+
+class "GET /2/users/{id}/followers.id" <<Parameter>> {
+}
+
+class "GET /2/users/{id}/following" <<Path>> {
+  {field} integer max_results 
+  {field} string pagination_token 
+}
+
+class "GET /2/users/{id}/following.id" <<Parameter>> {
+}
+
+class "POST /2/users/{id}/following" <<Path>> {
+}
+
+class "POST /2/users/{id}/following.id" <<Parameter>> {
+}
+
+class "POST /2/users/{id}/following Request" <<RequestBody>> {
+  {field} string target_user_id *
+}
+
+class "GET /2/users/{id}/mentions" <<Path>> {
+}
+
+class "GET /2/users/{id}/mentions.id" <<Parameter>> {
+}
+
+class "GET /2/users/{id}/tweets" <<Path>> {
+}
+
+class "GET /2/users/{id}/tweets.id" <<Parameter>> {
+}
+
+class "DELETE /2/users/{source_user_id}/following/{target_user_id}" <<Path>> {
+}
+
+class "DELETE /2/users/{source_user_id}/following/{target_user_id}.source_user_id" <<Parameter>> {
+}
+
+class "DELETE /2/users/{source_user_id}/following/{target_user_id}.target_user_id" <<Parameter>> {
+}
+
+"AddRulesRequest" --|> "AddOrDeleteRulesRequest"
+
+"DeleteRulesRequest" --|> "AddOrDeleteRulesRequest"
+
+"AddRulesResponse" --|> "AddOrDeleteRulesResponse"
+
+"DeleteRulesResponse" --|> "AddOrDeleteRulesResponse"
+
+"AddRulesRequest" --> "*" "RuleNoId"  :  "add"
+
+"AddRulesResponse" --> "*" "Rule"  :  "data"
+
+"AddRulesResponse" --> "1" "RulesResponseMetadata"  :  "meta"
+
+"AnimatedGif" --> "1" "CommonMediaFields"
+
+"AnimatedGif" --> "1" "AnimatedGif.1"
+
+"CashtagEntity" --> "1" "EntityIndices"
+
+"CashtagEntity" --> "1" "CashtagFields"
+
+"ClientDisconnectedProblem" --> "1" "ProblemFields"
+
+"ClientDisconnectedProblem" --> "1" "ClientDisconnectedProblem.1"
+
+"ClientForbiddenProblem" --> "1" "ProblemFields"
+
+"ClientForbiddenProblem" --> "1" "ClientForbiddenProblem.1"
+
+"CommonMediaFields" --> "0..1" "MediaHeight"  :  "height"
+
+"CommonMediaFields" --> "0..1" "MediaKey"  :  "media_key"
+
+"CommonMediaFields" --> "0..1" "MediaWidth"  :  "width"
+
+"ConnectionExceptionProblem" --> "1" "ProblemFields"
+
+"ConnectionExceptionProblem" --> "1" "ConnectionExceptionProblem.1"
+
+"ContextAnnotation" --> "1" "ContextAnnotationDomainFields"  :  "domain"
+
+"ContextAnnotation" --> "1" "ContextAnnotationEntityFields"  :  "entity"
+
+"DeleteRulesRequest" --> "*" "RuleId"  :  "ids"
+
+"DeleteRulesRequest" --> "*" "RuleValue"  :  "values"
+
+"DeleteRulesResponse" --> "1" "RulesResponseMetadata"  :  "meta"
+
+"DisallowedResourceProblem" --> "1" "ProblemFields"
+
+"DisallowedResourceProblem" --> "1" "DisallowedResourceProblem.1"
+
+"DuplicateRuleProblem" --> "1" "ProblemFields"
+
+"DuplicateRuleProblem" --> "1" "DuplicateRuleProblem.1"
+
+"Expansions" --> "*" "Media"  :  "media"
+
+"Expansions" --> "*" "Place"  :  "places"
+
+"Expansions" --> "*" "Poll"  :  "polls"
+
+"Expansions" --> "*" "Tweet"  :  "tweets"
+
+"Expansions" --> "*" "User"  :  "users"
+
+"FieldUnauthorizedProblem" --> "1" "ProblemFields"
+
+"FieldUnauthorizedProblem" --> "1" "FieldUnauthorizedProblem.1"
+
+"FilteredStreamingTweet.1" --> "1" "Tweet"  :  "data"
+
+"FilteredStreamingTweet.1" --> "0..1" "Expansions"  :  "includes"
+
+"FilteredStreamingTweet.1.matching_rules" --> "1" "RuleId"  :  "id"
+
+"FilteredStreamingTweet.1" --> "*" "FilteredStreamingTweet.1.matching_rules"  :  "matching_rules"
+
+"FilteredStreamingTweet.2" --> "*" "Problem"  :  "errors"
+
+"FilteredStreamingTweet.1" --|> "FilteredStreamingTweet"
+
+"FilteredStreamingTweet.2" --|> "FilteredStreamingTweet"
+
+"FullTextEntities" --> "*" "CashtagEntity"  :  "cashtags"
+
+"FullTextEntities" --> "*" "HashtagEntity"  :  "hashtags"
+
+"FullTextEntities" --> "*" "MentionEntity"  :  "mentions"
+
+"FullTextEntities" --> "*" "UrlEntity"  :  "urls"
+
+"GenericProblem" --> "1" "ProblemFields"
+
+"GenericProblem" --> "1" "GenericProblem.1"
+
+"Geo" --> "0..1" "Point"  :  "geometry"
+
+"Geo" --> "1" "Geo.properties"  :  "properties"
+
+"HashtagEntity" --> "1" "EntityIndices"
+
+"HashtagEntity" --> "1" "HashtagFields"
+
+"InvalidRequestProblem.1" --> "*" "InvalidRequestProblem.1.errors"  :  "errors"
+
+"InvalidRequestProblem" --> "1" "ProblemFields"
+
+"InvalidRequestProblem" --> "1" "InvalidRequestProblem.1"
+
+"InvalidRuleProblem" --> "1" "ProblemFields"
+
+"InvalidRuleProblem" --> "1" "InvalidRuleProblem.1"
+
+"Photo" --|> "Media"
+
+"Video" --|> "Media"
+
+"AnimatedGif" --|> "Media"
+
+"MentionEntity" --> "1" "EntityIndices"
+
+"MentionEntity" --> "1" "MentionFields"
+
+"MentionFields" --> "1" "UserName"  :  "username"
+
+"OperationalDisconnectProblem" --> "1" "ProblemFields"
+
+"OperationalDisconnectProblem" --> "1" "OperationalDisconnectProblem.1"
+
+"Photo" --> "1" "CommonMediaFields"
+
+"Photo" --> "1" "Photo.1"
+
+"Place" --> "*" "PlaceId"  :  "contained_within"
+
+"Place" --> "0..1" "CountryCode"  :  "country_code"
+
+"Place" --> "0..1" "Geo"  :  "geo"
+
+"Place" --> "1" "PlaceId"  :  "id"
+
+"Place" --> "0..1" "PlaceType"  :  "place_type"
+
+"Point" --> "1" "Position"  :  "coordinates"
+
+"Poll" --> "1" "PollId"  :  "id"
+
+"Poll" --> "*" "PollOption"  :  "options"
+
+"Position" --> "*" "Position.1"
+
+"GenericProblem" --|> "Problem"
+
+"InvalidRequestProblem" --|> "Problem"
+
+"ClientForbiddenProblem" --|> "Problem"
+
+"ResourceNotFoundProblem" --|> "Problem"
+
+"ResourceUnauthorizedProblem" --|> "Problem"
+
+"FieldUnauthorizedProblem" --|> "Problem"
+
+"DisallowedResourceProblem" --|> "Problem"
+
+"UnsupportedAuthenticationProblem" --|> "Problem"
+
+"UsageCapExceededProblem" --|> "Problem"
+
+"ConnectionExceptionProblem" --|> "Problem"
+
+"ClientDisconnectedProblem" --|> "Problem"
+
+"OperationalDisconnectProblem" --|> "Problem"
+
+"RulesCapProblem" --|> "Problem"
+
+"InvalidRuleProblem" --|> "Problem"
+
+"DuplicateRuleProblem" --|> "Problem"
+
+"ResourceNotFoundProblem" --> "1" "ProblemFields"
+
+"ResourceNotFoundProblem" --> "1" "ResourceNotFoundProblem.1"
+
+"ResourceUnauthorizedProblem" --> "1" "ProblemFields"
+
+"ResourceUnauthorizedProblem" --> "1" "ResourceUnauthorizedProblem.1"
+
+"Rule" --> "0..1" "RuleId"  :  "id"
+
+"Rule" --> "0..1" "RuleTag"  :  "tag"
+
+"Rule" --> "1" "RuleValue"  :  "value"
+
+"RuleNoId" --> "0..1" "RuleTag"  :  "tag"
+
+"RuleNoId" --> "1" "RuleValue"  :  "value"
+
+"RulesCapProblem" --> "1" "ProblemFields"
+
+"RulesCapProblem" --> "1" "RulesCapProblem.1"
+
+"RulesRequestSummary.1" --|> "RulesRequestSummary"
+
+"RulesRequestSummary.2" --|> "RulesRequestSummary"
+
+"RulesResponseMetadata" --> "0..1" "RulesRequestSummary"  :  "summary"
+
+"SingleTweetLookupResponse" --> "0..1" "Tweet"  :  "data"
+
+"SingleTweetLookupResponse" --> "*" "Problem"  :  "errors"
+
+"SingleTweetLookupResponse" --> "0..1" "Expansions"  :  "includes"
+
+"SingleUserLookupResponse" --> "0..1" "User"  :  "data"
+
+"SingleUserLookupResponse" --> "*" "Problem"  :  "errors"
+
+"SingleUserLookupResponse" --> "0..1" "Expansions"  :  "includes"
+
+"StreamingTweet.1" --> "*" "Problem"  :  "errors"
+
+"SingleTweetLookupResponse" --|> "StreamingTweet"
+
+"StreamingTweet.1" --|> "StreamingTweet"
+
+"Tweet.attachments" --> "*" "MediaKey"  :  "media_keys"
+
+"Tweet.attachments" --> "*" "PollId"  :  "poll_ids"
+
+"Tweet" --> "0..1" "Tweet.attachments"  :  "attachments"
+
+"Tweet" --> "0..1" "UserID"  :  "author_id"
+
+"Tweet" --> "*" "ContextAnnotation"  :  "context_annotations"
+
+"Tweet" --> "0..1" "TweetID"  :  "conversation_id"
+
+"Tweet" --> "0..1" "FullTextEntities"  :  "entities"
+
+"Tweet.geo" --> "0..1" "Point"  :  "coordinates"
+
+"Tweet.geo" --> "0..1" "PlaceId"  :  "place_id"
+
+"Tweet" --> "0..1" "Tweet.geo"  :  "geo"
+
+"Tweet" --> "1" "TweetID"  :  "id"
+
+"Tweet" --> "0..1" "UserID"  :  "in_reply_to_user_id"
+
+"Tweet" --> "0..1" "Tweet.non_public_metrics"  :  "non_public_metrics"
+
+"Tweet" --> "0..1" "Tweet.organic_metrics"  :  "organic_metrics"
+
+"Tweet" --> "0..1" "Tweet.promoted_metrics"  :  "promoted_metrics"
+
+"Tweet" --> "0..1" "Tweet.public_metrics"  :  "public_metrics"
+
+"Tweet.referenced_tweets" --> "1" "TweetID"  :  "id"
+
+"Tweet" --> "*" "Tweet.referenced_tweets"  :  "referenced_tweets"
+
+"Tweet" --> "0..1" "ReplySettings"  :  "reply_settings"
+
+"Tweet" --> "0..1" "TweetWithheld"  :  "withheld"
+
+"TweetLookupResponse" --> "*" "Tweet"  :  "data"
+
+"TweetLookupResponse" --> "*" "Problem"  :  "errors"
+
+"TweetLookupResponse" --> "0..1" "Expansions"  :  "includes"
+
+"TweetLookupResponse" --> "0..1" "TweetLookupResponse.meta"  :  "meta"
+
+"TweetSearchResponse" --> "*" "Tweet"  :  "data"
+
+"TweetSearchResponse" --> "*" "Problem"  :  "errors"
+
+"TweetSearchResponse" --> "0..1" "Expansions"  :  "includes"
+
+"TweetSearchResponse" --> "0..1" "TweetSearchResponse.meta"  :  "meta"
+
+"TweetWithheld" --> "*" "CountryCode"  :  "country_codes"
+
+"URLFields" --> "0..1" "URL"  :  "expanded_url"
+
+"URLFields" --> "*" "URLImage"  :  "images"
+
+"URLFields" --> "0..1" "HTTPStatusCode"  :  "status"
+
+"URLFields" --> "1" "URL"  :  "url"
+
+"URLImage" --> "0..1" "MediaHeight"  :  "height"
+
+"URLImage" --> "0..1" "URL"  :  "url"
+
+"URLImage" --> "0..1" "MediaWidth"  :  "width"
+
+"UnsupportedAuthenticationProblem" --> "1" "ProblemFields"
+
+"UnsupportedAuthenticationProblem" --> "1" "UnsupportedAuthenticationProblem.1"
+
+"UrlEntity" --> "1" "EntityIndices"
+
+"UrlEntity" --> "1" "URLFields"
+
+"UsageCapExceededProblem" --> "1" "ProblemFields"
+
+"UsageCapExceededProblem" --> "1" "UsageCapExceededProblem.1"
+
+"User.entities" --> "0..1" "FullTextEntities"  :  "description"
+
+"User.entities.url" --> "*" "UrlEntity"  :  "urls"
+
+"User.entities" --> "0..1" "User.entities.url"  :  "url"
+
+"User" --> "0..1" "User.entities"  :  "entities"
+
+"User" --> "1" "UserID"  :  "id"
+
+"User" --> "0..1" "TweetID"  :  "pinned_tweet_id"
+
+"User" --> "0..1" "User.public_metrics"  :  "public_metrics"
+
+"User" --> "1" "UserName"  :  "username"
+
+"User" --> "0..1" "UserWithheld"  :  "withheld"
+
+"UserLookupResponse" --> "*" "User"  :  "data"
+
+"UserLookupResponse" --> "*" "Problem"  :  "errors"
+
+"UserLookupResponse" --> "0..1" "Expansions"  :  "includes"
+
+"UserWithheld" --> "*" "CountryCode"  :  "country_codes"
+
+"UsersFollowersLookupResponse" --> "*" "User"  :  "data"
+
+"UsersFollowersLookupResponse" --> "*" "Problem"  :  "errors"
+
+"UsersFollowersLookupResponse" --> "0..1" "Expansions"  :  "includes"
+
+"UsersFollowersLookupResponse" --> "0..1" "UsersFollowersLookupResponse.meta"  :  "meta"
+
+"UsersFollowingCreateResponse" --> "0..1" "UsersFollowingCreateResponse.data"  :  "data"
+
+"UsersFollowingCreateResponse" --> "*" "Problem"  :  "errors"
+
+"UsersFollowingDeleteResponse" --> "0..1" "UsersFollowingDeleteResponse.data"  :  "data"
+
+"UsersFollowingDeleteResponse" --> "*" "Problem"  :  "errors"
+
+"UsersFollowingLookupResponse" --> "*" "User"  :  "data"
+
+"UsersFollowingLookupResponse" --> "*" "Problem"  :  "errors"
+
+"UsersFollowingLookupResponse" --> "0..1" "Expansions"  :  "includes"
+
+"UsersFollowingLookupResponse" --> "0..1" "UsersFollowingLookupResponse.meta"  :  "meta"
+
+"Video.1" --> "0..1" "Video.1.non_public_metrics"  :  "non_public_metrics"
+
+"Video.1" --> "0..1" "Video.1.organic_metrics"  :  "organic_metrics"
+
+"Video.1" --> "0..1" "Video.1.promoted_metrics"  :  "promoted_metrics"
+
+"Video.1" --> "0..1" "Video.1.public_metrics"  :  "public_metrics"
+
+"Video" --> "1" "CommonMediaFields"
+
+"Video" --> "1" "Video.1"
+
+"MediaFieldsParameter" --> "*" "MediaFieldsParameter.1"
+
+"PlaceFieldsParameter" --> "*" "PlaceFieldsParameter.1"
+
+"PollFieldsParameter" --> "*" "PollFieldsParameter.1"
+
+"SinceIdRequestParameter" --> "1" "TweetID"
+
+"TweetExpansionsParameter" --> "*" "TweetExpansionsParameter.1"
+
+"TweetFieldsParameter" --> "*" "TweetFieldsParameter.1"
+
+"TweetTypeExcludesRequestParameter" --> "*" "TweetTypeExcludesRequestParameter.1"
+
+"UntilIdRequestParameter" --> "1" "TweetID"
+
+"UserExpansionsParameter" --> "*" "UserExpansionsParameter.1"
+
+"UserFieldsParameter" --> "*" "UserFieldsParameter.1"
+
+"HttpErrorResponse" --> "1" "Error"
+
+"GET /2/openapi.json" ..> "1" "GET /2/openapi.json 200"  :  "200"
+
+"GET /2/tweets.ids" --> "*" "TweetID"
+
+"GET /2/tweets" --> "1" "GET /2/tweets.ids"  :  "ids"
+
+"GET /2/tweets" --> "1" "TweetExpansionsParameter"  :  "expansions"
+
+"GET /2/tweets" --> "1" "TweetFieldsParameter"  :  "tweet.fields"
+
+"GET /2/tweets" --> "1" "UserFieldsParameter"  :  "user.fields"
+
+"GET /2/tweets" --> "1" "MediaFieldsParameter"  :  "media.fields"
+
+"GET /2/tweets" --> "1" "PlaceFieldsParameter"  :  "place.fields"
+
+"GET /2/tweets" --> "1" "PollFieldsParameter"  :  "poll.fields"
+
+"GET /2/tweets" ..> "1" "TweetLookupResponse"  :  "200"
+
+"GET /2/tweets" ..> "1" "HttpErrorResponse"  :  "default"
+
+"GET /2/tweets/sample/stream" --> "1" "TweetExpansionsParameter"  :  "expansions"
+
+"GET /2/tweets/sample/stream" --> "1" "TweetFieldsParameter"  :  "tweet.fields"
+
+"GET /2/tweets/sample/stream" --> "1" "UserFieldsParameter"  :  "user.fields"
+
+"GET /2/tweets/sample/stream" --> "1" "MediaFieldsParameter"  :  "media.fields"
+
+"GET /2/tweets/sample/stream" --> "1" "PlaceFieldsParameter"  :  "place.fields"
+
+"GET /2/tweets/sample/stream" --> "1" "PollFieldsParameter"  :  "poll.fields"
+
+"GET /2/tweets/sample/stream" ..> "1" "StreamingTweet"  :  "200"
+
+"GET /2/tweets/sample/stream" ..> "1" "HttpErrorResponse"  :  "default"
+
+"GET /2/tweets/search/all.since_id" --> "1" "TweetID"
+
+"GET /2/tweets/search/all" --> "0..1" "GET /2/tweets/search/all.since_id"  :  "since_id"
+
+"GET /2/tweets/search/all.until_id" --> "1" "TweetID"
+
+"GET /2/tweets/search/all" --> "0..1" "GET /2/tweets/search/all.until_id"  :  "until_id"
+
+"GET /2/tweets/search/all" --> "1" "TweetExpansionsParameter"  :  "expansions"
+
+"GET /2/tweets/search/all" --> "1" "TweetFieldsParameter"  :  "tweet.fields"
+
+"GET /2/tweets/search/all" --> "1" "UserFieldsParameter"  :  "user.fields"
+
+"GET /2/tweets/search/all" --> "1" "MediaFieldsParameter"  :  "media.fields"
+
+"GET /2/tweets/search/all" --> "1" "PlaceFieldsParameter"  :  "place.fields"
+
+"GET /2/tweets/search/all" --> "1" "PollFieldsParameter"  :  "poll.fields"
+
+"GET /2/tweets/search/all 200" --> "*" "Tweet"  :  "data"
+
+"GET /2/tweets/search/all 200" --> "*" "Problem"  :  "errors"
+
+"GET /2/tweets/search/all 200" --> "0..1" "Expansions"  :  "includes"
+
+"GET /2/tweets/search/all 200" --> "0..1" "GET /2/tweets/search/all 200.meta"  :  "meta"
+
+"GET /2/tweets/search/all" ..> "1" "GET /2/tweets/search/all 200"  :  "200"
+
+"GET /2/tweets/search/all" ..> "1" "HttpErrorResponse"  :  "default"
+
+"GET /2/tweets/search/recent.since_id" --> "1" "TweetID"
+
+"GET /2/tweets/search/recent" --> "0..1" "GET /2/tweets/search/recent.since_id"  :  "since_id"
+
+"GET /2/tweets/search/recent.until_id" --> "1" "TweetID"
+
+"GET /2/tweets/search/recent" --> "0..1" "GET /2/tweets/search/recent.until_id"  :  "until_id"
+
+"GET /2/tweets/search/recent" --> "1" "TweetExpansionsParameter"  :  "expansions"
+
+"GET /2/tweets/search/recent" --> "1" "TweetFieldsParameter"  :  "tweet.fields"
+
+"GET /2/tweets/search/recent" --> "1" "UserFieldsParameter"  :  "user.fields"
+
+"GET /2/tweets/search/recent" --> "1" "MediaFieldsParameter"  :  "media.fields"
+
+"GET /2/tweets/search/recent" --> "1" "PlaceFieldsParameter"  :  "place.fields"
+
+"GET /2/tweets/search/recent" --> "1" "PollFieldsParameter"  :  "poll.fields"
+
+"GET /2/tweets/search/recent" ..> "1" "TweetSearchResponse"  :  "200"
+
+"GET /2/tweets/search/recent" ..> "1" "HttpErrorResponse"  :  "default"
+
+"GET /2/tweets/search/stream" --> "1" "TweetExpansionsParameter"  :  "expansions"
+
+"GET /2/tweets/search/stream" --> "1" "TweetFieldsParameter"  :  "tweet.fields"
+
+"GET /2/tweets/search/stream" --> "1" "UserFieldsParameter"  :  "user.fields"
+
+"GET /2/tweets/search/stream" --> "1" "MediaFieldsParameter"  :  "media.fields"
+
+"GET /2/tweets/search/stream" --> "1" "PlaceFieldsParameter"  :  "place.fields"
+
+"GET /2/tweets/search/stream" --> "1" "PollFieldsParameter"  :  "poll.fields"
+
+"GET /2/tweets/search/stream" ..> "1" "FilteredStreamingTweet"  :  "200"
+
+"GET /2/tweets/search/stream" ..> "1" "HttpErrorResponse"  :  "default"
+
+"GET /2/tweets/search/stream/rules.ids" --> "*" "RuleId"
+
+"GET /2/tweets/search/stream/rules" --> "0..1" "GET /2/tweets/search/stream/rules.ids"  :  "ids"
+
+"GET /2/tweets/search/stream/rules 200" --> "*" "Rule"  :  "data"
+
+"GET /2/tweets/search/stream/rules 200" --> "1" "RulesResponseMetadata"  :  "meta"
+
+"GET /2/tweets/search/stream/rules" ..> "1" "GET /2/tweets/search/stream/rules 200"  :  "200"
+
+"GET /2/tweets/search/stream/rules" ..> "1" "HttpErrorResponse"  :  "default"
+
+"POST /2/tweets/search/stream/rules" ..> "1" "AddOrDeleteRulesResponse"  :  "200"
+
+"POST /2/tweets/search/stream/rules" ..> "1" "HttpErrorResponse"  :  "default"
+
+"POST /2/tweets/search/stream/rules" --> "1" "AddOrDeleteRulesRequest"
+
+"GET /2/tweets/{id}.id" --> "1" "TweetID"
+
+"GET /2/tweets/{id}" --> "1" "GET /2/tweets/{id}.id"  :  "id"
+
+"GET /2/tweets/{id}" --> "1" "TweetExpansionsParameter"  :  "expansions"
+
+"GET /2/tweets/{id}" --> "1" "TweetFieldsParameter"  :  "tweet.fields"
+
+"GET /2/tweets/{id}" --> "1" "UserFieldsParameter"  :  "user.fields"
+
+"GET /2/tweets/{id}" --> "1" "MediaFieldsParameter"  :  "media.fields"
+
+"GET /2/tweets/{id}" --> "1" "PlaceFieldsParameter"  :  "place.fields"
+
+"GET /2/tweets/{id}" --> "1" "PollFieldsParameter"  :  "poll.fields"
+
+"GET /2/tweets/{id}" ..> "1" "SingleTweetLookupResponse"  :  "200"
+
+"GET /2/tweets/{id}" ..> "1" "HttpErrorResponse"  :  "default"
+
+"PUT /2/tweets/{id}/hidden.id" --> "1" "TweetID"
+
+"PUT /2/tweets/{id}/hidden" --> "1" "PUT /2/tweets/{id}/hidden.id"  :  "id"
+
+"PUT /2/tweets/{id}/hidden 200" --> "0..1" "PUT /2/tweets/{id}/hidden 200.data"  :  "data"
+
+"PUT /2/tweets/{id}/hidden" ..> "1" "PUT /2/tweets/{id}/hidden 200"  :  "200"
+
+"PUT /2/tweets/{id}/hidden" ..> "1" "HttpErrorResponse"  :  "default"
+
+"PUT /2/tweets/{id}/hidden" --> "1" "PUT /2/tweets/{id}/hidden Request"
+
+"GET /2/users.ids" --> "*" "UserID"
+
+"GET /2/users" --> "1" "GET /2/users.ids"  :  "ids"
+
+"GET /2/users" --> "1" "UserExpansionsParameter"  :  "expansions"
+
+"GET /2/users" --> "1" "TweetFieldsParameter"  :  "tweet.fields"
+
+"GET /2/users" --> "1" "UserFieldsParameter"  :  "user.fields"
+
+"GET /2/users" ..> "1" "UserLookupResponse"  :  "200"
+
+"GET /2/users" ..> "1" "HttpErrorResponse"  :  "default"
+
+"GET /2/users/by.usernames" --> "*" "UserName"
+
+"GET /2/users/by" --> "1" "GET /2/users/by.usernames"  :  "usernames"
+
+"GET /2/users/by" --> "1" "UserExpansionsParameter"  :  "expansions"
+
+"GET /2/users/by" --> "1" "TweetFieldsParameter"  :  "tweet.fields"
+
+"GET /2/users/by" --> "1" "UserFieldsParameter"  :  "user.fields"
+
+"GET /2/users/by" ..> "1" "UserLookupResponse"  :  "200"
+
+"GET /2/users/by" ..> "1" "HttpErrorResponse"  :  "default"
+
+"GET /2/users/by/username/{username}.username" --> "1" "UserName"
+
+"GET /2/users/by/username/{username}" --> "1" "GET /2/users/by/username/{username}.username"  :  "username"
+
+"GET /2/users/by/username/{username}" --> "1" "UserExpansionsParameter"  :  "expansions"
+
+"GET /2/users/by/username/{username}" --> "1" "TweetFieldsParameter"  :  "tweet.fields"
+
+"GET /2/users/by/username/{username}" --> "1" "UserFieldsParameter"  :  "user.fields"
+
+"GET /2/users/by/username/{username}" ..> "1" "SingleUserLookupResponse"  :  "200"
+
+"GET /2/users/by/username/{username}" ..> "1" "HttpErrorResponse"  :  "default"
+
+"GET /2/users/{id}.id" --> "1" "UserID"
+
+"GET /2/users/{id}" --> "1" "GET /2/users/{id}.id"  :  "id"
+
+"GET /2/users/{id}" --> "1" "UserExpansionsParameter"  :  "expansions"
+
+"GET /2/users/{id}" --> "1" "TweetFieldsParameter"  :  "tweet.fields"
+
+"GET /2/users/{id}" --> "1" "UserFieldsParameter"  :  "user.fields"
+
+"GET /2/users/{id}" ..> "1" "SingleUserLookupResponse"  :  "200"
+
+"GET /2/users/{id}" ..> "1" "HttpErrorResponse"  :  "default"
+
+"GET /2/users/{id}/followers.id" --> "1" "UserID"
+
+"GET /2/users/{id}/followers" --> "1" "GET /2/users/{id}/followers.id"  :  "id"
+
+"GET /2/users/{id}/followers" ..> "1" "UsersFollowersLookupResponse"  :  "200"
+
+"GET /2/users/{id}/followers" ..> "1" "HttpErrorResponse"  :  "default"
+
+"GET /2/users/{id}/following.id" --> "1" "UserID"
+
+"GET /2/users/{id}/following" --> "1" "GET /2/users/{id}/following.id"  :  "id"
+
+"GET /2/users/{id}/following" ..> "1" "UsersFollowingLookupResponse"  :  "200"
+
+"GET /2/users/{id}/following" ..> "1" "HttpErrorResponse"  :  "default"
+
+"POST /2/users/{id}/following.id" --> "1" "UserID"
+
+"POST /2/users/{id}/following" --> "1" "POST /2/users/{id}/following.id"  :  "id"
+
+"POST /2/users/{id}/following" ..> "1" "UsersFollowingCreateResponse"  :  "200"
+
+"POST /2/users/{id}/following" ..> "1" "HttpErrorResponse"  :  "default"
+
+"POST /2/users/{id}/following" --> "1" "POST /2/users/{id}/following Request"
+
+"GET /2/users/{id}/mentions.id" --> "1" "UserID"
+
+"GET /2/users/{id}/mentions" --> "1" "GET /2/users/{id}/mentions.id"  :  "id"
+
+"GET /2/users/{id}/mentions" --> "1" "SinceIdRequestParameter"  :  "since_id"
+
+"GET /2/users/{id}/mentions" --> "1" "UntilIdRequestParameter"  :  "until_id"
+
+"GET /2/users/{id}/mentions" --> "1" "MaxResultsRequestParameter"  :  "max_results"
+
+"GET /2/users/{id}/mentions" --> "1" "PaginationTokenRequestParameter"  :  "pagination_token"
+
+"GET /2/users/{id}/mentions" --> "1" "StartTimeRequestParameter"  :  "start_time"
+
+"GET /2/users/{id}/mentions" --> "1" "EndTimeRequestParameter"  :  "end_time"
+
+"GET /2/users/{id}/mentions" --> "1" "TweetExpansionsParameter"  :  "expansions"
+
+"GET /2/users/{id}/mentions" --> "1" "TweetFieldsParameter"  :  "tweet.fields"
+
+"GET /2/users/{id}/mentions" --> "1" "UserFieldsParameter"  :  "user.fields"
+
+"GET /2/users/{id}/mentions" --> "1" "MediaFieldsParameter"  :  "media.fields"
+
+"GET /2/users/{id}/mentions" --> "1" "PlaceFieldsParameter"  :  "place.fields"
+
+"GET /2/users/{id}/mentions" --> "1" "PollFieldsParameter"  :  "poll.fields"
+
+"GET /2/users/{id}/mentions" ..> "1" "GenericTweetsTimelineResponse"  :  "200"
+
+"GET /2/users/{id}/mentions" ..> "1" "HttpErrorResponse"  :  "default"
+
+"GET /2/users/{id}/tweets.id" --> "1" "UserID"
+
+"GET /2/users/{id}/tweets" --> "1" "GET /2/users/{id}/tweets.id"  :  "id"
+
+"GET /2/users/{id}/tweets" --> "1" "SinceIdRequestParameter"  :  "since_id"
+
+"GET /2/users/{id}/tweets" --> "1" "UntilIdRequestParameter"  :  "until_id"
+
+"GET /2/users/{id}/tweets" --> "1" "MaxResultsRequestParameter"  :  "max_results"
+
+"GET /2/users/{id}/tweets" --> "1" "TweetTypeExcludesRequestParameter"  :  "exclude"
+
+"GET /2/users/{id}/tweets" --> "1" "PaginationTokenRequestParameter"  :  "pagination_token"
+
+"GET /2/users/{id}/tweets" --> "1" "StartTimeRequestParameter"  :  "start_time"
+
+"GET /2/users/{id}/tweets" --> "1" "EndTimeRequestParameter"  :  "end_time"
+
+"GET /2/users/{id}/tweets" --> "1" "TweetExpansionsParameter"  :  "expansions"
+
+"GET /2/users/{id}/tweets" --> "1" "TweetFieldsParameter"  :  "tweet.fields"
+
+"GET /2/users/{id}/tweets" --> "1" "UserFieldsParameter"  :  "user.fields"
+
+"GET /2/users/{id}/tweets" --> "1" "MediaFieldsParameter"  :  "media.fields"
+
+"GET /2/users/{id}/tweets" --> "1" "PlaceFieldsParameter"  :  "place.fields"
+
+"GET /2/users/{id}/tweets" --> "1" "PollFieldsParameter"  :  "poll.fields"
+
+"GET /2/users/{id}/tweets" ..> "1" "GenericTweetsTimelineResponse"  :  "200"
+
+"GET /2/users/{id}/tweets" ..> "1" "HttpErrorResponse"  :  "default"
+
+"DELETE /2/users/{source_user_id}/following/{target_user_id}.source_user_id" --> "1" "UserID"
+
+"DELETE /2/users/{source_user_id}/following/{target_user_id}" --> "1" "DELETE /2/users/{source_user_id}/following/{target_user_id}.source_user_id"  :  "source_user_id"
+
+"DELETE /2/users/{source_user_id}/following/{target_user_id}.target_user_id" --> "1" "UserID"
+
+"DELETE /2/users/{source_user_id}/following/{target_user_id}" --> "1" "DELETE /2/users/{source_user_id}/following/{target_user_id}.target_user_id"  :  "target_user_id"
+
+"DELETE /2/users/{source_user_id}/following/{target_user_id}" ..> "1" "UsersFollowingDeleteResponse"  :  "200"
+
+"DELETE /2/users/{source_user_id}/following/{target_user_id}" ..> "1" "HttpErrorResponse"  :  "default"
+
+@enduml

@@ -7,21 +7,21 @@ hide empty fields
 set namespaceSeparator none
 
 class "My.Customer" {
-  {field} firstName : string
-  {field} lastName : string
-  {field} secret : string {O}
-  {field} email : string {O}
-  {field} id : string {O}
-  {field} history : byte[] {O}
-  {field} history2 : byte[] {O}
-  {field} heightMetres : decimal {O}
-  {field} dateOfBirth : date
-  {field} lastSessionTime : timestamp {O}
-  {field} numberOfChildren : integer {O}
-  {field} alive : boolean {O}
-  {field} nicknames : string[] {O}
-  {field} favouriteNumbers : integer[] {O}
-  {field} picture : byte[] {O}
+  {field} string firstName *
+  {field} string lastName *
+  {field} string secret 
+  {field} string email 
+  {field} string id 
+  {field} byte[] history 
+  {field} byte[] history2 
+  {field} decimal heightMetres 
+  {field} date dateOfBirth *
+  {field} timestamp lastSessionTime 
+  {field} integer numberOfChildren 
+  {field} boolean alive 
+  {field} string[] nicknames 
+  {field} integer[] favouriteNumbers 
+  {field} byte[] picture 
 }
 
 @enduml

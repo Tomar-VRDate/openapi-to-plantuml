@@ -1,0 +1,307 @@
+@startuml
+hide <<Path>> circle
+hide <<Response>> circle
+hide <<Parameter>> circle
+hide empty methods
+hide empty fields
+set namespaceSeparator none
+
+class "indexSearchQuery.value" {
+  {field} string value *
+}
+
+class "indexSearchQuery.value.1.1" {
+  {field} string value *
+}
+
+class "indexSearchQuery.value.1" {
+}
+
+class "indexSearchQuery" {
+  {field} string key *
+  {field} integer count 
+  {field} integer offset 
+  {field} timestamp minDate 
+  {field} timestamp maxDate 
+  {field} string order 
+}
+
+class "articleSearchQuery.publisher" {
+  {field} string value *
+}
+
+class "articleSearchQuery.publisher.1.1" {
+  {field} string value *
+}
+
+class "articleSearchQuery.publisher.1" {
+}
+
+class "articleSearchQuery.provider" {
+  {field} string value *
+}
+
+class "articleSearchQuery.provider.1.1" {
+  {field} string value *
+}
+
+class "articleSearchQuery.provider.1" {
+}
+
+class "articleSearchQuery.type" {
+  {field} string value *
+}
+
+class "articleSearchQuery.type.1.1" {
+  {field} string value *
+}
+
+class "articleSearchQuery.type.1" {
+}
+
+class "articleSearchQuery" {
+  {field} string fullText 
+  {field} integer count 
+  {field} integer offset 
+  {field} timestamp minDate 
+  {field} timestamp maxDate 
+  {field} string language 
+}
+
+class "article.metaData" {
+}
+
+class "article.normalizedData" {
+}
+
+class "article" {
+  {field} string provider *
+  {field} string publisher 
+  {field} string headline *
+  {field} string link 
+  {field} timestamp date *
+  {field} timestamp expires 
+  {field} string slug *
+  {field} string summary 
+  {field} string firstParagraph 
+  {field} string bodyId 
+  {field} string language 
+  {field} string visiblity 
+  {field} integer quality *
+}
+
+class "multipleArticleResponse" {
+  {field} boolean success *
+}
+
+class "singleArticleResponse" {
+  {field} boolean success *
+}
+
+class "articleBodyResponse.body" {
+  {field} decimal v *
+}
+
+class "articleBodyResponse" {
+  {field} boolean success *
+}
+
+class "articleBodyChunk" {
+  {field} string name *
+  {field} string format *
+  {field} string content *
+}
+
+class "POST /search/indexedData" <<Path>> {
+}
+
+class "POST /search/indexedData 200" <<Response>> {
+}
+
+class "POST /search/indexedData 400" <<Response>> {
+}
+
+class "POST /search/indexedData 403" <<Response>> {
+}
+
+class "POST /search/article" <<Path>> {
+}
+
+class "POST /search/article 200" <<Response>> {
+}
+
+class "POST /search/article 400" <<Response>> {
+}
+
+class "POST /search/article 403" <<Response>> {
+}
+
+class "GET /article/{slug}" <<Path>> {
+  {field} string slug *
+}
+
+class "GET /article/{slug} 200" <<Response>> {
+}
+
+class "GET /article/{slug} 400" <<Response>> {
+}
+
+class "GET /article/{slug} 403" <<Response>> {
+}
+
+class "GET /article/{id}" <<Path>> {
+  {field} integer id *
+}
+
+class "GET /article/{id} 200" <<Response>> {
+}
+
+class "GET /article/{id} 400" <<Response>> {
+}
+
+class "GET /article/{id} 403" <<Response>> {
+}
+
+class "GET /body/{bodyId}" <<Path>> {
+  {field} string bodyId *
+}
+
+class "GET /body/{bodyId} 400" <<Response>> {
+}
+
+class "GET /body/{bodyId} 403" <<Response>> {
+}
+
+class "GET /body/{bodyId}/render" <<Path>> {
+  {field} string bodyId *
+}
+
+class "GET /body/{bodyId}/render 400" <<Response>> {
+}
+
+class "GET /body/{bodyId}/render 403" <<Response>> {
+}
+
+class "POST /article" <<Path>> {
+}
+
+class "POST /article 200" <<Response>> {
+  {field} boolean success *
+  {field} integer id *
+}
+
+class "POST /article 400" <<Response>> {
+}
+
+class "POST /article 403" <<Response>> {
+}
+
+"indexSearchQuery.value.1" --> "*" "indexSearchQuery.value.1.1"
+
+diamond anon1
+
+"indexSearchQuery" -->"0..1" "anon1" : "value"
+
+"indexSearchQuery.value" --|> "anon1"
+
+"indexSearchQuery.value.1" --|> "anon1"
+
+"articleSearchQuery.publisher.1" --> "*" "articleSearchQuery.publisher.1.1"
+
+diamond anon2
+
+"articleSearchQuery" -->"0..1" "anon2" : "publisher"
+
+"articleSearchQuery.publisher" --|> "anon2"
+
+"articleSearchQuery.publisher.1" --|> "anon2"
+
+"articleSearchQuery.provider.1" --> "*" "articleSearchQuery.provider.1.1"
+
+diamond anon3
+
+"articleSearchQuery" -->"0..1" "anon3" : "provider"
+
+"articleSearchQuery.provider" --|> "anon3"
+
+"articleSearchQuery.provider.1" --|> "anon3"
+
+"articleSearchQuery.type.1" --> "*" "articleSearchQuery.type.1.1"
+
+diamond anon4
+
+"articleSearchQuery" -->"0..1" "anon4" : "type"
+
+"articleSearchQuery.type" --|> "anon4"
+
+"articleSearchQuery.type.1" --|> "anon4"
+
+"article" --> "0..1" "article.metaData"  :  "metaData"
+
+"article" --> "0..1" "article.normalizedData"  :  "normalizedData"
+
+"multipleArticleResponse" --> "*" "article"  :  "rows"
+
+"singleArticleResponse" --> "1" "article"  :  "doc"
+
+"articleBodyResponse.body" --> "*" "articleBodyChunk"  :  "chunks"
+
+"articleBodyResponse" --> "0..1" "articleBodyResponse.body"  :  "body"
+
+"POST /search/indexedData 200" --> "*" "multipleArticleResponse"
+
+"POST /search/indexedData" ..> "1" "POST /search/indexedData 200"  :  "200"
+
+"POST /search/indexedData" ..> "1" "POST /search/indexedData 400"  :  "400"
+
+"POST /search/indexedData" ..> "1" "POST /search/indexedData 403"  :  "403"
+
+"POST /search/indexedData" --> "1" "indexSearchQuery"
+
+"POST /search/article 200" --> "*" "multipleArticleResponse"
+
+"POST /search/article" ..> "1" "POST /search/article 200"  :  "200"
+
+"POST /search/article" ..> "1" "POST /search/article 400"  :  "400"
+
+"POST /search/article" ..> "1" "POST /search/article 403"  :  "403"
+
+"POST /search/article" --> "1" "articleSearchQuery"
+
+"GET /article/{slug} 200" --> "*" "singleArticleResponse"
+
+"GET /article/{slug}" ..> "1" "GET /article/{slug} 200"  :  "200"
+
+"GET /article/{slug}" ..> "1" "GET /article/{slug} 400"  :  "400"
+
+"GET /article/{slug}" ..> "1" "GET /article/{slug} 403"  :  "403"
+
+"GET /article/{id} 200" --> "*" "singleArticleResponse"
+
+"GET /article/{id}" ..> "1" "GET /article/{id} 200"  :  "200"
+
+"GET /article/{id}" ..> "1" "GET /article/{id} 400"  :  "400"
+
+"GET /article/{id}" ..> "1" "GET /article/{id} 403"  :  "403"
+
+"GET /body/{bodyId}" ..> "1" "articleBodyResponse"  :  "200"
+
+"GET /body/{bodyId}" ..> "1" "GET /body/{bodyId} 400"  :  "400"
+
+"GET /body/{bodyId}" ..> "1" "GET /body/{bodyId} 403"  :  "403"
+
+"GET /body/{bodyId}/render" ..> "1" "articleBodyResponse"  :  "200"
+
+"GET /body/{bodyId}/render" ..> "1" "GET /body/{bodyId}/render 400"  :  "400"
+
+"GET /body/{bodyId}/render" ..> "1" "GET /body/{bodyId}/render 403"  :  "403"
+
+"POST /article" ..> "1" "POST /article 200"  :  "200"
+
+"POST /article" ..> "1" "POST /article 400"  :  "400"
+
+"POST /article" ..> "1" "POST /article 403"  :  "403"
+
+"POST /article" --> "1" "article"
+
+@enduml

@@ -1,0 +1,1113 @@
+@startuml
+hide <<Path>> circle
+hide <<Response>> circle
+hide <<Parameter>> circle
+hide empty methods
+hide empty fields
+set namespaceSeparator none
+
+class "ActivityStats" {
+  {field} decimal biggest_ride_distance 
+  {field} decimal biggest_climb_elevation_gain 
+}
+
+class "ActivityTotal" {
+  {field} integer count 
+  {field} decimal distance 
+  {field} integer moving_time 
+  {field} integer elapsed_time 
+  {field} decimal elevation_gain 
+  {field} integer achievement_count 
+}
+
+class "Fault" {
+  {field} string message 
+}
+
+class "Error" {
+  {field} string code 
+  {field} string field 
+  {field} string resource 
+}
+
+class "DetailedAthlete.1" {
+  {field} integer follower_count 
+  {field} integer friend_count 
+  {field} string measurement_preference 
+  {field} integer ftp 
+  {field} decimal weight 
+}
+
+class "DetailedAthlete" {
+}
+
+class "SummaryAthlete.1" {
+  {field} integer resource_state 
+  {field} string firstname 
+  {field} string lastname 
+  {field} string profile_medium 
+  {field} string profile 
+  {field} string city 
+  {field} string state 
+  {field} string country 
+  {field} string sex 
+  {field} boolean premium 
+  {field} boolean summit 
+  {field} timestamp created_at 
+  {field} timestamp updated_at 
+}
+
+class "SummaryAthlete" {
+}
+
+class "MetaAthlete" {
+  {field} integer id 
+}
+
+class "SummaryClub.1" {
+  {field} string profile_medium 
+  {field} string cover_photo 
+  {field} string cover_photo_small 
+  {field} string sport_type 
+  {field} string city 
+  {field} string state 
+  {field} string country 
+  {field} boolean private 
+  {field} integer member_count 
+  {field} boolean featured 
+  {field} boolean verified 
+  {field} string url 
+}
+
+class "SummaryClub" {
+}
+
+class "MetaClub" {
+  {field} integer id 
+  {field} integer resource_state 
+  {field} string name 
+}
+
+class "SummaryGear" {
+  {field} string id 
+  {field} integer resource_state 
+  {field} boolean primary 
+  {field} string name 
+  {field} decimal distance 
+}
+
+class "Zones" {
+}
+
+class "HeartRateZoneRanges" {
+  {field} boolean custom_zones 
+}
+
+class "ZoneRanges" {
+}
+
+class "ZoneRange" {
+  {field} integer min 
+  {field} integer max 
+}
+
+class "PowerZoneRanges" {
+}
+
+class "DetailedSegment.1" {
+  {field} timestamp created_at 
+  {field} timestamp updated_at 
+  {field} decimal total_elevation_gain 
+  {field} integer effort_count 
+  {field} integer athlete_count 
+  {field} boolean hazardous 
+  {field} integer star_count 
+}
+
+class "DetailedSegment" {
+}
+
+class "SummarySegment" {
+  {field} integer id 
+  {field} string name 
+  {field} string activity_type 
+  {field} decimal distance 
+  {field} decimal average_grade 
+  {field} decimal maximum_grade 
+  {field} decimal elevation_high 
+  {field} decimal elevation_low 
+  {field} integer climb_category 
+  {field} string city 
+  {field} string state 
+  {field} string country 
+  {field} boolean private 
+}
+
+class "LatLng.1" {
+  {field} decimal value *
+}
+
+class "LatLng" {
+}
+
+class "SummarySegmentEffort" {
+  {field} integer id 
+  {field} integer activity_id 
+  {field} integer elapsed_time 
+  {field} timestamp start_date 
+  {field} timestamp start_date_local 
+  {field} decimal distance 
+  {field} boolean is_kom 
+}
+
+class "SummaryPRSegmentEffort" {
+  {field} integer pr_activity_id 
+  {field} integer pr_elapsed_time 
+  {field} timestamp pr_date 
+  {field} integer effort_count 
+}
+
+class "PolylineMap" {
+  {field} string id 
+  {field} string polyline 
+  {field} string summary_polyline 
+}
+
+class "DetailedSegmentEffort.1" {
+  {field} string name 
+  {field} integer moving_time 
+  {field} integer start_index 
+  {field} integer end_index 
+  {field} decimal average_cadence 
+  {field} decimal average_watts 
+  {field} boolean device_watts 
+  {field} decimal average_heartrate 
+  {field} decimal max_heartrate 
+  {field} integer kom_rank 
+  {field} integer pr_rank 
+  {field} boolean hidden 
+}
+
+class "DetailedSegmentEffort" {
+}
+
+class "MetaActivity" {
+  {field} integer id 
+}
+
+class "ExplorerResponse" {
+}
+
+class "ExplorerSegment" {
+  {field} integer id 
+  {field} string name 
+  {field} integer climb_category 
+  {field} string climb_category_desc 
+  {field} decimal avg_grade 
+  {field} decimal elev_difference 
+  {field} decimal distance 
+  {field} string points 
+}
+
+class "RunningRace" {
+  {field} integer id 
+  {field} string name 
+  {field} integer running_race_type 
+  {field} decimal distance 
+  {field} timestamp start_date_local 
+  {field} string city 
+  {field} string state 
+  {field} string country 
+  {field} integer[] route_ids 
+  {field} string measurement_preference 
+  {field} string url 
+  {field} string website_url 
+}
+
+class "DetailedActivity.1" {
+  {field} string description 
+  {field} decimal calories 
+  {field} string device_name 
+  {field} string embed_token 
+}
+
+class "DetailedActivity" {
+}
+
+class "SummaryActivity.1" {
+  {field} string external_id 
+  {field} integer upload_id 
+  {field} string name 
+  {field} decimal distance 
+  {field} integer moving_time 
+  {field} integer elapsed_time 
+  {field} decimal total_elevation_gain 
+  {field} decimal elev_high 
+  {field} decimal elev_low 
+  {field} timestamp start_date 
+  {field} timestamp start_date_local 
+  {field} string timezone 
+  {field} integer achievement_count 
+  {field} integer kudos_count 
+  {field} integer comment_count 
+  {field} integer athlete_count 
+  {field} integer photo_count 
+  {field} integer total_photo_count 
+  {field} boolean trainer 
+  {field} boolean commute 
+  {field} boolean manual 
+  {field} boolean private 
+  {field} boolean flagged 
+  {field} integer workout_type 
+  {field} string upload_id_str 
+  {field} decimal average_speed 
+  {field} decimal max_speed 
+  {field} boolean has_kudoed 
+  {field} string gear_id 
+  {field} decimal kilojoules 
+  {field} decimal average_watts 
+  {field} boolean device_watts 
+  {field} integer max_watts 
+  {field} integer weighted_average_watts 
+}
+
+class "SummaryActivity" {
+}
+
+class "ActivityType" {
+  {field} string value *
+}
+
+class "PhotosSummary.primary" {
+  {field} integer id 
+  {field} integer source 
+  {field} string unique_id 
+  {field} map urls 
+}
+
+class "PhotosSummary" {
+  {field} integer count 
+}
+
+class "Split" {
+  {field} decimal average_speed 
+  {field} decimal distance 
+  {field} integer elapsed_time 
+  {field} decimal elevation_difference 
+  {field} integer pace_zone 
+  {field} integer moving_time 
+  {field} integer split 
+}
+
+class "Lap" {
+  {field} integer id 
+  {field} decimal average_cadence 
+  {field} decimal average_speed 
+  {field} decimal distance 
+  {field} integer elapsed_time 
+  {field} integer start_index 
+  {field} integer end_index 
+  {field} integer lap_index 
+  {field} decimal max_speed 
+  {field} integer moving_time 
+  {field} string name 
+  {field} integer pace_zone 
+  {field} integer split 
+  {field} timestamp start_date 
+  {field} timestamp start_date_local 
+  {field} decimal total_elevation_gain 
+}
+
+class "UpdatableActivity" {
+  {field} boolean commute 
+  {field} boolean trainer 
+  {field} string description 
+  {field} string name 
+  {field} string gear_id 
+}
+
+class "ActivityZone" {
+  {field} integer score 
+  {field} string type 
+  {field} boolean sensor_based 
+  {field} integer points 
+  {field} boolean custom_zones 
+  {field} integer max 
+}
+
+class "TimedZoneDistribution" {
+}
+
+class "TimedZoneRange.1" {
+  {field} integer time 
+}
+
+class "TimedZoneRange" {
+}
+
+class "Comment" {
+  {field} integer id 
+  {field} integer activity_id 
+  {field} string text 
+  {field} timestamp created_at 
+}
+
+class "DetailedClub.1" {
+  {field} string membership 
+  {field} boolean admin 
+  {field} boolean owner 
+  {field} integer following_count 
+}
+
+class "DetailedClub" {
+}
+
+class "DetailedGear.1" {
+  {field} string brand_name 
+  {field} string model_name 
+  {field} integer frame_type 
+  {field} string description 
+}
+
+class "DetailedGear" {
+}
+
+class "Route" {
+  {field} string description 
+  {field} decimal distance 
+  {field} decimal elevation_gain 
+  {field} integer id 
+  {field} string id_str 
+  {field} string name 
+  {field} boolean private 
+  {field} boolean starred 
+  {field} integer timestamp 
+  {field} integer type 
+  {field} integer sub_type 
+  {field} timestamp created_at 
+  {field} timestamp updated_at 
+  {field} integer estimated_moving_time 
+}
+
+class "Upload" {
+  {field} integer id 
+  {field} string id_str 
+  {field} string external_id 
+  {field} string error 
+  {field} string status 
+  {field} integer activity_id 
+}
+
+class "StreamSet" {
+}
+
+class "TimeStream.1" {
+  {field} integer[] data 
+}
+
+class "TimeStream" {
+}
+
+class "BaseStream" {
+  {field} integer original_size 
+  {field} string resolution 
+  {field} string series_type 
+}
+
+class "DistanceStream.1" {
+  {field} decimal[] data 
+}
+
+class "DistanceStream" {
+}
+
+class "LatLngStream.1" {
+}
+
+class "LatLngStream" {
+}
+
+class "AltitudeStream.1" {
+  {field} decimal[] data 
+}
+
+class "AltitudeStream" {
+}
+
+class "SmoothVelocityStream.1" {
+  {field} decimal[] data 
+}
+
+class "SmoothVelocityStream" {
+}
+
+class "HeartrateStream.1" {
+  {field} integer[] data 
+}
+
+class "HeartrateStream" {
+}
+
+class "CadenceStream.1" {
+  {field} integer[] data 
+}
+
+class "CadenceStream" {
+}
+
+class "PowerStream.1" {
+  {field} integer[] data 
+}
+
+class "PowerStream" {
+}
+
+class "TemperatureStream.1" {
+  {field} integer[] data 
+}
+
+class "TemperatureStream" {
+}
+
+class "MovingStream.1" {
+  {field} boolean[] data 
+}
+
+class "MovingStream" {
+}
+
+class "SmoothGradeStream.1" {
+  {field} decimal[] data 
+}
+
+class "SmoothGradeStream" {
+}
+
+class "page" <<Parameter>> {
+  {field} integer value *
+}
+
+class "perPage" <<Parameter>> {
+  {field} integer value *
+}
+
+class "GET /athletes/{id}/stats" <<Path>> {
+  {field} integer id *
+}
+
+class "GET /athlete" <<Path>> {
+}
+
+class "PUT /athlete" <<Path>> {
+  {field} decimal weight *
+}
+
+class "GET /athlete/zones" <<Path>> {
+}
+
+class "GET /segments/{id}" <<Path>> {
+  {field} integer id *
+}
+
+class "GET /segments/starred" <<Path>> {
+  {field} integer page 
+  {field} integer per_page 
+}
+
+class "GET /segments/starred 200" <<Response>> {
+}
+
+class "PUT /segments/{id}/starred" <<Path>> {
+  {field} integer id *
+}
+
+class "PUT /segments/{id}/starred Request" <<RequestBody>> {
+  {field} boolean starred *
+}
+
+class "GET /segment_efforts" <<Path>> {
+  {field} integer segment_id *
+  {field} timestamp start_date_local 
+  {field} timestamp end_date_local 
+  {field} integer per_page 
+}
+
+class "GET /segment_efforts 200" <<Response>> {
+}
+
+class "GET /segments/explore" <<Path>> {
+  {field} decimal[] bounds *
+  {field} string activity_type 
+  {field} integer min_cat 
+  {field} integer max_cat 
+}
+
+class "GET /segment_efforts/{id}" <<Path>> {
+  {field} integer id *
+}
+
+class "GET /running_races/{id}" <<Path>> {
+  {field} integer id *
+}
+
+class "GET /running_races" <<Path>> {
+  {field} integer year 
+}
+
+class "GET /running_races 200" <<Response>> {
+}
+
+class "POST /activities" <<Path>> {
+}
+
+class "POST /activities Request" <<RequestBody>> {
+  {field} string name *
+  {field} string type *
+  {field} timestamp start_date_local *
+  {field} integer elapsed_time *
+  {field} string description 
+  {field} decimal distance 
+  {field} integer trainer 
+  {field} integer commute 
+}
+
+class "GET /activities/{id}" <<Path>> {
+  {field} integer id *
+  {field} boolean include_all_efforts 
+}
+
+class "PUT /activities/{id}" <<Path>> {
+  {field} integer id *
+}
+
+class "GET /athlete/activities" <<Path>> {
+  {field} integer before 
+  {field} integer after 
+  {field} integer page 
+  {field} integer per_page 
+}
+
+class "GET /athlete/activities 200" <<Response>> {
+}
+
+class "GET /activities/{id}/laps" <<Path>> {
+  {field} integer id *
+}
+
+class "GET /activities/{id}/laps 200" <<Response>> {
+}
+
+class "GET /activities/{id}/zones" <<Path>> {
+  {field} integer id *
+}
+
+class "GET /activities/{id}/zones 200" <<Response>> {
+}
+
+class "GET /activities/{id}/comments" <<Path>> {
+  {field} integer id *
+  {field} integer page 
+  {field} integer per_page 
+}
+
+class "GET /activities/{id}/comments 200" <<Response>> {
+}
+
+class "GET /activities/{id}/kudos" <<Path>> {
+  {field} integer id *
+  {field} integer page 
+  {field} integer per_page 
+}
+
+class "GET /activities/{id}/kudos 200" <<Response>> {
+}
+
+class "GET /clubs/{id}" <<Path>> {
+  {field} integer id *
+}
+
+class "GET /clubs/{id}/members" <<Path>> {
+  {field} integer id *
+  {field} integer page 
+  {field} integer per_page 
+}
+
+class "GET /clubs/{id}/members 200" <<Response>> {
+}
+
+class "GET /clubs/{id}/admins" <<Path>> {
+  {field} integer id *
+  {field} integer page 
+  {field} integer per_page 
+}
+
+class "GET /clubs/{id}/admins 200" <<Response>> {
+}
+
+class "GET /clubs/{id}/activities" <<Path>> {
+  {field} integer id *
+  {field} integer page 
+  {field} integer per_page 
+}
+
+class "GET /clubs/{id}/activities 200" <<Response>> {
+}
+
+class "GET /athlete/clubs" <<Path>> {
+  {field} integer page 
+  {field} integer per_page 
+}
+
+class "GET /athlete/clubs 200" <<Response>> {
+}
+
+class "GET /gear/{id}" <<Path>> {
+  {field} string id *
+}
+
+class "GET /routes/{id}" <<Path>> {
+  {field} integer id *
+}
+
+class "GET /athletes/{id}/routes" <<Path>> {
+  {field} integer page 
+  {field} integer per_page 
+}
+
+class "GET /athletes/{id}/routes 200" <<Response>> {
+}
+
+class "GET /routes/{id}/export_gpx" <<Path>> {
+  {field} integer id *
+}
+
+class "GET /routes/{id}/export_tcx" <<Path>> {
+  {field} integer id *
+}
+
+class "POST /uploads" <<Path>> {
+}
+
+class "POST /uploads Request" <<RequestBody>> {
+  {field} byte[] file 
+  {field} string name 
+  {field} string description 
+  {field} string trainer 
+  {field} string commute 
+  {field} string data_type 
+  {field} string external_id 
+}
+
+class "GET /uploads/{uploadId}" <<Path>> {
+  {field} integer uploadId *
+}
+
+class "GET /activities/{id}/streams" <<Path>> {
+  {field} integer id *
+  {field} string[] keys *
+  {field} boolean key_by_type *
+}
+
+class "GET /segment_efforts/{id}/streams" <<Path>> {
+  {field} integer id *
+  {field} string[] keys *
+  {field} boolean key_by_type *
+}
+
+class "GET /segments/{id}/streams" <<Path>> {
+  {field} integer id *
+  {field} string[] keys *
+  {field} boolean key_by_type *
+}
+
+class "GET /routes/{id}/streams" <<Path>> {
+  {field} integer id *
+}
+
+"ActivityStats" --> "0..1" "ActivityTotal"  :  "recent_ride_totals"
+
+"ActivityStats" --> "0..1" "ActivityTotal"  :  "recent_run_totals"
+
+"ActivityStats" --> "0..1" "ActivityTotal"  :  "recent_swim_totals"
+
+"ActivityStats" --> "0..1" "ActivityTotal"  :  "ytd_ride_totals"
+
+"ActivityStats" --> "0..1" "ActivityTotal"  :  "ytd_run_totals"
+
+"ActivityStats" --> "0..1" "ActivityTotal"  :  "ytd_swim_totals"
+
+"ActivityStats" --> "0..1" "ActivityTotal"  :  "all_ride_totals"
+
+"ActivityStats" --> "0..1" "ActivityTotal"  :  "all_run_totals"
+
+"ActivityStats" --> "0..1" "ActivityTotal"  :  "all_swim_totals"
+
+"Fault" --> "*" "Error"  :  "errors"
+
+"DetailedAthlete.1" --> "*" "SummaryClub"  :  "clubs"
+
+"DetailedAthlete.1" --> "*" "SummaryGear"  :  "bikes"
+
+"DetailedAthlete.1" --> "*" "SummaryGear"  :  "shoes"
+
+"DetailedAthlete" --> "1" "SummaryAthlete"
+
+"DetailedAthlete" --> "1" "DetailedAthlete.1"
+
+"SummaryAthlete" --> "1" "MetaAthlete"
+
+"SummaryAthlete" --> "1" "SummaryAthlete.1"
+
+"SummaryClub" --> "1" "MetaClub"
+
+"SummaryClub" --> "1" "SummaryClub.1"
+
+"Zones" --> "0..1" "HeartRateZoneRanges"  :  "heart_rate"
+
+"Zones" --> "0..1" "PowerZoneRanges"  :  "power"
+
+"HeartRateZoneRanges" --> "0..1" "ZoneRanges"  :  "zones"
+
+"ZoneRanges" --> "*" "ZoneRange"
+
+"PowerZoneRanges" --> "0..1" "ZoneRanges"  :  "zones"
+
+"DetailedSegment.1" --> "0..1" "PolylineMap"  :  "map"
+
+"DetailedSegment" --> "1" "SummarySegment"
+
+"DetailedSegment" --> "1" "DetailedSegment.1"
+
+"SummarySegment" --> "0..1" "LatLng"  :  "start_latlng"
+
+"SummarySegment" --> "0..1" "LatLng"  :  "end_latlng"
+
+"SummarySegment" --> "0..1" "SummarySegmentEffort"  :  "athlete_pr_effort"
+
+"SummarySegment" --> "0..1" "SummaryPRSegmentEffort"  :  "athlete_segment_stats"
+
+"LatLng" --> "*" "LatLng.1"
+
+"DetailedSegmentEffort.1" --> "0..1" "MetaActivity"  :  "activity"
+
+"DetailedSegmentEffort.1" --> "0..1" "MetaAthlete"  :  "athlete"
+
+"DetailedSegmentEffort.1" --> "0..1" "SummarySegment"  :  "segment"
+
+"DetailedSegmentEffort" --> "1" "SummarySegmentEffort"
+
+"DetailedSegmentEffort" --> "1" "DetailedSegmentEffort.1"
+
+"ExplorerResponse" --> "*" "ExplorerSegment"  :  "segments"
+
+"ExplorerSegment" --> "0..1" "LatLng"  :  "start_latlng"
+
+"ExplorerSegment" --> "0..1" "LatLng"  :  "end_latlng"
+
+"DetailedActivity.1" --> "0..1" "PhotosSummary"  :  "photos"
+
+"DetailedActivity.1" --> "0..1" "SummaryGear"  :  "gear"
+
+"DetailedActivity.1" --> "*" "DetailedSegmentEffort"  :  "segment_efforts"
+
+"DetailedActivity.1" --> "*" "Split"  :  "splits_metric"
+
+"DetailedActivity.1" --> "*" "Split"  :  "splits_standard"
+
+"DetailedActivity.1" --> "*" "Lap"  :  "laps"
+
+"DetailedActivity.1" --> "*" "DetailedSegmentEffort"  :  "best_efforts"
+
+"DetailedActivity" --> "1" "SummaryActivity"
+
+"DetailedActivity" --> "1" "DetailedActivity.1"
+
+"SummaryActivity.1" --> "0..1" "MetaAthlete"  :  "athlete"
+
+"SummaryActivity.1" --> "0..1" "ActivityType"  :  "type"
+
+"SummaryActivity.1" --> "0..1" "LatLng"  :  "start_latlng"
+
+"SummaryActivity.1" --> "0..1" "LatLng"  :  "end_latlng"
+
+"SummaryActivity.1" --> "0..1" "PolylineMap"  :  "map"
+
+"SummaryActivity" --> "1" "MetaActivity"
+
+"SummaryActivity" --> "1" "SummaryActivity.1"
+
+"PhotosSummary" --> "0..1" "PhotosSummary.primary"  :  "primary"
+
+"Lap" --> "0..1" "MetaActivity"  :  "activity"
+
+"Lap" --> "0..1" "MetaAthlete"  :  "athlete"
+
+"UpdatableActivity" --> "0..1" "ActivityType"  :  "type"
+
+"ActivityZone" --> "0..1" "TimedZoneDistribution"  :  "distribution_buckets"
+
+"TimedZoneDistribution" --> "*" "TimedZoneRange"
+
+"TimedZoneRange" --> "1" "ZoneRange"
+
+"TimedZoneRange" --> "1" "TimedZoneRange.1"
+
+"Comment" --> "0..1" "SummaryAthlete"  :  "athlete"
+
+"DetailedClub" --> "1" "SummaryClub"
+
+"DetailedClub" --> "1" "DetailedClub.1"
+
+"DetailedGear" --> "1" "SummaryGear"
+
+"DetailedGear" --> "1" "DetailedGear.1"
+
+"Route" --> "0..1" "SummaryAthlete"  :  "athlete"
+
+"Route" --> "0..1" "PolylineMap"  :  "map"
+
+"Route" --> "*" "SummarySegment"  :  "segments"
+
+"StreamSet" --> "0..1" "TimeStream"  :  "time"
+
+"StreamSet" --> "0..1" "DistanceStream"  :  "distance"
+
+"StreamSet" --> "0..1" "LatLngStream"  :  "latlng"
+
+"StreamSet" --> "0..1" "AltitudeStream"  :  "altitude"
+
+"StreamSet" --> "0..1" "SmoothVelocityStream"  :  "velocity_smooth"
+
+"StreamSet" --> "0..1" "HeartrateStream"  :  "heartrate"
+
+"StreamSet" --> "0..1" "CadenceStream"  :  "cadence"
+
+"StreamSet" --> "0..1" "PowerStream"  :  "watts"
+
+"StreamSet" --> "0..1" "TemperatureStream"  :  "temp"
+
+"StreamSet" --> "0..1" "MovingStream"  :  "moving"
+
+"StreamSet" --> "0..1" "SmoothGradeStream"  :  "grade_smooth"
+
+"TimeStream" --> "1" "BaseStream"
+
+"TimeStream" --> "1" "TimeStream.1"
+
+"DistanceStream" --> "1" "BaseStream"
+
+"DistanceStream" --> "1" "DistanceStream.1"
+
+"LatLngStream.1" --> "*" "LatLng"  :  "data"
+
+"LatLngStream" --> "1" "BaseStream"
+
+"LatLngStream" --> "1" "LatLngStream.1"
+
+"AltitudeStream" --> "1" "BaseStream"
+
+"AltitudeStream" --> "1" "AltitudeStream.1"
+
+"SmoothVelocityStream" --> "1" "BaseStream"
+
+"SmoothVelocityStream" --> "1" "SmoothVelocityStream.1"
+
+"HeartrateStream" --> "1" "BaseStream"
+
+"HeartrateStream" --> "1" "HeartrateStream.1"
+
+"CadenceStream" --> "1" "BaseStream"
+
+"CadenceStream" --> "1" "CadenceStream.1"
+
+"PowerStream" --> "1" "BaseStream"
+
+"PowerStream" --> "1" "PowerStream.1"
+
+"TemperatureStream" --> "1" "BaseStream"
+
+"TemperatureStream" --> "1" "TemperatureStream.1"
+
+"MovingStream" --> "1" "BaseStream"
+
+"MovingStream" --> "1" "MovingStream.1"
+
+"SmoothGradeStream" --> "1" "BaseStream"
+
+"SmoothGradeStream" --> "1" "SmoothGradeStream.1"
+
+"GET /athletes/{id}/stats" ..> "1" "ActivityStats"  :  "200"
+
+"GET /athletes/{id}/stats" ..> "1" "Fault"  :  "default"
+
+"GET /athlete" ..> "1" "DetailedAthlete"  :  "200"
+
+"GET /athlete" ..> "1" "Fault"  :  "default"
+
+"PUT /athlete" ..> "1" "DetailedAthlete"  :  "200"
+
+"PUT /athlete" ..> "1" "Fault"  :  "default"
+
+"GET /athlete/zones" ..> "1" "Zones"  :  "200"
+
+"GET /athlete/zones" ..> "1" "Fault"  :  "default"
+
+"GET /segments/{id}" ..> "1" "DetailedSegment"  :  "200"
+
+"GET /segments/{id}" ..> "1" "Fault"  :  "default"
+
+"GET /segments/starred 200" --> "*" "SummarySegment"
+
+"GET /segments/starred" ..> "1" "GET /segments/starred 200"  :  "200"
+
+"GET /segments/starred" ..> "1" "Fault"  :  "default"
+
+"PUT /segments/{id}/starred" ..> "1" "DetailedSegment"  :  "200"
+
+"PUT /segments/{id}/starred" ..> "1" "Fault"  :  "default"
+
+"PUT /segments/{id}/starred" --> "1" "PUT /segments/{id}/starred Request"
+
+"GET /segment_efforts 200" --> "*" "DetailedSegmentEffort"
+
+"GET /segment_efforts" ..> "1" "GET /segment_efforts 200"  :  "200"
+
+"GET /segment_efforts" ..> "1" "Fault"  :  "default"
+
+"GET /segments/explore" ..> "1" "ExplorerResponse"  :  "200"
+
+"GET /segments/explore" ..> "1" "Fault"  :  "default"
+
+"GET /segment_efforts/{id}" ..> "1" "DetailedSegmentEffort"  :  "200"
+
+"GET /segment_efforts/{id}" ..> "1" "Fault"  :  "default"
+
+"GET /running_races/{id}" ..> "1" "RunningRace"  :  "200"
+
+"GET /running_races/{id}" ..> "1" "Fault"  :  "default"
+
+"GET /running_races 200" --> "*" "RunningRace"
+
+"GET /running_races" ..> "1" "GET /running_races 200"  :  "200"
+
+"GET /running_races" ..> "1" "Fault"  :  "default"
+
+"POST /activities" ..> "1" "DetailedActivity"  :  "201"
+
+"POST /activities" ..> "1" "Fault"  :  "default"
+
+"POST /activities" --> "1" "POST /activities Request"
+
+"GET /activities/{id}" ..> "1" "DetailedActivity"  :  "200"
+
+"GET /activities/{id}" ..> "1" "Fault"  :  "default"
+
+"PUT /activities/{id}" ..> "1" "DetailedActivity"  :  "200"
+
+"PUT /activities/{id}" ..> "1" "Fault"  :  "default"
+
+"PUT /activities/{id}" --> "1" "UpdatableActivity"
+
+"GET /athlete/activities 200" --> "*" "SummaryActivity"
+
+"GET /athlete/activities" ..> "1" "GET /athlete/activities 200"  :  "200"
+
+"GET /athlete/activities" ..> "1" "Fault"  :  "default"
+
+"GET /activities/{id}/laps 200" --> "*" "Lap"
+
+"GET /activities/{id}/laps" ..> "1" "GET /activities/{id}/laps 200"  :  "200"
+
+"GET /activities/{id}/laps" ..> "1" "Fault"  :  "default"
+
+"GET /activities/{id}/zones 200" --> "*" "ActivityZone"
+
+"GET /activities/{id}/zones" ..> "1" "GET /activities/{id}/zones 200"  :  "200"
+
+"GET /activities/{id}/zones" ..> "1" "Fault"  :  "default"
+
+"GET /activities/{id}/comments 200" --> "*" "Comment"
+
+"GET /activities/{id}/comments" ..> "1" "GET /activities/{id}/comments 200"  :  "200"
+
+"GET /activities/{id}/comments" ..> "1" "Fault"  :  "default"
+
+"GET /activities/{id}/kudos 200" --> "*" "SummaryAthlete"
+
+"GET /activities/{id}/kudos" ..> "1" "GET /activities/{id}/kudos 200"  :  "200"
+
+"GET /activities/{id}/kudos" ..> "1" "Fault"  :  "default"
+
+"GET /clubs/{id}" ..> "1" "DetailedClub"  :  "200"
+
+"GET /clubs/{id}" ..> "1" "Fault"  :  "default"
+
+"GET /clubs/{id}/members 200" --> "*" "SummaryAthlete"
+
+"GET /clubs/{id}/members" ..> "1" "GET /clubs/{id}/members 200"  :  "200"
+
+"GET /clubs/{id}/members" ..> "1" "Fault"  :  "default"
+
+"GET /clubs/{id}/admins 200" --> "*" "SummaryAthlete"
+
+"GET /clubs/{id}/admins" ..> "1" "GET /clubs/{id}/admins 200"  :  "200"
+
+"GET /clubs/{id}/admins" ..> "1" "Fault"  :  "default"
+
+"GET /clubs/{id}/activities 200" --> "*" "SummaryActivity"
+
+"GET /clubs/{id}/activities" ..> "1" "GET /clubs/{id}/activities 200"  :  "200"
+
+"GET /clubs/{id}/activities" ..> "1" "Fault"  :  "default"
+
+"GET /athlete/clubs 200" --> "*" "SummaryClub"
+
+"GET /athlete/clubs" ..> "1" "GET /athlete/clubs 200"  :  "200"
+
+"GET /athlete/clubs" ..> "1" "Fault"  :  "default"
+
+"GET /gear/{id}" ..> "1" "DetailedGear"  :  "200"
+
+"GET /gear/{id}" ..> "1" "Fault"  :  "default"
+
+"GET /routes/{id}" ..> "1" "Route"  :  "200"
+
+"GET /routes/{id}" ..> "1" "Fault"  :  "default"
+
+"GET /athletes/{id}/routes 200" --> "*" "Route"
+
+"GET /athletes/{id}/routes" ..> "1" "GET /athletes/{id}/routes 200"  :  "200"
+
+"GET /athletes/{id}/routes" ..> "1" "Fault"  :  "default"
+
+"GET /routes/{id}/export_gpx" ..> "1" "Fault"  :  "default"
+
+"GET /routes/{id}/export_tcx" ..> "1" "Fault"  :  "default"
+
+"POST /uploads" ..> "1" "Upload"  :  "201"
+
+"POST /uploads" ..> "1" "Fault"  :  "default"
+
+"POST /uploads" --> "1" "POST /uploads Request"
+
+"GET /uploads/{uploadId}" ..> "1" "Upload"  :  "200"
+
+"GET /uploads/{uploadId}" ..> "1" "Fault"  :  "default"
+
+"GET /activities/{id}/streams" ..> "1" "StreamSet"  :  "200"
+
+"GET /activities/{id}/streams" ..> "1" "Fault"  :  "default"
+
+"GET /segment_efforts/{id}/streams" ..> "1" "StreamSet"  :  "200"
+
+"GET /segment_efforts/{id}/streams" ..> "1" "Fault"  :  "default"
+
+"GET /segments/{id}/streams" ..> "1" "StreamSet"  :  "200"
+
+"GET /segments/{id}/streams" ..> "1" "Fault"  :  "default"
+
+"GET /routes/{id}/streams" ..> "1" "StreamSet"  :  "200"
+
+"GET /routes/{id}/streams" ..> "1" "Fault"  :  "default"
+
+@enduml

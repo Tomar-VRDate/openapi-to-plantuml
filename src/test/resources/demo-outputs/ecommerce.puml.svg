@@ -1,0 +1,1705 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" contentScriptType="application/ecmascript" contentStyleType="text/css"
+     height="873px" preserveAspectRatio="none" style="width:3654px;height:873px;background:#FFFFFF;" version="1.1"
+     viewBox="0 0 3654 873" width="3654px" zoomAndPan="magnify">
+    <defs>
+        <filter height="300%" id="f1xq7q4eg04v70" width="300%" x="-1" y="-1">
+            <feGaussianBlur result="blurOut" stdDeviation="2.0"/>
+            <feColorMatrix in="blurOut" result="blurOut2" type="matrix"
+                           values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/>
+            <feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/>
+            <feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/>
+        </filter>
+    </defs>
+    <g><!--MD5=[02e4b9b7573f1156f41e60aa5b4e25a4]
+class Company-->
+        <rect codeLine="8" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="95.3438" id="Company"
+              style="stroke:#A80036;stroke-width:1.5;" width="130" x="1361.5" y="556"/>
+        <ellipse cx="1396.75" cy="572" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M1399.5156,567.875 Q1399.6719,567.6563 1399.8594,567.5469 Q1400.0469,567.4375 1400.2656,567.4375 Q1400.6406,567.4375 1400.875,567.7031 Q1401.1094,567.9531 1401.1094,568.5625 L1401.1094,570.0156 Q1401.1094,570.625 1400.875,570.8906 Q1400.6406,571.1563 1400.2656,571.1563 Q1399.9219,571.1563 1399.7188,570.9531 Q1399.5156,570.7656 1399.4063,570.25 Q1399.3594,569.8906 1399.1719,569.7031 Q1398.8438,569.3281 1398.2344,569.1094 Q1397.625,568.8906 1397,568.8906 Q1396.2344,568.8906 1395.5938,569.2188 Q1394.9688,569.5469 1394.4688,570.2969 Q1393.9844,571.0469 1393.9844,572.0781 L1393.9844,573.1719 Q1393.9844,574.4063 1394.875,575.2344 Q1395.7656,576.0469 1397.3594,576.0469 Q1398.2969,576.0469 1398.9531,575.7969 Q1399.3438,575.6406 1399.7656,575.2031 Q1400.0313,574.9375 1400.1719,574.8594 Q1400.3281,574.7813 1400.5313,574.7813 Q1400.8594,574.7813 1401.1094,575.0469 Q1401.375,575.2969 1401.375,575.6406 Q1401.375,575.9844 1401.0313,576.3906 Q1400.5313,576.9688 1399.7344,577.2969 Q1398.6563,577.75 1397.3594,577.75 Q1395.8438,577.75 1394.6406,577.125 Q1393.6563,576.625 1392.9688,575.5625 Q1392.2813,574.4844 1392.2813,573.2031 L1392.2813,572.0469 Q1392.2813,570.7188 1392.8906,569.5781 Q1393.5156,568.4219 1394.6094,567.8125 Q1395.7031,567.1875 1396.9375,567.1875 Q1397.6719,567.1875 1398.3125,567.3594 Q1398.9688,567.5156 1399.5156,567.875 Z "
+              fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="53" x="1415.25"
+              y="576.9102">Company
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1362.5" x2="1490.5" y1="588" y2="588"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="83" x="1367.5"
+              y="603.4189">string CompanyId
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="102" x="1367.5"
+              y="617.2549">string CompanyName
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="118" x="1367.5"
+              y="631.0908">integer CompanyNumber
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="95" x="1367.5"
+              y="644.9268">integer VATNumber
+        </text><!--MD5=[6fdb362812dda12225423617eab9afc1]
+class TaxRate-->
+        <rect codeLine="15" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="95.3438" id="TaxRate"
+              style="stroke:#A80036;stroke-width:1.5;" width="105" x="1192" y="556"/>
+        <ellipse cx="1219.6" cy="572" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M1222.3656,567.875 Q1222.5219,567.6563 1222.7094,567.5469 Q1222.8969,567.4375 1223.1156,567.4375 Q1223.4906,567.4375 1223.725,567.7031 Q1223.9594,567.9531 1223.9594,568.5625 L1223.9594,570.0156 Q1223.9594,570.625 1223.725,570.8906 Q1223.4906,571.1563 1223.1156,571.1563 Q1222.7719,571.1563 1222.5688,570.9531 Q1222.3656,570.7656 1222.2563,570.25 Q1222.2094,569.8906 1222.0219,569.7031 Q1221.6938,569.3281 1221.0844,569.1094 Q1220.475,568.8906 1219.85,568.8906 Q1219.0844,568.8906 1218.4438,569.2188 Q1217.8188,569.5469 1217.3188,570.2969 Q1216.8344,571.0469 1216.8344,572.0781 L1216.8344,573.1719 Q1216.8344,574.4063 1217.725,575.2344 Q1218.6156,576.0469 1220.2094,576.0469 Q1221.1469,576.0469 1221.8031,575.7969 Q1222.1938,575.6406 1222.6156,575.2031 Q1222.8813,574.9375 1223.0219,574.8594 Q1223.1781,574.7813 1223.3813,574.7813 Q1223.7094,574.7813 1223.9594,575.0469 Q1224.225,575.2969 1224.225,575.6406 Q1224.225,575.9844 1223.8813,576.3906 Q1223.3813,576.9688 1222.5844,577.2969 Q1221.5063,577.75 1220.2094,577.75 Q1218.6938,577.75 1217.4906,577.125 Q1216.5063,576.625 1215.8188,575.5625 Q1215.1313,574.4844 1215.1313,573.2031 L1215.1313,572.0469 Q1215.1313,570.7188 1215.7406,569.5781 Q1216.3656,568.4219 1217.4594,567.8125 Q1218.5531,567.1875 1219.7875,567.1875 Q1220.5219,567.1875 1221.1625,567.3594 Q1221.8188,567.5156 1222.3656,567.875 Z "
+              fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="45" x="1236.4"
+              y="576.9102">TaxRate
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1193" x2="1296" y1="588" y2="588"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="84" x="1198"
+              y="603.4189">integer TaxRateId
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="57" x="1198"
+              y="617.2549">string Name
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="61" x="1198"
+              y="631.0908">decimal Rate
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="93" x="1198"
+              y="644.9268">string CountryCode
+        </text><!--MD5=[350dddd0ed7f73341c6cac146f46279f]
+class ExchangeRate-->
+        <rect codeLine="22" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="95.3438" id="ExchangeRate"
+              style="stroke:#A80036;stroke-width:1.5;" width="112" x="1921.5" y="320.5"/>
+        <ellipse cx="1936.5" cy="336.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M1939.2656,332.375 Q1939.4219,332.1563 1939.6094,332.0469 Q1939.7969,331.9375 1940.0156,331.9375 Q1940.3906,331.9375 1940.625,332.2031 Q1940.8594,332.4531 1940.8594,333.0625 L1940.8594,334.5156 Q1940.8594,335.125 1940.625,335.3906 Q1940.3906,335.6563 1940.0156,335.6563 Q1939.6719,335.6563 1939.4688,335.4531 Q1939.2656,335.2656 1939.1563,334.75 Q1939.1094,334.3906 1938.9219,334.2031 Q1938.5938,333.8281 1937.9844,333.6094 Q1937.375,333.3906 1936.75,333.3906 Q1935.9844,333.3906 1935.3438,333.7188 Q1934.7188,334.0469 1934.2188,334.7969 Q1933.7344,335.5469 1933.7344,336.5781 L1933.7344,337.6719 Q1933.7344,338.9063 1934.625,339.7344 Q1935.5156,340.5469 1937.1094,340.5469 Q1938.0469,340.5469 1938.7031,340.2969 Q1939.0938,340.1406 1939.5156,339.7031 Q1939.7813,339.4375 1939.9219,339.3594 Q1940.0781,339.2813 1940.2813,339.2813 Q1940.6094,339.2813 1940.8594,339.5469 Q1941.125,339.7969 1941.125,340.1406 Q1941.125,340.4844 1940.7813,340.8906 Q1940.2813,341.4688 1939.4844,341.7969 Q1938.4063,342.25 1937.1094,342.25 Q1935.5938,342.25 1934.3906,341.625 Q1933.4063,341.125 1932.7188,340.0625 Q1932.0313,338.9844 1932.0313,337.7031 L1932.0313,336.5469 Q1932.0313,335.2188 1932.6406,334.0781 Q1933.2656,332.9219 1934.3594,332.3125 Q1935.4531,331.6875 1936.6875,331.6875 Q1937.4219,331.6875 1938.0625,331.8594 Q1938.7188,332.0156 1939.2656,332.375 Z "
+              fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="80" x="1950.5"
+              y="341.4102">ExchangeRate
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1922.5" x2="2032.5" y1="352.5" y2="352.5"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="100" x="1927.5"
+              y="367.9189">string CurrencyCode
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="93" x="1927.5"
+              y="381.7549">string CountryCode
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="84" x="1927.5"
+              y="395.5908">string Description
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="95" x="1927.5"
+              y="409.4268">decimal RateVsGbp
+        </text><!--MD5=[767721f209bea6593fb2f14ddcdb888d]
+class StockCategory-->
+        <rect codeLine="29" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="67.6719" id="StockCategory"
+              style="stroke:#A80036;stroke-width:1.5;" width="113" x="2113" y="334"/>
+        <ellipse cx="2128.9" cy="350" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M2131.6656,345.875 Q2131.8219,345.6563 2132.0094,345.5469 Q2132.1969,345.4375 2132.4156,345.4375 Q2132.7906,345.4375 2133.025,345.7031 Q2133.2594,345.9531 2133.2594,346.5625 L2133.2594,348.0156 Q2133.2594,348.625 2133.025,348.8906 Q2132.7906,349.1563 2132.4156,349.1563 Q2132.0719,349.1563 2131.8688,348.9531 Q2131.6656,348.7656 2131.5563,348.25 Q2131.5094,347.8906 2131.3219,347.7031 Q2130.9938,347.3281 2130.3844,347.1094 Q2129.775,346.8906 2129.15,346.8906 Q2128.3844,346.8906 2127.7438,347.2188 Q2127.1188,347.5469 2126.6188,348.2969 Q2126.1344,349.0469 2126.1344,350.0781 L2126.1344,351.1719 Q2126.1344,352.4063 2127.025,353.2344 Q2127.9156,354.0469 2129.5094,354.0469 Q2130.4469,354.0469 2131.1031,353.7969 Q2131.4938,353.6406 2131.9156,353.2031 Q2132.1813,352.9375 2132.3219,352.8594 Q2132.4781,352.7813 2132.6813,352.7813 Q2133.0094,352.7813 2133.2594,353.0469 Q2133.525,353.2969 2133.525,353.6406 Q2133.525,353.9844 2133.1813,354.3906 Q2132.6813,354.9688 2131.8844,355.2969 Q2130.8063,355.75 2129.5094,355.75 Q2127.9938,355.75 2126.7906,355.125 Q2125.8063,354.625 2125.1188,353.5625 Q2124.4313,352.4844 2124.4313,351.2031 L2124.4313,350.0469 Q2124.4313,348.7188 2125.0406,347.5781 Q2125.6656,346.4219 2126.7594,345.8125 Q2127.8531,345.1875 2129.0875,345.1875 Q2129.8219,345.1875 2130.4625,345.3594 Q2131.1188,345.5156 2131.6656,345.875 Z "
+              fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="79" x="2143.1"
+              y="354.9102">StockCategory
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="2114" x2="2225" y1="366" y2="366"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="88" x="2119"
+              y="381.4189">integer CategoryId
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="101" x="2119"
+              y="395.2549">string CategoryName
+        </text><!--MD5=[72136138052d025cffdce3c22fbd185f]
+class Product-->
+        <rect codeLine="34" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="206.0313" id="Product"
+              style="stroke:#A80036;stroke-width:1.5;" width="163" x="1121" y="265"/>
+        <ellipse cx="1177.25" cy="281" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M1180.0156,276.875 Q1180.1719,276.6563 1180.3594,276.5469 Q1180.5469,276.4375 1180.7656,276.4375 Q1181.1406,276.4375 1181.375,276.7031 Q1181.6094,276.9531 1181.6094,277.5625 L1181.6094,279.0156 Q1181.6094,279.625 1181.375,279.8906 Q1181.1406,280.1563 1180.7656,280.1563 Q1180.4219,280.1563 1180.2188,279.9531 Q1180.0156,279.7656 1179.9063,279.25 Q1179.8594,278.8906 1179.6719,278.7031 Q1179.3438,278.3281 1178.7344,278.1094 Q1178.125,277.8906 1177.5,277.8906 Q1176.7344,277.8906 1176.0938,278.2188 Q1175.4688,278.5469 1174.9688,279.2969 Q1174.4844,280.0469 1174.4844,281.0781 L1174.4844,282.1719 Q1174.4844,283.4063 1175.375,284.2344 Q1176.2656,285.0469 1177.8594,285.0469 Q1178.7969,285.0469 1179.4531,284.7969 Q1179.8438,284.6406 1180.2656,284.2031 Q1180.5313,283.9375 1180.6719,283.8594 Q1180.8281,283.7813 1181.0313,283.7813 Q1181.3594,283.7813 1181.6094,284.0469 Q1181.875,284.2969 1181.875,284.6406 Q1181.875,284.9844 1181.5313,285.3906 Q1181.0313,285.9688 1180.2344,286.2969 Q1179.1563,286.75 1177.8594,286.75 Q1176.3438,286.75 1175.1406,286.125 Q1174.1563,285.625 1173.4688,284.5625 Q1172.7813,283.4844 1172.7813,282.2031 L1172.7813,281.0469 Q1172.7813,279.7188 1173.3906,278.5781 Q1174.0156,277.4219 1175.1094,276.8125 Q1176.2031,276.1875 1177.4375,276.1875 Q1178.1719,276.1875 1178.8125,276.3594 Q1179.4688,276.5156 1180.0156,276.875 Z "
+              fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="42" x="1197.75"
+              y="285.9102">Product
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1122" x2="1283" y1="297" y2="297"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="90" x="1127"
+              y="312.4189">integer StockItemId
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="101" x="1127"
+              y="326.2549">string StockItemCode
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="103" x="1127"
+              y="340.0908">string StockItemName
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="130" x="1127"
+              y="353.9268">string StockItemDescription
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="87" x="1127"
+              y="367.7627">decimal SalesUoM
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="80" x="1127"
+              y="381.5986">decimal ListPrice
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="151" x="1127"
+              y="395.4346">string ManufacturerPartNumber
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="141" x="1127"
+              y="409.2705">string ManufacturerPartName
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="72" x="1127"
+              y="423.1064">decimal Weight
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="43" x="1127"
+              y="436.9424">string Url
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="85" x="1127"
+              y="450.7783">decimal LeadTime
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="77" x="1127"
+              y="464.6143">integer Barcode
+        </text><!--MD5=[2ce0c9fb7f55b1e256ab28a8ea6b25ec]
+class Customer-->
+        <rect codeLine="49" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="136.8516" id="Customer"
+              style="stroke:#A80036;stroke-width:1.5;" width="114" x="540.5" y="299.5"/>
+        <ellipse cx="567.65" cy="315.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M570.4156,311.375 Q570.5719,311.1563 570.7594,311.0469 Q570.9469,310.9375 571.1656,310.9375 Q571.5406,310.9375 571.775,311.2031 Q572.0094,311.4531 572.0094,312.0625 L572.0094,313.5156 Q572.0094,314.125 571.775,314.3906 Q571.5406,314.6563 571.1656,314.6563 Q570.8219,314.6563 570.6188,314.4531 Q570.4156,314.2656 570.3063,313.75 Q570.2594,313.3906 570.0719,313.2031 Q569.7438,312.8281 569.1344,312.6094 Q568.525,312.3906 567.9,312.3906 Q567.1344,312.3906 566.4938,312.7188 Q565.8688,313.0469 565.3688,313.7969 Q564.8844,314.5469 564.8844,315.5781 L564.8844,316.6719 Q564.8844,317.9063 565.775,318.7344 Q566.6656,319.5469 568.2594,319.5469 Q569.1969,319.5469 569.8531,319.2969 Q570.2438,319.1406 570.6656,318.7031 Q570.9313,318.4375 571.0719,318.3594 Q571.2281,318.2813 571.4313,318.2813 Q571.7594,318.2813 572.0094,318.5469 Q572.275,318.7969 572.275,319.1406 Q572.275,319.4844 571.9313,319.8906 Q571.4313,320.4688 570.6344,320.7969 Q569.5563,321.25 568.2594,321.25 Q566.7438,321.25 565.5406,320.625 Q564.5563,320.125 563.8688,319.0625 Q563.1813,317.9844 563.1813,316.7031 L563.1813,315.5469 Q563.1813,314.2188 563.7906,313.0781 Q564.4156,311.9219 565.5094,311.3125 Q566.6031,310.6875 567.8375,310.6875 Q568.5719,310.6875 569.2125,310.8594 Q569.8688,311.0156 570.4156,311.375 Z "
+              fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="55" x="584.35"
+              y="320.4102">Customer
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="541.5" x2="653.5" y1="331.5" y2="331.5"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="101" x="546.5"
+              y="346.9189">string CustomerCode
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="96" x="546.5"
+              y="360.7549">string AccountCode
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="98" x="546.5"
+              y="374.5908">string AccountName
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="90" x="546.5"
+              y="388.4268">integer VatNumber
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="71" x="546.5"
+              y="402.2627">string VatType
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="75" x="546.5"
+              y="416.0986">string Currency
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="102" x="546.5"
+              y="429.9346">string AccountStatus
+        </text><!--MD5=[9ca6ecb058a3a1bbca21c4d5c75cc179]
+class SalesOrder-->
+        <rect codeLine="59" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="192.1953" id="SalesOrder"
+              style="stroke:#A80036;stroke-width:1.5;" width="124" x="2415.5" y="272"/>
+        <ellipse cx="2443.55" cy="288" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M2446.3156,283.875 Q2446.4719,283.6563 2446.6594,283.5469 Q2446.8469,283.4375 2447.0656,283.4375 Q2447.4406,283.4375 2447.675,283.7031 Q2447.9094,283.9531 2447.9094,284.5625 L2447.9094,286.0156 Q2447.9094,286.625 2447.675,286.8906 Q2447.4406,287.1563 2447.0656,287.1563 Q2446.7219,287.1563 2446.5188,286.9531 Q2446.3156,286.7656 2446.2063,286.25 Q2446.1594,285.8906 2445.9719,285.7031 Q2445.6438,285.3281 2445.0344,285.1094 Q2444.425,284.8906 2443.8,284.8906 Q2443.0344,284.8906 2442.3938,285.2188 Q2441.7688,285.5469 2441.2688,286.2969 Q2440.7844,287.0469 2440.7844,288.0781 L2440.7844,289.1719 Q2440.7844,290.4063 2441.675,291.2344 Q2442.5656,292.0469 2444.1594,292.0469 Q2445.0969,292.0469 2445.7531,291.7969 Q2446.1438,291.6406 2446.5656,291.2031 Q2446.8313,290.9375 2446.9719,290.8594 Q2447.1281,290.7813 2447.3313,290.7813 Q2447.6594,290.7813 2447.9094,291.0469 Q2448.175,291.2969 2448.175,291.6406 Q2448.175,291.9844 2447.8313,292.3906 Q2447.3313,292.9688 2446.5344,293.2969 Q2445.4563,293.75 2444.1594,293.75 Q2442.6438,293.75 2441.4406,293.125 Q2440.4563,292.625 2439.7688,291.5625 Q2439.0813,290.4844 2439.0813,289.2031 L2439.0813,288.0469 Q2439.0813,286.7188 2439.6906,285.5781 Q2440.3156,284.4219 2441.4094,283.8125 Q2442.5031,283.1875 2443.7375,283.1875 Q2444.4719,283.1875 2445.1125,283.3594 Q2445.7688,283.5156 2446.3156,283.875 Z "
+              fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="63" x="2460.45"
+              y="292.9102">SalesOrder
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="2416.5" x2="2538.5" y1="304" y2="304"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="110" x="2421.5"
+              y="319.4189">string SalesOrderCode
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="101" x="2421.5"
+              y="333.2549">string CustomerCode
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="112" x="2421.5"
+              y="347.0908">string OrderDescription
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="61" x="2421.5"
+              y="360.9268">string Status
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="93" x="2421.5"
+              y="374.7627">string CustomerRef
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="71" x="2421.5"
+              y="388.5986">string VatType
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="75" x="2421.5"
+              y="402.4346">string Currency
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="101" x="2421.5"
+              y="416.2705">string StockItemCode
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="79" x="2421.5"
+              y="430.1064">decimal Quantity
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="62" x="2421.5"
+              y="443.9424">decimal Total
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="104" x="2421.5"
+              y="457.7783">timestamp PickedDate
+        </text><!--MD5=[34b75dd4d6d4601c280a5b76e9c1a953]
+class Receipt-->
+        <rect codeLine="73" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="136.8516" id="Receipt"
+              style="stroke:#A80036;stroke-width:1.5;" width="113" x="3050" y="299.5"/>
+        <ellipse cx="3082.55" cy="315.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M3085.3156,311.375 Q3085.4719,311.1563 3085.6594,311.0469 Q3085.8469,310.9375 3086.0656,310.9375 Q3086.4406,310.9375 3086.675,311.2031 Q3086.9094,311.4531 3086.9094,312.0625 L3086.9094,313.5156 Q3086.9094,314.125 3086.675,314.3906 Q3086.4406,314.6563 3086.0656,314.6563 Q3085.7219,314.6563 3085.5188,314.4531 Q3085.3156,314.2656 3085.2063,313.75 Q3085.1594,313.3906 3084.9719,313.2031 Q3084.6438,312.8281 3084.0344,312.6094 Q3083.425,312.3906 3082.8,312.3906 Q3082.0344,312.3906 3081.3938,312.7188 Q3080.7688,313.0469 3080.2688,313.7969 Q3079.7844,314.5469 3079.7844,315.5781 L3079.7844,316.6719 Q3079.7844,317.9063 3080.675,318.7344 Q3081.5656,319.5469 3083.1594,319.5469 Q3084.0969,319.5469 3084.7531,319.2969 Q3085.1438,319.1406 3085.5656,318.7031 Q3085.8313,318.4375 3085.9719,318.3594 Q3086.1281,318.2813 3086.3313,318.2813 Q3086.6594,318.2813 3086.9094,318.5469 Q3087.175,318.7969 3087.175,319.1406 Q3087.175,319.4844 3086.8313,319.8906 Q3086.3313,320.4688 3085.5344,320.7969 Q3084.4563,321.25 3083.1594,321.25 Q3081.6438,321.25 3080.4406,320.625 Q3079.4563,320.125 3078.7688,319.0625 Q3078.0813,317.9844 3078.0813,316.7031 L3078.0813,315.5469 Q3078.0813,314.2188 3078.6906,313.0781 Q3079.3156,311.9219 3080.4094,311.3125 Q3081.5031,310.6875 3082.7375,310.6875 Q3083.4719,310.6875 3084.1125,310.8594 Q3084.7688,311.0156 3085.3156,311.375 Z "
+              fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="42" x="3100.45"
+              y="320.4102">Receipt
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="3051" x2="3162" y1="331.5" y2="331.5"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="44" x="3056"
+              y="346.9189">integer Id
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="101" x="3056"
+              y="360.7549">string CustomerCode
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="95" x="3056"
+              y="374.5908">string BankAccount
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="76" x="3056"
+              y="388.4268">decimal Amount
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="75" x="3056"
+              y="402.2627">string Currency
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="73" x="3056"
+              y="416.0986">timestamp Date
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="81" x="3056"
+              y="429.9346">string Reference
+        </text><!--MD5=[3b0e42168dad91672a2b1c2b0678530e]
+class BankAccount-->
+        <rect codeLine="83" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="67.6719" id="BankAccount"
+              style="stroke:#A80036;stroke-width:1.5;" width="110" x="3395.5" y="334"/>
+        <ellipse cx="3413.65" cy="350" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M3416.4156,345.875 Q3416.5719,345.6563 3416.7594,345.5469 Q3416.9469,345.4375 3417.1656,345.4375 Q3417.5406,345.4375 3417.775,345.7031 Q3418.0094,345.9531 3418.0094,346.5625 L3418.0094,348.0156 Q3418.0094,348.625 3417.775,348.8906 Q3417.5406,349.1563 3417.1656,349.1563 Q3416.8219,349.1563 3416.6188,348.9531 Q3416.4156,348.7656 3416.3063,348.25 Q3416.2594,347.8906 3416.0719,347.7031 Q3415.7438,347.3281 3415.1344,347.1094 Q3414.525,346.8906 3413.9,346.8906 Q3413.1344,346.8906 3412.4938,347.2188 Q3411.8688,347.5469 3411.3688,348.2969 Q3410.8844,349.0469 3410.8844,350.0781 L3410.8844,351.1719 Q3410.8844,352.4063 3411.775,353.2344 Q3412.6656,354.0469 3414.2594,354.0469 Q3415.1969,354.0469 3415.8531,353.7969 Q3416.2438,353.6406 3416.6656,353.2031 Q3416.9313,352.9375 3417.0719,352.8594 Q3417.2281,352.7813 3417.4313,352.7813 Q3417.7594,352.7813 3418.0094,353.0469 Q3418.275,353.2969 3418.275,353.6406 Q3418.275,353.9844 3417.9313,354.3906 Q3417.4313,354.9688 3416.6344,355.2969 Q3415.5563,355.75 3414.2594,355.75 Q3412.7438,355.75 3411.5406,355.125 Q3410.5563,354.625 3409.8688,353.5625 Q3409.1813,352.4844 3409.1813,351.2031 L3409.1813,350.0469 Q3409.1813,348.7188 3409.7906,347.5781 Q3410.4156,346.4219 3411.5094,345.8125 Q3412.6031,345.1875 3413.8375,345.1875 Q3414.5719,345.1875 3415.2125,345.3594 Q3415.8688,345.5156 3416.4156,345.875 Z "
+              fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="71" x="3428.35"
+              y="354.9102">BankAccount
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="3396.5" x2="3504.5" y1="366" y2="366"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="96" x="3401.5"
+              y="381.4189">string AccountCode
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="98" x="3401.5"
+              y="395.2549">string AccountName
+        </text><!--MD5=[ac66a8a413791b3d06fe7d1ff21a7c25]
+class Discount-->
+        <rect codeLine="88" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="109.1797" id="Discount"
+              style="stroke:#A80036;stroke-width:1.5;" width="128" x="775.5" y="549"/>
+        <ellipse cx="811.65" cy="565" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M814.4156,560.875 Q814.5719,560.6563 814.7594,560.5469 Q814.9469,560.4375 815.1656,560.4375 Q815.5406,560.4375 815.775,560.7031 Q816.0094,560.9531 816.0094,561.5625 L816.0094,563.0156 Q816.0094,563.625 815.775,563.8906 Q815.5406,564.1563 815.1656,564.1563 Q814.8219,564.1563 814.6188,563.9531 Q814.4156,563.7656 814.3063,563.25 Q814.2594,562.8906 814.0719,562.7031 Q813.7438,562.3281 813.1344,562.1094 Q812.525,561.8906 811.9,561.8906 Q811.1344,561.8906 810.4938,562.2188 Q809.8688,562.5469 809.3688,563.2969 Q808.8844,564.0469 808.8844,565.0781 L808.8844,566.1719 Q808.8844,567.4063 809.775,568.2344 Q810.6656,569.0469 812.2594,569.0469 Q813.1969,569.0469 813.8531,568.7969 Q814.2438,568.6406 814.6656,568.2031 Q814.9313,567.9375 815.0719,567.8594 Q815.2281,567.7813 815.4313,567.7813 Q815.7594,567.7813 816.0094,568.0469 Q816.275,568.2969 816.275,568.6406 Q816.275,568.9844 815.9313,569.3906 Q815.4313,569.9688 814.6344,570.2969 Q813.5563,570.75 812.2594,570.75 Q810.7438,570.75 809.5406,570.125 Q808.5563,569.625 807.8688,568.5625 Q807.1813,567.4844 807.1813,566.2031 L807.1813,565.0469 Q807.1813,563.7188 807.7906,562.5781 Q808.4156,561.4219 809.5094,560.8125 Q810.6031,560.1875 811.8375,560.1875 Q812.5719,560.1875 813.2125,560.3594 Q813.8688,560.5156 814.4156,560.875 Z "
+              fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="49" x="830.35"
+              y="569.9102">Discount
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="776.5" x2="902.5" y1="581" y2="581"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="101" x="781.5"
+              y="596.4189">string CustomerCode
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="92" x="781.5"
+              y="610.2549">string ProductCode
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="103" x="781.5"
+              y="624.0908">decimal DiscountRate
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="116" x="781.5"
+              y="637.9268">timestamp DiscountStart
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="111" x="781.5"
+              y="651.7627">timestamp DiscountEnd
+        </text><!--MD5=[0f39e4cb6f03951afbf6d14bd2505654]
+class Address-->
+        <rect codeLine="96" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="123.0156" id="Address"
+              style="stroke:#A80036;stroke-width:1.5;" width="110" x="590.5" y="736"/>
+        <ellipse cx="619.9" cy="752" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M622.6656,747.875 Q622.8219,747.6563 623.0094,747.5469 Q623.1969,747.4375 623.4156,747.4375 Q623.7906,747.4375 624.025,747.7031 Q624.2594,747.9531 624.2594,748.5625 L624.2594,750.0156 Q624.2594,750.625 624.025,750.8906 Q623.7906,751.1563 623.4156,751.1563 Q623.0719,751.1563 622.8688,750.9531 Q622.6656,750.7656 622.5563,750.25 Q622.5094,749.8906 622.3219,749.7031 Q621.9938,749.3281 621.3844,749.1094 Q620.775,748.8906 620.15,748.8906 Q619.3844,748.8906 618.7438,749.2188 Q618.1188,749.5469 617.6188,750.2969 Q617.1344,751.0469 617.1344,752.0781 L617.1344,753.1719 Q617.1344,754.4063 618.025,755.2344 Q618.9156,756.0469 620.5094,756.0469 Q621.4469,756.0469 622.1031,755.7969 Q622.4938,755.6406 622.9156,755.2031 Q623.1813,754.9375 623.3219,754.8594 Q623.4781,754.7813 623.6813,754.7813 Q624.0094,754.7813 624.2594,755.0469 Q624.525,755.2969 624.525,755.6406 Q624.525,755.9844 624.1813,756.3906 Q623.6813,756.9688 622.8844,757.2969 Q621.8063,757.75 620.5094,757.75 Q618.9938,757.75 617.7906,757.125 Q616.8063,756.625 616.1188,755.5625 Q615.4313,754.4844 615.4313,753.2031 L615.4313,752.0469 Q615.4313,750.7188 616.0406,749.5781 Q616.6656,748.4219 617.7594,747.8125 Q618.8531,747.1875 620.0875,747.1875 Q620.8219,747.1875 621.4625,747.3594 Q622.1188,747.5156 622.6656,747.875 Z "
+              fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="46" x="637.1"
+              y="756.9102">Address
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="591.5" x2="699.5" y1="768" y2="768"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="98" x="596.5"
+              y="783.4189">string AddressLine1
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="98" x="596.5"
+              y="797.2549">string AddressLine2
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="98" x="596.5"
+              y="811.0908">string AddressLine3
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="98" x="596.5"
+              y="824.9268">string AddressLine4
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="84" x="596.5"
+              y="838.7627">string PostalCode
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="93" x="596.5"
+              y="852.5986">string CountryCode
+        </text><!--MD5=[72ce1314beffbcf60a64ee91fbbc10dc]
+class Contact-->
+        <rect codeLine="105" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="53.8359" id="Contact"
+              style="stroke:#A80036;stroke-width:1.5;" width="74" x="422.5" y="576.5"/>
+        <ellipse cx="437.5" cy="592.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M440.2656,588.375 Q440.4219,588.1563 440.6094,588.0469 Q440.7969,587.9375 441.0156,587.9375 Q441.3906,587.9375 441.625,588.2031 Q441.8594,588.4531 441.8594,589.0625 L441.8594,590.5156 Q441.8594,591.125 441.625,591.3906 Q441.3906,591.6563 441.0156,591.6563 Q440.6719,591.6563 440.4688,591.4531 Q440.2656,591.2656 440.1563,590.75 Q440.1094,590.3906 439.9219,590.2031 Q439.5938,589.8281 438.9844,589.6094 Q438.375,589.3906 437.75,589.3906 Q436.9844,589.3906 436.3438,589.7188 Q435.7188,590.0469 435.2188,590.7969 Q434.7344,591.5469 434.7344,592.5781 L434.7344,593.6719 Q434.7344,594.9063 435.625,595.7344 Q436.5156,596.5469 438.1094,596.5469 Q439.0469,596.5469 439.7031,596.2969 Q440.0938,596.1406 440.5156,595.7031 Q440.7813,595.4375 440.9219,595.3594 Q441.0781,595.2813 441.2813,595.2813 Q441.6094,595.2813 441.8594,595.5469 Q442.125,595.7969 442.125,596.1406 Q442.125,596.4844 441.7813,596.8906 Q441.2813,597.4688 440.4844,597.7969 Q439.4063,598.25 438.1094,598.25 Q436.5938,598.25 435.3906,597.625 Q434.4063,597.125 433.7188,596.0625 Q433.0313,594.9844 433.0313,593.7031 L433.0313,592.5469 Q433.0313,591.2188 433.6406,590.0781 Q434.2656,588.9219 435.3594,588.3125 Q436.4531,587.6875 437.6875,587.6875 Q438.4219,587.6875 439.0625,587.8594 Q439.7188,588.0156 440.2656,588.375 Z "
+              fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="42" x="451.5"
+              y="597.4102">Contact
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="423.5" x2="495.5" y1="608.5" y2="608.5"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="57" x="428.5"
+              y="623.9189">string Name
+        </text><!--MD5=[9d64f5473b316b2d806223bee57e8c6b]
+class ContactMethod-->
+        <rect codeLine="109" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="67.6719" id="ContactMethod"
+              style="stroke:#A80036;stroke-width:1.5;" width="114" x="339.5" y="763.5"/>
+        <ellipse cx="354.5" cy="779.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M357.2656,775.375 Q357.4219,775.1563 357.6094,775.0469 Q357.7969,774.9375 358.0156,774.9375 Q358.3906,774.9375 358.625,775.2031 Q358.8594,775.4531 358.8594,776.0625 L358.8594,777.5156 Q358.8594,778.125 358.625,778.3906 Q358.3906,778.6563 358.0156,778.6563 Q357.6719,778.6563 357.4688,778.4531 Q357.2656,778.2656 357.1563,777.75 Q357.1094,777.3906 356.9219,777.2031 Q356.5938,776.8281 355.9844,776.6094 Q355.375,776.3906 354.75,776.3906 Q353.9844,776.3906 353.3438,776.7188 Q352.7188,777.0469 352.2188,777.7969 Q351.7344,778.5469 351.7344,779.5781 L351.7344,780.6719 Q351.7344,781.9063 352.625,782.7344 Q353.5156,783.5469 355.1094,783.5469 Q356.0469,783.5469 356.7031,783.2969 Q357.0938,783.1406 357.5156,782.7031 Q357.7813,782.4375 357.9219,782.3594 Q358.0781,782.2813 358.2813,782.2813 Q358.6094,782.2813 358.8594,782.5469 Q359.125,782.7969 359.125,783.1406 Q359.125,783.4844 358.7813,783.8906 Q358.2813,784.4688 357.4844,784.7969 Q356.4063,785.25 355.1094,785.25 Q353.5938,785.25 352.3906,784.625 Q351.4063,784.125 350.7188,783.0625 Q350.0313,781.9844 350.0313,780.7031 L350.0313,779.5469 Q350.0313,778.2188 350.6406,777.0781 Q351.2656,775.9219 352.3594,775.3125 Q353.4531,774.6875 354.6875,774.6875 Q355.4219,774.6875 356.0625,774.8594 Q356.7188,775.0156 357.2656,775.375 Z "
+              fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="82" x="368.5"
+              y="784.4102">ContactMethod
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="340.5" x2="452.5" y1="795.5" y2="795.5"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="54" x="345.5"
+              y="810.9189">string Type
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="72" x="345.5"
+              y="824.7549">string Address
+        </text><!--MD5=[4f1f3706c1a355a8488e154afcaed5df]
+class Location-->
+        <rect codeLine="114" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="67.6719" id="Location"
+              style="stroke:#A80036;stroke-width:1.5;" width="108" x="938.5" y="569.5"/>
+        <ellipse cx="966.55" cy="585.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M969.3156,581.375 Q969.4719,581.1563 969.6594,581.0469 Q969.8469,580.9375 970.0656,580.9375 Q970.4406,580.9375 970.675,581.2031 Q970.9094,581.4531 970.9094,582.0625 L970.9094,583.5156 Q970.9094,584.125 970.675,584.3906 Q970.4406,584.6563 970.0656,584.6563 Q969.7219,584.6563 969.5188,584.4531 Q969.3156,584.2656 969.2063,583.75 Q969.1594,583.3906 968.9719,583.2031 Q968.6438,582.8281 968.0344,582.6094 Q967.425,582.3906 966.8,582.3906 Q966.0344,582.3906 965.3938,582.7188 Q964.7688,583.0469 964.2688,583.7969 Q963.7844,584.5469 963.7844,585.5781 L963.7844,586.6719 Q963.7844,587.9063 964.675,588.7344 Q965.5656,589.5469 967.1594,589.5469 Q968.0969,589.5469 968.7531,589.2969 Q969.1438,589.1406 969.5656,588.7031 Q969.8313,588.4375 969.9719,588.3594 Q970.1281,588.2813 970.3313,588.2813 Q970.6594,588.2813 970.9094,588.5469 Q971.175,588.7969 971.175,589.1406 Q971.175,589.4844 970.8313,589.8906 Q970.3313,590.4688 969.5344,590.7969 Q968.4563,591.25 967.1594,591.25 Q965.6438,591.25 964.4406,590.625 Q963.4563,590.125 962.7688,589.0625 Q962.0813,587.9844 962.0813,586.7031 L962.0813,585.5469 Q962.0813,584.2188 962.6906,583.0781 Q963.3156,581.9219 964.4094,581.3125 Q965.5031,580.6875 966.7375,580.6875 Q967.4719,580.6875 968.1125,580.8594 Q968.7688,581.0156 969.3156,581.375 Z "
+              fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="983.45"
+              y="590.4102">Location
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="939.5" x2="1045.5" y1="601.5" y2="601.5"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="96" x="944.5"
+              y="616.9189">string LocationCode
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="57" x="944.5"
+              y="630.7549">string Name
+        </text><!--MD5=[b8cfd8c4119a3b0a7a46bfc5fc780f85]
+class Error-->
+        <rect codeLine="119" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="67.6719" id="Error"
+              style="stroke:#A80036;stroke-width:1.5;" width="93" x="1774" y="334"/>
+        <ellipse cx="1804.3" cy="350" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M1807.0656,345.875 Q1807.2219,345.6563 1807.4094,345.5469 Q1807.5969,345.4375 1807.8156,345.4375 Q1808.1906,345.4375 1808.425,345.7031 Q1808.6594,345.9531 1808.6594,346.5625 L1808.6594,348.0156 Q1808.6594,348.625 1808.425,348.8906 Q1808.1906,349.1563 1807.8156,349.1563 Q1807.4719,349.1563 1807.2688,348.9531 Q1807.0656,348.7656 1806.9563,348.25 Q1806.9094,347.8906 1806.7219,347.7031 Q1806.3938,347.3281 1805.7844,347.1094 Q1805.175,346.8906 1804.55,346.8906 Q1803.7844,346.8906 1803.1438,347.2188 Q1802.5188,347.5469 1802.0188,348.2969 Q1801.5344,349.0469 1801.5344,350.0781 L1801.5344,351.1719 Q1801.5344,352.4063 1802.425,353.2344 Q1803.3156,354.0469 1804.9094,354.0469 Q1805.8469,354.0469 1806.5031,353.7969 Q1806.8938,353.6406 1807.3156,353.2031 Q1807.5813,352.9375 1807.7219,352.8594 Q1807.8781,352.7813 1808.0813,352.7813 Q1808.4094,352.7813 1808.6594,353.0469 Q1808.925,353.2969 1808.925,353.6406 Q1808.925,353.9844 1808.5813,354.3906 Q1808.0813,354.9688 1807.2844,355.2969 Q1806.2063,355.75 1804.9094,355.75 Q1803.3938,355.75 1802.1906,355.125 Q1801.2063,354.625 1800.5188,353.5625 Q1799.8313,352.4844 1799.8313,351.2031 L1799.8313,350.0469 Q1799.8313,348.7188 1800.4406,347.5781 Q1801.0656,346.4219 1802.1594,345.8125 Q1803.2531,345.1875 1804.4875,345.1875 Q1805.2219,345.1875 1805.8625,345.3594 Q1806.5188,345.5156 1807.0656,345.875 Z "
+              fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="27" x="1821.7"
+              y="354.9102">Error
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1775" x2="1866" y1="366" y2="366"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="81" x="1780"
+              y="381.4189">string Reference
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="74" x="1780"
+              y="395.2549">string Message
+        </text><!--MD5=[d3bc3dd31d3896966212902fd8920d77]
+class Product.1-->
+        <rect codeLine="124" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="40.1875" id="Product.1"
+              style="stroke:#A80036;stroke-width:1.5;" width="116" x="1121.5" y="147"/>
+        <ellipse cx="1136.5" cy="167.0938" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M1139.2656,162.9688 Q1139.4219,162.75 1139.6094,162.6406 Q1139.7969,162.5313 1140.0156,162.5313 Q1140.3906,162.5313 1140.625,162.7969 Q1140.8594,163.0469 1140.8594,163.6563 L1140.8594,165.1094 Q1140.8594,165.7188 1140.625,165.9844 Q1140.3906,166.25 1140.0156,166.25 Q1139.6719,166.25 1139.4688,166.0469 Q1139.2656,165.8594 1139.1563,165.3438 Q1139.1094,164.9844 1138.9219,164.7969 Q1138.5938,164.4219 1137.9844,164.2031 Q1137.375,163.9844 1136.75,163.9844 Q1135.9844,163.9844 1135.3438,164.3125 Q1134.7188,164.6406 1134.2188,165.3906 Q1133.7344,166.1406 1133.7344,167.1719 L1133.7344,168.2656 Q1133.7344,169.5 1134.625,170.3281 Q1135.5156,171.1406 1137.1094,171.1406 Q1138.0469,171.1406 1138.7031,170.8906 Q1139.0938,170.7344 1139.5156,170.2969 Q1139.7813,170.0313 1139.9219,169.9531 Q1140.0781,169.875 1140.2813,169.875 Q1140.6094,169.875 1140.8594,170.1406 Q1141.125,170.3906 1141.125,170.7344 Q1141.125,171.0781 1140.7813,171.4844 Q1140.2813,172.0625 1139.4844,172.3906 Q1138.4063,172.8438 1137.1094,172.8438 Q1135.5938,172.8438 1134.3906,172.2188 Q1133.4063,171.7188 1132.7188,170.6563 Q1132.0313,169.5781 1132.0313,168.2969 L1132.0313,167.1406 Q1132.0313,165.8125 1132.6406,164.6719 Q1133.2656,163.5156 1134.3594,162.9063 Q1135.4531,162.2813 1136.6875,162.2813 Q1137.4219,162.2813 1138.0625,162.4531 Q1138.7188,162.6094 1139.2656,162.9688 Z "
+              fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+              textLength="88" x="1148.5" y="164.457">«RequestBody»
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="52" x="1166.5"
+              y="179.5508">Product.1
+        </text><!--MD5=[70e7ef40c53831ac7456ae6141aee614]
+class Customer.1-->
+        <rect codeLine="127" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="40.1875" id="Customer.1"
+              style="stroke:#A80036;stroke-width:1.5;" width="116" x="169.5" y="147"/>
+        <ellipse cx="184.5" cy="167.0938" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M187.2656,162.9688 Q187.4219,162.75 187.6094,162.6406 Q187.7969,162.5313 188.0156,162.5313 Q188.3906,162.5313 188.625,162.7969 Q188.8594,163.0469 188.8594,163.6563 L188.8594,165.1094 Q188.8594,165.7188 188.625,165.9844 Q188.3906,166.25 188.0156,166.25 Q187.6719,166.25 187.4688,166.0469 Q187.2656,165.8594 187.1563,165.3438 Q187.1094,164.9844 186.9219,164.7969 Q186.5938,164.4219 185.9844,164.2031 Q185.375,163.9844 184.75,163.9844 Q183.9844,163.9844 183.3438,164.3125 Q182.7188,164.6406 182.2188,165.3906 Q181.7344,166.1406 181.7344,167.1719 L181.7344,168.2656 Q181.7344,169.5 182.625,170.3281 Q183.5156,171.1406 185.1094,171.1406 Q186.0469,171.1406 186.7031,170.8906 Q187.0938,170.7344 187.5156,170.2969 Q187.7813,170.0313 187.9219,169.9531 Q188.0781,169.875 188.2813,169.875 Q188.6094,169.875 188.8594,170.1406 Q189.125,170.3906 189.125,170.7344 Q189.125,171.0781 188.7813,171.4844 Q188.2813,172.0625 187.4844,172.3906 Q186.4063,172.8438 185.1094,172.8438 Q183.5938,172.8438 182.3906,172.2188 Q181.4063,171.7188 180.7188,170.6563 Q180.0313,169.5781 180.0313,168.2969 L180.0313,167.1406 Q180.0313,165.8125 180.6406,164.6719 Q181.2656,163.5156 182.3594,162.9063 Q183.4531,162.2813 184.6875,162.2813 Q185.4219,162.2813 186.0625,162.4531 Q186.7188,162.6094 187.2656,162.9688 Z "
+              fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+              textLength="88" x="196.5" y="164.457">«RequestBody»
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="65" x="208"
+              y="179.5508">Customer.1
+        </text><!--MD5=[d3748fd82ae36a303ba4a1d7dbd23d78]
+class SalesOrder.1-->
+        <rect codeLine="130" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="40.1875" id="SalesOrder.1"
+              style="stroke:#A80036;stroke-width:1.5;" width="116" x="2289.5" y="147"/>
+        <ellipse cx="2304.5" cy="167.0938" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M2307.2656,162.9688 Q2307.4219,162.75 2307.6094,162.6406 Q2307.7969,162.5313 2308.0156,162.5313 Q2308.3906,162.5313 2308.625,162.7969 Q2308.8594,163.0469 2308.8594,163.6563 L2308.8594,165.1094 Q2308.8594,165.7188 2308.625,165.9844 Q2308.3906,166.25 2308.0156,166.25 Q2307.6719,166.25 2307.4688,166.0469 Q2307.2656,165.8594 2307.1563,165.3438 Q2307.1094,164.9844 2306.9219,164.7969 Q2306.5938,164.4219 2305.9844,164.2031 Q2305.375,163.9844 2304.75,163.9844 Q2303.9844,163.9844 2303.3438,164.3125 Q2302.7188,164.6406 2302.2188,165.3906 Q2301.7344,166.1406 2301.7344,167.1719 L2301.7344,168.2656 Q2301.7344,169.5 2302.625,170.3281 Q2303.5156,171.1406 2305.1094,171.1406 Q2306.0469,171.1406 2306.7031,170.8906 Q2307.0938,170.7344 2307.5156,170.2969 Q2307.7813,170.0313 2307.9219,169.9531 Q2308.0781,169.875 2308.2813,169.875 Q2308.6094,169.875 2308.8594,170.1406 Q2309.125,170.3906 2309.125,170.7344 Q2309.125,171.0781 2308.7813,171.4844 Q2308.2813,172.0625 2307.4844,172.3906 Q2306.4063,172.8438 2305.1094,172.8438 Q2303.5938,172.8438 2302.3906,172.2188 Q2301.4063,171.7188 2300.7188,170.6563 Q2300.0313,169.5781 2300.0313,168.2969 L2300.0313,167.1406 Q2300.0313,165.8125 2300.6406,164.6719 Q2301.2656,163.5156 2302.3594,162.9063 Q2303.4531,162.2813 2304.6875,162.2813 Q2305.4219,162.2813 2306.0625,162.4531 Q2306.7188,162.6094 2307.2656,162.9688 Z "
+              fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+              textLength="88" x="2316.5" y="164.457">«RequestBody»
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="73" x="2324"
+              y="179.5508">SalesOrder.1
+        </text><!--MD5=[dcb829874131c6e2949915e143809d29]
+class Receipt.1-->
+        <rect codeLine="133" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="40.1875" id="Receipt.1"
+              style="stroke:#A80036;stroke-width:1.5;" width="116" x="2928.5" y="147"/>
+        <ellipse cx="2943.5" cy="167.0938" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M2946.2656,162.9688 Q2946.4219,162.75 2946.6094,162.6406 Q2946.7969,162.5313 2947.0156,162.5313 Q2947.3906,162.5313 2947.625,162.7969 Q2947.8594,163.0469 2947.8594,163.6563 L2947.8594,165.1094 Q2947.8594,165.7188 2947.625,165.9844 Q2947.3906,166.25 2947.0156,166.25 Q2946.6719,166.25 2946.4688,166.0469 Q2946.2656,165.8594 2946.1563,165.3438 Q2946.1094,164.9844 2945.9219,164.7969 Q2945.5938,164.4219 2944.9844,164.2031 Q2944.375,163.9844 2943.75,163.9844 Q2942.9844,163.9844 2942.3438,164.3125 Q2941.7188,164.6406 2941.2188,165.3906 Q2940.7344,166.1406 2940.7344,167.1719 L2940.7344,168.2656 Q2940.7344,169.5 2941.625,170.3281 Q2942.5156,171.1406 2944.1094,171.1406 Q2945.0469,171.1406 2945.7031,170.8906 Q2946.0938,170.7344 2946.5156,170.2969 Q2946.7813,170.0313 2946.9219,169.9531 Q2947.0781,169.875 2947.2813,169.875 Q2947.6094,169.875 2947.8594,170.1406 Q2948.125,170.3906 2948.125,170.7344 Q2948.125,171.0781 2947.7813,171.4844 Q2947.2813,172.0625 2946.4844,172.3906 Q2945.4063,172.8438 2944.1094,172.8438 Q2942.5938,172.8438 2941.3906,172.2188 Q2940.4063,171.7188 2939.7188,170.6563 Q2939.0313,169.5781 2939.0313,168.2969 L2939.0313,167.1406 Q2939.0313,165.8125 2939.6406,164.6719 Q2940.2656,163.5156 2941.3594,162.9063 Q2942.4531,162.2813 2943.6875,162.2813 Q2944.4219,162.2813 2945.0625,162.4531 Q2945.7188,162.6094 2946.2656,162.9688 Z "
+              fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+              textLength="88" x="2955.5" y="164.457">«RequestBody»
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="52" x="2973.5"
+              y="179.5508">Receipt.1
+        </text><!--MD5=[e145a720324da1f05f6df355d0eac8f7]
+class GET /companies-->
+        <rect codeLine="136" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="40.1875" id="GET /companies"
+              style="stroke:#A80036;stroke-width:1.5;" width="98" x="1771.5" y="147"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+              textLength="39" x="1801" y="164.457">«Path»
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="92" x="1774.5"
+              y="179.5508">GET /companies
+        </text><!--MD5=[4de44252eefd8480194150544542ac6a]
+class GET /companies 200-->
+        <rect codeLine="139" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="40.1875" id="GET /companies 200"
+              style="stroke:#A80036;stroke-width:1.5;" width="122" x="1594.5" y="348"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+              textLength="70" x="1620.5" y="365.457">«Response»
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="116" x="1597.5"
+              y="380.5508">GET /companies 200
+        </text><!--MD5=[bb2a52296175b7672d21d78a0f0427e1]
+class GET /tax-rates-->
+        <rect codeLine="142" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="40.1875" id="GET /tax-rates"
+              style="stroke:#A80036;stroke-width:1.5;" width="83" x="1653" y="147"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+              textLength="39" x="1675" y="164.457">«Path»
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="77" x="1656"
+              y="179.5508">GET /tax-rates
+        </text><!--MD5=[35b488789228e24a569610878849eb72]
+class GET /tax-rates 200-->
+        <rect codeLine="145" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="40.1875" id="GET /tax-rates 200"
+              style="stroke:#A80036;stroke-width:1.5;" width="107" x="1408" y="348"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+              textLength="70" x="1426.5" y="365.457">«Response»
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="101" x="1411"
+              y="380.5508">GET /tax-rates 200
+        </text><!--MD5=[1643574f16201824989dd5ff8d345f82]
+class GET /exchange-rates-->
+        <rect codeLine="148" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="40.1875" id="GET /exchange-rates"
+              style="stroke:#A80036;stroke-width:1.5;" width="121" x="1917" y="18"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+              textLength="39" x="1958" y="35.457">«Path»
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="115" x="1920"
+              y="50.5508">GET /exchange-rates
+        </text><!--MD5=[11a95e6bcbf7c9ab5aee20e92f7840a6]
+class GET /exchange-rates 200-->
+        <rect codeLine="151" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="40.1875" id="GET /exchange-rates 200"
+              style="stroke:#A80036;stroke-width:1.5;" width="145" x="1905" y="147"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+              textLength="70" x="1942.5" y="164.457">«Response»
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="139" x="1908"
+              y="179.5508">GET /exchange-rates 200
+        </text><!--MD5=[9994cca73a20d9ddf5c453f6b241b0cc]
+class GET /products/categories-->
+        <rect codeLine="154" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="40.1875" id="GET /products/categories"
+              style="stroke:#A80036;stroke-width:1.5;" width="145" x="2097" y="18"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+              textLength="39" x="2150" y="35.457">«Path»
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="139" x="2100"
+              y="50.5508">GET /products/categories
+        </text><!--MD5=[7b99fd6ad00bff33b0d97404da6457aa]
+class GET /products/categories 200-->
+        <rect codeLine="157" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="40.1875"
+              id="GET /products/categories 200" style="stroke:#A80036;stroke-width:1.5;" width="169" x="2085" y="147"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+              textLength="70" x="2134.5" y="164.457">«Response»
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="163" x="2088"
+              y="179.5508">GET /products/categories 200
+        </text><!--MD5=[a18296dca8468c022bbd6265f21bc315]
+class GET /products-->
+        <rect codeLine="160" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="40.1875" id="GET /products"
+              style="stroke:#A80036;stroke-width:1.5;" width="84" x="1521.5" y="18"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+              textLength="39" x="1544" y="35.457">«Path»
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="78" x="1524.5"
+              y="50.5508">GET /products
+        </text><!--MD5=[9af1a446751bea2dde587d16dead6c2a]
+class GET /products 200-->
+        <rect codeLine="163" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="40.1875" id="GET /products 200"
+              style="stroke:#A80036;stroke-width:1.5;" width="108" x="1509.5" y="147"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+              textLength="70" x="1528.5" y="164.457">«Response»
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="102" x="1512.5"
+              y="179.5508">GET /products 200
+        </text><!--MD5=[1dc4532d64d8ba7e1d2e07dff1cc6284]
+class POST /products-->
+        <rect codeLine="166" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="40.1875" id="POST /products"
+              style="stroke:#A80036;stroke-width:1.5;" width="92" x="1014.5" y="18"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+              textLength="39" x="1041" y="35.457">«Path»
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="86" x="1017.5"
+              y="50.5508">POST /products
+        </text><!--MD5=[0337d6b908410def296b27ed7a3c4c08]
+class POST /products 201-->
+        <rect codeLine="169" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="40.1875" id="POST /products 201"
+              style="stroke:#A80036;stroke-width:1.5;" width="116" x="970.5" y="147"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+              textLength="70" x="993.5" y="164.457">«Response»
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="110" x="973.5"
+              y="179.5508">POST /products 201
+        </text><!--MD5=[49a04e330ebdde991ac19460700fdb13]
+class PUT /products/{stockItemCode}-->
+        <rect codeLine="172" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="62.0234"
+              id="PUT /products/{stockItemCode}" style="stroke:#A80036;stroke-width:1.5;" width="178" x="1228.5" y="7"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+              textLength="39" x="1298" y="24.457">«Path»
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="172" x="1231.5"
+              y="39.5508">PUT /products/{stockItemCode}
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1229.5" x2="1405.5" y1="47.1875" y2="47.1875"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="113" x="1234.5"
+              y="62.6064">integer stockItemCode *
+        </text><!--MD5=[30ea0c828999c50293b37cc6e5b042d6]
+class PUT /products/{stockItemCode} 200-->
+        <rect codeLine="176" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="40.1875"
+              id="PUT /products/{stockItemCode} 200" style="stroke:#A80036;stroke-width:1.5;" width="202" x="1272.5"
+              y="147"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+              textLength="70" x="1338.5" y="164.457">«Response»
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="196" x="1275.5"
+              y="179.5508">PUT /products/{stockItemCode} 200
+        </text><!--MD5=[76d770af19dfdd6c3dccf66d31c14556]
+class GET /customers-->
+        <rect codeLine="179" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="40.1875" id="GET /customers"
+              style="stroke:#A80036;stroke-width:1.5;" width="95" x="580" y="18"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+              textLength="39" x="608" y="35.457">«Path»
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="89" x="583"
+              y="50.5508">GET /customers
+        </text><!--MD5=[486d390bbc710f8f30e948e666dd707c]
+class GET /customers 200-->
+        <rect codeLine="182" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="40.1875" id="GET /customers 200"
+              style="stroke:#A80036;stroke-width:1.5;" width="119" x="568" y="147"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+              textLength="70" x="592.5" y="164.457">«Response»
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="113" x="571"
+              y="179.5508">GET /customers 200
+        </text><!--MD5=[60e5798cd77a31fac4da96bc6735a30a]
+class POST /customers-->
+        <rect codeLine="185" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="40.1875" id="POST /customers"
+              style="stroke:#A80036;stroke-width:1.5;" width="103" x="98" y="18"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+              textLength="39" x="130" y="35.457">«Path»
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="97" x="101"
+              y="50.5508">POST /customers
+        </text><!--MD5=[bcae232987bfd061cfe313d46af55b36]
+class POST /customers 201-->
+        <rect codeLine="188" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="40.1875" id="POST /customers 201"
+              style="stroke:#A80036;stroke-width:1.5;" width="127" x="7" y="147"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+              textLength="70" x="35.5" y="164.457">«Response»
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="121" x="10"
+              y="179.5508">POST /customers 201
+        </text><!--MD5=[36596bec1b96dd7ca95586d28f2979a1]
+class PUT /customers/{customerCode}-->
+        <rect codeLine="191" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="62.0234"
+              id="PUT /customers/{customerCode}" style="stroke:#A80036;stroke-width:1.5;" width="188" x="303.5" y="7"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+              textLength="39" x="378" y="24.457">«Path»
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="182" x="306.5"
+              y="39.5508">PUT /customers/{customerCode}
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="304.5" x2="490.5" y1="47.1875" y2="47.1875"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="107" x="309.5"
+              y="62.6064">string customerCode *
+        </text><!--MD5=[07ce2ef82fd7e3450eb1dde997e682b4]
+class PUT /customers/{customerCode} 200-->
+        <rect codeLine="195" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="40.1875"
+              id="PUT /customers/{customerCode} 200" style="stroke:#A80036;stroke-width:1.5;" width="212" x="320.5"
+              y="147"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+              textLength="70" x="391.5" y="164.457">«Response»
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="206" x="323.5"
+              y="179.5508">PUT /customers/{customerCode} 200
+        </text><!--MD5=[a174108828716446117a75a103fc5a15]
+class GET /sales-orders-->
+        <rect codeLine="198" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="40.1875" id="GET /sales-orders"
+              style="stroke:#A80036;stroke-width:1.5;" width="107" x="2627" y="18"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+              textLength="39" x="2661" y="35.457">«Path»
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="101" x="2630"
+              y="50.5508">GET /sales-orders
+        </text><!--MD5=[7ad2dd02b92474badd82c1728ccdb1da]
+class GET /sales-orders 200-->
+        <rect codeLine="201" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="40.1875" id="GET /sales-orders 200"
+              style="stroke:#A80036;stroke-width:1.5;" width="131" x="2615" y="147"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+              textLength="70" x="2645.5" y="164.457">«Response»
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="125" x="2618"
+              y="179.5508">GET /sales-orders 200
+        </text><!--MD5=[4aa0a1885163965982dfdb706fc2d690]
+class POST /sales-orders-->
+        <rect codeLine="204" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="40.1875" id="POST /sales-orders"
+              style="stroke:#A80036;stroke-width:1.5;" width="115" x="2397" y="18"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+              textLength="39" x="2435" y="35.457">«Path»
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="109" x="2400"
+              y="50.5508">POST /sales-orders
+        </text><!--MD5=[ab6e72c8e8d6f574f0bf27266178022f]
+class POST /sales-orders 201-->
+        <rect codeLine="207" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="40.1875" id="POST /sales-orders 201"
+              style="stroke:#A80036;stroke-width:1.5;" width="139" x="2441" y="147"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+              textLength="70" x="2475.5" y="164.457">«Response»
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="133" x="2444"
+              y="179.5508">POST /sales-orders 201
+        </text><!--MD5=[682b910e29cc9d48aeae472e9f454c3a]
+class GET /receipts-->
+        <rect codeLine="210" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="40.1875" id="GET /receipts"
+              style="stroke:#A80036;stroke-width:1.5;" width="80" x="3252.5" y="18"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+              textLength="39" x="3273" y="35.457">«Path»
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="74" x="3255.5"
+              y="50.5508">GET /receipts
+        </text><!--MD5=[e9ec08c823bd6ee178bfa6d5f99f9f29]
+class GET /receipts 200-->
+        <rect codeLine="213" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="40.1875" id="GET /receipts 200"
+              style="stroke:#A80036;stroke-width:1.5;" width="104" x="3240.5" y="147"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+              textLength="70" x="3257.5" y="164.457">«Response»
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="98" x="3243.5"
+              y="179.5508">GET /receipts 200
+        </text><!--MD5=[dc86124de28a1fd492b1a611ac0a14e7]
+class POST /receipts-->
+        <rect codeLine="216" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="40.1875" id="POST /receipts"
+              style="stroke:#A80036;stroke-width:1.5;" width="88" x="2849.5" y="18"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+              textLength="39" x="2874" y="35.457">«Path»
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="82" x="2852.5"
+              y="50.5508">POST /receipts
+        </text><!--MD5=[d7ee28f167f18e8870cefd838060bd9c]
+class POST /receipts 201-->
+        <rect codeLine="219" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="40.1875" id="POST /receipts 201"
+              style="stroke:#A80036;stroke-width:1.5;" width="112" x="2781.5" y="147"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+              textLength="70" x="2802.5" y="164.457">«Response»
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="106" x="2784.5"
+              y="179.5508">POST /receipts 201
+        </text><!--MD5=[35f2db5aad66cefe926b708129f4cb53]
+class PUT /receipts/{id}-->
+        <rect codeLine="222" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="62.0234" id="PUT /receipts/{id}"
+              style="stroke:#A80036;stroke-width:1.5;" width="101" x="3050" y="7"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+              textLength="39" x="3081" y="24.457">«Path»
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="95" x="3053"
+              y="39.5508">PUT /receipts/{id}
+        </text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="3051" x2="3150" y1="47.1875" y2="47.1875"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="51" x="3056"
+              y="62.6064">integer id *
+        </text><!--MD5=[58e25b5c4e9ab787291de8b25452044d]
+class PUT /receipts/{id} 200-->
+        <rect codeLine="226" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="40.1875" id="PUT /receipts/{id} 200"
+              style="stroke:#A80036;stroke-width:1.5;" width="125" x="3080" y="147"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+              textLength="70" x="3107.5" y="164.457">«Response»
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="119" x="3083"
+              y="179.5508">PUT /receipts/{id} 200
+        </text><!--MD5=[0fbba1d4c873e437e1309bf684e8ee6b]
+class GET /locations-->
+        <rect codeLine="229" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="40.1875" id="GET /locations"
+              style="stroke:#A80036;stroke-width:1.5;" width="86" x="849.5" y="147"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+              textLength="39" x="873" y="164.457">«Path»
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="80" x="852.5"
+              y="179.5508">GET /locations
+        </text><!--MD5=[9179e11e5df29211f3163ef01d93ba83]
+class GET /locations 200-->
+        <rect codeLine="232" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="40.1875" id="GET /locations 200"
+              style="stroke:#A80036;stroke-width:1.5;" width="110" x="881.5" y="348"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+              textLength="70" x="901.5" y="365.457">«Response»
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="104" x="884.5"
+              y="380.5508">GET /locations 200
+        </text><!--MD5=[a83a5587e8df26196c9ce63f72435172]
+class GET /bank-accounts-->
+        <rect codeLine="235" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="40.1875" id="GET /bank-accounts"
+              style="stroke:#A80036;stroke-width:1.5;" width="117" x="3392" y="18"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+              textLength="39" x="3431" y="35.457">«Path»
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="111" x="3395"
+              y="50.5508">GET /bank-accounts
+        </text><!--MD5=[232fbaf5ee7d695ec25eccaf121452d9]
+class GET /bank-accounts 200-->
+        <rect codeLine="238" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="40.1875" id="GET /bank-accounts 200"
+              style="stroke:#A80036;stroke-width:1.5;" width="141" x="3380" y="147"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+              textLength="70" x="3415.5" y="164.457">«Response»
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="135" x="3383"
+              y="179.5508">GET /bank-accounts 200
+        </text><!--MD5=[4cceaecc045b1cc1a423a7b61efadec6]
+class GET /discounts-->
+        <rect codeLine="241" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="40.1875" id="GET /discounts"
+              style="stroke:#A80036;stroke-width:1.5;" width="90" x="724.5" y="147"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+              textLength="39" x="750" y="164.457">«Path»
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="84" x="727.5"
+              y="179.5508">GET /discounts
+        </text><!--MD5=[e8cc457eeb8fbb0ca1021db20573b5d0]
+class GET /discounts 200-->
+        <rect codeLine="244" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="40.1875" id="GET /discounts 200"
+              style="stroke:#A80036;stroke-width:1.5;" width="114" x="728.5" y="348"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+              textLength="70" x="750.5" y="365.457">«Response»
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="108" x="731.5"
+              y="380.5508">GET /discounts 200
+        </text><!--MD5=[0a9b9192404471a7bfcce8d94e883fca]
+class GET /ping-->
+        <rect codeLine="247" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="40.1875" id="GET /ping"
+              style="stroke:#A80036;stroke-width:1.5;" width="60" x="3568.5" y="18"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+              textLength="39" x="3579" y="35.457">«Path»
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="54" x="3571.5"
+              y="50.5508">GET /ping
+        </text><!--MD5=[0b048f3812de5d498917aa5d4617d3ca]
+class GET /ping 200-->
+        <rect codeLine="250" fill="#FEFECE" filter="url(#f1xq7q4eg04v70)" height="40.1875" id="GET /ping 200"
+              style="stroke:#A80036;stroke-width:1.5;" width="84" x="3556.5" y="147"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+              textLength="70" x="3563.5" y="164.457">«Response»
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="78" x="3559.5"
+              y="179.5508">GET /ping 200
+        </text><!--MD5=[4c3a303c2d0da1e04eb1e12c43886d1a]
+link Company to Address-->
+        <path codeLine="253"
+              d="M1361.27,638.9 C1346.2,645.93 1330.02,652.77 1314.5,658 C1096.58,731.4 825.05,773.06 706.08,788.96 "
+              fill="none" id="Company-to-Address" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036"
+                 points="700.88,789.65,710.3276,792.4326,705.8366,788.9929,709.2763,784.502,700.88,789.65"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="22" x="708.5552"
+              y="785.3319">0..1
+        </text><!--MD5=[fdf307acbcb1489cf2919c8d263be5ac]
+link Product to TaxRate-->
+        <path codeLine="255" d="M1220.86,471.08 C1225.83,498.69 1230.99,527.41 1235.23,550.94 " fill="none"
+              id="Product-to-TaxRate" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036"
+                 points="1236.11,555.88,1238.4502,546.3132,1235.2231,550.9593,1230.5771,547.7322,1236.11,555.88"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="47" x="1229.5"
+              y="515.4951">VatRate
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="22"
+              x="1211.2621" y="545.2065">0..1
+        </text><!--MD5=[7018fed88091f02095fb5df2c573b4cc]
+link Product to Location-->
+        <path codeLine="257" d="M1120.71,459.95 C1087.53,496.83 1051.1,537.34 1025.58,565.71 " fill="none"
+              id="Product-to-Location" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036"
+                 points="1022.21,569.46,1031.2039,565.4462,1025.5548,565.7435,1025.2575,560.0945,1022.21,569.46"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="123" x="1080.5"
+              y="515.4951">DefaultStockLocation
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="22"
+              x="1003.8935" y="558.7454">0..1
+        </text><!--MD5=[9d267913275094cee8b213adaba16fc1]
+link Customer to Address-->
+        <path codeLine="259"
+              d="M593.3,436.63 C590.91,495.5 590.45,582.94 602.5,658 C606.39,682.25 613.56,708.14 620.95,730.88 "
+              fill="none" id="Customer-to-Address" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036"
+                 points="622.53,735.69,623.5318,725.8922,620.9746,730.9381,615.9287,728.3809,622.53,735.69"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="22" x="596.6022"
+              y="725.1328">0..1
+        </text><!--MD5=[9d267913275094cee8b213adaba16fc1]
+link Customer to Address-->
+        <path codeLine="263"
+              d="M609.16,436.71 C612.47,457.31 615.88,480.05 618.5,501 C628.34,579.65 636.1,670.5 640.73,730.47 "
+              fill="none" id="Customer-to-Address-1" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036"
+                 points="641.14,735.82,644.4339,726.5383,640.7543,730.8349,636.4577,727.1553,641.14,735.82"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="93" x="636.5"
+              y="608.9951">DeliveryAddress
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="22" x="641.9078"
+              y="725.2778">0..1
+        </text><!--MD5=[2d4e02df9858c0bd1e726473cc01960d]
+link Customer to Contact-->
+        <path codeLine="261"
+              d="M540.17,405.2 C509.1,428.36 473.64,461.47 456.5,501 C446.93,523.07 448.41,550.44 451.89,571.2 "
+              fill="none" id="Customer-to-Contact" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036"
+                 points="452.81,576.33,455.155,566.7644,451.9256,571.4088,447.2812,568.1794,452.81,576.33"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="73" x="457.5"
+              y="515.4951">MainContact
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="22" x="426.7192"
+              y="565.7517">0..1
+        </text><!--MD5=[c057e2c251b8bfce53bc10e578f8b1b2]
+link Customer to Discount-->
+        <path codeLine="265"
+              d="M654.83,426.4 C683.13,454.52 717.89,488.75 749.5,519 C758.39,527.51 767.85,536.43 777.17,545.14 "
+              fill="none" id="Customer-to-Discount" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036"
+                 points="781.16,548.86,777.311,539.7944,777.5052,545.4479,771.8517,545.6421,781.16,548.86"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="58" x="750.5"
+              y="515.4951">Discounts
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="767.9846"
+              y="537.9494">*
+        </text><!--MD5=[b6092e87bd3dd3d967d26a85a84801b2]
+link Contact to ContactMethod-->
+        <path codeLine="267"
+              d="M431.3,630.58 C416.99,645.76 401.08,666.18 393.5,688 C385.71,710.41 386.31,737.02 388.93,758.28 "
+              fill="none" id="Contact-to-ContactMethod" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036" points="389.6,763.29,392.3826,753.8424,388.9429,758.3334,384.452,754.8937,389.6,763.29"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="95" x="394.5"
+              y="702.4951">ContactMethods
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="382.7494"
+              y="752.5419">*
+        </text><!--MD5=[618cc37569a251c339412c2610839873]
+link Contact to Address-->
+        <path codeLine="269"
+              d="M477.6,630.72 C492.78,651.96 515.61,682.16 538.5,706 C553.18,721.29 570.26,736.65 586.41,750.27 "
+              fill="none" id="Contact-to-Address" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036"
+                 points="590.49,753.69,586.1691,744.8396,586.6606,750.475,581.0252,750.9666,590.49,753.69"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="22" x="560.445"
+              y="744.8912">0..1
+        </text><!--MD5=[8f166f6c1759598e57e8c2dcc2a3009a]
+link Location to Address-->
+        <path codeLine="271"
+              d="M950.33,637.72 C940.74,644.74 930.44,651.87 920.5,658 C849.26,701.95 762.27,743.96 705.46,769.95 "
+              fill="none" id="Location-to-Address" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036"
+                 points="700.74,772.11,710.5884,772.0156,705.2894,770.0356,707.2694,764.7366,700.74,772.11"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="22" x="708.399"
+              y="765.7638">0..1
+        </text><!--MD5=[a23b9a14018378b27164c9b5ba948598]
+link Product.1 to Product-->
+        <path codeLine="273" d="M1181.71,187.08 C1183.72,204.48 1186.86,231.68 1190.1,259.71 " fill="none"
+              id="Product.1-to-Product" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036"
+                 points="1190.71,264.95,1193.6561,255.5521,1190.139,259.9827,1185.7084,256.4656,1190.71,264.95"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1182.5871"
+              y="254.3016">1
+        </text><!--MD5=[2cd6af38297729393558e4f8777bbf93]
+link Customer.1 to Customer-->
+        <path codeLine="275" d="M262.98,187.08 C325.85,220.89 457.52,291.71 535.61,333.71 " fill="none"
+              id="Customer.1-to-Customer" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036"
+                 points="540.21,336.19,534.1852,328.3989,535.8086,333.8178,530.3896,335.4412,540.21,336.19"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="525.4213"
+              y="328.6165">1
+        </text><!--MD5=[176c3b5857b4752a71280d8578a5c16d]
+link SalesOrder.1 to SalesOrder-->
+        <path codeLine="277" d="M2359.96,187.08 C2372.38,206.09 2392.44,236.79 2412.5,267.5 " fill="none"
+              id="SalesOrder.1-to-SalesOrder" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036"
+                 points="2415.46,272.02,2413.8961,262.2961,2412.7295,267.8314,2407.1943,266.6649,2415.46,272.02"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="2403.2373"
+              y="261.2354">1
+        </text><!--MD5=[be2d58fbbb0b16dc6e5428c9632e92df]
+link Receipt.1 to Receipt-->
+        <path codeLine="279" d="M2998.01,187.08 C3012.89,211.76 3039.66,256.15 3062.88,294.67 " fill="none"
+              id="Receipt.1-to-Receipt" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036"
+                 points="3065.7,299.33,3064.4995,289.5546,3063.1275,295.0425,3057.6396,293.6705,3065.7,299.33"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="3053.8547"
+              y="288.4667">1
+        </text><!--MD5=[388cce7f2774956c1a0a070f40682fd4]
+link GET /companies 200 to Company-->
+        <path codeLine="281" d="M1636.76,388.11 C1601.92,423.63 1526.14,500.9 1475.72,552.31 " fill="none"
+              id="GET /companies 200-to-Company" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036"
+                 points="1472.13,555.97,1481.2862,552.3418,1475.6296,552.3989,1475.5725,546.7424,1472.13,555.97"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1473.4647"
+              y="545.3097">*
+        </text><!--MD5=[7678851096984066e6e10e6e0a4912c9]
+link GET /companies to GET /companies 200-->
+        <path codeLine="283" d="M1804.68,187.08 C1774.25,223.78 1707.67,304.08 1674.74,343.8 " fill="none"
+              id="GET /companies-to-GET /companies 200"
+              style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036"
+                 points="1671.27,347.98,1680.0933,343.6041,1674.4611,344.1307,1673.9345,338.4984,1671.27,347.98"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="1777.5"
+              y="231.4951">200
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1667.8743"
+              y="337.2683">1
+        </text><!--MD5=[c21cd036638f606d28d66c30b8b2b940]
+link GET /companies to Error-->
+        <path codeLine="285" d="M1820.5,187.08 C1820.5,219.61 1820.5,286.4 1820.5,328.82 " fill="none"
+              id="GET /companies-to-Error" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1820.5,333.87,1824.5,324.87,1820.5,328.87,1816.5,324.87,1820.5,333.87"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="1821.5"
+              y="231.4951">400
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1812.8109"
+              y="323.1377">1
+        </text><!--MD5=[0a1f469bf44b2e618d69310abd201678]
+link GET /tax-rates 200 to TaxRate-->
+        <path codeLine="287" d="M1443.74,388.11 C1410.79,423.56 1339.2,500.6 1291.43,552.01 " fill="none"
+              id="GET /tax-rates 200-to-TaxRate" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036"
+                 points="1287.74,555.97,1296.79,552.0845,1291.1373,552.3015,1290.9204,546.6488,1287.74,555.97"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1288.7237"
+              y="545.3097">*
+        </text><!--MD5=[37ad1f2aa4551bb7ebacae9836ee4730]
+link GET /tax-rates to GET /tax-rates 200-->
+        <path codeLine="289"
+              d="M1670.78,187.07 C1646.79,206.44 1608.77,237.45 1576.5,265 C1545.04,291.87 1509.51,323.6 1486.37,344.45 "
+              fill="none" id="GET /tax-rates-to-GET /tax-rates 200"
+              style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036"
+                 points="1482.49,347.96,1491.8555,344.9125,1486.2065,344.6152,1486.5038,338.9661,1482.49,347.96"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="1632.5"
+              y="231.4951">200
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1480.6277"
+              y="337.2425">1
+        </text><!--MD5=[dfb7866f4d38fa8b44bfa0d82bfba663]
+link GET /exchange-rates 200 to ExchangeRate-->
+        <path codeLine="291" d="M1977.5,187.08 C1977.5,216.34 1977.5,273.31 1977.5,315.34 " fill="none"
+              id="GET /exchange-rates 200-to-ExchangeRate" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036" points="1977.5,320.39,1981.5,311.39,1977.5,315.39,1973.5,311.39,1977.5,320.39"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1972.1328"
+              y="309.718">*
+        </text><!--MD5=[f2f00bf901ba9db50155421447251312]
+link GET /exchange-rates to GET /exchange-rates 200-->
+        <path codeLine="293" d="M1977.5,58.01 C1977.5,80.27 1977.5,117.19 1977.5,141.55 " fill="none"
+              id="GET /exchange-rates-to-GET /exchange-rates 200"
+              style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1977.5,146.86,1981.5,137.86,1977.5,141.86,1973.5,137.86,1977.5,146.86"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="1978.5"
+              y="113.4951">200
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1969.4719"
+              y="136.1131">1
+        </text><!--MD5=[af3b31ad88581c1ebd526571181a98ad]
+link GET /products/categories 200 to StockCategory-->
+        <path codeLine="295" d="M2169.5,187.08 C2169.5,219.61 2169.5,286.4 2169.5,328.82 " fill="none"
+              id="GET /products/categories 200-to-StockCategory" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036" points="2169.5,333.87,2173.5,324.87,2169.5,328.87,2165.5,324.87,2169.5,333.87"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="2164.0078"
+              y="323.1377">*
+        </text><!--MD5=[af6e0f4a173eb174515f37aec0011afc]
+link GET /products/categories to GET /products/categories 200-->
+        <path codeLine="297" d="M2169.5,58.01 C2169.5,80.27 2169.5,117.19 2169.5,141.55 " fill="none"
+              id="GET /products/categories-to-GET /products/categories 200"
+              style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="2169.5,146.86,2173.5,137.86,2169.5,141.86,2165.5,137.86,2169.5,146.86"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="2170.5"
+              y="113.4951">200
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="2161.4719"
+              y="136.1131">1
+        </text><!--MD5=[605a06f30e51514bff5f77ba9879c73c]
+link GET /products 200 to Product-->
+        <path codeLine="299" d="M1528.89,187.08 C1474.04,217.32 1365.5,277.14 1288.68,319.5 " fill="none"
+              id="GET /products 200-to-Product" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036"
+                 points="1284.12,322.01,1293.9321,321.1604,1288.4968,319.5927,1290.0645,314.1574,1284.12,322.01"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1291.8748"
+              y="314.5427">*
+        </text><!--MD5=[c2ea1e6f2ec62066d7dd9caba1ca3b59]
+link GET /products to GET /products 200-->
+        <path codeLine="301" d="M1563.5,58.01 C1563.5,80.27 1563.5,117.19 1563.5,141.55 " fill="none"
+              id="GET /products-to-GET /products 200"
+              style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1563.5,146.86,1567.5,137.86,1563.5,141.86,1559.5,137.86,1563.5,146.86"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="1564.5"
+              y="113.4951">200
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1555.4719"
+              y="136.1131">1
+        </text><!--MD5=[c5fff1274db1a509433bcf4e129f4eff]
+link POST /products to POST /products 201-->
+        <path codeLine="303" d="M1055.71,58.01 C1050.08,80.37 1040.72,117.5 1034.58,141.86 " fill="none"
+              id="POST /products-to-POST /products 201"
+              style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036"
+                 points="1033.32,146.86,1039.4103,139.1199,1034.5495,142.0135,1031.6559,137.1527,1033.32,146.86"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="1045.5"
+              y="113.4951">201
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1026.7078"
+              y="136.1131">1
+        </text><!--MD5=[69338f89d5b6bf8680192981a2e57586]
+link POST /products to Product.1-->
+        <path codeLine="305" d="M1078.32,58.01 C1099.61,80.74 1135.22,118.74 1158.02,143.07 " fill="none"
+              id="POST /products-to-Product.1" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036"
+                 points="1161.56,146.86,1158.3239,137.558,1158.1408,143.2119,1152.4869,143.0287,1161.56,146.86"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1148.262"
+              y="136.1131">1
+        </text><!--MD5=[edc64ef2299e8ede655e2745cf995ac8]
+link PUT /products/{stockItemCode} to PUT /products/{stockItemCode} 200-->
+        <path codeLine="307" d="M1330.77,69.1 C1340.59,91.37 1353.79,121.31 1362.91,141.99 " fill="none"
+              id="PUT /products/{stockItemCode}-to-PUT /products/{stockItemCode} 200"
+              style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036"
+                 points="1365.02,146.77,1365.0628,136.9212,1363.0092,142.1922,1357.7382,140.1386,1365.02,146.77"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="1352.5"
+              y="113.4951">200
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1354.5009"
+              y="135.9967">1
+        </text><!--MD5=[903d3a5cd7840eeede5a966c273352b0]
+link PUT /products/{stockItemCode} to Product.1-->
+        <path codeLine="309" d="M1284.8,69.1 C1260.08,91.84 1226.69,122.58 1204.19,143.28 " fill="none"
+              id="PUT /products/{stockItemCode}-to-Product.1" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036"
+                 points="1200.39,146.77,1209.7179,143.6092,1204.0657,143.3804,1204.2945,137.7282,1200.39,146.77"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1198.4983"
+              y="135.9967">1
+        </text><!--MD5=[2ca5e2bf66193795823f3f1e87490a88]
+link GET /customers 200 to Customer-->
+        <path codeLine="311" d="M624.62,187.08 C620.92,211.66 614.26,255.79 608.48,294.2 " fill="none"
+              id="GET /customers 200-to-Customer" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036" points="607.7,299.33,612.9932,291.0244,608.4431,294.3855,605.082,289.8355,607.7,299.33"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="603.5422"
+              y="288.4667">*
+        </text><!--MD5=[9e92c07fee71ebaa70d703836b6340bc]
+link GET /customers to GET /customers 200-->
+        <path codeLine="313" d="M627.5,58.01 C627.5,80.27 627.5,117.19 627.5,141.55 " fill="none"
+              id="GET /customers-to-GET /customers 200"
+              style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="627.5,146.86,631.5,137.86,627.5,141.86,623.5,137.86,627.5,146.86"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="628.5"
+              y="113.4951">200
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="619.4719"
+              y="136.1131">1
+        </text><!--MD5=[5c4a26ed4be83dc358da051fa2f9afec]
+link POST /customers to POST /customers 201-->
+        <path codeLine="315" d="M137.67,58.01 C123.65,80.55 100.28,118.12 85.14,142.47 " fill="none"
+              id="POST /customers-to-POST /customers 201"
+              style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="82.41,146.86,90.5636,141.3357,85.0536,142.616,83.7732,137.1059,82.41,146.86"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="111.5"
+              y="113.4951">201
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="77.8804"
+              y="136.1131">1
+        </text><!--MD5=[7e1bb4e6456d25ba8be2f784b48e3a00]
+link POST /customers to Customer.1-->
+        <path codeLine="317" d="M161.18,58.01 C175.02,80.55 198.09,118.12 213.05,142.47 " fill="none"
+              id="POST /customers-to-Customer.1" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036" points="215.74,146.86,214.4535,137.0955,213.1299,142.5954,207.63,141.2717,215.74,146.86"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="204.2574"
+              y="136.1131">1
+        </text><!--MD5=[c3362b158ee65e40a4f5564c1833c776]
+link PUT /customers/{customerCode} to PUT /customers/{customerCode} 200-->
+        <path codeLine="319" d="M404.37,69.1 C409.44,91.28 416.24,121.06 420.96,141.72 " fill="none"
+              id="PUT /customers/{customerCode}-to-PUT /customers/{customerCode} 200"
+              style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036"
+                 points="422.11,146.77,424.0025,137.1047,420.9951,141.8959,416.2039,138.8885,422.11,146.77"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="416.5"
+              y="113.4951">200
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="412.7923"
+              y="135.9967">1
+        </text><!--MD5=[60d31d7b8ce2f29ed56d040e24cfb91c]
+link PUT /customers/{customerCode} to Customer.1-->
+        <path codeLine="321" d="M357.21,69.1 C326.64,91.93 285.29,122.83 257.57,143.54 " fill="none"
+              id="PUT /customers/{customerCode}-to-Customer.1" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036" points="253.24,146.77,262.845,144.592,257.2469,143.7792,258.0597,138.181,253.24,146.77"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="252.773"
+              y="135.9967">1
+        </text><!--MD5=[bc95216780ffa343965fd5f8cefeb0cf]
+link GET /sales-orders 200 to SalesOrder-->
+        <path codeLine="323" d="M2661.04,187.08 C2634.21,213.37 2584.56,262.05 2543.66,302.14 " fill="none"
+              id="GET /sales-orders 200-to-SalesOrder" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036"
+                 points="2539.73,305.99,2548.9576,302.5475,2543.3011,302.4904,2543.3582,296.8338,2539.73,305.99"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="2547.619"
+              y="294.9622">*
+        </text><!--MD5=[0e13c7cc245580638f122f63f3eada87]
+link GET /sales-orders to GET /sales-orders 200-->
+        <path codeLine="325" d="M2680.5,58.01 C2680.5,80.27 2680.5,117.19 2680.5,141.55 " fill="none"
+              id="GET /sales-orders-to-GET /sales-orders 200"
+              style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="2680.5,146.86,2684.5,137.86,2680.5,141.86,2676.5,137.86,2680.5,146.86"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="2681.5"
+              y="113.4951">200
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="2672.4719"
+              y="136.1131">1
+        </text><!--MD5=[d6d1ffe15e539d986a768a89711d4fe3]
+link POST /sales-orders to POST /sales-orders 201-->
+        <path codeLine="327" d="M2462.88,58.01 C2472.78,80.46 2489.25,117.81 2499.99,142.17 " fill="none"
+              id="POST /sales-orders-to-POST /sales-orders 201"
+              style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036"
+                 points="2502.06,146.86,2502.0915,137.0112,2500.0439,142.2845,2494.7706,140.2369,2502.06,146.86"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="2489.5"
+              y="113.4951">201
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="2491.5526"
+              y="136.1131">1
+        </text><!--MD5=[422d44c353e0c577f459970968c198fb]
+link POST /sales-orders to SalesOrder.1-->
+        <path codeLine="329" d="M2438.48,58.01 C2419.41,80.65 2387.58,118.43 2367.07,142.77 " fill="none"
+              id="POST /sales-orders-to-SalesOrder.1" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036"
+                 points="2363.63,146.86,2372.4804,142.5391,2366.845,143.0306,2366.3534,137.3952,2363.63,146.86"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="2360.3401"
+              y="136.1131">1
+        </text><!--MD5=[a76e77e902194f6114905773336f1492]
+link GET /receipts 200 to Receipt-->
+        <path codeLine="331" d="M3274.67,187.08 C3250,213.47 3204.27,262.39 3166.72,302.57 " fill="none"
+              id="GET /receipts 200-to-Receipt" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036"
+                 points="3163.11,306.43,3172.1831,302.5987,3166.5292,302.7819,3166.3461,297.128,3163.11,306.43"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="3171.0529"
+              y="294.6102">*
+        </text><!--MD5=[83ad0b9823275ab247ba8b94fa4c557b]
+link GET /receipts to GET /receipts 200-->
+        <path codeLine="333" d="M3292.5,58.01 C3292.5,80.27 3292.5,117.19 3292.5,141.55 " fill="none"
+              id="GET /receipts-to-GET /receipts 200"
+              style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="3292.5,146.86,3296.5,137.86,3292.5,141.86,3288.5,137.86,3292.5,146.86"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="3293.5"
+              y="113.4951">200
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="3284.4719"
+              y="136.1131">1
+        </text><!--MD5=[7a0e7b01758f6dd75d050e2b7e150970]
+link POST /receipts to POST /receipts 201-->
+        <path codeLine="335" d="M2885.12,58.01 C2875.22,80.46 2858.75,117.81 2848.01,142.17 " fill="none"
+              id="POST /receipts-to-POST /receipts 201"
+              style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036"
+                 points="2845.94,146.86,2853.2294,140.2369,2847.9561,142.2845,2845.9085,137.0112,2845.94,146.86"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="2866.5"
+              y="113.4951">201
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="2840.3911"
+              y="136.1131">1
+        </text><!--MD5=[54f1e3c88569f1cc71ff6d7bbe6d15bf]
+link POST /receipts to Receipt.1-->
+        <path codeLine="337" d="M2907.42,58.01 C2924,80.65 2951.67,118.43 2969.49,142.77 " fill="none"
+              id="POST /receipts-to-Receipt.1" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036"
+                 points="2972.48,146.86,2970.3789,137.2379,2969.5213,142.8293,2963.9299,141.9718,2972.48,146.86"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="2960.3335"
+              y="136.1131">1
+        </text><!--MD5=[a5fb55a45b7dc317c0e5aaaaa90772c7]
+link PUT /receipts/{id} to PUT /receipts/{id} 200-->
+        <path codeLine="339" d="M3110.45,69.1 C3117.82,91.37 3127.72,121.31 3134.56,141.99 " fill="none"
+              id="PUT /receipts/{id}-to-PUT /receipts/{id} 200"
+              style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036"
+                 points="3136.14,146.77,3137.133,136.9713,3134.5803,142.0195,3129.5322,139.4668,3136.14,146.77"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="3126.5"
+              y="113.4951">200
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="3126.2436"
+              y="135.9967">1
+        </text><!--MD5=[986cf59b030b1d3968bcc5ec1015a18a]
+link PUT /receipts/{id} to Receipt.1-->
+        <path codeLine="341" d="M3073.48,69.1 C3053.15,91.75 3025.71,122.32 3007.12,143.03 " fill="none"
+              id="PUT /receipts/{id}-to-Receipt.1" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036"
+                 points="3003.76,146.77,3012.7539,142.7562,3007.1048,143.0535,3006.8075,137.4045,3003.76,146.77"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="3000.802"
+              y="135.9967">1
+        </text><!--MD5=[a17fb0276d49c8c2448d8d4ddfaa1c8e]
+link GET /locations 200 to Location-->
+        <path codeLine="343" d="M941.08,388.11 C950.3,426.54 971.24,513.84 983.36,564.39 " fill="none"
+              id="GET /locations 200-to-Location" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036"
+                 points="984.58,569.46,986.3584,559.773,983.4077,564.5994,978.5814,561.6487,984.58,569.46"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="977.5286"
+              y="558.7454">*
+        </text><!--MD5=[5545c95c4a3a86ad4554693b4def69c8]
+link GET /locations to GET /locations 200-->
+        <path codeLine="345" d="M896.72,187.08 C904.77,223.48 922.3,302.78 931.16,342.83 " fill="none"
+              id="GET /locations-to-GET /locations 200"
+              style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036"
+                 points="932.29,347.98,934.2634,338.3309,931.216,343.0967,926.4501,340.0493,932.29,347.98"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="908.5"
+              y="231.4951">200
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="923.0252"
+              y="337.2683">1
+        </text><!--MD5=[f148a343b2c6ee4520e82297f0e2841b]
+link GET /bank-accounts 200 to BankAccount-->
+        <path codeLine="347" d="M3450.5,187.08 C3450.5,219.61 3450.5,286.4 3450.5,328.82 " fill="none"
+              id="GET /bank-accounts 200-to-BankAccount" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036" points="3450.5,333.87,3454.5,324.87,3450.5,328.87,3446.5,324.87,3450.5,333.87"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="3445.0078"
+              y="323.1377">*
+        </text><!--MD5=[7586535486c13134ebb9b821d587c237]
+link GET /bank-accounts to GET /bank-accounts 200-->
+        <path codeLine="349" d="M3450.5,58.01 C3450.5,80.27 3450.5,117.19 3450.5,141.55 " fill="none"
+              id="GET /bank-accounts-to-GET /bank-accounts 200"
+              style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="3450.5,146.86,3454.5,137.86,3450.5,141.86,3446.5,137.86,3450.5,146.86"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="3451.5"
+              y="113.4951">200
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="3442.4719"
+              y="136.1131">1
+        </text><!--MD5=[95bac642c59338ca2f02f99be39b075d]
+link GET /discounts 200 to Discount-->
+        <path codeLine="351" d="M789.92,388.11 C797.7,421.77 814.15,492.9 825.97,544.01 " fill="none"
+              id="GET /discounts 200-to-Discount" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036" points="827.1,548.89,828.9655,539.2194,825.9715,544.019,821.172,541.025,827.1,548.89"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="820.0978"
+              y="537.9834">*
+        </text><!--MD5=[50b7bd355c6167284bbedc15debb90a8]
+link GET /discounts to GET /discounts 200-->
+        <path codeLine="353" d="M771.03,187.08 C773.96,223.48 780.34,302.78 783.56,342.83 " fill="none"
+              id="GET /discounts-to-GET /discounts 200"
+              style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036"
+                 points="783.97,347.98,787.2353,338.6882,783.569,342.9961,779.2611,339.3298,783.97,347.98"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="776.5"
+              y="231.4951">200
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="775.4924"
+              y="337.2683">1
+        </text><!--MD5=[896eaba6e4c6829bec79d024ea9a24d2]
+link GET /ping to GET /ping 200-->
+        <path codeLine="355" d="M3598.5,58.01 C3598.5,80.27 3598.5,117.19 3598.5,141.55 " fill="none"
+              id="GET /ping-to-GET /ping 200" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="3598.5,146.86,3602.5,137.86,3598.5,141.86,3594.5,137.86,3598.5,146.86"
+                 style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="3599.5"
+              y="113.4951">200
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="3590.4719"
+              y="136.1131">1
+        </text><!--MD5=[e2d03bda9b06bd2b07994fe03dd0dcb2]
+@startuml
+hide <<Path>> circle
+hide <<Response>> circle
+hide <<Parameter>> circle
+hide empty methods
+hide empty fields
+set namespaceSeparator none
+
+class "Company" {
+  {field} string CompanyId 
+  {field} string CompanyName 
+  {field} integer CompanyNumber 
+  {field} integer VATNumber 
+}
+
+class "TaxRate" {
+  {field} integer TaxRateId 
+  {field} string Name 
+  {field} decimal Rate 
+  {field} string CountryCode 
+}
+
+class "ExchangeRate" {
+  {field} string CurrencyCode 
+  {field} string CountryCode 
+  {field} string Description 
+  {field} decimal RateVsGbp 
+}
+
+class "StockCategory" {
+  {field} integer CategoryId 
+  {field} string CategoryName 
+}
+
+class "Product" {
+  {field} integer StockItemId 
+  {field} string StockItemCode 
+  {field} string StockItemName 
+  {field} string StockItemDescription 
+  {field} decimal SalesUoM 
+  {field} decimal ListPrice 
+  {field} string ManufacturerPartNumber 
+  {field} string ManufacturerPartName 
+  {field} decimal Weight 
+  {field} string Url 
+  {field} decimal LeadTime 
+  {field} integer Barcode 
+}
+
+class "Customer" {
+  {field} string CustomerCode 
+  {field} string AccountCode 
+  {field} string AccountName 
+  {field} integer VatNumber 
+  {field} string VatType 
+  {field} string Currency 
+  {field} string AccountStatus 
+}
+
+class "SalesOrder" {
+  {field} string SalesOrderCode 
+  {field} string CustomerCode 
+  {field} string OrderDescription 
+  {field} string Status 
+  {field} string CustomerRef 
+  {field} string VatType 
+  {field} string Currency 
+  {field} string StockItemCode 
+  {field} decimal Quantity 
+  {field} decimal Total 
+  {field} timestamp PickedDate 
+}
+
+class "Receipt" {
+  {field} integer Id 
+  {field} string CustomerCode 
+  {field} string BankAccount 
+  {field} decimal Amount 
+  {field} string Currency 
+  {field} timestamp Date 
+  {field} string Reference 
+}
+
+class "BankAccount" {
+  {field} string AccountCode 
+  {field} string AccountName 
+}
+
+class "Discount" {
+  {field} string CustomerCode 
+  {field} string ProductCode 
+  {field} decimal DiscountRate 
+  {field} timestamp DiscountStart 
+  {field} timestamp DiscountEnd 
+}
+
+class "Address" {
+  {field} string AddressLine1 
+  {field} string AddressLine2 
+  {field} string AddressLine3 
+  {field} string AddressLine4 
+  {field} string PostalCode 
+  {field} string CountryCode 
+}
+
+class "Contact" {
+  {field} string Name 
+}
+
+class "ContactMethod" {
+  {field} string Type 
+  {field} string Address 
+}
+
+class "Location" {
+  {field} string LocationCode 
+  {field} string Name 
+}
+
+class "Error" {
+  {field} string Reference 
+  {field} string Message 
+}
+
+class "Product.1" <<RequestBody>> {
+}
+
+class "Customer.1" <<RequestBody>> {
+}
+
+class "SalesOrder.1" <<RequestBody>> {
+}
+
+class "Receipt.1" <<RequestBody>> {
+}
+
+class "GET /companies" <<Path>> {
+}
+
+class "GET /companies 200" <<Response>> {
+}
+
+class "GET /tax-rates" <<Path>> {
+}
+
+class "GET /tax-rates 200" <<Response>> {
+}
+
+class "GET /exchange-rates" <<Path>> {
+}
+
+class "GET /exchange-rates 200" <<Response>> {
+}
+
+class "GET /products/categories" <<Path>> {
+}
+
+class "GET /products/categories 200" <<Response>> {
+}
+
+class "GET /products" <<Path>> {
+}
+
+class "GET /products 200" <<Response>> {
+}
+
+class "POST /products" <<Path>> {
+}
+
+class "POST /products 201" <<Response>> {
+}
+
+class "PUT /products/{stockItemCode}" <<Path>> {
+  {field} integer stockItemCode *
+}
+
+class "PUT /products/{stockItemCode} 200" <<Response>> {
+}
+
+class "GET /customers" <<Path>> {
+}
+
+class "GET /customers 200" <<Response>> {
+}
+
+class "POST /customers" <<Path>> {
+}
+
+class "POST /customers 201" <<Response>> {
+}
+
+class "PUT /customers/{customerCode}" <<Path>> {
+  {field} string customerCode *
+}
+
+class "PUT /customers/{customerCode} 200" <<Response>> {
+}
+
+class "GET /sales-orders" <<Path>> {
+}
+
+class "GET /sales-orders 200" <<Response>> {
+}
+
+class "POST /sales-orders" <<Path>> {
+}
+
+class "POST /sales-orders 201" <<Response>> {
+}
+
+class "GET /receipts" <<Path>> {
+}
+
+class "GET /receipts 200" <<Response>> {
+}
+
+class "POST /receipts" <<Path>> {
+}
+
+class "POST /receipts 201" <<Response>> {
+}
+
+class "PUT /receipts/{id}" <<Path>> {
+  {field} integer id *
+}
+
+class "PUT /receipts/{id} 200" <<Response>> {
+}
+
+class "GET /locations" <<Path>> {
+}
+
+class "GET /locations 200" <<Response>> {
+}
+
+class "GET /bank-accounts" <<Path>> {
+}
+
+class "GET /bank-accounts 200" <<Response>> {
+}
+
+class "GET /discounts" <<Path>> {
+}
+
+class "GET /discounts 200" <<Response>> {
+}
+
+class "GET /ping" <<Path>> {
+}
+
+class "GET /ping 200" <<Response>> {
+}
+
+"Company" - -> "0..1" "Address"
+
+"Product" - -> "0..1" "TaxRate"  :  "VatRate"
+
+"Product" - -> "0..1" "Location"  :  "DefaultStockLocation"
+
+"Customer" - -> "0..1" "Address"
+
+"Customer" - -> "0..1" "Contact"  :  "MainContact"
+
+"Customer" - -> "0..1" "Address"  :  "DeliveryAddress"
+
+"Customer" - -> "*" "Discount"  :  "Discounts"
+
+"Contact" - -> "*" "ContactMethod"  :  "ContactMethods"
+
+"Contact" - -> "0..1" "Address"
+
+"Location" - -> "0..1" "Address"
+
+"Product.1" - -> "1" "Product"
+
+"Customer.1" - -> "1" "Customer"
+
+"SalesOrder.1" - -> "1" "SalesOrder"
+
+"Receipt.1" - -> "1" "Receipt"
+
+"GET /companies 200" - -> "*" "Company"
+
+"GET /companies" ..> "1" "GET /companies 200"  :  "200"
+
+"GET /companies" ..> "1" "Error"  :  "400"
+
+"GET /tax-rates 200" - -> "*" "TaxRate"
+
+"GET /tax-rates" ..> "1" "GET /tax-rates 200"  :  "200"
+
+"GET /exchange-rates 200" - -> "*" "ExchangeRate"
+
+"GET /exchange-rates" ..> "1" "GET /exchange-rates 200"  :  "200"
+
+"GET /products/categories 200" - -> "*" "StockCategory"
+
+"GET /products/categories" ..> "1" "GET /products/categories 200"  :  "200"
+
+"GET /products 200" - -> "*" "Product"
+
+"GET /products" ..> "1" "GET /products 200"  :  "200"
+
+"POST /products" ..> "1" "POST /products 201"  :  "201"
+
+"POST /products" - -> "1" "Product.1"
+
+"PUT /products/{stockItemCode}" ..> "1" "PUT /products/{stockItemCode} 200"  :  "200"
+
+"PUT /products/{stockItemCode}" - -> "1" "Product.1"
+
+"GET /customers 200" - -> "*" "Customer"
+
+"GET /customers" ..> "1" "GET /customers 200"  :  "200"
+
+"POST /customers" ..> "1" "POST /customers 201"  :  "201"
+
+"POST /customers" - -> "1" "Customer.1"
+
+"PUT /customers/{customerCode}" ..> "1" "PUT /customers/{customerCode} 200"  :  "200"
+
+"PUT /customers/{customerCode}" - -> "1" "Customer.1"
+
+"GET /sales-orders 200" - -> "*" "SalesOrder"
+
+"GET /sales-orders" ..> "1" "GET /sales-orders 200"  :  "200"
+
+"POST /sales-orders" ..> "1" "POST /sales-orders 201"  :  "201"
+
+"POST /sales-orders" - -> "1" "SalesOrder.1"
+
+"GET /receipts 200" - -> "*" "Receipt"
+
+"GET /receipts" ..> "1" "GET /receipts 200"  :  "200"
+
+"POST /receipts" ..> "1" "POST /receipts 201"  :  "201"
+
+"POST /receipts" - -> "1" "Receipt.1"
+
+"PUT /receipts/{id}" ..> "1" "PUT /receipts/{id} 200"  :  "200"
+
+"PUT /receipts/{id}" - -> "1" "Receipt.1"
+
+"GET /locations 200" - -> "*" "Location"
+
+"GET /locations" ..> "1" "GET /locations 200"  :  "200"
+
+"GET /bank-accounts 200" - -> "*" "BankAccount"
+
+"GET /bank-accounts" ..> "1" "GET /bank-accounts 200"  :  "200"
+
+"GET /discounts 200" - -> "*" "Discount"
+
+"GET /discounts" ..> "1" "GET /discounts 200"  :  "200"
+
+"GET /ping" ..> "1" "GET /ping 200"  :  "200"
+
+@enduml
+
+PlantUML version 1.2022.0(Tue Jan 11 18:16:42 IST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+-->
+    </g>
+</svg>

@@ -485,31 +485,39 @@ public final class Converter {
 		                               .toModel(names) //
 		                               .add(PathsHelper.toModel(names));
 
-		return "@startuml" //
-		       + "\nhide <<" + toStereotype(ClassType.METHOD).get() + ">> circle" //
-		       + "\nhide <<" + toStereotype(ClassType.RESPONSE).get() + ">> circle" //
-		       + "\nhide <<" + toStereotype(ClassType.PARAMETER).get() + ">> circle" //
-		       + "\nhide empty methods" //
-		       + "\nhide empty fields" //
-		       // make sure that periods in class names aren't interpreted as namespace
-		       // separators (which results in recursive boxing)
-		       + "\nset namespaceSeparator none" //
-		       + toPlantUml(model) //
-		       + "\n\n@enduml";
+		String puml = "@startuml" //
+		              + "\nhide <<" + toStereotype(ClassType.METHOD).get() + ">> circle" //
+		              + "\nhide <<" + toStereotype(ClassType.RESPONSE).get() + ">> circle" //
+		              + "\nhide <<" + toStereotype(ClassType.PARAMETER).get() + ">> circle" //
+		              + "\nhide empty methods" //
+		              + "\nhide empty fields" //
+		              // make sure that periods in class names aren't interpreted as namespace
+		              // separators (which results in recursive boxing)
+		              + "\nset namespaceSeparator none" //
+		              + toPlantUml(model) //
+		              + "\n\n@enduml";
+		return puml;
 	}
 
 	private static String toPlantUml(Model model) {
 		int           anonNumber = 0;
 		StringBuilder b          = new StringBuilder();
 		for (Class cls : model.classes()) {
-			b.append("\n\nclass " + Util.quote(cls.name()) + toStereotype(cls.type()).map(x -> " <<" + x + ">>")
-			                                                                         .orElse("") + " {");
+			b.append("\n\nclass ")
+			 .append(Util.quote(cls.name()))
+			 .append(toStereotype(cls.type()).map(x -> " <<" + x + ">>")
+			                                 .orElse(""))
+			 .append(" {");
 			cls.fields()
-			   .stream()
 			   .forEach(f -> {
-				   b.append("\n  {field} " + f.name() + COLON + f.type() + (f.isRequired()
-				                                                            ? ""
-				                                                            : " {O}"));
+				   b.append("\n  {field} ")
+				    .append(f.type())
+				    .append(" ")
+				    .append(f.name())
+				    .append(" ")
+				    .append(f.isRequired()
+				            ? "*"
+				            : "");
 			   });
 			b.append("\n}");
 		}
@@ -535,17 +543,17 @@ public final class Converter {
 					label = a.propertyOrParameterName()
 					         .orElse("");
 				}
-				b.append("\n\n"
-				         + quote(a.from())
-				         + SPACE
-				         + arrow
-				         + SPACE
-				         + quote(mult)
-				         + SPACE
-				         + quote(a.to())
-				         + (label.equals("")
-				            ? ""
-				            : SPACE + COLON + SPACE + quote(label)));
+				b.append("\n\n")
+				 .append(quote(a.from()))
+				 .append(SPACE)
+				 .append(arrow)
+				 .append(SPACE)
+				 .append(quote(mult))
+				 .append(SPACE)
+				 .append(quote(a.to()))
+				 .append(label.equals("")
+				         ? ""
+				         : SPACE + COLON + SPACE + quote(label));
 			} else {
 				Inheritance a = (Inheritance) r;
 				if (a.propertyName()

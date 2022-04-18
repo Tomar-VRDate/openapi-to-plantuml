@@ -1,0 +1,5061 @@
+DPI: 96
+dimension: [ 6385.1042 ; 780.0000 ]
+scaleFactor: 1.0000
+seed: 9177742298011637484
+svgLinkTarget: _top
+hoverPathColorRGB: null
+preserveAspectRatio: none
+
+COMMENT: class Company
+RECTANGLE:
+  pt1: [ 2480.5000 ; 496.5000 ]
+  pt2: [ 2717.2586 ; 580.5000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 2545.1594 ; 496.5000 ]
+  pt2: [ 2571.1594 ; 528.5000 ]
+
+ELLIPSE:
+  pt1: [ 2549.1594 ; 501.5000 ]
+  pt2: [ 2571.1594 ; 523.5000 ]
+  start: 0.0
+  extend: 0.0
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffadd1b2
+
+CENTERED_CHAR:
+  char: C
+  position: [ 2560.1594 ; 512.5000 ]
+  font: Monospaced.bold/17
+  color: ff000000
+
+EMPTY:
+  pt1: [ 2577.6594 ; 506.5000 ]
+  pt2: [ 2652.5992 ; 518.5000 ]
+
+TEXT:
+  text: Company
+  position: [ 2580.6594 ; 515.8333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+LINE:
+  pt1: [ 2481.5000 ; 528.5000 ]
+  pt2: [ 2716.2586 ; 528.5000 ]
+  stroke: 0.0-0.0-1.5
+  shadow: 0
+  color: ffa80036
+
+EMPTY:
+  pt1: [ 2480.5000 ; 528.5000 ]
+  pt2: [ 2717.2586 ; 580.5000 ]
+
+TEXT:
+  text: string CompanyId
+  position: [ 2486.5000 ; 541.0556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: string CompanyName
+  position: [ 2486.5000 ; 552.0556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: integer CompanyNumber
+  position: [ 2486.5000 ; 563.0556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: integer VATNumber
+  position: [ 2486.5000 ; 574.0556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class TaxRate
+RECTANGLE:
+  pt1: [ 2171.5000 ; 496.5000 ]
+  pt2: [ 2412.3572 ; 580.5000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 2235.4533 ; 496.5000 ]
+  pt2: [ 2261.4533 ; 528.5000 ]
+
+ELLIPSE:
+  pt1: [ 2239.4533 ; 501.5000 ]
+  pt2: [ 2261.4533 ; 523.5000 ]
+  start: 0.0
+  extend: 0.0
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffadd1b2
+
+CENTERED_CHAR:
+  char: C
+  position: [ 2250.4533 ; 512.5000 ]
+  font: Monospaced.bold/17
+  color: ff000000
+
+EMPTY:
+  pt1: [ 2267.9533 ; 506.5000 ]
+  pt2: [ 2348.4039 ; 518.5000 ]
+
+TEXT:
+  text: TaxRate
+  position: [ 2270.9533 ; 515.8333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+LINE:
+  pt1: [ 2172.5000 ; 528.5000 ]
+  pt2: [ 2411.3572 ; 528.5000 ]
+  stroke: 0.0-0.0-1.5
+  shadow: 0
+  color: ffa80036
+
+EMPTY:
+  pt1: [ 2171.5000 ; 528.5000 ]
+  pt2: [ 2412.3572 ; 580.5000 ]
+
+TEXT:
+  text: integer TaxRateId
+  position: [ 2177.5000 ; 541.0556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: string Name
+  position: [ 2177.5000 ; 552.0556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: decimal Rate
+  position: [ 2177.5000 ; 563.0556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: string CountryCode
+  position: [ 2177.5000 ; 574.0556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class ExchangeRate
+RECTANGLE:
+  pt1: [ 3310.5000 ; 288.0000 ]
+  pt2: [ 3557.9744 ; 372.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 3333.0108 ; 288.0000 ]
+  pt2: [ 3359.0108 ; 320.0000 ]
+
+ELLIPSE:
+  pt1: [ 3337.0108 ; 293.0000 ]
+  pt2: [ 3359.0108 ; 315.0000 ]
+  start: 0.0
+  extend: 0.0
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffadd1b2
+
+CENTERED_CHAR:
+  char: C
+  position: [ 3348.0108 ; 304.0000 ]
+  font: Monospaced.bold/17
+  color: ff000000
+
+EMPTY:
+  pt1: [ 3364.0132 ; 298.0000 ]
+  pt2: [ 3535.4637 ; 310.0000 ]
+
+TEXT:
+  text: ExchangeRate
+  position: [ 3367.0132 ; 307.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+LINE:
+  pt1: [ 3311.5000 ; 320.0000 ]
+  pt2: [ 3556.9744 ; 320.0000 ]
+  stroke: 0.0-0.0-1.5
+  shadow: 0
+  color: ffa80036
+
+EMPTY:
+  pt1: [ 3310.5000 ; 320.0000 ]
+  pt2: [ 3557.9744 ; 372.0000 ]
+
+TEXT:
+  text: string CurrencyCode
+  position: [ 3316.5000 ; 332.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: string CountryCode
+  position: [ 3316.5000 ; 343.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: string Description
+  position: [ 3316.5000 ; 354.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: decimal RateVsGbp
+  position: [ 3316.5000 ; 365.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class StockCategory
+RECTANGLE:
+  pt1: [ 3637.5000 ; 299.0000 ]
+  pt2: [ 3896.3507 ; 361.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 3657.0502 ; 299.0000 ]
+  pt2: [ 3683.0502 ; 331.0000 ]
+
+ELLIPSE:
+  pt1: [ 3661.0502 ; 304.0000 ]
+  pt2: [ 3683.0502 ; 326.0000 ]
+  start: 0.0
+  extend: 0.0
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffadd1b2
+
+CENTERED_CHAR:
+  char: C
+  position: [ 3672.0502 ; 315.0000 ]
+  font: Monospaced.bold/17
+  color: ff000000
+
+EMPTY:
+  pt1: [ 3687.3947 ; 309.0000 ]
+  pt2: [ 3876.8004 ; 321.0000 ]
+
+TEXT:
+  text: StockCategory
+  position: [ 3690.3947 ; 318.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+LINE:
+  pt1: [ 3638.5000 ; 331.0000 ]
+  pt2: [ 3895.3507 ; 331.0000 ]
+  stroke: 0.0-0.0-1.5
+  shadow: 0
+  color: ffa80036
+
+EMPTY:
+  pt1: [ 3637.5000 ; 331.0000 ]
+  pt2: [ 3896.3507 ; 361.0000 ]
+
+TEXT:
+  text: integer CategoryId
+  position: [ 3643.5000 ; 343.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: string CategoryName
+  position: [ 3643.5000 ; 354.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class Product
+RECTANGLE:
+  pt1: [ 1917.5000 ; 244.0000 ]
+  pt2: [ 2272.7521 ; 416.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 2026.1534 ; 244.0000 ]
+  pt2: [ 2052.1534 ; 276.0000 ]
+
+ELLIPSE:
+  pt1: [ 2030.1534 ; 249.0000 ]
+  pt2: [ 2052.1534 ; 271.0000 ]
+  start: 0.0
+  extend: 0.0
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffadd1b2
+
+CENTERED_CHAR:
+  char: C
+  position: [ 2041.1534 ; 260.0000 ]
+  font: Monospaced.bold/17
+  color: ff000000
+
+EMPTY:
+  pt1: [ 2058.6534 ; 254.0000 ]
+  pt2: [ 2164.0987 ; 266.0000 ]
+
+TEXT:
+  text: Product
+  position: [ 2061.6534 ; 263.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+LINE:
+  pt1: [ 1918.5000 ; 276.0000 ]
+  pt2: [ 2271.7521 ; 276.0000 ]
+  stroke: 0.0-0.0-1.5
+  shadow: 0
+  color: ffa80036
+
+EMPTY:
+  pt1: [ 1917.5000 ; 276.0000 ]
+  pt2: [ 2272.7521 ; 416.0000 ]
+
+TEXT:
+  text: integer StockItemId
+  position: [ 1923.5000 ; 288.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: string StockItemCode
+  position: [ 1923.5000 ; 299.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: string StockItemName
+  position: [ 1923.5000 ; 310.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: string StockItemDescription
+  position: [ 1923.5000 ; 321.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: decimal SalesUoM
+  position: [ 1923.5000 ; 332.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: decimal ListPrice
+  position: [ 1923.5000 ; 343.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: string ManufacturerPartNumber
+  position: [ 1923.5000 ; 354.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: string ManufacturerPartName
+  position: [ 1923.5000 ; 365.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: decimal Weight
+  position: [ 1923.5000 ; 376.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: string Url
+  position: [ 1923.5000 ; 387.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: decimal LeadTime
+  position: [ 1923.5000 ; 398.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: integer Barcode
+  position: [ 1923.5000 ; 409.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class Customer
+RECTANGLE:
+  pt1: [ 900.5000 ; 271.5000 ]
+  pt2: [ 1153.0555 ; 388.5000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 961.3999 ; 271.5000 ]
+  pt2: [ 987.3999 ; 303.5000 ]
+
+ELLIPSE:
+  pt1: [ 965.3999 ; 276.5000 ]
+  pt2: [ 987.3999 ; 298.5000 ]
+  start: 0.0
+  extend: 0.0
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffadd1b2
+
+CENTERED_CHAR:
+  char: C
+  position: [ 976.3999 ; 287.5000 ]
+  font: Monospaced.bold/17
+  color: ff000000
+
+EMPTY:
+  pt1: [ 993.8999 ; 281.5000 ]
+  pt2: [ 1092.1555 ; 293.5000 ]
+
+TEXT:
+  text: Customer
+  position: [ 996.8999 ; 290.8333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+LINE:
+  pt1: [ 901.5000 ; 303.5000 ]
+  pt2: [ 1152.0555 ; 303.5000 ]
+  stroke: 0.0-0.0-1.5
+  shadow: 0
+  color: ffa80036
+
+EMPTY:
+  pt1: [ 900.5000 ; 303.5000 ]
+  pt2: [ 1153.0555 ; 388.5000 ]
+
+TEXT:
+  text: string CustomerCode
+  position: [ 906.5000 ; 316.0556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: string AccountCode
+  position: [ 906.5000 ; 327.0556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: string AccountName
+  position: [ 906.5000 ; 338.0556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: integer VatNumber
+  position: [ 906.5000 ; 349.0556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: string VatType
+  position: [ 906.5000 ; 360.0556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: string Currency
+  position: [ 906.5000 ; 371.0556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: string AccountStatus
+  position: [ 906.5000 ; 382.0556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class SalesOrder
+RECTANGLE:
+  pt1: [ 4188.0000 ; 249.5000 ]
+  pt2: [ 4499.8333 ; 410.5000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 4265.2622 ; 249.5000 ]
+  pt2: [ 4291.2622 ; 281.5000 ]
+
+ELLIPSE:
+  pt1: [ 4269.2622 ; 254.5000 ]
+  pt2: [ 4291.2622 ; 276.5000 ]
+  start: 0.0
+  extend: 0.0
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffadd1b2
+
+CENTERED_CHAR:
+  char: C
+  position: [ 4280.2622 ; 265.5000 ]
+  font: Monospaced.bold/17
+  color: ff000000
+
+EMPTY:
+  pt1: [ 4297.7622 ; 259.5000 ]
+  pt2: [ 4422.5711 ; 271.5000 ]
+
+TEXT:
+  text: SalesOrder
+  position: [ 4300.7622 ; 268.8333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+LINE:
+  pt1: [ 4189.0000 ; 281.5000 ]
+  pt2: [ 4498.8333 ; 281.5000 ]
+  stroke: 0.0-0.0-1.5
+  shadow: 0
+  color: ffa80036
+
+EMPTY:
+  pt1: [ 4188.0000 ; 281.5000 ]
+  pt2: [ 4499.8333 ; 410.5000 ]
+
+TEXT:
+  text: string SalesOrderCode
+  position: [ 4194.0000 ; 294.0556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: string CustomerCode
+  position: [ 4194.0000 ; 305.0556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: string OrderDescription
+  position: [ 4194.0000 ; 316.0556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: string Status
+  position: [ 4194.0000 ; 327.0556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: string CustomerRef
+  position: [ 4194.0000 ; 338.0556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: string VatType
+  position: [ 4194.0000 ; 349.0556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: string Currency
+  position: [ 4194.0000 ; 360.0556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: string StockItemCode
+  position: [ 4194.0000 ; 371.0556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: decimal Quantity
+  position: [ 4194.0000 ; 382.0556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: decimal Total
+  position: [ 4194.0000 ; 393.0556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: timestamp PickedDate
+  position: [ 4194.0000 ; 404.0556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class Receipt
+RECTANGLE:
+  pt1: [ 5237.0000 ; 271.5000 ]
+  pt2: [ 5475.2911 ; 388.5000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 5294.2298 ; 271.5000 ]
+  pt2: [ 5320.2298 ; 303.5000 ]
+
+ELLIPSE:
+  pt1: [ 5298.2298 ; 276.5000 ]
+  pt2: [ 5320.2298 ; 298.5000 ]
+  start: 0.0
+  extend: 0.0
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffadd1b2
+
+CENTERED_CHAR:
+  char: C
+  position: [ 5309.2298 ; 287.5000 ]
+  font: Monospaced.bold/17
+  color: ff000000
+
+EMPTY:
+  pt1: [ 5326.7298 ; 281.5000 ]
+  pt2: [ 5418.0613 ; 293.5000 ]
+
+TEXT:
+  text: Receipt
+  position: [ 5329.7298 ; 290.8333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+LINE:
+  pt1: [ 5238.0000 ; 303.5000 ]
+  pt2: [ 5474.2911 ; 303.5000 ]
+  stroke: 0.0-0.0-1.5
+  shadow: 0
+  color: ffa80036
+
+EMPTY:
+  pt1: [ 5237.0000 ; 303.5000 ]
+  pt2: [ 5475.2911 ; 388.5000 ]
+
+TEXT:
+  text: integer Id
+  position: [ 5243.0000 ; 316.0556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: string CustomerCode
+  position: [ 5243.0000 ; 327.0556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: string BankAccount
+  position: [ 5243.0000 ; 338.0556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: decimal Amount
+  position: [ 5243.0000 ; 349.0556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: string Currency
+  position: [ 5243.0000 ; 360.0556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: timestamp Date
+  position: [ 5243.0000 ; 371.0556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: string Reference
+  position: [ 5243.0000 ; 382.0556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class BankAccount
+RECTANGLE:
+  pt1: [ 5887.5000 ; 299.0000 ]
+  pt2: [ 6140.0555 ; 361.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 5938.8374 ; 299.0000 ]
+  pt2: [ 5964.8374 ; 331.0000 ]
+
+ELLIPSE:
+  pt1: [ 5942.8374 ; 304.0000 ]
+  pt2: [ 5964.8374 ; 326.0000 ]
+  start: 0.0
+  extend: 0.0
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffadd1b2
+
+CENTERED_CHAR:
+  char: C
+  position: [ 5953.8374 ; 315.0000 ]
+  font: Monospaced.bold/17
+  color: ff000000
+
+EMPTY:
+  pt1: [ 5971.3374 ; 309.0000 ]
+  pt2: [ 6088.7181 ; 321.0000 ]
+
+TEXT:
+  text: BankAccount
+  position: [ 5974.3374 ; 318.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+LINE:
+  pt1: [ 5888.5000 ; 331.0000 ]
+  pt2: [ 6139.0555 ; 331.0000 ]
+  stroke: 0.0-0.0-1.5
+  shadow: 0
+  color: ffa80036
+
+EMPTY:
+  pt1: [ 5887.5000 ; 331.0000 ]
+  pt2: [ 6140.0555 ; 361.0000 ]
+
+TEXT:
+  text: string AccountCode
+  position: [ 5893.5000 ; 343.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: string AccountName
+  position: [ 5893.5000 ; 354.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class Discount
+RECTANGLE:
+  pt1: [ 1309.5000 ; 491.0000 ]
+  pt2: [ 1624.4255 ; 586.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 1385.9582 ; 491.0000 ]
+  pt2: [ 1411.9582 ; 523.0000 ]
+
+ELLIPSE:
+  pt1: [ 1389.9582 ; 496.0000 ]
+  pt2: [ 1411.9582 ; 518.0000 ]
+  start: 0.0
+  extend: 0.0
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffadd1b2
+
+CENTERED_CHAR:
+  char: C
+  position: [ 1400.9582 ; 507.0000 ]
+  font: Monospaced.bold/17
+  color: ff000000
+
+EMPTY:
+  pt1: [ 1418.4582 ; 501.0000 ]
+  pt2: [ 1547.9672 ; 513.0000 ]
+
+TEXT:
+  text: Discount
+  position: [ 1421.4582 ; 510.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+LINE:
+  pt1: [ 1310.5000 ; 523.0000 ]
+  pt2: [ 1623.4255 ; 523.0000 ]
+  stroke: 0.0-0.0-1.5
+  shadow: 0
+  color: ffa80036
+
+EMPTY:
+  pt1: [ 1309.5000 ; 523.0000 ]
+  pt2: [ 1624.4255 ; 586.0000 ]
+
+TEXT:
+  text: string CustomerCode
+  position: [ 1315.5000 ; 535.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: string ProductCode
+  position: [ 1315.5000 ; 546.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: decimal DiscountRate
+  position: [ 1315.5000 ; 557.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: timestamp DiscountStart
+  position: [ 1315.5000 ; 568.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: timestamp DiscountEnd
+  position: [ 1315.5000 ; 579.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class Address
+RECTANGLE:
+  pt1: [ 941.5000 ; 661.0000 ]
+  pt2: [ 1200.7439 ; 767.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 1008.8574 ; 661.0000 ]
+  pt2: [ 1034.8574 ; 693.0000 ]
+
+ELLIPSE:
+  pt1: [ 1012.8574 ; 666.0000 ]
+  pt2: [ 1034.8574 ; 688.0000 ]
+  start: 0.0
+  extend: 0.0
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffadd1b2
+
+CENTERED_CHAR:
+  char: C
+  position: [ 1023.8574 ; 677.0000 ]
+  font: Monospaced.bold/17
+  color: ff000000
+
+EMPTY:
+  pt1: [ 1041.3574 ; 671.0000 ]
+  pt2: [ 1133.3865 ; 683.0000 ]
+
+TEXT:
+  text: Address
+  position: [ 1044.3574 ; 680.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+LINE:
+  pt1: [ 942.5000 ; 693.0000 ]
+  pt2: [ 1199.7439 ; 693.0000 ]
+  stroke: 0.0-0.0-1.5
+  shadow: 0
+  color: ffa80036
+
+EMPTY:
+  pt1: [ 941.5000 ; 693.0000 ]
+  pt2: [ 1200.7439 ; 767.0000 ]
+
+TEXT:
+  text: string AddressLine1
+  position: [ 947.5000 ; 705.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: string AddressLine2
+  position: [ 947.5000 ; 716.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: string AddressLine3
+  position: [ 947.5000 ; 727.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: string AddressLine4
+  position: [ 947.5000 ; 738.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: string PostalCode
+  position: [ 947.5000 ; 749.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: string CountryCode
+  position: [ 947.5000 ; 760.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class Contact
+RECTANGLE:
+  pt1: [ 724.5000 ; 513.0000 ]
+  pt2: [ 865.8070 ; 564.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 735.7061 ; 513.0000 ]
+  pt2: [ 761.7061 ; 545.0000 ]
+
+ELLIPSE:
+  pt1: [ 739.7061 ; 518.0000 ]
+  pt2: [ 761.7061 ; 540.0000 ]
+  start: 0.0
+  extend: 0.0
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffadd1b2
+
+CENTERED_CHAR:
+  char: C
+  position: [ 750.7061 ; 529.0000 ]
+  font: Monospaced.bold/17
+  color: ff000000
+
+EMPTY:
+  pt1: [ 764.1964 ; 523.0000 ]
+  pt2: [ 854.6009 ; 535.0000 ]
+
+TEXT:
+  text: Contact
+  position: [ 767.1964 ; 532.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+LINE:
+  pt1: [ 725.5000 ; 545.0000 ]
+  pt2: [ 864.8070 ; 545.0000 ]
+  stroke: 0.0-0.0-1.5
+  shadow: 0
+  color: ffa80036
+
+EMPTY:
+  pt1: [ 724.5000 ; 545.0000 ]
+  pt2: [ 865.8070 ; 564.0000 ]
+
+TEXT:
+  text: string Name
+  position: [ 730.5000 ; 557.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class ContactMethod
+RECTANGLE:
+  pt1: [ 678.0000 ; 683.0000 ]
+  pt2: [ 852.2139 ; 745.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 678.0000 ; 683.0000 ]
+  pt2: [ 704.0000 ; 715.0000 ]
+
+ELLIPSE:
+  pt1: [ 682.0000 ; 688.0000 ]
+  pt2: [ 704.0000 ; 710.0000 ]
+  start: 0.0
+  extend: 0.0
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffadd1b2
+
+CENTERED_CHAR:
+  char: C
+  position: [ 693.0000 ; 699.0000 ]
+  font: Monospaced.bold/17
+  color: ff000000
+
+EMPTY:
+  pt1: [ 704.0000 ; 693.0000 ]
+  pt2: [ 852.2139 ; 705.0000 ]
+
+TEXT:
+  text: ContactMethod
+  position: [ 707.0000 ; 702.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+LINE:
+  pt1: [ 679.0000 ; 715.0000 ]
+  pt2: [ 851.2139 ; 715.0000 ]
+  stroke: 0.0-0.0-1.5
+  shadow: 0
+  color: ffa80036
+
+EMPTY:
+  pt1: [ 678.0000 ; 715.0000 ]
+  pt2: [ 848.4748 ; 745.0000 ]
+
+TEXT:
+  text: string Type
+  position: [ 684.0000 ; 727.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: string Address
+  position: [ 684.0000 ; 738.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class Location
+RECTANGLE:
+  pt1: [ 1660.0000 ; 507.5000 ]
+  pt2: [ 1908.4758 ; 569.5000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 1705.2766 ; 507.5000 ]
+  pt2: [ 1731.2766 ; 539.5000 ]
+
+ELLIPSE:
+  pt1: [ 1709.2766 ; 512.5000 ]
+  pt2: [ 1731.2766 ; 534.5000 ]
+  start: 0.0
+  extend: 0.0
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffadd1b2
+
+CENTERED_CHAR:
+  char: C
+  position: [ 1720.2766 ; 523.5000 ]
+  font: Monospaced.bold/17
+  color: ff000000
+
+EMPTY:
+  pt1: [ 1737.7766 ; 517.5000 ]
+  pt2: [ 1863.1992 ; 529.5000 ]
+
+TEXT:
+  text: Location
+  position: [ 1740.7766 ; 526.8333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+LINE:
+  pt1: [ 1661.0000 ; 539.5000 ]
+  pt2: [ 1907.4758 ; 539.5000 ]
+  stroke: 0.0-0.0-1.5
+  shadow: 0
+  color: ffa80036
+
+EMPTY:
+  pt1: [ 1660.0000 ; 539.5000 ]
+  pt2: [ 1908.4758 ; 569.5000 ]
+
+TEXT:
+  text: string LocationCode
+  position: [ 1666.0000 ; 552.0556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: string Name
+  position: [ 1666.0000 ; 563.0556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class Error
+RECTANGLE:
+  pt1: [ 3037.0000 ; 299.0000 ]
+  pt2: [ 3275.2911 ; 361.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 3099.7100 ; 299.0000 ]
+  pt2: [ 3125.7100 ; 331.0000 ]
+
+ELLIPSE:
+  pt1: [ 3103.7100 ; 304.0000 ]
+  pt2: [ 3125.7100 ; 326.0000 ]
+  start: 0.0
+  extend: 0.0
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffadd1b2
+
+CENTERED_CHAR:
+  char: C
+  position: [ 3114.7100 ; 315.0000 ]
+  font: Monospaced.bold/17
+  color: ff000000
+
+EMPTY:
+  pt1: [ 3132.2100 ; 309.0000 ]
+  pt2: [ 3212.5811 ; 321.0000 ]
+
+TEXT:
+  text: Error
+  position: [ 3135.2100 ; 318.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+LINE:
+  pt1: [ 3038.0000 ; 331.0000 ]
+  pt2: [ 3274.2911 ; 331.0000 ]
+  stroke: 0.0-0.0-1.5
+  shadow: 0
+  color: ffa80036
+
+EMPTY:
+  pt1: [ 3037.0000 ; 331.0000 ]
+  pt2: [ 3275.2911 ; 361.0000 ]
+
+TEXT:
+  text: string Reference
+  position: [ 3043.0000 ; 343.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: string Message
+  position: [ 3043.0000 ; 354.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class Product.1
+RECTANGLE:
+  pt1: [ 1983.0000 ; 135.0000 ]
+  pt2: [ 2140.9499 ; 169.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 1983.0000 ; 136.0000 ]
+  pt2: [ 2009.0000 ; 168.0000 ]
+
+ELLIPSE:
+  pt1: [ 1987.0000 ; 141.0000 ]
+  pt2: [ 2009.0000 ; 163.0000 ]
+  start: 0.0
+  extend: 0.0
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffadd1b2
+
+CENTERED_CHAR:
+  char: C
+  position: [ 1998.0000 ; 152.0000 ]
+  font: Monospaced.bold/17
+  color: ff000000
+
+EMPTY:
+  pt1: [ 2009.0000 ; 140.0000 ]
+  pt2: [ 2140.9499 ; 152.0000 ]
+
+TEXT:
+  text: «RequestBody»
+  position: [ 2010.0000 ; 149.3333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 2017.2731 ; 152.0000 ]
+  pt2: [ 2132.6768 ; 164.0000 ]
+
+TEXT:
+  text: Product.1
+  position: [ 2020.2731 ; 161.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class Customer.1
+RECTANGLE:
+  pt1: [ 342.0000 ; 135.0000 ]
+  pt2: [ 499.9499 ; 169.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 342.0000 ; 136.0000 ]
+  pt2: [ 368.0000 ; 168.0000 ]
+
+ELLIPSE:
+  pt1: [ 346.0000 ; 141.0000 ]
+  pt2: [ 368.0000 ; 163.0000 ]
+  start: 0.0
+  extend: 0.0
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffadd1b2
+
+CENTERED_CHAR:
+  char: C
+  position: [ 357.0000 ; 152.0000 ]
+  font: Monospaced.bold/17
+  color: ff000000
+
+EMPTY:
+  pt1: [ 368.0000 ; 140.0000 ]
+  pt2: [ 499.9499 ; 152.0000 ]
+
+TEXT:
+  text: «RequestBody»
+  position: [ 369.0000 ; 149.3333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 382.7144 ; 152.0000 ]
+  pt2: [ 485.2355 ; 164.0000 ]
+
+TEXT:
+  text: Customer.1
+  position: [ 385.7144 ; 161.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class SalesOrder.1
+RECTANGLE:
+  pt1: [ 3956.0000 ; 135.0000 ]
+  pt2: [ 4113.9499 ; 169.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 3956.0000 ; 136.0000 ]
+  pt2: [ 3982.0000 ; 168.0000 ]
+
+ELLIPSE:
+  pt1: [ 3960.0000 ; 141.0000 ]
+  pt2: [ 3982.0000 ; 163.0000 ]
+  start: 0.0
+  extend: 0.0
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffadd1b2
+
+CENTERED_CHAR:
+  char: C
+  position: [ 3971.0000 ; 152.0000 ]
+  font: Monospaced.bold/17
+  color: ff000000
+
+EMPTY:
+  pt1: [ 3982.0000 ; 140.0000 ]
+  pt2: [ 4113.9499 ; 152.0000 ]
+
+TEXT:
+  text: «RequestBody»
+  position: [ 3983.0000 ; 149.3333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 3982.7662 ; 152.0000 ]
+  pt2: [ 4113.1838 ; 164.0000 ]
+
+TEXT:
+  text: SalesOrder.1
+  position: [ 3985.7662 ; 161.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class Receipt.1
+RECTANGLE:
+  pt1: [ 5050.0000 ; 135.0000 ]
+  pt2: [ 5207.9499 ; 169.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 5050.0000 ; 136.0000 ]
+  pt2: [ 5076.0000 ; 168.0000 ]
+
+ELLIPSE:
+  pt1: [ 5054.0000 ; 141.0000 ]
+  pt2: [ 5076.0000 ; 163.0000 ]
+  start: 0.0
+  extend: 0.0
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffadd1b2
+
+CENTERED_CHAR:
+  char: C
+  position: [ 5065.0000 ; 152.0000 ]
+  font: Monospaced.bold/17
+  color: ff000000
+
+EMPTY:
+  pt1: [ 5076.0000 ; 140.0000 ]
+  pt2: [ 5207.9499 ; 152.0000 ]
+
+TEXT:
+  text: «RequestBody»
+  position: [ 5077.0000 ; 149.3333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 5081.8738 ; 152.0000 ]
+  pt2: [ 5202.0761 ; 164.0000 ]
+
+TEXT:
+  text: Receipt.1
+  position: [ 5084.8738 ; 161.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class GET /companies
+RECTANGLE:
+  pt1: [ 3071.0000 ; 135.0000 ]
+  pt2: [ 3241.4140 ; 169.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 3115.4223 ; 140.0000 ]
+  pt2: [ 3196.9917 ; 152.0000 ]
+
+TEXT:
+  text: «Path»
+  position: [ 3116.4223 ; 149.3333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 3071.0000 ; 152.0000 ]
+  pt2: [ 3241.4140 ; 164.0000 ]
+
+TEXT:
+  text: GET /companies
+  position: [ 3074.0000 ; 161.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class GET /companies 200
+RECTANGLE:
+  pt1: [ 2698.0000 ; 313.0000 ]
+  pt2: [ 2957.5873 ; 347.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 2754.6248 ; 318.0000 ]
+  pt2: [ 2900.9625 ; 330.0000 ]
+
+TEXT:
+  text: «Response»
+  position: [ 2755.6248 ; 327.3333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 2698.0000 ; 330.0000 ]
+  pt2: [ 2957.5873 ; 342.0000 ]
+
+TEXT:
+  text: GET /companies 200
+  position: [ 2701.0000 ; 339.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class GET /tax-rates
+RECTANGLE:
+  pt1: [ 2818.5000 ; 135.0000 ]
+  pt2: [ 3035.5625 ; 169.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 2886.2465 ; 140.0000 ]
+  pt2: [ 2967.8160 ; 152.0000 ]
+
+TEXT:
+  text: «Path»
+  position: [ 2887.2465 ; 149.3333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 2818.5000 ; 152.0000 ]
+  pt2: [ 3035.5625 ; 164.0000 ]
+
+TEXT:
+  text: GET /tax-rates
+  position: [ 2821.5000 ; 161.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class GET /tax-rates 200
+RECTANGLE:
+  pt1: [ 2318.5000 ; 313.0000 ]
+  pt2: [ 2575.6468 ; 347.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 2373.9046 ; 318.0000 ]
+  pt2: [ 2520.2422 ; 330.0000 ]
+
+TEXT:
+  text: «Response»
+  position: [ 2374.9046 ; 327.3333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 2318.5000 ; 330.0000 ]
+  pt2: [ 2575.6468 ; 342.0000 ]
+
+TEXT:
+  text: GET /tax-rates 200
+  position: [ 2321.5000 ; 339.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class GET /exchange-rates
+RECTANGLE:
+  pt1: [ 3320.0000 ; 16.5000 ]
+  pt2: [ 3547.6022 ; 50.5000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 3393.0164 ; 21.5000 ]
+  pt2: [ 3474.5858 ; 33.5000 ]
+
+TEXT:
+  text: «Path»
+  position: [ 3394.0164 ; 30.8333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 3320.0000 ; 33.5000 ]
+  pt2: [ 3547.6022 ; 45.5000 ]
+
+TEXT:
+  text: GET /exchange-rates
+  position: [ 3323.0000 ; 42.8333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class GET /exchange-rates 200
+RECTANGLE:
+  pt1: [ 3290.0000 ; 135.0000 ]
+  pt2: [ 3577.6226 ; 169.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 3360.6425 ; 140.0000 ]
+  pt2: [ 3506.9801 ; 152.0000 ]
+
+TEXT:
+  text: «Response»
+  position: [ 3361.6425 ; 149.3333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 3290.0000 ; 152.0000 ]
+  pt2: [ 3577.6226 ; 164.0000 ]
+
+TEXT:
+  text: GET /exchange-rates 200
+  position: [ 3293.0000 ; 161.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class GET /products/categories
+RECTANGLE:
+  pt1: [ 3642.5000 ; 16.5000 ]
+  pt2: [ 3891.6323 ; 50.5000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 3726.2814 ; 21.5000 ]
+  pt2: [ 3807.8508 ; 33.5000 ]
+
+TEXT:
+  text: «Path»
+  position: [ 3727.2814 ; 30.8333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 3642.5000 ; 33.5000 ]
+  pt2: [ 3891.6323 ; 45.5000 ]
+
+TEXT:
+  text: GET /products/categories
+  position: [ 3645.5000 ; 42.8333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class GET /products/categories 200
+RECTANGLE:
+  pt1: [ 3613.0000 ; 135.0000 ]
+  pt2: [ 3921.1975 ; 169.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 3693.9299 ; 140.0000 ]
+  pt2: [ 3840.2676 ; 152.0000 ]
+
+TEXT:
+  text: «Response»
+  position: [ 3694.9299 ; 149.3333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 3613.0000 ; 152.0000 ]
+  pt2: [ 3921.1975 ; 164.0000 ]
+
+TEXT:
+  text: GET /products/categories 200
+  position: [ 3616.0000 ; 161.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class GET /products
+RECTANGLE:
+  pt1: [ 2577.5000 ; 16.5000 ]
+  pt2: [ 2748.5271 ; 50.5000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 2622.2288 ; 21.5000 ]
+  pt2: [ 2703.7982 ; 33.5000 ]
+
+TEXT:
+  text: «Path»
+  position: [ 2623.2288 ; 30.8333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 2577.5000 ; 33.5000 ]
+  pt2: [ 2748.5271 ; 45.5000 ]
+
+TEXT:
+  text: GET /products
+  position: [ 2580.5000 ; 42.8333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class GET /products 200
+RECTANGLE:
+  pt1: [ 2543.0000 ; 135.0000 ]
+  pt2: [ 2783.0942 ; 169.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 2589.8783 ; 140.0000 ]
+  pt2: [ 2736.2159 ; 152.0000 ]
+
+TEXT:
+  text: «Response»
+  position: [ 2590.8783 ; 149.3333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 2543.0000 ; 152.0000 ]
+  pt2: [ 2783.0942 ; 164.0000 ]
+
+TEXT:
+  text: GET /products 200
+  position: [ 2546.0000 ; 161.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class POST /products
+RECTANGLE:
+  pt1: [ 1764.0000 ; 16.5000 ]
+  pt2: [ 1952.3681 ; 50.5000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 1817.3993 ; 21.5000 ]
+  pt2: [ 1898.9688 ; 33.5000 ]
+
+TEXT:
+  text: «Path»
+  position: [ 1818.3993 ; 30.8333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 1764.0000 ; 33.5000 ]
+  pt2: [ 1952.3681 ; 45.5000 ]
+
+TEXT:
+  text: POST /products
+  position: [ 1767.0000 ; 42.8333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class POST /products 201
+RECTANGLE:
+  pt1: [ 1682.0000 ; 135.0000 ]
+  pt2: [ 1948.2692 ; 169.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 1741.9658 ; 140.0000 ]
+  pt2: [ 1888.3034 ; 152.0000 ]
+
+TEXT:
+  text: «Response»
+  position: [ 1742.9658 ; 149.3333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 1682.0000 ; 152.0000 ]
+  pt2: [ 1948.2692 ; 164.0000 ]
+
+TEXT:
+  text: POST /products 201
+  position: [ 1685.0000 ; 161.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class PUT /products/{stockItemCode}
+RECTANGLE:
+  pt1: [ 2102.5000 ; 7.0000 ]
+  pt2: [ 2437.8314 ; 60.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 2229.3810 ; 12.0000 ]
+  pt2: [ 2310.9504 ; 24.0000 ]
+
+TEXT:
+  text: «Path»
+  position: [ 2230.3810 ; 21.3333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 2122.3743 ; 24.0000 ]
+  pt2: [ 2417.9570 ; 36.0000 ]
+
+TEXT:
+  text: PUT /products/{stockItemCode}
+  position: [ 2125.3743 ; 33.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+LINE:
+  pt1: [ 2103.5000 ; 41.0000 ]
+  pt2: [ 2436.8314 ; 41.0000 ]
+  stroke: 0.0-0.0-1.5
+  shadow: 0
+  color: ffa80036
+
+EMPTY:
+  pt1: [ 2102.5000 ; 41.0000 ]
+  pt2: [ 2437.8314 ; 60.0000 ]
+
+TEXT:
+  text: integer stockItemCode *
+  position: [ 2108.5000 ; 53.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class PUT /products/{stockItemCode} 200
+RECTANGLE:
+  pt1: [ 2176.0000 ; 135.0000 ]
+  pt2: [ 2508.1712 ; 169.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 2268.9168 ; 140.0000 ]
+  pt2: [ 2415.2544 ; 152.0000 ]
+
+TEXT:
+  text: «Response»
+  position: [ 2269.9168 ; 149.3333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 2176.0000 ; 152.0000 ]
+  pt2: [ 2508.1712 ; 164.0000 ]
+
+TEXT:
+  text: PUT /products/{stockItemCode} 200
+  position: [ 2179.0000 ; 161.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class GET /customers
+RECTANGLE:
+  pt1: [ 981.5000 ; 16.5000 ]
+  pt2: [ 1162.2525 ; 50.5000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 1031.0915 ; 21.5000 ]
+  pt2: [ 1112.6610 ; 33.5000 ]
+
+TEXT:
+  text: «Path»
+  position: [ 1032.0915 ; 30.8333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 981.5000 ; 33.5000 ]
+  pt2: [ 1162.2525 ; 45.5000 ]
+
+TEXT:
+  text: GET /customers
+  position: [ 984.5000 ; 42.8333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class GET /customers 200
+RECTANGLE:
+  pt1: [ 975.5000 ; 135.0000 ]
+  pt2: [ 1168.0729 ; 169.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 998.6176 ; 140.0000 ]
+  pt2: [ 1144.9553 ; 152.0000 ]
+
+TEXT:
+  text: «Response»
+  position: [ 999.6176 ; 149.3333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 975.5000 ; 152.0000 ]
+  pt2: [ 1168.0729 ; 164.0000 ]
+
+TEXT:
+  text: GET /customers 200
+  position: [ 978.5000 ; 161.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class POST /customers
+RECTANGLE:
+  pt1: [ 194.5000 ; 16.5000 ]
+  pt2: [ 383.8056 ; 50.5000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 248.3681 ; 21.5000 ]
+  pt2: [ 329.9375 ; 33.5000 ]
+
+TEXT:
+  text: «Path»
+  position: [ 249.3681 ; 30.8333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 194.5000 ; 33.5000 ]
+  pt2: [ 383.8056 ; 45.5000 ]
+
+TEXT:
+  text: POST /customers
+  position: [ 197.5000 ; 42.8333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class POST /customers 201
+RECTANGLE:
+  pt1: [ 7.0000 ; 135.0000 ]
+  pt2: [ 307.0146 ; 169.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 83.8385 ; 140.0000 ]
+  pt2: [ 230.1761 ; 152.0000 ]
+
+TEXT:
+  text: «Response»
+  position: [ 84.8385 ; 149.3333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 7.0000 ; 152.0000 ]
+  pt2: [ 307.0146 ; 164.0000 ]
+
+TEXT:
+  text: POST /customers 201
+  position: [ 10.0000 ; 161.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class PUT /customers/{customerCode}
+RECTANGLE:
+  pt1: [ 551.5000 ; 7.0000 ]
+  pt2: [ 842.0479 ; 60.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 655.9893 ; 12.0000 ]
+  pt2: [ 737.5587 ; 24.0000 ]
+
+TEXT:
+  text: «Path»
+  position: [ 656.9893 ; 21.3333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 551.5000 ; 24.0000 ]
+  pt2: [ 842.0479 ; 36.0000 ]
+
+TEXT:
+  text: PUT /customers/{customerCode}
+  position: [ 554.5000 ; 33.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+LINE:
+  pt1: [ 552.5000 ; 41.0000 ]
+  pt2: [ 841.0479 ; 41.0000 ]
+  stroke: 0.0-0.0-1.5
+  shadow: 0
+  color: ffa80036
+
+EMPTY:
+  pt1: [ 551.5000 ; 41.0000 ]
+  pt2: [ 830.2219 ; 60.0000 ]
+
+TEXT:
+  text: string customerCode *
+  position: [ 557.5000 ; 53.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class PUT /customers/{customerCode} 200
+RECTANGLE:
+  pt1: [ 535.5000 ; 135.0000 ]
+  pt2: [ 940.7241 ; 169.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 664.9432 ; 140.0000 ]
+  pt2: [ 811.2809 ; 152.0000 ]
+
+TEXT:
+  text: «Response»
+  position: [ 665.9432 ; 149.3333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 535.5000 ; 152.0000 ]
+  pt2: [ 940.7241 ; 164.0000 ]
+
+TEXT:
+  text: PUT /customers/{customerCode} 200
+  position: [ 538.5000 ; 161.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class GET /sales-orders
+RECTANGLE:
+  pt1: [ 4509.0000 ; 16.5000 ]
+  pt2: [ 4692.7527 ; 50.5000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 4560.0916 ; 21.5000 ]
+  pt2: [ 4641.6611 ; 33.5000 ]
+
+TEXT:
+  text: «Path»
+  position: [ 4561.0916 ; 30.8333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 4509.0000 ; 33.5000 ]
+  pt2: [ 4692.7527 ; 45.5000 ]
+
+TEXT:
+  text: GET /sales-orders
+  position: [ 4512.0000 ; 42.8333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class GET /sales-orders 200
+RECTANGLE:
+  pt1: [ 4460.0000 ; 135.0000 ]
+  pt2: [ 4742.0684 ; 169.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 4527.8654 ; 140.0000 ]
+  pt2: [ 4674.2030 ; 152.0000 ]
+
+TEXT:
+  text: «Response»
+  position: [ 4528.8654 ; 149.3333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 4460.0000 ; 152.0000 ]
+  pt2: [ 4742.0684 ; 164.0000 ]
+
+TEXT:
+  text: GET /sales-orders 200
+  position: [ 4463.0000 ; 161.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class POST /sales-orders
+RECTANGLE:
+  pt1: [ 4097.5000 ; 16.5000 ]
+  pt2: [ 4322.7249 ; 50.5000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 4169.3278 ; 21.5000 ]
+  pt2: [ 4250.8972 ; 33.5000 ]
+
+TEXT:
+  text: «Path»
+  position: [ 4170.3278 ; 30.8333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 4097.5000 ; 33.5000 ]
+  pt2: [ 4322.7249 ; 45.5000 ]
+
+TEXT:
+  text: POST /sales-orders
+  position: [ 4100.5000 ; 42.8333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class POST /sales-orders 201
+RECTANGLE:
+  pt1: [ 4149.5000 ; 135.0000 ]
+  pt2: [ 4424.7705 ; 169.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 4213.9664 ; 140.0000 ]
+  pt2: [ 4360.3041 ; 152.0000 ]
+
+TEXT:
+  text: «Response»
+  position: [ 4214.9664 ; 149.3333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 4149.5000 ; 152.0000 ]
+  pt2: [ 4424.7705 ; 164.0000 ]
+
+TEXT:
+  text: POST /sales-orders 201
+  position: [ 4152.5000 ; 161.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class GET /receipts
+RECTANGLE:
+  pt1: [ 5627.5000 ; 16.5000 ]
+  pt2: [ 5814.7275 ; 50.5000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 5680.3290 ; 21.5000 ]
+  pt2: [ 5761.8984 ; 33.5000 ]
+
+TEXT:
+  text: «Path»
+  position: [ 5681.3290 ; 30.8333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 5627.5000 ; 33.5000 ]
+  pt2: [ 5814.7275 ; 45.5000 ]
+
+TEXT:
+  text: GET /receipts
+  position: [ 5630.5000 ; 42.8333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class GET /receipts 200
+RECTANGLE:
+  pt1: [ 5626.0000 ; 135.0000 ]
+  pt2: [ 5815.5093 ; 169.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 5647.5858 ; 140.0000 ]
+  pt2: [ 5793.9235 ; 152.0000 ]
+
+TEXT:
+  text: «Response»
+  position: [ 5648.5858 ; 149.3333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 5626.0000 ; 152.0000 ]
+  pt2: [ 5815.5093 ; 164.0000 ]
+
+TEXT:
+  text: GET /receipts 200
+  position: [ 5629.0000 ; 161.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class POST /receipts
+RECTANGLE:
+  pt1: [ 4855.5000 ; 16.5000 ]
+  pt2: [ 5042.0048 ; 50.5000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 4907.9677 ; 21.5000 ]
+  pt2: [ 4989.5371 ; 33.5000 ]
+
+TEXT:
+  text: «Path»
+  position: [ 4908.9677 ; 30.8333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 4855.5000 ; 33.5000 ]
+  pt2: [ 5042.0048 ; 45.5000 ]
+
+TEXT:
+  text: POST /receipts
+  position: [ 4858.5000 ; 42.8333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class POST /receipts 201
+RECTANGLE:
+  pt1: [ 4777.5000 ; 135.0000 ]
+  pt2: [ 5014.2115 ; 169.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 4822.6869 ; 140.0000 ]
+  pt2: [ 4969.0246 ; 152.0000 ]
+
+TEXT:
+  text: «Response»
+  position: [ 4823.6869 ; 149.3333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 4777.5000 ; 152.0000 ]
+  pt2: [ 5014.2115 ; 164.0000 ]
+
+TEXT:
+  text: POST /receipts 201
+  position: [ 4780.5000 ; 161.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class PUT /receipts/{id}
+RECTANGLE:
+  pt1: [ 5209.0000 ; 7.0000 ]
+  pt2: [ 5468.6124 ; 60.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 5298.0215 ; 12.0000 ]
+  pt2: [ 5379.5909 ; 24.0000 ]
+
+TEXT:
+  text: «Path»
+  position: [ 5299.0215 ; 21.3333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 5209.0000 ; 24.0000 ]
+  pt2: [ 5468.6124 ; 36.0000 ]
+
+TEXT:
+  text: PUT /receipts/{id}
+  position: [ 5212.0000 ; 33.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+LINE:
+  pt1: [ 5210.0000 ; 41.0000 ]
+  pt2: [ 5467.6124 ; 41.0000 ]
+  stroke: 0.0-0.0-1.5
+  shadow: 0
+  color: ffa80036
+
+EMPTY:
+  pt1: [ 5209.0000 ; 41.0000 ]
+  pt2: [ 5326.6732 ; 60.0000 ]
+
+TEXT:
+  text: integer id *
+  position: [ 5215.0000 ; 53.5556 ]
+  orientation: 0
+  font: SansSerif.plain/11 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class PUT /receipts/{id} 200
+RECTANGLE:
+  pt1: [ 5243.0000 ; 135.0000 ]
+  pt2: [ 5590.9979 ; 169.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 5343.8301 ; 140.0000 ]
+  pt2: [ 5490.1678 ; 152.0000 ]
+
+TEXT:
+  text: «Response»
+  position: [ 5344.8301 ; 149.3333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 5243.0000 ; 152.0000 ]
+  pt2: [ 5590.9979 ; 164.0000 ]
+
+TEXT:
+  text: PUT /receipts/{id} 200
+  position: [ 5246.0000 ; 161.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class GET /locations
+RECTANGLE:
+  pt1: [ 1499.5000 ; 135.0000 ]
+  pt2: [ 1646.5074 ; 169.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 1532.2190 ; 140.0000 ]
+  pt2: [ 1613.7884 ; 152.0000 ]
+
+TEXT:
+  text: «Path»
+  position: [ 1533.2190 ; 149.3333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 1499.5000 ; 152.0000 ]
+  pt2: [ 1646.5074 ; 164.0000 ]
+
+TEXT:
+  text: GET /locations
+  position: [ 1502.5000 ; 161.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class GET /locations 200
+RECTANGLE:
+  pt1: [ 1564.5000 ; 313.0000 ]
+  pt2: [ 1839.3078 ; 347.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 1628.7351 ; 318.0000 ]
+  pt2: [ 1775.0727 ; 330.0000 ]
+
+TEXT:
+  text: «Response»
+  position: [ 1629.7351 ; 327.3333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 1564.5000 ; 330.0000 ]
+  pt2: [ 1839.3078 ; 342.0000 ]
+
+TEXT:
+  text: GET /locations 200
+  position: [ 1567.5000 ; 339.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class GET /bank-accounts
+RECTANGLE:
+  pt1: [ 5873.5000 ; 16.5000 ]
+  pt2: [ 6154.3980 ; 50.5000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 5973.1643 ; 21.5000 ]
+  pt2: [ 6054.7337 ; 33.5000 ]
+
+TEXT:
+  text: «Path»
+  position: [ 5974.1643 ; 30.8333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 5873.5000 ; 33.5000 ]
+  pt2: [ 6154.3980 ; 45.5000 ]
+
+TEXT:
+  text: GET /bank-accounts
+  position: [ 5876.5000 ; 42.8333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class GET /bank-accounts 200
+RECTANGLE:
+  pt1: [ 5851.5000 ; 135.0000 ]
+  pt2: [ 6176.5671 ; 169.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 5940.8647 ; 140.0000 ]
+  pt2: [ 6087.2024 ; 152.0000 ]
+
+TEXT:
+  text: «Response»
+  position: [ 5941.8647 ; 149.3333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 5851.5000 ; 152.0000 ]
+  pt2: [ 6176.5671 ; 164.0000 ]
+
+TEXT:
+  text: GET /bank-accounts 200
+  position: [ 5854.5000 ; 161.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class GET /discounts
+RECTANGLE:
+  pt1: [ 1257.5000 ; 135.0000 ]
+  pt2: [ 1464.4844 ; 169.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 1320.2075 ; 140.0000 ]
+  pt2: [ 1401.7769 ; 152.0000 ]
+
+TEXT:
+  text: «Path»
+  position: [ 1321.2075 ; 149.3333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 1257.5000 ; 152.0000 ]
+  pt2: [ 1464.4844 ; 164.0000 ]
+
+TEXT:
+  text: GET /discounts
+  position: [ 1260.5000 ; 161.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class GET /discounts 200
+RECTANGLE:
+  pt1: [ 1232.5000 ; 313.0000 ]
+  pt2: [ 1509.1611 ; 347.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 1297.6617 ; 318.0000 ]
+  pt2: [ 1443.9994 ; 330.0000 ]
+
+TEXT:
+  text: «Response»
+  position: [ 1298.6617 ; 327.3333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 1232.5000 ; 330.0000 ]
+  pt2: [ 1509.1611 ; 342.0000 ]
+
+TEXT:
+  text: GET /discounts 200
+  position: [ 1235.5000 ; 339.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class GET /ping
+RECTANGLE:
+  pt1: [ 6230.5000 ; 16.5000 ]
+  pt2: [ 6353.0929 ; 50.5000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 6251.0117 ; 21.5000 ]
+  pt2: [ 6332.5812 ; 33.5000 ]
+
+TEXT:
+  text: «Path»
+  position: [ 6252.0117 ; 30.8333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 6230.5000 ; 33.5000 ]
+  pt2: [ 6353.0929 ; 45.5000 ]
+
+TEXT:
+  text: GET /ping
+  position: [ 6233.5000 ; 42.8333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: class GET /ping 200
+RECTANGLE:
+  pt1: [ 6212.0000 ; 135.0000 ]
+  pt2: [ 6372.1042 ; 169.0000 ]
+  xCorner: 0
+  yCorner: 0
+  stroke: 0.0-0.0-1.5
+  shadow: 4
+  color: ffa80036
+  backcolor: fffefece
+
+EMPTY:
+  pt1: [ 6218.8833 ; 140.0000 ]
+  pt2: [ 6365.2209 ; 152.0000 ]
+
+TEXT:
+  text: «Response»
+  position: [ 6219.8833 ; 149.3333 ]
+  orientation: 0
+  font: SansSerif.italic/12 [ITALIC]
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+EMPTY:
+  pt1: [ 6212.0000 ; 152.0000 ]
+  pt2: [ 6372.1042 ; 164.0000 ]
+
+TEXT:
+  text: GET /ping 200
+  position: [ 6215.0000 ; 161.3333 ]
+  orientation: 0
+  font: SansSerif.plain/12 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link Company to Address
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 2473.5000 ; 575.9200 ]
+   - type: SEG_CUBICTO
+     pt1: [ 2456.6500 ; 580.1300 ]
+     pt2: [ 2439.4600 ; 583.9900 ]
+     pt3: [ 2423.0000 ; 587.0000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 1979.3700 ; 668.1100 ]
+     pt2: [ 1444.2700 ; 698.8100 ]
+     pt3: [ 1198.8800 ; 709.2300 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 1200.8500 ; 708.4400 ]
+   - [ 1210.0130 ; 712.0510 ]
+   - [ 1205.8454 ; 708.2259 ]
+   - [ 1209.6705 ; 704.0583 ]
+   - [ 1200.8500 ; 708.4400 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+TEXT:
+  text: 0..1
+  position: [ 1208.9238 ; 704.9293 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link Product to TaxRate
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 2169.2600 ; 417.1800 ]
+   - type: SEG_CUBICTO
+     pt1: [ 2194.2100 ; 443.3300 ]
+     pt2: [ 2220.6800 ; 471.0800 ]
+     pt3: [ 2242.0000 ; 493.4300 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 2252.6500 ; 496.2500 ]
+   - [ 2249.3387 ; 486.9745 ]
+   - [ 2249.2014 ; 492.6297 ]
+   - [ 2243.5462 ; 492.4923 ]
+   - [ 2252.6500 ; 496.2500 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 2217.0000 ; 446.0000 ]
+  pt2: [ 2292.0535 ; 461.0000 ]
+
+TEXT:
+  text: VatRate
+  position: [ 2218.0000 ; 457.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: 0..1
+  position: [ 2189.2230 ; 485.5916 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link Product to Location
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 1924.6000 ; 417.1200 ]
+   - type: SEG_CUBICTO
+     pt1: [ 1908.8800 ; 426.7200 ]
+     pt2: [ 1893.4400 ; 436.7500 ]
+     pt3: [ 1879.0000 ; 447.0000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 1854.8100 ; 464.1600 ]
+     pt2: [ 1829.9900 ; 486.3200 ]
+     pt3: [ 1810.8800 ; 504.5200 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 1814.1400 ; 507.1100 ]
+   - [ 1823.4021 ; 503.7612 ]
+   - [ 1817.7464 ; 503.6467 ]
+   - [ 1817.8609 ; 497.9910 ]
+   - [ 1814.1400 ; 507.1100 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 1886.0000 ; 446.0000 ]
+  pt2: [ 2198.4157 ; 461.0000 ]
+
+TEXT:
+  text: DefaultStockLocation
+  position: [ 1887.0000 ; 457.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: 0..1
+  position: [ 1761.9147 ; 496.4063 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link Customer to Address
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 1014.9800 ; 389.6700 ]
+   - type: SEG_CUBICTO
+     pt1: [ 1011.6900 ; 441.6400 ]
+     pt2: [ 1009.8200 ; 519.9700 ]
+     pt3: [ 1021.0000 ; 587.0000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 1024.9100 ; 610.4800 ]
+     pt2: [ 1032.5600 ; 635.4700 ]
+     pt3: [ 1040.3400 ; 657.0100 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 1049.1000 ; 660.8400 ]
+   - [ 1049.7739 ; 651.0142 ]
+   - [ 1047.3867 ; 656.1427 ]
+   - [ 1042.2582 ; 653.7555 ]
+   - [ 1049.1000 ; 660.8400 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+TEXT:
+  text: 0..1
+  position: [ 989.6275 ; 649.9343 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link Customer to Address
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 1030.3200 ; 389.5000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 1033.3900 ; 407.8400 ]
+     pt2: [ 1036.5700 ; 428.2400 ]
+     pt3: [ 1039.0000 ; 447.0000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 1048.3200 ; 519.1300 ]
+     pt2: [ 1055.5800 ; 602.6500 ]
+     pt3: [ 1059.8200 ; 656.8000 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 1067.2200 ; 660.9500 ]
+   - [ 1070.4874 ; 651.6589 ]
+   - [ 1066.8201 ; 655.9660 ]
+   - [ 1062.5131 ; 652.2987 ]
+   - [ 1067.2200 ; 660.9500 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 1061.0000 ; 531.0000 ]
+  pt2: [ 1264.9516 ; 546.0000 ]
+
+TEXT:
+  text: DeliveryAddress
+  position: [ 1062.0000 ; 542.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: 0..1
+  position: [ 1070.3042 ; 650.0591 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link Customer to Contact
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 893.2000 ; 364.3600 ]
+   - type: SEG_CUBICTO
+     pt1: [ 851.4000 ; 381.7100 ]
+     pt2: [ 809.4100 ; 407.8900 ]
+     pt3: [ 785.0000 ; 447.0000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 773.6900 ; 465.1200 ]
+     pt2: [ 775.0800 ; 489.4200 ]
+     pt3: [ 778.9600 ; 508.4300 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 787.1000 ; 512.6400 ]
+   - [ 789.0524 ; 502.9866 ]
+   - [ 786.0153 ; 507.7591 ]
+   - [ 781.2429 ; 504.7220 ]
+   - [ 787.1000 ; 512.6400 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 792.0000 ; 446.0000 ]
+  pt2: [ 957.2529 ; 461.0000 ]
+
+TEXT:
+  text: MainContact
+  position: [ 793.0000 ; 457.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: 0..1
+  position: [ 726.1914 ; 502.2679 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link Customer to Discount
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 1133.7800 ; 389.5000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 1180.1400 ; 412.5400 ]
+     pt2: [ 1234.4000 ; 439.0200 ]
+     pt3: [ 1284.0000 ; 462.0000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 1303.9500 ; 471.2400 ]
+     pt2: [ 1325.3200 ; 480.8100 ]
+     pt3: [ 1346.0400 ; 489.9100 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 1357.7300 ; 490.9700 ]
+   - [ 1351.1069 ; 483.6806 ]
+   - [ 1353.1545 ; 488.9539 ]
+   - [ 1347.8812 ; 491.0015 ]
+   - [ 1357.7300 ; 490.9700 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 1291.0000 ; 446.0000 ]
+  pt2: [ 1417.4660 ; 461.0000 ]
+
+TEXT:
+  text: Discounts
+  position: [ 1292.0000 ; 457.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: *
+  position: [ 1328.8266 ; 480.1455 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link Contact to ContactMethod
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 774.3100 ; 565.1500 ]
+   - type: SEG_CUBICTO
+     pt1: [ 766.9900 ; 579.7400 ]
+     pt2: [ 758.7400 ; 598.8700 ]
+     pt3: [ 755.0000 ; 617.0000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 750.8300 ; 637.2100 ]
+     pt2: [ 751.3300 ; 660.2900 ]
+     pt3: [ 753.0000 ; 678.8600 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 760.4900 ; 682.9700 ]
+   - [ 763.5959 ; 673.6237 ]
+   - [ 760.0038 ; 677.9937 ]
+   - [ 755.6338 ; 674.4016 ]
+   - [ 760.4900 ; 682.9700 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 762.0000 ; 616.0000 ]
+  pt2: [ 916.9315 ; 631.0000 ]
+
+TEXT:
+  text: ContactMethods
+  position: [ 763.0000 ; 627.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: *
+  position: [ 746.3303 ; 672.3405 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link Contact to Address
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 828.6700 ; 565.0800 ]
+   - type: SEG_CUBICTO
+     pt1: [ 853.1800 ; 579.9800 ]
+     pt2: [ 884.9800 ; 599.4300 ]
+     pt3: [ 913.0000 ; 617.0000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 934.5300 ; 630.5000 ]
+     pt2: [ 957.6700 ; 645.2500 ]
+     pt3: [ 979.2100 ; 659.0700 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 990.4900 ; 660.8200 ]
+   - [ 985.0824 ; 652.5885 ]
+   - [ 986.2841 ; 658.1162 ]
+   - [ 980.7564 ; 659.3179 ]
+   - [ 990.4900 ; 660.8200 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+TEXT:
+  text: 0..1
+  position: [ 923.8091 ; 650.2846 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link Location to Address
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 1689.9200 ; 570.5000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 1671.8600 ; 576.3000 ]
+     pt2: [ 1652.8900 ; 582.0900 ]
+     pt3: [ 1635.0000 ; 587.0000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 1487.1100 ; 627.5600 ]
+     pt2: [ 1315.0200 ; 664.4600 ]
+     pt3: [ 1198.7300 ; 687.9000 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 1200.5800 ; 687.9400 ]
+   - [ 1210.1921 ; 690.0865 ]
+   - [ 1205.4818 ; 686.9539 ]
+   - [ 1208.6144 ; 682.2436 ]
+   - [ 1200.5800 ; 687.9400 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+TEXT:
+  text: 0..1
+  position: [ 1208.6399 ; 683.3722 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link Product.1 to Product
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 2058.0500 ; 170.2400 ]
+   - type: SEG_CUBICTO
+     pt1: [ 2061.1100 ; 186.5900 ]
+     pt2: [ 2066.0900 ; 213.1400 ]
+     pt3: [ 2071.1200 ; 239.9600 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 2079.0600 ; 243.9600 ]
+   - [ 2081.3463 ; 234.3802 ]
+   - [ 2078.1455 ; 239.0443 ]
+   - [ 2073.4813 ; 235.8435 ]
+   - [ 2079.0600 ; 243.9600 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+TEXT:
+  text: 1
+  position: [ 2065.1760 ; 233.1185 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link Customer.1 to Customer
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 469.1200 ; 170.0100 ]
+   - type: SEG_CUBICTO
+     pt1: [ 563.2400 ; 197.3400 ]
+     pt2: [ 757.4600 ; 253.7500 ]
+     pt3: [ 888.2600 ; 291.7400 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 900.2800 ; 292.2000 ]
+   - [ 892.7426 ; 285.8607 ]
+   - [ 895.4762 ; 290.8132 ]
+   - [ 890.5237 ; 293.5468 ]
+   - [ 900.2800 ; 292.2000 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+TEXT:
+  text: 1
+  position: [ 880.2147 ; 286.6116 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link SalesOrder.1 to SalesOrder
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 4056.2400 ; 170.0900 ]
+   - type: SEG_CUBICTO
+     pt1: [ 4087.7600 ; 188.0400 ]
+     pt2: [ 4141.1600 ; 218.4600 ]
+     pt3: [ 4192.9900 ; 247.9700 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 4204.3500 ; 249.4600 ]
+   - [ 4198.5260 ; 241.5177 ]
+   - [ 4200.0105 ; 246.9762 ]
+   - [ 4194.5520 ; 248.4608 ]
+   - [ 4204.3500 ; 249.4600 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+TEXT:
+  text: 1
+  position: [ 4178.9438 ; 238.5471 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link Receipt.1 to Receipt
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 5142.9500 ; 170.2400 ]
+   - type: SEG_CUBICTO
+     pt1: [ 5171.8200 ; 192.6300 ]
+     pt2: [ 5225.4200 ; 234.1800 ]
+     pt3: [ 5270.7100 ; 269.3000 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 5281.7900 ; 271.4600 ]
+   - [ 5277.1285 ; 262.7841 ]
+   - [ 5277.8386 ; 268.3962 ]
+   - [ 5272.2265 ; 269.1064 ]
+   - [ 5281.7900 ; 271.4600 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+TEXT:
+  text: 1
+  position: [ 5260.0142 ; 260.6444 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link GET /companies 200 to Company
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 2803.0300 ; 348.2000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 2768.6100 ; 379.2500 ]
+     pt2: [ 2692.2700 ; 448.0800 ]
+     pt3: [ 2641.4800 ; 493.8800 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 2644.5600 ; 496.4200 ]
+   - [ 2653.9255 ; 493.3725 ]
+   - [ 2648.2765 ; 493.0752 ]
+   - [ 2648.5738 ; 487.4261 ]
+   - [ 2644.5600 ; 496.4200 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+TEXT:
+  text: *
+  position: [ 2639.1562 ; 485.4850 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link GET /companies to GET /companies 200
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 3119.0200 ; 170.0900 ]
+   - type: SEG_CUBICTO
+     pt1: [ 3058.1700 ; 202.7400 ]
+     pt2: [ 2920.4700 ; 276.6200 ]
+     pt3: [ 2855.7900 ; 311.3300 ]
+  stroke: 7.0-7.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 2858.2600 ; 312.7600 ]
+   - [ 2868.0814 ; 312.0245 ]
+   - [ 2862.6646 ; 310.3938 ]
+   - [ 2864.2954 ; 304.9770 ]
+   - [ 2858.2600 ; 312.7600 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 3069.0000 ; 199.0000 ]
+  pt2: [ 3114.9570 ; 214.0000 ]
+
+TEXT:
+  text: 200
+  position: [ 3070.0000 ; 210.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: 1
+  position: [ 2854.4121 ; 302.0072 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link GET /companies to Error
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 3149.0000 ; 170.2400 ]
+   - type: SEG_CUBICTO
+     pt1: [ 3149.0000 ; 198.3100 ]
+     pt2: [ 3149.0000 ; 256.5000 ]
+     pt3: [ 3149.0000 ; 294.3600 ]
+  stroke: 7.0-7.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 3156.0000 ; 298.7900 ]
+   - [ 3160.0000 ; 289.7900 ]
+   - [ 3156.0000 ; 293.7900 ]
+   - [ 3152.0000 ; 289.7900 ]
+   - [ 3156.0000 ; 298.7900 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 3156.0000 ; 199.0000 ]
+  pt2: [ 3196.1943 ; 214.0000 ]
+
+TEXT:
+  text: 400
+  position: [ 3157.0000 ; 210.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: 1
+  position: [ 3142.7621 ; 288.1234 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link GET /tax-rates 200 to TaxRate
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 2427.8400 ; 348.2000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 2404.6300 ; 379.1200 ]
+     pt2: [ 2353.2800 ; 447.5300 ]
+     pt3: [ 2318.9000 ; 493.3300 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 2322.8400 ; 496.4200 ]
+   - [ 2331.4400 ; 491.6200 ]
+   - [ 2325.8400 ; 492.4200 ]
+   - [ 2325.0400 ; 486.8200 ]
+   - [ 2322.8400 ; 496.4200 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+TEXT:
+  text: *
+  position: [ 2314.9901 ; 485.4850 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link GET /tax-rates to GET /tax-rates 200
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 2876.1300 ; 170.0900 ]
+   - type: SEG_CUBICTO
+     pt1: [ 2786.4400 ; 202.9700 ]
+     pt2: [ 2582.6300 ; 277.7000 ]
+     pt3: [ 2488.8700 ; 312.0800 ]
+  stroke: 7.0-7.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 2490.9400 ; 312.8900 ]
+   - [ 2500.7675 ; 313.5376 ]
+   - [ 2495.6327 ; 311.1641 ]
+   - [ 2498.0061 ; 306.0293 ]
+   - [ 2490.9400 ; 312.8900 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 2799.0000 ; 199.0000 ]
+  pt2: [ 2844.9570 ; 214.0000 ]
+
+TEXT:
+  text: 200
+  position: [ 2800.0000 ; 210.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: 1
+  position: [ 2491.5309 ; 302.1803 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link GET /exchange-rates 200 to ExchangeRate
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 3427.0000 ; 170.2400 ]
+   - type: SEG_CUBICTO
+     pt1: [ 3427.0000 ; 195.7100 ]
+     pt2: [ 3427.0000 ; 245.9900 ]
+     pt3: [ 3427.0000 ; 283.3700 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 3434.0000 ; 287.7900 ]
+   - [ 3438.0000 ; 278.7900 ]
+   - [ 3434.0000 ; 282.7900 ]
+   - [ 3430.0000 ; 278.7900 ]
+   - [ 3434.0000 ; 287.7900 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+TEXT:
+  text: *
+  position: [ 3421.0292 ; 277.1380 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link GET /exchange-rates to GET /exchange-rates 200
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 3427.0000 ; 51.7000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 3427.0000 ; 72.3000 ]
+     pt2: [ 3427.0000 ; 107.9400 ]
+     pt3: [ 3427.0000 ; 130.7200 ]
+  stroke: 7.0-7.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 3434.0000 ; 134.9400 ]
+   - [ 3438.0000 ; 125.9400 ]
+   - [ 3434.0000 ; 129.9400 ]
+   - [ 3430.0000 ; 125.9400 ]
+   - [ 3434.0000 ; 134.9400 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 3434.0000 ; 90.0000 ]
+  pt2: [ 3479.9570 ; 105.0000 ]
+
+TEXT:
+  text: 200
+  position: [ 3435.0000 ; 101.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: 1
+  position: [ 3420.1226 ; 124.2469 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link GET /products/categories 200 to StockCategory
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 3760.0000 ; 170.2400 ]
+   - type: SEG_CUBICTO
+     pt1: [ 3760.0000 ; 198.3100 ]
+     pt2: [ 3760.0000 ; 256.5000 ]
+     pt3: [ 3760.0000 ; 294.3600 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 3767.0000 ; 298.7900 ]
+   - [ 3771.0000 ; 289.7900 ]
+   - [ 3767.0000 ; 293.7900 ]
+   - [ 3763.0000 ; 289.7900 ]
+   - [ 3767.0000 ; 298.7900 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+TEXT:
+  text: *
+  position: [ 3753.8079 ; 288.1234 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link GET /products/categories to GET /products/categories 200
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 3760.0000 ; 51.7000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 3760.0000 ; 72.3000 ]
+     pt2: [ 3760.0000 ; 107.9400 ]
+     pt3: [ 3760.0000 ; 130.7200 ]
+  stroke: 7.0-7.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 3767.0000 ; 134.9400 ]
+   - [ 3771.0000 ; 125.9400 ]
+   - [ 3767.0000 ; 129.9400 ]
+   - [ 3763.0000 ; 125.9400 ]
+   - [ 3767.0000 ; 134.9400 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 3767.0000 ; 90.0000 ]
+  pt2: [ 3812.9570 ; 105.0000 ]
+
+TEXT:
+  text: 200
+  position: [ 3768.0000 ; 101.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: 1
+  position: [ 3753.0274 ; 124.2469 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link GET /products 200 to Product
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 2578.4500 ; 170.0700 ]
+   - type: SEG_CUBICTO
+     pt1: [ 2504.5100 ; 186.2000 ]
+     pt2: [ 2390.4600 ; 213.1600 ]
+     pt3: [ 2294.0000 ; 245.0000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 2286.3200 ; 247.5400 ]
+     pt2: [ 2278.5200 ; 250.2200 ]
+     pt3: [ 2270.6700 ; 253.0200 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 2272.7700 ; 253.7800 ]
+   - [ 2282.5913 ; 254.5162 ]
+   - [ 2277.4781 ; 252.0965 ]
+   - [ 2279.8977 ; 246.9833 ]
+   - [ 2272.7700 ; 253.7800 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+TEXT:
+  text: *
+  position: [ 2280.5236 ; 247.4014 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link GET /products to GET /products 200
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 2656.0000 ; 51.7000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 2656.0000 ; 72.3000 ]
+     pt2: [ 2656.0000 ; 107.9400 ]
+     pt3: [ 2656.0000 ; 130.7200 ]
+  stroke: 7.0-7.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 2663.0000 ; 134.9400 ]
+   - [ 2667.0000 ; 125.9400 ]
+   - [ 2663.0000 ; 129.9400 ]
+   - [ 2659.0000 ; 125.9400 ]
+   - [ 2663.0000 ; 134.9400 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 2663.0000 ; 90.0000 ]
+  pt2: [ 2708.9570 ; 105.0000 ]
+
+TEXT:
+  text: 200
+  position: [ 2664.0000 ; 101.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: 1
+  position: [ 2649.0445 ; 124.2469 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link POST /products to POST /products 201
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 1845.0200 ; 51.7000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 1837.3800 ; 72.3900 ]
+     pt2: [ 1824.1500 ; 108.2400 ]
+     pt3: [ 1815.7500 ; 131.0100 ]
+  stroke: 7.0-7.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 1820.9300 ; 134.9400 ]
+   - [ 1827.7977 ; 127.8806 ]
+   - [ 1822.6605 ; 130.2490 ]
+   - [ 1820.2921 ; 125.1118 ]
+   - [ 1820.9300 ; 134.9400 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 1837.0000 ; 90.0000 ]
+  pt2: [ 1882.9623 ; 105.0000 ]
+
+TEXT:
+  text: 201
+  position: [ 1838.0000 ; 101.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: 1
+  position: [ 1808.9098 ; 124.2469 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link POST /products to Product.1
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 1879.3700 ; 51.7000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 1916.8200 ; 73.0900 ]
+     pt2: [ 1982.6300 ; 110.6700 ]
+     pt3: [ 2022.1900 ; 133.2600 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 2033.8800 ; 134.9400 ]
+   - [ 2028.0363 ; 127.0121 ]
+   - [ 2029.5344 ; 132.4670 ]
+   - [ 2024.0795 ; 133.9651 ]
+   - [ 2033.8800 ; 134.9400 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+TEXT:
+  text: 1
+  position: [ 2010.6336 ; 124.2469 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link PUT /products/{stockItemCode} to PUT /products/{stockItemCode} 200
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 2278.8000 ; 61.0700 ]
+   - type: SEG_CUBICTO
+     pt1: [ 2291.8900 ; 82.2400 ]
+     pt2: [ 2310.2300 ; 111.9300 ]
+     pt3: [ 2322.3600 ; 131.5500 ]
+  stroke: 7.0-7.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 2332.0000 ; 134.8200 ]
+   - [ 2330.6752 ; 125.0607 ]
+   - [ 2329.3731 ; 130.5656 ]
+   - [ 2323.8682 ; 129.2636 ]
+   - [ 2332.0000 ; 134.8200 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 2313.0000 ; 90.0000 ]
+  pt2: [ 2358.9570 ; 105.0000 ]
+
+TEXT:
+  text: 200
+  position: [ 2314.0000 ; 101.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: 1
+  position: [ 2314.7192 ; 124.0871 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link PUT /products/{stockItemCode} to Product.1
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 2217.3500 ; 61.0700 ]
+   - type: SEG_CUBICTO
+     pt1: [ 2178.3300 ; 82.9300 ]
+     pt2: [ 2123.0900 ; 113.8600 ]
+     pt3: [ 2088.1600 ; 133.4200 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 2090.5900 ; 134.9900 ]
+   - [ 2100.3965 ; 134.0777 ]
+   - [ 2094.9513 ; 132.5448 ]
+   - [ 2096.4842 ; 127.0996 ]
+   - [ 2090.5900 ; 134.9900 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+TEXT:
+  text: 1
+  position: [ 2086.4133 ; 124.0195 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link GET /customers 200 to Customer
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 1060.8500 ; 170.2400 ]
+   - type: SEG_CUBICTO
+     pt1: [ 1055.2300 ; 192.2200 ]
+     pt2: [ 1044.8800 ; 232.6800 ]
+     pt3: [ 1036.0100 ; 267.3900 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 1041.7100 ; 271.4600 ]
+   - [ 1047.8162 ; 263.7325 ]
+   - [ 1042.9495 ; 266.6161 ]
+   - [ 1040.0659 ; 261.7493 ]
+   - [ 1041.7100 ; 271.4600 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+TEXT:
+  text: *
+  position: [ 1030.8164 ; 260.6444 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link GET /customers to GET /customers 200
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 1065.0000 ; 51.7000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 1065.0000 ; 72.3000 ]
+     pt2: [ 1065.0000 ; 107.9400 ]
+     pt3: [ 1065.0000 ; 130.7200 ]
+  stroke: 7.0-7.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 1072.0000 ; 134.9400 ]
+   - [ 1076.0000 ; 125.9400 ]
+   - [ 1072.0000 ; 129.9400 ]
+   - [ 1068.0000 ; 125.9400 ]
+   - [ 1072.0000 ; 134.9400 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 1072.0000 ; 90.0000 ]
+  pt2: [ 1117.9570 ; 105.0000 ]
+
+TEXT:
+  text: 200
+  position: [ 1073.0000 ; 101.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: 1
+  position: [ 1058.1308 ; 124.2469 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link POST /customers to POST /customers 201
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 263.6500 ; 51.7000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 239.7100 ; 72.8300 ]
+     pt2: [ 197.8600 ; 109.7600 ]
+     pt3: [ 172.1800 ; 132.4300 ]
+  stroke: 7.0-7.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 175.2000 ; 134.9400 ]
+   - [ 184.5961 ; 131.9883 ]
+   - [ 178.9504 ; 131.6333 ]
+   - [ 179.3054 ; 125.9876 ]
+   - [ 175.2000 ; 134.9400 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 223.0000 ; 90.0000 ]
+  pt2: [ 268.9623 ; 105.0000 ]
+
+TEXT:
+  text: 201
+  position: [ 224.0000 ; 101.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: 1
+  position: [ 167.2864 ; 124.2469 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link POST /customers to Customer.1
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 300.3500 ; 51.7000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 324.2900 ; 72.8300 ]
+     pt2: [ 366.1400 ; 109.7600 ]
+     pt3: [ 391.8200 ; 132.4300 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 402.8000 ; 134.9400 ]
+   - [ 398.6946 ; 125.9876 ]
+   - [ 399.0496 ; 131.6333 ]
+   - [ 393.4039 ; 131.9883 ]
+   - [ 402.8000 ; 134.9400 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+TEXT:
+  text: 1
+  position: [ 382.8396 ; 124.2469 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link PUT /customers/{customerCode} to PUT /customers/{customerCode} 200
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 699.0000 ; 61.0700 ]
+   - type: SEG_CUBICTO
+     pt1: [ 706.3900 ; 82.0600 ]
+     pt2: [ 716.7200 ; 111.4300 ]
+     pt3: [ 723.6300 ; 131.0500 ]
+  stroke: 7.0-7.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 732.3100 ; 134.8200 ]
+   - [ 733.1083 ; 125.0036 ]
+   - [ 730.6563 ; 130.1014 ]
+   - [ 725.5585 ; 127.6494 ]
+   - [ 732.3100 ; 134.8200 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 722.0000 ; 90.0000 ]
+  pt2: [ 767.9570 ; 105.0000 ]
+
+TEXT:
+  text: 200
+  position: [ 723.0000 ; 101.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: 1
+  position: [ 716.4482 ; 124.0871 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link PUT /customers/{customerCode} to Customer.1
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 629.4300 ; 61.0700 ]
+   - type: SEG_CUBICTO
+     pt1: [ 577.1200 ; 83.1500 ]
+     pt2: [ 502.8500 ; 114.4900 ]
+     pt3: [ 456.6000 ; 134.0200 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 458.9300 ; 134.9900 ]
+   - [ 468.7769 ; 135.1840 ]
+   - [ 463.5382 ; 133.0497 ]
+   - [ 465.6725 ; 127.8109 ]
+   - [ 458.9300 ; 134.9900 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+TEXT:
+  text: 1
+  position: [ 457.9639 ; 124.0195 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link GET /sales-orders 200 to SalesOrder
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 4570.2800 ; 170.2400 ]
+   - type: SEG_CUBICTO
+     pt1: [ 4544.1600 ; 188.1300 ]
+     pt2: [ 4500.1600 ; 218.2600 ]
+     pt3: [ 4457.3700 ; 247.5700 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 4460.2300 ; 249.4000 ]
+   - [ 4469.9154 ; 247.6131 ]
+   - [ 4464.3548 ; 246.5740 ]
+   - [ 4465.3938 ; 241.0134 ]
+   - [ 4460.2300 ; 249.4000 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+TEXT:
+  text: *
+  position: [ 4458.4129 ; 238.4816 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link GET /sales-orders to GET /sales-orders 200
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 4594.0000 ; 51.7000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 4594.0000 ; 72.3000 ]
+     pt2: [ 4594.0000 ; 107.9400 ]
+     pt3: [ 4594.0000 ; 130.7200 ]
+  stroke: 7.0-7.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 4601.0000 ; 134.9400 ]
+   - [ 4605.0000 ; 125.9400 ]
+   - [ 4601.0000 ; 129.9400 ]
+   - [ 4597.0000 ; 125.9400 ]
+   - [ 4601.0000 ; 134.9400 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 4601.0000 ; 90.0000 ]
+  pt2: [ 4646.9570 ; 105.0000 ]
+
+TEXT:
+  text: 200
+  position: [ 4602.0000 ; 101.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: 1
+  position: [ 4587.0488 ; 124.2469 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link POST /sales-orders to POST /sales-orders 201
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 4213.7100 ; 51.7000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 4227.5000 ; 72.5700 ]
+     pt2: [ 4251.4800 ; 108.8500 ]
+     pt3: [ 4266.5000 ; 131.5800 ]
+  stroke: 7.0-7.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 4276.3800 ; 134.9400 ]
+   - [ 4274.7544 ; 125.2262 ]
+   - [ 4273.6230 ; 130.7688 ]
+   - [ 4268.0804 ; 129.6374 ]
+   - [ 4276.3800 ; 134.9400 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 4256.0000 ; 90.0000 ]
+  pt2: [ 4301.9623 ; 105.0000 ]
+
+TEXT:
+  text: 201
+  position: [ 4257.0000 ; 101.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: 1
+  position: [ 4258.8774 ; 124.2469 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link POST /sales-orders to SalesOrder.1
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 4178.6700 ; 51.7000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 4146.6700 ; 73.0000 ]
+     pt2: [ 4090.5400 ; 110.3700 ]
+     pt3: [ 4056.5600 ; 132.9800 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 4059.1300 ; 134.9400 ]
+   - [ 4068.8373 ; 133.2759 ]
+   - [ 4063.2903 ; 132.1665 ]
+   - [ 4064.3997 ; 126.6195 ]
+   - [ 4059.1300 ; 134.9400 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+TEXT:
+  text: 1
+  position: [ 4053.1914 ; 124.2469 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link GET /receipts 200 to Receipt
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 5680.6400 ; 170.0900 ]
+   - type: SEG_CUBICTO
+     pt1: [ 5633.8900 ; 192.6300 ]
+     pt2: [ 5546.3600 ; 234.8300 ]
+     pt3: [ 5472.9700 ; 270.2200 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 5475.1500 ; 271.5500 ]
+   - [ 5484.9940 ; 271.2412 ]
+   - [ 5479.6531 ; 269.3771 ]
+   - [ 5481.5173 ; 264.0362 ]
+   - [ 5475.1500 ; 271.5500 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+TEXT:
+  text: *
+  position: [ 5476.9402 ; 260.7453 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link GET /receipts to GET /receipts 200
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 5714.0000 ; 51.7000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 5714.0000 ; 72.3000 ]
+     pt2: [ 5714.0000 ; 107.9400 ]
+     pt3: [ 5714.0000 ; 130.7200 ]
+  stroke: 7.0-7.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 5721.0000 ; 134.9400 ]
+   - [ 5725.0000 ; 125.9400 ]
+   - [ 5721.0000 ; 129.9400 ]
+   - [ 5717.0000 ; 125.9400 ]
+   - [ 5721.0000 ; 134.9400 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 5721.0000 ; 90.0000 ]
+  pt2: [ 5766.9570 ; 105.0000 ]
+
+TEXT:
+  text: 200
+  position: [ 5722.0000 ; 101.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: 1
+  position: [ 5707.1414 ; 124.2469 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link POST /receipts to POST /receipts 201
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 4934.6300 ; 51.7000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 4925.1800 ; 72.4800 ]
+     pt2: [ 4908.7700 ; 108.5500 ]
+     pt3: [ 4898.4200 ; 131.3000 ]
+  stroke: 7.0-7.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 4903.3100 ; 134.9400 ]
+   - [ 4910.6757 ; 128.4019 ]
+   - [ 4905.3790 ; 130.3882 ]
+   - [ 4903.3928 ; 125.0915 ]
+   - [ 4903.3100 ; 134.9400 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 4923.0000 ; 90.0000 ]
+  pt2: [ 4968.9623 ; 105.0000 ]
+
+TEXT:
+  text: 201
+  position: [ 4924.0000 ; 101.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: 1
+  position: [ 4891.8393 ; 124.2469 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link POST /receipts to Receipt.1
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 4967.0300 ; 51.7000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 4999.9400 ; 73.0000 ]
+     pt2: [ 5057.6700 ; 110.3700 ]
+     pt3: [ 5092.6200 ; 132.9800 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 5104.1800 ; 134.9400 ]
+   - [ 5098.7922 ; 126.6955 ]
+   - [ 5099.9806 ; 132.2261 ]
+   - [ 5094.4500 ; 133.4145 ]
+   - [ 5104.1800 ; 134.9400 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+TEXT:
+  text: 1
+  position: [ 5082.0268 ; 124.2469 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link PUT /receipts/{id} to PUT /receipts/{id} 200
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 5349.1200 ; 61.0700 ]
+   - type: SEG_CUBICTO
+     pt1: [ 5363.2900 ; 82.2400 ]
+     pt2: [ 5383.1700 ; 111.9300 ]
+     pt3: [ 5396.3100 ; 131.5500 ]
+  stroke: 7.0-7.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 5406.1700 ; 134.8200 ]
+   - [ 5404.4828 ; 125.1167 ]
+   - [ 5403.3866 ; 130.6663 ]
+   - [ 5397.8370 ; 129.5701 ]
+   - [ 5406.1700 ; 134.8200 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 5385.0000 ; 90.0000 ]
+  pt2: [ 5430.9570 ; 105.0000 ]
+
+TEXT:
+  text: 200
+  position: [ 5386.0000 ; 101.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: 1
+  position: [ 5388.6430 ; 124.0871 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link PUT /receipts/{id} to Receipt.1
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 5285.9100 ; 61.0700 ]
+   - type: SEG_CUBICTO
+     pt1: [ 5246.5100 ; 82.9300 ]
+     pt2: [ 5190.7500 ; 113.8600 ]
+     pt3: [ 5155.4800 ; 133.4200 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 5157.8600 ; 134.9900 ]
+   - [ 5167.6700 ; 134.1158 ]
+   - [ 5162.2308 ; 132.5618 ]
+   - [ 5163.7848 ; 127.1226 ]
+   - [ 5157.8600 ; 134.9900 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+TEXT:
+  text: 1
+  position: [ 5153.7761 ; 124.0195 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link GET /locations 200 to Location
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 1701.4300 ; 348.2000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 1714.6600 ; 381.5000 ]
+     pt2: [ 1745.1500 ; 458.2900 ]
+     pt3: [ 1763.1000 ; 503.4900 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 1772.0100 ; 507.3000 ]
+   - [ 1772.4075 ; 497.4592 ]
+   - [ 1770.1654 ; 502.6527 ]
+   - [ 1764.9718 ; 500.4106 ]
+   - [ 1772.0100 ; 507.3000 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+TEXT:
+  text: *
+  position: [ 1756.2805 ; 496.6355 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link GET /locations to GET /locations 200
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 1577.9000 ; 170.2400 ]
+   - type: SEG_CUBICTO
+     pt1: [ 1601.5200 ; 202.4600 ]
+     pt2: [ 1654.2400 ; 274.3900 ]
+     pt3: [ 1680.1100 ; 309.6800 ]
+  stroke: 7.0-7.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 1690.1200 ; 312.8000 ]
+   - [ 1688.0189 ; 303.1779 ]
+   - [ 1687.1613 ; 308.7693 ]
+   - [ 1681.5699 ; 307.9118 ]
+   - [ 1690.1200 ; 312.8000 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 1615.0000 ; 199.0000 ]
+  pt2: [ 1660.9570 ; 214.0000 ]
+
+TEXT:
+  text: 200
+  position: [ 1616.0000 ; 210.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: 1
+  position: [ 1672.2767 ; 302.0605 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link GET /bank-accounts 200 to BankAccount
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 6007.0000 ; 170.2400 ]
+   - type: SEG_CUBICTO
+     pt1: [ 6007.0000 ; 198.3100 ]
+     pt2: [ 6007.0000 ; 256.5000 ]
+     pt3: [ 6007.0000 ; 294.3600 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 6014.0000 ; 298.7900 ]
+   - [ 6018.0000 ; 289.7900 ]
+   - [ 6014.0000 ; 293.7900 ]
+   - [ 6010.0000 ; 289.7900 ]
+   - [ 6014.0000 ; 298.7900 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+TEXT:
+  text: *
+  position: [ 6000.8384 ; 288.1234 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link GET /bank-accounts to GET /bank-accounts 200
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 6007.0000 ; 51.7000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 6007.0000 ; 72.3000 ]
+     pt2: [ 6007.0000 ; 107.9400 ]
+     pt3: [ 6007.0000 ; 130.7200 ]
+  stroke: 7.0-7.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 6014.0000 ; 134.9400 ]
+   - [ 6018.0000 ; 125.9400 ]
+   - [ 6014.0000 ; 129.9400 ]
+   - [ 6010.0000 ; 125.9400 ]
+   - [ 6014.0000 ; 134.9400 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 6014.0000 ; 90.0000 ]
+  pt2: [ 6059.9570 ; 105.0000 ]
+
+TEXT:
+  text: 200
+  position: [ 6015.0000 ; 101.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: 1
+  position: [ 6000.0490 ; 124.2469 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link GET /discounts 200 to Discount
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 1371.5300 ; 348.2000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 1385.2900 ; 377.8000 ]
+     pt2: [ 1415.0300 ; 441.7600 ]
+     pt3: [ 1436.2200 ; 487.3500 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 1445.3700 ; 490.9800 ]
+   - [ 1445.2126 ; 481.1324 ]
+   - [ 1443.2665 ; 486.4440 ]
+   - [ 1437.9550 ; 484.4979 ]
+   - [ 1445.3700 ; 490.9800 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+TEXT:
+  text: *
+  position: [ 1429.3387 ; 480.1569 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link GET /discounts to GET /discounts 200
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 1354.9200 ; 170.2400 ]
+   - type: SEG_CUBICTO
+     pt1: [ 1356.7300 ; 202.0700 ]
+     pt2: [ 1360.7400 ; 272.6400 ]
+     pt3: [ 1362.7700 ; 308.3700 ]
+  stroke: 7.0-7.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 1370.0800 ; 312.8000 ]
+   - [ 1373.5848 ; 303.5959 ]
+   - [ 1369.8082 ; 307.8074 ]
+   - [ 1365.5967 ; 304.0308 ]
+   - [ 1370.0800 ; 312.8000 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 1365.0000 ; 199.0000 ]
+  pt2: [ 1410.9570 ; 214.0000 ]
+
+TEXT:
+  text: 200
+  position: [ 1366.0000 ; 210.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: 1
+  position: [ 1355.8915 ; 302.0605 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+COMMENT: link GET /ping to GET /ping 200
+PATH:
+   - type: SEG_MOVETO
+     pt1: [ 6285.0000 ; 51.7000 ]
+   - type: SEG_CUBICTO
+     pt1: [ 6285.0000 ; 72.3000 ]
+     pt2: [ 6285.0000 ; 107.9400 ]
+     pt3: [ 6285.0000 ; 130.7200 ]
+  stroke: 7.0-7.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: NULL_COLOR
+
+POLYGON:
+  points:
+   - [ 6292.0000 ; 134.9400 ]
+   - [ 6296.0000 ; 125.9400 ]
+   - [ 6292.0000 ; 129.9400 ]
+   - [ 6288.0000 ; 125.9400 ]
+   - [ 6292.0000 ; 134.9400 ]
+  stroke: 0.0-0.0-1.0
+  shadow: 0
+  color: ffa80036
+  backcolor: ffa80036
+
+EMPTY:
+  pt1: [ 6292.0000 ; 90.0000 ]
+  pt2: [ 6337.9570 ; 105.0000 ]
+
+TEXT:
+  text: 200
+  position: [ 6293.0000 ; 101.1111 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
+TEXT:
+  text: 1
+  position: [ 6278.0428 ; 124.2469 ]
+  orientation: 0
+  font: SansSerif.plain/13 []
+  color: ff000000
+  extendedColor: NULL_COLOR
+
