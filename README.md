@@ -29,7 +29,7 @@ Supports all features of OpenAPI 3.0 including
 
 [openapi-example.yml](src/test/resources/openapi-example.yml):
 
-<img style="background-color:white" src="src/test/resources/outputs/openapi-example.svg"/>
+<img style="background-color:white" src="src/test/resources/outputs/openapi-example.puml.svg"/>
 
 ## How to build
 
@@ -52,7 +52,7 @@ Add this dependency to your pom.xml:
 <dependency>
   <groupId>com.github.davidmoten</groupId>
   <artifactId>openapi-to-plantuml</artifactId>
-  <version>2022-04-18-SNAPSHOT</version>
+  <version>2022-05-11-SNAPSHOT</version>
 </dependency>
 ```
 
@@ -68,8 +68,8 @@ openapi-to-plantuml-popup-menu [IntelliJ Live Plugin](https://plugins.jetbrains.
 Read com.github.davidmoten.oas3.puml.ConverterMainTest for more examples
 
 ```bash
-openapi-to-plantuml 2022-04-18 by Dave Moten & Tomer Bar-Shlomo Usage:
-java -jar openapi-to-plantuml-2022-04-18-SNAPSHOT-jar-with-dependencies.jar <OPENAPI_YAML> <OUTPUT_DIRECTORY> <FILE_FORMAT>|<[FILE_FORMAT1, FILE_FORMAT1...]>
+openapi-to-plantuml 2022-05-11 by Dave Moten & Tomer Bar-Shlomo Usage:
+java -jar openapi-to-plantuml-2022-05-11-SNAPSHOT-jar-with-dependencies.jar <OPENAPI_YAML> <OUTPUT_DIRECTORY> <FILE_FORMAT>|<[FILE_FORMAT1, FILE_FORMAT1...]>
 <OPENAPI_YAML> file or Directory containing *.yml or *.yaml files
 <OUTPUT_DIRECTORY> output Directory
 <FILE_FORMAT> optional file format default PUML and SVG only
@@ -92,13 +92,13 @@ VDX	*.vdx	application/vnd.visio.xml
 all demo files at src/test/resources/demo to target/demo-outputs as PUML & SVG by default
 
 ```bash
-java -jar target/openapi-to-plantuml-2022-04-18-SNAPSHOT-jar-with-dependencies.jar src/test/resources/demo target/demo-outputs
+java -jar target/openapi-to-plantuml-2022-05-11-SNAPSHOT-jar-with-dependencies.jar src/test/resources/demo target/demo-outputs
 ```
 
 all demo files at src/test/resources/demo to target/demo-outputs as PUML, SVG & PNG
 
 ```bash
-java -jar target/openapi-to-plantuml-2022-04-18-SNAPSHOT-jar-with-dependencies.jar src/test/resources/demo target/demo-outputs "[SVG, PNG]"
+java -jar target/openapi-to-plantuml-2022-05-11-SNAPSHOT-jar-with-dependencies.jar src/test/resources/demo target/demo-outputs "[SVG, PNG]"
 ```
 
 ## Usage

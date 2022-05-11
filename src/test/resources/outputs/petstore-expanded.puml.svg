@@ -1,272 +1,317 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg xmlns="http://www.w3.org/2000/svg" contentScriptType="application/ecmascript" contentStyleType="text/css"
-     height="511px" preserveAspectRatio="none" style="width:628px;height:511px;background:#FFFFFF;" version="1.1"
-     viewBox="0 0 628 511" width="628px" zoomAndPan="magnify">
-    <defs>
-        <filter height="300%" id="fhue2ecwm0nun" width="300%" x="-1" y="-1">
-            <feGaussianBlur result="blurOut" stdDeviation="2.0"/>
-            <feColorMatrix in="blurOut" result="blurOut2" type="matrix"
-                           values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/>
-            <feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/>
-            <feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/>
-        </filter>
-    </defs>
+<svg xmlns="http://www.w3.org/2000/svg" contentStyleType="text/css" height="535px" preserveAspectRatio="none"
+     style="width:664px;height:535px;background:#FFFFFF;" version="1.1" viewBox="0 0 664 535" width="664px"
+     zoomAndPan="magnify">
+    <defs/>
     <g><!--MD5=[9cfa872a99fa8e70a8c023fe905238fd]
 class Pet-->
-        <rect codeLine="8" fill="#FEFECE" filter="url(#fhue2ecwm0nun)" height="32" id="Pet"
-              style="stroke:#A80036;stroke-width:1.5;" width="50" x="109" y="319"/>
-        <ellipse cx="124" cy="335" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
-        <path d="M126.7656,330.875 Q126.9219,330.6563 127.1094,330.5469 Q127.2969,330.4375 127.5156,330.4375 Q127.8906,330.4375 128.125,330.7031 Q128.3594,330.9531 128.3594,331.5625 L128.3594,333.0156 Q128.3594,333.625 128.125,333.8906 Q127.8906,334.1563 127.5156,334.1563 Q127.1719,334.1563 126.9688,333.9531 Q126.7656,333.7656 126.6563,333.25 Q126.6094,332.8906 126.4219,332.7031 Q126.0938,332.3281 125.4844,332.1094 Q124.875,331.8906 124.25,331.8906 Q123.4844,331.8906 122.8438,332.2188 Q122.2188,332.5469 121.7188,333.2969 Q121.2344,334.0469 121.2344,335.0781 L121.2344,336.1719 Q121.2344,337.4063 122.125,338.2344 Q123.0156,339.0469 124.6094,339.0469 Q125.5469,339.0469 126.2031,338.7969 Q126.5938,338.6406 127.0156,338.2031 Q127.2813,337.9375 127.4219,337.8594 Q127.5781,337.7813 127.7813,337.7813 Q128.1094,337.7813 128.3594,338.0469 Q128.625,338.2969 128.625,338.6406 Q128.625,338.9844 128.2813,339.3906 Q127.7813,339.9688 126.9844,340.2969 Q125.9063,340.75 124.6094,340.75 Q123.0938,340.75 121.8906,340.125 Q120.9063,339.625 120.2188,338.5625 Q119.5313,337.4844 119.5313,336.2031 L119.5313,335.0469 Q119.5313,333.7188 120.1406,332.5781 Q120.7656,331.4219 121.8594,330.8125 Q122.9531,330.1875 124.1875,330.1875 Q124.9219,330.1875 125.5625,330.3594 Q126.2188,330.5156 126.7656,330.875 Z "
-              fill="#000000"/>
-        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="18" x="138"
-              y="339.9102">Pet
-        </text><!--MD5=[b52243ff76ff5205fc6133d8df1a4875]
+        <g id="elem_Pet">
+            <rect codeLine="8" fill="#F1F1F1" height="32" id="Pet" rx="2.5" ry="2.5"
+                  style="stroke:#181818;stroke-width:0.5;" width="53" x="119.5" y="338.5"/>
+            <ellipse cx="134.5" cy="354.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M137.2656,350.375 Q137.4219,350.1563 137.6094,350.0469 Q137.7969,349.9375 138.0156,349.9375 Q138.3906,349.9375 138.625,350.2031 Q138.8594,350.4531 138.8594,351.0625 L138.8594,352.5156 Q138.8594,353.125 138.625,353.3906 Q138.3906,353.6563 138.0156,353.6563 Q137.6719,353.6563 137.4688,353.4531 Q137.2656,353.2656 137.1563,352.75 Q137.1094,352.3906 136.9219,352.2031 Q136.5938,351.8281 135.9844,351.6094 Q135.375,351.3906 134.75,351.3906 Q133.9844,351.3906 133.3438,351.7188 Q132.7188,352.0469 132.2188,352.7969 Q131.7344,353.5469 131.7344,354.5781 L131.7344,355.6719 Q131.7344,356.9063 132.625,357.7344 Q133.5156,358.5469 135.1094,358.5469 Q136.0469,358.5469 136.7031,358.2969 Q137.0938,358.1406 137.5156,357.7031 Q137.7813,357.4375 137.9219,357.3594 Q138.0781,357.2813 138.2813,357.2813 Q138.6094,357.2813 138.8594,357.5469 Q139.125,357.7969 139.125,358.1406 Q139.125,358.4844 138.7813,358.8906 Q138.2813,359.4688 137.4844,359.7969 Q136.4063,360.25 135.1094,360.25 Q133.5938,360.25 132.3906,359.625 Q131.4063,359.125 130.7188,358.0625 Q130.0313,356.9844 130.0313,355.7031 L130.0313,354.5469 Q130.0313,353.2188 130.6406,352.0781 Q131.2656,350.9219 132.3594,350.3125 Q133.4531,349.6875 134.6875,349.6875 Q135.4219,349.6875 136.0625,349.8594 Q136.7188,350.0156 137.2656,350.375 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="21"
+                  x="148.5" y="360.2285">Pet
+            </text>
+        </g><!--MD5=[b52243ff76ff5205fc6133d8df1a4875]
 class PetId-->
-        <rect codeLine="11" fill="#FEFECE" filter="url(#fhue2ecwm0nun)" height="53.8359" id="PetId"
-              style="stroke:#A80036;stroke-width:1.5;" width="63" x="102.5" y="437"/>
-        <ellipse cx="118.85" cy="453" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
-        <path d="M121.6156,448.875 Q121.7719,448.6563 121.9594,448.5469 Q122.1469,448.4375 122.3656,448.4375 Q122.7406,448.4375 122.975,448.7031 Q123.2094,448.9531 123.2094,449.5625 L123.2094,451.0156 Q123.2094,451.625 122.975,451.8906 Q122.7406,452.1563 122.3656,452.1563 Q122.0219,452.1563 121.8188,451.9531 Q121.6156,451.7656 121.5063,451.25 Q121.4594,450.8906 121.2719,450.7031 Q120.9438,450.3281 120.3344,450.1094 Q119.725,449.8906 119.1,449.8906 Q118.3344,449.8906 117.6938,450.2188 Q117.0688,450.5469 116.5688,451.2969 Q116.0844,452.0469 116.0844,453.0781 L116.0844,454.1719 Q116.0844,455.4063 116.975,456.2344 Q117.8656,457.0469 119.4594,457.0469 Q120.3969,457.0469 121.0531,456.7969 Q121.4438,456.6406 121.8656,456.2031 Q122.1313,455.9375 122.2719,455.8594 Q122.4281,455.7813 122.6313,455.7813 Q122.9594,455.7813 123.2094,456.0469 Q123.475,456.2969 123.475,456.6406 Q123.475,456.9844 123.1313,457.3906 Q122.6313,457.9688 121.8344,458.2969 Q120.7563,458.75 119.4594,458.75 Q117.9438,458.75 116.7406,458.125 Q115.7563,457.625 115.0688,456.5625 Q114.3813,455.4844 114.3813,454.2031 L114.3813,453.0469 Q114.3813,451.7188 114.9906,450.5781 Q115.6156,449.4219 116.7094,448.8125 Q117.8031,448.1875 119.0375,448.1875 Q119.7719,448.1875 120.4125,448.3594 Q121.0688,448.5156 121.6156,448.875 Z "
-              fill="#000000"/>
-        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="28" x="133.15"
-              y="457.9102">PetId
-        </text>
-        <line style="stroke:#A80036;stroke-width:1.5;" x1="103.5" x2="164.5" y1="469" y2="469"/>
-        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="51" x="108.5"
-              y="484.4189">integer id *
-        </text><!--MD5=[1eab0625216324f83e2e66a0dff1c85a]
+        <g id="elem_PetId">
+            <rect codeLine="11" fill="#F1F1F1" height="57.6094" id="PetId" rx="2.5" ry="2.5"
+                  style="stroke:#181818;stroke-width:0.5;" width="80" x="106" y="461.5"/>
+            <ellipse cx="128.2" cy="477.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M130.9656,473.375 Q131.1219,473.1563 131.3094,473.0469 Q131.4969,472.9375 131.7156,472.9375 Q132.0906,472.9375 132.325,473.2031 Q132.5594,473.4531 132.5594,474.0625 L132.5594,475.5156 Q132.5594,476.125 132.325,476.3906 Q132.0906,476.6563 131.7156,476.6563 Q131.3719,476.6563 131.1688,476.4531 Q130.9656,476.2656 130.8563,475.75 Q130.8094,475.3906 130.6219,475.2031 Q130.2938,474.8281 129.6844,474.6094 Q129.075,474.3906 128.45,474.3906 Q127.6844,474.3906 127.0437,474.7188 Q126.4187,475.0469 125.9187,475.7969 Q125.4344,476.5469 125.4344,477.5781 L125.4344,478.6719 Q125.4344,479.9063 126.325,480.7344 Q127.2156,481.5469 128.8094,481.5469 Q129.7469,481.5469 130.4031,481.2969 Q130.7938,481.1406 131.2156,480.7031 Q131.4813,480.4375 131.6219,480.3594 Q131.7781,480.2813 131.9813,480.2813 Q132.3094,480.2813 132.5594,480.5469 Q132.825,480.7969 132.825,481.1406 Q132.825,481.4844 132.4813,481.8906 Q131.9813,482.4688 131.1844,482.7969 Q130.1063,483.25 128.8094,483.25 Q127.2937,483.25 126.0906,482.625 Q125.1062,482.125 124.4187,481.0625 Q123.7312,479.9844 123.7312,478.7031 L123.7312,477.5469 Q123.7312,476.2188 124.3406,475.0781 Q124.9656,473.9219 126.0594,473.3125 Q127.1531,472.6875 128.3875,472.6875 Q129.1219,472.6875 129.7625,472.8594 Q130.4188,473.0156 130.9656,473.375 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="32"
+                  x="143.8" y="483.2285">PetId
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="107" x2="185" y1="493.5" y2="493.5"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="112"
+                  y="512.0332">integer id *
+            </text>
+        </g><!--MD5=[1eab0625216324f83e2e66a0dff1c85a]
 class NewPet-->
-        <rect codeLine="15" fill="#FEFECE" filter="url(#fhue2ecwm0nun)" height="67.6719" id="NewPet"
-              style="stroke:#A80036;stroke-width:1.5;" width="75" x="242.5" y="430"/>
-        <ellipse cx="257.5" cy="446" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
-        <path d="M260.2656,441.875 Q260.4219,441.6563 260.6094,441.5469 Q260.7969,441.4375 261.0156,441.4375 Q261.3906,441.4375 261.625,441.7031 Q261.8594,441.9531 261.8594,442.5625 L261.8594,444.0156 Q261.8594,444.625 261.625,444.8906 Q261.3906,445.1563 261.0156,445.1563 Q260.6719,445.1563 260.4688,444.9531 Q260.2656,444.7656 260.1563,444.25 Q260.1094,443.8906 259.9219,443.7031 Q259.5938,443.3281 258.9844,443.1094 Q258.375,442.8906 257.75,442.8906 Q256.9844,442.8906 256.3438,443.2188 Q255.7188,443.5469 255.2188,444.2969 Q254.7344,445.0469 254.7344,446.0781 L254.7344,447.1719 Q254.7344,448.4063 255.625,449.2344 Q256.5156,450.0469 258.1094,450.0469 Q259.0469,450.0469 259.7031,449.7969 Q260.0938,449.6406 260.5156,449.2031 Q260.7813,448.9375 260.9219,448.8594 Q261.0781,448.7813 261.2813,448.7813 Q261.6094,448.7813 261.8594,449.0469 Q262.125,449.2969 262.125,449.6406 Q262.125,449.9844 261.7813,450.3906 Q261.2813,450.9688 260.4844,451.2969 Q259.4063,451.75 258.1094,451.75 Q256.5938,451.75 255.3906,451.125 Q254.4063,450.625 253.7188,449.5625 Q253.0313,448.4844 253.0313,447.2031 L253.0313,446.0469 Q253.0313,444.7188 253.6406,443.5781 Q254.2656,442.4219 255.3594,441.8125 Q256.4531,441.1875 257.6875,441.1875 Q258.4219,441.1875 259.0625,441.3594 Q259.7188,441.5156 260.2656,441.875 Z "
-              fill="#000000"/>
-        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="43" x="271.5"
-              y="450.9102">NewPet
-        </text>
-        <line style="stroke:#A80036;stroke-width:1.5;" x1="243.5" x2="316.5" y1="462" y2="462"/>
-        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="63" x="248.5"
-              y="477.4189">string name *
-        </text>
-        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="45" x="248.5"
-              y="491.2549">string tag
-        </text><!--MD5=[b8cfd8c4119a3b0a7a46bfc5fc780f85]
+        <g id="elem_NewPet">
+            <rect codeLine="15" fill="#F1F1F1" height="75.2188" id="NewPet" rx="2.5" ry="2.5"
+                  style="stroke:#181818;stroke-width:0.5;" width="95" x="238.5" y="453"/>
+            <ellipse cx="260.7" cy="469" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M263.4656,464.875 Q263.6219,464.6563 263.8094,464.5469 Q263.9969,464.4375 264.2156,464.4375 Q264.5906,464.4375 264.825,464.7031 Q265.0594,464.9531 265.0594,465.5625 L265.0594,467.0156 Q265.0594,467.625 264.825,467.8906 Q264.5906,468.1563 264.2156,468.1563 Q263.8719,468.1563 263.6688,467.9531 Q263.4656,467.7656 263.3563,467.25 Q263.3094,466.8906 263.1219,466.7031 Q262.7938,466.3281 262.1844,466.1094 Q261.575,465.8906 260.95,465.8906 Q260.1844,465.8906 259.5438,466.2188 Q258.9188,466.5469 258.4188,467.2969 Q257.9344,468.0469 257.9344,469.0781 L257.9344,470.1719 Q257.9344,471.4063 258.825,472.2344 Q259.7156,473.0469 261.3094,473.0469 Q262.2469,473.0469 262.9031,472.7969 Q263.2938,472.6406 263.7156,472.2031 Q263.9813,471.9375 264.1219,471.8594 Q264.2781,471.7813 264.4813,471.7813 Q264.8094,471.7813 265.0594,472.0469 Q265.325,472.2969 265.325,472.6406 Q265.325,472.9844 264.9813,473.3906 Q264.4813,473.9688 263.6844,474.2969 Q262.6063,474.75 261.3094,474.75 Q259.7938,474.75 258.5906,474.125 Q257.6063,473.625 256.9188,472.5625 Q256.2313,471.4844 256.2313,470.2031 L256.2313,469.0469 Q256.2313,467.7188 256.8406,466.5781 Q257.4656,465.4219 258.5594,464.8125 Q259.6531,464.1875 260.8875,464.1875 Q261.6219,464.1875 262.2625,464.3594 Q262.9188,464.5156 263.4656,464.875 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47"
+                  x="276.3" y="474.7285">NewPet
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="239.5" x2="332.5" y1="485" y2="485"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83"
+                  x="244.5" y="503.5332">string name *
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="59"
+                  x="244.5" y="521.1426">string tag
+            </text>
+        </g><!--MD5=[b8cfd8c4119a3b0a7a46bfc5fc780f85]
 class Error-->
-        <rect codeLine="20" fill="#FEFECE" filter="url(#fhue2ecwm0nun)" height="67.6719" id="Error"
-              style="stroke:#A80036;stroke-width:1.5;" width="93" x="351.5" y="301"/>
-        <ellipse cx="381.8" cy="317" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
-        <path d="M384.5656,312.875 Q384.7219,312.6563 384.9094,312.5469 Q385.0969,312.4375 385.3156,312.4375 Q385.6906,312.4375 385.925,312.7031 Q386.1594,312.9531 386.1594,313.5625 L386.1594,315.0156 Q386.1594,315.625 385.925,315.8906 Q385.6906,316.1563 385.3156,316.1563 Q384.9719,316.1563 384.7688,315.9531 Q384.5656,315.7656 384.4563,315.25 Q384.4094,314.8906 384.2219,314.7031 Q383.8938,314.3281 383.2844,314.1094 Q382.675,313.8906 382.05,313.8906 Q381.2844,313.8906 380.6438,314.2188 Q380.0188,314.5469 379.5188,315.2969 Q379.0344,316.0469 379.0344,317.0781 L379.0344,318.1719 Q379.0344,319.4063 379.925,320.2344 Q380.8156,321.0469 382.4094,321.0469 Q383.3469,321.0469 384.0031,320.7969 Q384.3938,320.6406 384.8156,320.2031 Q385.0813,319.9375 385.2219,319.8594 Q385.3781,319.7813 385.5813,319.7813 Q385.9094,319.7813 386.1594,320.0469 Q386.425,320.2969 386.425,320.6406 Q386.425,320.9844 386.0813,321.3906 Q385.5813,321.9688 384.7844,322.2969 Q383.7063,322.75 382.4094,322.75 Q380.8938,322.75 379.6906,322.125 Q378.7063,321.625 378.0188,320.5625 Q377.3313,319.4844 377.3313,318.2031 L377.3313,317.0469 Q377.3313,315.7188 377.9406,314.5781 Q378.5656,313.4219 379.6594,312.8125 Q380.7531,312.1875 381.9875,312.1875 Q382.7219,312.1875 383.3625,312.3594 Q384.0188,312.5156 384.5656,312.875 Z "
-              fill="#000000"/>
-        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="27" x="399.2"
-              y="321.9102">Error
-        </text>
-        <line style="stroke:#A80036;stroke-width:1.5;" x1="352.5" x2="443.5" y1="333" y2="333"/>
-        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="67" x="357.5"
-              y="348.4189">integer code *
-        </text>
-        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="81" x="357.5"
-              y="362.2549">string message *
-        </text><!--MD5=[0a6c2cead64411c82fe9b0cf2004c6b0]
+        <g id="elem_Error">
+            <rect codeLine="20" fill="#F1F1F1" height="75.2188" id="Error" rx="2.5" ry="2.5"
+                  style="stroke:#181818;stroke-width:0.5;" width="117" x="356.5" y="317"/>
+            <ellipse cx="395.35" cy="333" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M398.1156,328.875 Q398.2719,328.6563 398.4594,328.5469 Q398.6469,328.4375 398.8656,328.4375 Q399.2406,328.4375 399.475,328.7031 Q399.7094,328.9531 399.7094,329.5625 L399.7094,331.0156 Q399.7094,331.625 399.475,331.8906 Q399.2406,332.1563 398.8656,332.1563 Q398.5219,332.1563 398.3188,331.9531 Q398.1156,331.7656 398.0063,331.25 Q397.9594,330.8906 397.7719,330.7031 Q397.4438,330.3281 396.8344,330.1094 Q396.225,329.8906 395.6,329.8906 Q394.8344,329.8906 394.1938,330.2188 Q393.5688,330.5469 393.0688,331.2969 Q392.5844,332.0469 392.5844,333.0781 L392.5844,334.1719 Q392.5844,335.4063 393.475,336.2344 Q394.3656,337.0469 395.9594,337.0469 Q396.8969,337.0469 397.5531,336.7969 Q397.9438,336.6406 398.3656,336.2031 Q398.6313,335.9375 398.7719,335.8594 Q398.9281,335.7813 399.1313,335.7813 Q399.4594,335.7813 399.7094,336.0469 Q399.975,336.2969 399.975,336.6406 Q399.975,336.9844 399.6313,337.3906 Q399.1313,337.9688 398.3344,338.2969 Q397.2563,338.75 395.9594,338.75 Q394.4438,338.75 393.2406,338.125 Q392.2563,337.625 391.5688,336.5625 Q390.8813,335.4844 390.8813,334.2031 L390.8813,333.0469 Q390.8813,331.7188 391.4906,330.5781 Q392.1156,329.4219 393.2094,328.8125 Q394.3031,328.1875 395.5375,328.1875 Q396.2719,328.1875 396.9125,328.3594 Q397.5688,328.5156 398.1156,328.875 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="32"
+                  x="414.65" y="338.7285">Error
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="357.5" x2="472.5" y1="349" y2="349"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88"
+                  x="362.5" y="367.5332">integer code *
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="105"
+                  x="362.5" y="385.1426">string message *
+            </text>
+        </g><!--MD5=[0a6c2cead64411c82fe9b0cf2004c6b0]
 class GET /pets-->
-        <rect codeLine="25" fill="#FEFECE" filter="url(#fhue2ecwm0nun)" height="75.8594" id="GET /pets"
-              style="stroke:#A80036;stroke-width:1.5;" width="69" x="203.5" y="7"/>
-        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
-              textLength="39" x="218.5" y="24.457">«Path»
-        </text>
-        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="54" x="211"
-              y="39.5508">GET /pets
-        </text>
-        <line style="stroke:#A80036;stroke-width:1.5;" x1="204.5" x2="271.5" y1="47.1875" y2="47.1875"/>
-        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="57" x="209.5"
-              y="62.6064">string[] tags
-        </text>
-        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="53" x="209.5"
-              y="76.4424">integer limit
-        </text><!--MD5=[e95f7770420b2d049f87f014e05109fe]
+        <g id="elem_GET /pets">
+            <rect codeLine="25" fill="#F1F1F1" height="85.9219" id="GET /pets" rx="2.5" ry="2.5"
+                  style="stroke:#181818;stroke-width:0.5;" width="86" x="197" y="7"/>
+            <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+                  textLength="39" x="220.5" y="24.457">«Path»
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64" x="208"
+                  y="41.627">GET /pets
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="198" x2="282" y1="49.7031" y2="49.7031"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74" x="203"
+                  y="68.2363">string[] tags
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="72" x="203"
+                  y="85.8457">integer limit
+            </text>
+        </g><!--MD5=[e95f7770420b2d049f87f014e05109fe]
 class GET /pets 200-->
-        <rect codeLine="30" fill="#FEFECE" filter="url(#fhue2ecwm0nun)" height="40.1875" id="GET /pets 200"
-              style="stroke:#A80036;stroke-width:1.5;" width="84" x="7" y="172"/>
-        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
-              textLength="70" x="14" y="189.457">«Response»
-        </text>
-        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="78" x="10"
-              y="204.5508">GET /pets 200
-        </text><!--MD5=[087bd60aed28e463dbeda33bbd5b991c]
+        <g id="elem_GET /pets 200">
+            <rect codeLine="30" fill="#F1F1F1" height="42.7031" id="GET /pets 200" rx="2.5" ry="2.5"
+                  style="stroke:#181818;stroke-width:0.5;" width="98" x="7" y="183.5"/>
+            <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+                  textLength="70" x="21" y="200.957">«Response»
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="10"
+                  y="218.127">GET /pets 200
+            </text>
+        </g><!--MD5=[087bd60aed28e463dbeda33bbd5b991c]
 class POST /pets-->
-        <rect codeLine="33" fill="#FEFECE" filter="url(#fhue2ecwm0nun)" height="40.1875" id="POST /pets"
-              style="stroke:#A80036;stroke-width:1.5;" width="68" x="257" y="172"/>
-        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
-              textLength="39" x="271.5" y="189.457">«Path»
-        </text>
-        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="62" x="260"
-              y="204.5508">POST /pets
-        </text><!--MD5=[aaeac291f5dc52b896eda6e0d7dcaf8a]
+        <g id="elem_POST /pets">
+            <rect codeLine="33" fill="#F1F1F1" height="42.7031" id="POST /pets" rx="2.5" ry="2.5"
+                  style="stroke:#181818;stroke-width:0.5;" width="79" x="270.5" y="183.5"/>
+            <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+                  textLength="39" x="290.5" y="200.957">«Path»
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73"
+                  x="273.5" y="218.127">POST /pets
+            </text>
+        </g><!--MD5=[aaeac291f5dc52b896eda6e0d7dcaf8a]
 class GET /pets/{id}-->
-        <rect codeLine="36" fill="#FEFECE" filter="url(#fhue2ecwm0nun)" height="62.0234" id="GET /pets/{id}"
-              style="stroke:#A80036;stroke-width:1.5;" width="81" x="135.5" y="161"/>
-        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
-              textLength="39" x="156.5" y="178.457">«Path»
-        </text>
-        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="75" x="138.5"
-              y="193.5508">GET /pets/{id}
-        </text>
-        <line style="stroke:#A80036;stroke-width:1.5;" x1="136.5" x2="215.5" y1="201.1875" y2="201.1875"/>
-        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="51" x="141.5"
-              y="216.6064">integer id *
-        </text><!--MD5=[02116065a0dcc5033b67f6f5de09a359]
+        <g id="elem_GET /pets/{id}">
+            <rect codeLine="36" fill="#F1F1F1" height="68.3125" id="GET /pets/{id}" rx="2.5" ry="2.5"
+                  style="stroke:#181818;stroke-width:0.5;" width="95" x="140.5" y="171"/>
+            <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+                  textLength="39" x="168.5" y="188.457">«Path»
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="89"
+                  x="143.5" y="205.627">GET /pets/{id}
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="141.5" x2="234.5" y1="213.7031" y2="213.7031"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68"
+                  x="146.5" y="232.2363">integer id *
+            </text>
+        </g><!--MD5=[02116065a0dcc5033b67f6f5de09a359]
 class DELETE /pets/{id}-->
-        <rect codeLine="40" fill="#FEFECE" filter="url(#fhue2ecwm0nun)" height="62.0234" id="DELETE /pets/{id}"
-              style="stroke:#A80036;stroke-width:1.5;" width="104" x="492" y="161"/>
-        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
-              textLength="39" x="524.5" y="178.457">«Path»
-        </text>
-        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="98" x="495"
-              y="193.5508">DELETE /pets/{id}
-        </text>
-        <line style="stroke:#A80036;stroke-width:1.5;" x1="493" x2="595" y1="201.1875" y2="201.1875"/>
-        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="51" x="498"
-              y="216.6064">integer id *
-        </text><!--MD5=[6a80365b878ed5a1356e4ce20a365c33]
+        <g id="elem_DELETE /pets/{id}">
+            <rect codeLine="40" fill="#F1F1F1" height="68.3125" id="DELETE /pets/{id}" rx="2.5" ry="2.5"
+                  style="stroke:#181818;stroke-width:0.5;" width="120" x="511" y="171"/>
+            <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+                  textLength="39" x="551.5" y="188.457">«Path»
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="114" x="514"
+                  y="205.627">DELETE /pets/{id}
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="512" x2="630" y1="213.7031" y2="213.7031"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="517"
+                  y="232.2363">integer id *
+            </text>
+        </g><!--MD5=[6a80365b878ed5a1356e4ce20a365c33]
 class DELETE /pets/{id} 204-->
-        <rect codeLine="44" fill="#FEFECE" filter="url(#fhue2ecwm0nun)" height="40.1875" id="DELETE /pets/{id} 204"
-              style="stroke:#A80036;stroke-width:1.5;" width="128" x="486" y="315"/>
-        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
-              textLength="70" x="515" y="332.457">«Response»
-        </text>
-        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="122" x="489"
-              y="347.5508">DELETE /pets/{id} 204
-        </text><!--MD5=[445d9df4416bad900a4ad9b4fdc1449c]
+        <g id="elem_DELETE /pets/{id} 204">
+            <rect codeLine="44" fill="#F1F1F1" height="42.7031" id="DELETE /pets/{id} 204" rx="2.5" ry="2.5"
+                  style="stroke:#181818;stroke-width:0.5;" width="148" x="509" y="333"/>
+            <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+                  textLength="70" x="548" y="350.457">«Response»
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="142" x="512"
+                  y="367.627">DELETE /pets/{id} 204
+            </text>
+        </g><!--MD5=[445d9df4416bad900a4ad9b4fdc1449c]
 link Pet to NewPet-->
-        <path codeLine="47" d="M151.32,351.07 C172.65,369.62 209.58,401.74 238.42,426.83 " fill="none"
-              id="Pet-to-NewPet" style="stroke:#A80036;stroke-width:1.0;"/>
-        <polygon fill="#A80036"
-                 points="242.26,430.17,238.0824,421.2511,238.483,426.8937,232.8403,427.2943,242.26,430.17"
-                 style="stroke:#A80036;stroke-width:1.0;"/>
-        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="227.3986"
-              y="419.7561">1
-        </text><!--MD5=[b54f13da63d885f4c707cf2e743476f9]
+        <g id="link_Pet_NewPet">
+            <path codeLine="47" d="M161.79,370.61 C181.57,389.54 216.22,422.71 243.91,449.22 " fill="none"
+                  id="Pet-to-NewPet" style="stroke:#181818;stroke-width:1.0;"/>
+            <polygon fill="#181818"
+                     points="247.6,452.74,243.8611,443.6284,243.9868,449.2839,238.3313,449.4096,247.6,452.74"
+                     style="stroke:#181818;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7"
+                  x="233.1366" y="442.0959">1
+            </text>
+        </g><!--MD5=[b54f13da63d885f4c707cf2e743476f9]
 link Pet to PetId-->
-        <path codeLine="49" d="M134,351.07 C134,370.82 134,405.96 134,431.62 " fill="none" id="Pet-to-PetId"
-              style="stroke:#A80036;stroke-width:1.0;"/>
-        <polygon fill="#A80036" points="134,436.94,138,427.94,134,431.94,130,427.94,134,436.94"
-                 style="stroke:#A80036;stroke-width:1.0;"/>
-        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="126.1469"
-              y="425.9521">1
-        </text><!--MD5=[0a00b96edf1ab90c687d2bbc768333a4]
+        <g id="link_Pet_PetId">
+            <path codeLine="49" d="M146,370.61 C146,391.21 146,428.67 146,456.05 " fill="none" id="Pet-to-PetId"
+                  style="stroke:#181818;stroke-width:1.0;"/>
+            <polygon fill="#181818" points="146,461.38,150,452.38,146,456.38,142,452.38,146,461.38"
+                     style="stroke:#181818;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7"
+                  x="138.2344" y="450.8363">1
+            </text>
+        </g><!--MD5=[0a00b96edf1ab90c687d2bbc768333a4]
 link GET /pets 200 to Pet-->
-        <path codeLine="51"
-              d="M57.45,212.07 C64.83,228.16 76.18,251.61 88,271 C97.37,286.38 109.42,302.78 118.83,314.99 " fill="none"
-              id="GET /pets 200-to-Pet" style="stroke:#A80036;stroke-width:1.0;"/>
-        <polygon fill="#A80036"
-                 points="121.91,318.96,119.5348,309.4019,118.8373,315.0155,113.2236,314.3181,121.91,318.96"
-                 style="stroke:#A80036;stroke-width:1.0;"/>
-        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="118.6134"
-              y="308.2518">*
-        </text><!--MD5=[1147b680dd808fa41715f8830e4e0eed]
+        <g id="link_GET /pets 200_Pet">
+            <path codeLine="51"
+                  d="M66.43,226.65 C75,243.23 87.68,266.96 100,287 C110.04,303.33 122.46,321.16 131.86,334.24 "
+                  fill="none" id="GET /pets 200-to-Pet" style="stroke:#181818;stroke-width:1.0;"/>
+            <polygon fill="#181818"
+                     points="134.93,338.49,132.9058,328.8514,132.0036,334.4359,126.4191,333.5337,134.93,338.49"
+                     style="stroke:#181818;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5"
+                  x="131.9841" y="327.7921">*
+            </text>
+        </g><!--MD5=[1147b680dd808fa41715f8830e4e0eed]
 link GET /pets to GET /pets 200-->
-        <path codeLine="53" d="M203.33,72.6 C167.29,100.25 111.51,143.04 77.8,168.9 " fill="none"
-              id="GET /pets-to-GET /pets 200" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
-        <polygon fill="#A80036" points="73.81,171.97,83.3829,169.6548,77.7737,168.9221,78.5063,163.3129,73.81,171.97"
-                 style="stroke:#A80036;stroke-width:1.0;"/>
-        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="151"
-              y="127.4951">200
-        </text>
-        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="73.0698"
-              y="161.2554">1
-        </text><!--MD5=[696e3171f1dac0282797a887153758b9]
+        <g id="link_GET /pets_GET /pets 200">
+            <path codeLine="53" d="M196.86,86.87 C162.3,115.61 114.77,155.13 84.72,180.12 " fill="none"
+                  id="GET /pets-to-GET /pets 200" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+            <polygon fill="#181818" points="80.78,183.39,90.2557,180.7047,84.6223,180.1905,85.1365,174.557,80.78,183.39"
+                     style="stroke:#181818;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="149"
+                  y="137.4951">200
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7"
+                  x="79.765" y="172.6485">1
+            </text>
+        </g><!--MD5=[696e3171f1dac0282797a887153758b9]
 link GET /pets to Error-->
-        <path codeLine="55"
-              d="M272.63,77.79 C310.53,115.3 368.73,181.64 390,253 C394.03,266.51 396.13,281.79 397.2,295.41 "
-              fill="none" id="GET /pets-to-Error" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
-        <polygon fill="#A80036" points="397.57,300.74,400.9431,291.4868,397.227,295.7518,392.962,292.0356,397.57,300.74"
-                 style="stroke:#A80036;stroke-width:1.0;"/>
-        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="38" x="379"
-              y="197.4951">default
-        </text>
-        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="389.8208"
-              y="290.2441">1
-        </text><!--MD5=[65803be2c8ec8049d1c993ab3e7f5a8c]
+        <g id="link_GET /pets_Error">
+            <path codeLine="55"
+                  d="M283.29,83.1 C310.52,105.21 344.61,136.71 367,171 C395.02,213.93 406.72,272.56 411.58,311.66 "
+                  fill="none" id="GET /pets-to-Error"
+                  style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+            <polygon fill="#181818"
+                     points="412.2,316.81,415.0896,307.3946,411.5992,311.8462,407.1475,308.3559,412.2,316.81"
+                     style="stroke:#181818;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="38" x="398"
+                  y="210.4951">default
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7"
+                  x="404.0778" y="306.1784">1
+            </text>
+        </g><!--MD5=[65803be2c8ec8049d1c993ab3e7f5a8c]
 link POST /pets to Pet-->
-        <path codeLine="57"
-              d="M256.89,211.59 C249.41,215.49 241.49,219.48 234,223 C202.63,237.75 185.74,227.74 162,253 C146.3,269.7 139.36,295.64 136.32,313.64 "
-              fill="none" id="POST /pets-to-Pet" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
-        <polygon fill="#A80036" points="135.49,318.96,140.83,310.6845,136.261,314.0198,132.9257,309.4508,135.49,318.96"
-                 style="stroke:#A80036;stroke-width:1.0;"/>
-        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="163"
-              y="267.4951">200
-        </text>
-        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="127.7991"
-              y="308.2518">1
-        </text><!--MD5=[d8e400fe23aad798f9188568f3d01ef4]
+        <g id="link_POST /pets_Pet">
+            <path codeLine="57"
+                  d="M276.43,226.64 C268.84,230.96 260.74,235.32 253,239 C219.08,255.13 199.98,241.88 174,269 C157.19,286.55 150.47,314.41 147.78,333.3 "
+                  fill="none" id="POST /pets-to-Pet" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+            <polygon fill="#181818"
+                     points="147.13,338.38,152.2542,329.9692,147.773,333.4215,144.3207,328.9403,147.13,338.38"
+                     style="stroke:#181818;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="175"
+                  y="283.4951">200
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7"
+                  x="139.3153" y="327.6443">1
+            </text>
+        </g><!--MD5=[d8e400fe23aad798f9188568f3d01ef4]
 link POST /pets to Error-->
-        <path codeLine="59"
-              d="M303.94,212.2 C314.84,228.17 331.02,251.38 346,271 C352.43,279.43 359.55,288.31 366.39,296.65 "
-              fill="none" id="POST /pets-to-Error" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
-        <polygon fill="#A80036" points="369.72,300.7,367.0728,291.2136,366.536,296.8449,360.9046,296.308,369.72,300.7"
-                 style="stroke:#A80036;stroke-width:1.0;"/>
-        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="38" x="347"
-              y="267.4951">default
-        </text>
-        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="356.6619"
-              y="290.1965">1
-        </text><!--MD5=[2262035f105b2cbdf39fcf25a498d596]
+        <g id="link_POST /pets_Error">
+            <path codeLine="59"
+                  d="M320.9,226.59 C330.07,243.34 343.91,267.34 358,287 C364.17,295.6 371.19,304.45 378.16,312.76 "
+                  fill="none" id="POST /pets-to-Error"
+                  style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+            <polygon fill="#181818"
+                     points="381.57,316.79,378.8466,307.3252,378.355,312.9606,372.7196,312.4691,381.57,316.79"
+                     style="stroke:#181818;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="38" x="359"
+                  y="283.4951">default
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7"
+                  x="367.9918" y="306.1549">1
+            </text>
+        </g><!--MD5=[2262035f105b2cbdf39fcf25a498d596]
 link POST /pets to NewPet-->
-        <path codeLine="61" d="M290.21,212.42 C288.4,256.78 283.94,366.26 281.56,424.73 " fill="none"
-              id="POST /pets-to-NewPet" style="stroke:#A80036;stroke-width:1.0;"/>
-        <polygon fill="#A80036"
-                 points="281.35,429.88,285.7065,421.0471,281.5498,424.884,277.7129,420.7273,281.35,429.88"
-                 style="stroke:#A80036;stroke-width:1.0;"/>
-        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="273.9267"
-              y="419.1496">1
-        </text><!--MD5=[212ac709fa16c5e71833c7a7aa8646d1]
+        <g id="link_POST /pets_NewPet">
+            <path codeLine="61" d="M308.24,226.85 C304.3,273.36 294.73,386.37 289.52,447.9 " fill="none"
+                  id="POST /pets-to-NewPet" style="stroke:#181818;stroke-width:1.0;"/>
+            <polygon fill="#181818"
+                     points="289.09,452.97,293.8215,444.3321,289.504,447.9872,285.849,443.6697,289.09,452.97"
+                     style="stroke:#181818;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7"
+                  x="282.0144" y="442.0828">1
+            </text>
+        </g><!--MD5=[212ac709fa16c5e71833c7a7aa8646d1]
 link GET /pets/{id} to Pet-->
-        <path codeLine="63"
-              d="M135.39,214.31 C121.17,224.04 106.81,237.01 99,253 C88.83,273.81 102.88,298.29 116.09,314.85 "
-              fill="none" id="GET /pets/{id}-to-Pet" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
-        <polygon fill="#A80036" points="119.42,318.88,116.7728,309.3936,116.236,315.0249,110.6046,314.488,119.42,318.88"
-                 style="stroke:#A80036;stroke-width:1.0;"/>
-        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="100"
-              y="267.4951">200
-        </text>
-        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="106.205"
-              y="308.1443">1
-        </text><!--MD5=[0467b053c3c446c6003f52348cffd53e]
+        <g id="link_GET /pets/{id}_Pet">
+            <path codeLine="63"
+                  d="M140.45,234.04 C128.64,243.53 117.51,255.26 111,269 C100.59,290.96 115.14,316.86 128.52,334.14 "
+                  fill="none" id="GET /pets/{id}-to-Pet"
+                  style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+            <polygon fill="#181818"
+                     points="131.88,338.34,129.3897,328.8112,128.76,334.4329,123.1383,333.8031,131.88,338.34"
+                     style="stroke:#181818;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="112"
+                  y="283.4951">200
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7"
+                  x="118.8231" y="327.5905">1
+            </text>
+        </g><!--MD5=[0467b053c3c446c6003f52348cffd53e]
 link GET /pets/{id} to Error-->
-        <path codeLine="65"
-              d="M216.31,223.11 C236.83,238.04 262.37,256.03 286,271 C305.37,283.27 327.24,295.84 346.49,306.5 "
-              fill="none" id="GET /pets/{id}-to-Error"
-              style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
-        <polygon fill="#A80036" points="351.32,309.16,345.3952,301.2926,346.9492,306.7318,341.51,308.2858,351.32,309.16"
-                 style="stroke:#A80036;stroke-width:1.0;"/>
-        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="38" x="287"
-              y="267.4951">default
-        </text>
-        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="336.6362"
-              y="301.5254">1
-        </text><!--MD5=[9ac5942e9e28c8d3e3dce93029ed2b77]
+        <g id="link_GET /pets/{id}_Error">
+            <path codeLine="65"
+                  d="M230.98,239.06 C251.25,254.21 275.98,272.07 299,287 C315.88,297.95 334.62,309.1 352.03,319.07 "
+                  fill="none" id="GET /pets/{id}-to-Error"
+                  style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+            <polygon fill="#181818"
+                     points="356.43,321.58,350.5863,313.6521,352.0844,319.107,346.6295,320.6051,356.43,321.58"
+                     style="stroke:#181818;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="38" x="300"
+                  y="283.4951">default
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7"
+                  x="341.4773" y="313.8408">1
+            </text>
+        </g><!--MD5=[9ac5942e9e28c8d3e3dce93029ed2b77]
 link DELETE /pets/{id} to DELETE /pets/{id} 204-->
-        <path codeLine="67" d="M545.29,223.25 C546.38,248.98 547.93,285.46 548.95,309.42 " fill="none"
-              id="DELETE /pets/{id}-to-DELETE /pets/{id} 204"
-              style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
-        <polygon fill="#A80036" points="549.18,314.63,552.791,305.467,548.9659,309.6346,544.7983,305.8095,549.18,314.63"
-                 style="stroke:#A80036;stroke-width:1.0;"/>
-        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="549"
-              y="267.4951">204
-        </text>
-        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="540.965"
-              y="304.1691">1
-        </text><!--MD5=[3792bd2865259fb3395392e551a36871]
+        <g id="link_DELETE /pets/{id}_DELETE /pets/{id} 204">
+            <path codeLine="67" d="M573.69,239.1 C575.87,265.9 578.9,303.12 580.9,327.74 " fill="none"
+                  id="DELETE /pets/{id}-to-DELETE /pets/{id} 204"
+                  style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+            <polygon fill="#181818"
+                     points="581.32,332.79,584.5588,323.4889,580.9048,327.8073,576.5864,324.1533,581.32,332.79"
+                     style="stroke:#181818;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="579"
+                  y="283.4951">204
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7"
+                  x="572.8631" y="322.0204">1
+            </text>
+        </g><!--MD5=[3792bd2865259fb3395392e551a36871]
 link DELETE /pets/{id} to Error-->
-        <path codeLine="69" d="M512.68,223.25 C490.25,244.91 459.93,274.19 436.1,297.21 " fill="none"
-              id="DELETE /pets/{id}-to-Error" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
-        <polygon fill="#A80036"
-                 points="432.33,300.85,441.5851,297.4822,435.9292,297.3793,436.0321,291.7234,432.33,300.85"
-                 style="stroke:#A80036;stroke-width:1.0;"/>
-        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="38" x="481"
-              y="267.4951">default
-        </text>
-        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="431.3997"
-              y="290.1137">1
-        </text><!--MD5=[2d3be54973e12c273340205ad839a523]
+        <g id="link_DELETE /pets/{id}_Error">
+            <path codeLine="69" d="M535.99,239.1 C512.8,261.03 482.23,289.93 457.62,313.2 " fill="none"
+                  id="DELETE /pets/{id}-to-Error" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+            <polygon fill="#181818"
+                     points="453.72,316.89,463.0089,313.6163,457.3543,313.456,457.5145,307.8015,453.72,316.89"
+                     style="stroke:#181818;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="38" x="504"
+                  y="283.4951">default
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7"
+                  x="452.9936" y="306.2727">1
+            </text>
+        </g><!--MD5=[e7a907687667ebe8f0e00b9e61a13d4f]
 @startuml
 hide <<Path>> circle
 hide <<Response>> circle
@@ -340,11 +385,11 @@ class "DELETE /pets/{id} 204" <<Response>> {
 
 @enduml
 
-PlantUML version 1.2022.0(Tue Jan 11 18:16:42 IST 2022)
+PlantUML version 1.2022.4(Sat Apr 09 16:29:17 IDT 2022)
 (GPL source distribution)
 Java Runtime: OpenJDK Runtime Environment
 JVM: OpenJDK 64-Bit Server VM
-Default Encoding: Cp1252
+Default Encoding: windows-1252
 Language: en
 Country: US
 -->

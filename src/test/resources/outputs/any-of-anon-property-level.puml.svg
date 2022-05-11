@@ -1,82 +1,88 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg xmlns="http://www.w3.org/2000/svg" contentScriptType="application/ecmascript" contentStyleType="text/css"
-     height="188px" preserveAspectRatio="none" style="width:409px;height:188px;background:#FFFFFF;" version="1.1"
-     viewBox="0 0 409 188" width="409px" zoomAndPan="magnify">
-    <defs>
-        <filter height="300%" id="fu7s0syhfve8j" width="300%" x="-1" y="-1">
-            <feGaussianBlur result="blurOut" stdDeviation="2.0"/>
-            <feColorMatrix in="blurOut" result="blurOut2" type="matrix"
-                           values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/>
-            <feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/>
-            <feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/>
-        </filter>
-    </defs>
+<svg xmlns="http://www.w3.org/2000/svg" contentStyleType="text/css" height="191px" preserveAspectRatio="none"
+     style="width:465px;height:191px;background:#FFFFFF;" version="1.1" viewBox="0 0 465 191" width="465px"
+     zoomAndPan="magnify">
+    <defs/>
     <g><!--MD5=[906191eefbe920f4854ecc545455b080]
 class employee.role-->
-        <rect codeLine="8" fill="#FEFECE" filter="url(#fu7s0syhfve8j)" height="67.6719" id="employee.role"
-              style="stroke:#A80036;stroke-width:1.5;" width="112" x="7" y="7"/>
-        <ellipse cx="22.9" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
-        <path d="M25.6656,18.875 Q25.8219,18.6563 26.0094,18.5469 Q26.1969,18.4375 26.4156,18.4375 Q26.7906,18.4375 27.025,18.7031 Q27.2594,18.9531 27.2594,19.5625 L27.2594,21.0156 Q27.2594,21.625 27.025,21.8906 Q26.7906,22.1563 26.4156,22.1563 Q26.0719,22.1563 25.8688,21.9531 Q25.6656,21.7656 25.5563,21.25 Q25.5094,20.8906 25.3219,20.7031 Q24.9938,20.3281 24.3844,20.1094 Q23.775,19.8906 23.15,19.8906 Q22.3844,19.8906 21.7438,20.2188 Q21.1188,20.5469 20.6188,21.2969 Q20.1344,22.0469 20.1344,23.0781 L20.1344,24.1719 Q20.1344,25.4063 21.025,26.2344 Q21.9156,27.0469 23.5094,27.0469 Q24.4469,27.0469 25.1031,26.7969 Q25.4938,26.6406 25.9156,26.2031 Q26.1813,25.9375 26.3219,25.8594 Q26.4781,25.7813 26.6813,25.7813 Q27.0094,25.7813 27.2594,26.0469 Q27.525,26.2969 27.525,26.6406 Q27.525,26.9844 27.1813,27.3906 Q26.6813,27.9688 25.8844,28.2969 Q24.8063,28.75 23.5094,28.75 Q21.9938,28.75 20.7906,28.125 Q19.8063,27.625 19.1188,26.5625 Q18.4313,25.4844 18.4313,24.2031 L18.4313,23.0469 Q18.4313,21.7188 19.0406,20.5781 Q19.6656,19.4219 20.7594,18.8125 Q21.8531,18.1875 23.0875,18.1875 Q23.8219,18.1875 24.4625,18.3594 Q25.1188,18.5156 25.6656,18.875 Z "
-              fill="#000000"/>
-        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="78" x="37.1"
-              y="27.9102">employee.role
-        </text>
-        <line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="118" y1="39" y2="39"/>
-        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="100" x="13"
-              y="54.4189">string employeeType
-        </text>
-        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="65" x="13"
-              y="68.2549">integer level *
-        </text><!--MD5=[691188911535c18fa6d1f1e2ccf9a4ee]
+        <g id="elem_employee.role">
+            <rect codeLine="8" fill="#F1F1F1" height="75.2188" id="employee.role" rx="2.5" ry="2.5"
+                  style="stroke:#181818;stroke-width:0.5;" width="144" x="7" y="7"/>
+            <ellipse cx="32.35" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M35.1156,18.875 Q35.2719,18.6563 35.4594,18.5469 Q35.6469,18.4375 35.8656,18.4375 Q36.2406,18.4375 36.475,18.7031 Q36.7094,18.9531 36.7094,19.5625 L36.7094,21.0156 Q36.7094,21.625 36.475,21.8906 Q36.2406,22.1563 35.8656,22.1563 Q35.5219,22.1563 35.3188,21.9531 Q35.1156,21.7656 35.0063,21.25 Q34.9594,20.8906 34.7719,20.7031 Q34.4438,20.3281 33.8344,20.1094 Q33.225,19.8906 32.6,19.8906 Q31.8344,19.8906 31.1938,20.2188 Q30.5688,20.5469 30.0688,21.2969 Q29.5844,22.0469 29.5844,23.0781 L29.5844,24.1719 Q29.5844,25.4063 30.475,26.2344 Q31.3656,27.0469 32.9594,27.0469 Q33.8969,27.0469 34.5531,26.7969 Q34.9438,26.6406 35.3656,26.2031 Q35.6313,25.9375 35.7719,25.8594 Q35.9281,25.7813 36.1313,25.7813 Q36.4594,25.7813 36.7094,26.0469 Q36.975,26.2969 36.975,26.6406 Q36.975,26.9844 36.6313,27.3906 Q36.1313,27.9688 35.3344,28.2969 Q34.2563,28.75 32.9594,28.75 Q31.4438,28.75 30.2406,28.125 Q29.2563,27.625 28.5688,26.5625 Q27.8813,25.4844 27.8813,24.2031 L27.8813,23.0469 Q27.8813,21.7188 28.4906,20.5781 Q29.1156,19.4219 30.2094,18.8125 Q31.3031,18.1875 32.5375,18.1875 Q33.2719,18.1875 33.9125,18.3594 Q34.5688,18.5156 35.1156,18.875 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="89"
+                  x="48.65" y="28.7285">employee.role
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="150" y1="39" y2="39"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="132" x="13"
+                  y="57.5332">string employeeType
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="13"
+                  y="75.1426">integer level *
+            </text>
+        </g><!--MD5=[691188911535c18fa6d1f1e2ccf9a4ee]
 class employee.role.1-->
-        <rect codeLine="13" fill="#FEFECE" filter="url(#fu7s0syhfve8j)" height="67.6719" id="employee.role.1"
-              style="stroke:#A80036;stroke-width:1.5;" width="120" x="154" y="7"/>
-        <ellipse cx="169" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
-        <path d="M171.7656,18.875 Q171.9219,18.6563 172.1094,18.5469 Q172.2969,18.4375 172.5156,18.4375 Q172.8906,18.4375 173.125,18.7031 Q173.3594,18.9531 173.3594,19.5625 L173.3594,21.0156 Q173.3594,21.625 173.125,21.8906 Q172.8906,22.1563 172.5156,22.1563 Q172.1719,22.1563 171.9688,21.9531 Q171.7656,21.7656 171.6563,21.25 Q171.6094,20.8906 171.4219,20.7031 Q171.0938,20.3281 170.4844,20.1094 Q169.875,19.8906 169.25,19.8906 Q168.4844,19.8906 167.8438,20.2188 Q167.2188,20.5469 166.7188,21.2969 Q166.2344,22.0469 166.2344,23.0781 L166.2344,24.1719 Q166.2344,25.4063 167.125,26.2344 Q168.0156,27.0469 169.6094,27.0469 Q170.5469,27.0469 171.2031,26.7969 Q171.5938,26.6406 172.0156,26.2031 Q172.2813,25.9375 172.4219,25.8594 Q172.5781,25.7813 172.7813,25.7813 Q173.1094,25.7813 173.3594,26.0469 Q173.625,26.2969 173.625,26.6406 Q173.625,26.9844 173.2813,27.3906 Q172.7813,27.9688 171.9844,28.2969 Q170.9063,28.75 169.6094,28.75 Q168.0938,28.75 166.8906,28.125 Q165.9063,27.625 165.2188,26.5625 Q164.5313,25.4844 164.5313,24.2031 L164.5313,23.0469 Q164.5313,21.7188 165.1406,20.5781 Q165.7656,19.4219 166.8594,18.8125 Q167.9531,18.1875 169.1875,18.1875 Q169.9219,18.1875 170.5625,18.3594 Q171.2188,18.5156 171.7656,18.875 Z "
-              fill="#000000"/>
-        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="88" x="183"
-              y="27.9102">employee.role.1
-        </text>
-        <line style="stroke:#A80036;stroke-width:1.5;" x1="155" x2="273" y1="39" y2="39"/>
-        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="100" x="160"
-              y="54.4189">string employeeType
-        </text>
-        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="80" x="160"
-              y="68.2549">decimal income *
-        </text><!--MD5=[58521b9143a6696c24486cbdfb8e8110]
+        <g id="elem_employee.role.1">
+            <rect codeLine="13" fill="#F1F1F1" height="75.2188" id="employee.role.1" rx="2.5" ry="2.5"
+                  style="stroke:#181818;stroke-width:0.5;" width="144" x="186" y="7"/>
+            <ellipse cx="205.95" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M208.7156,18.875 Q208.8719,18.6563 209.0594,18.5469 Q209.2469,18.4375 209.4656,18.4375 Q209.8406,18.4375 210.075,18.7031 Q210.3094,18.9531 210.3094,19.5625 L210.3094,21.0156 Q210.3094,21.625 210.075,21.8906 Q209.8406,22.1563 209.4656,22.1563 Q209.1219,22.1563 208.9188,21.9531 Q208.7156,21.7656 208.6063,21.25 Q208.5594,20.8906 208.3719,20.7031 Q208.0438,20.3281 207.4344,20.1094 Q206.825,19.8906 206.2,19.8906 Q205.4344,19.8906 204.7938,20.2188 Q204.1688,20.5469 203.6688,21.2969 Q203.1844,22.0469 203.1844,23.0781 L203.1844,24.1719 Q203.1844,25.4063 204.075,26.2344 Q204.9656,27.0469 206.5594,27.0469 Q207.4969,27.0469 208.1531,26.7969 Q208.5438,26.6406 208.9656,26.2031 Q209.2313,25.9375 209.3719,25.8594 Q209.5281,25.7813 209.7313,25.7813 Q210.0594,25.7813 210.3094,26.0469 Q210.575,26.2969 210.575,26.6406 Q210.575,26.9844 210.2313,27.3906 Q209.7313,27.9688 208.9344,28.2969 Q207.8563,28.75 206.5594,28.75 Q205.0438,28.75 203.8406,28.125 Q202.8563,27.625 202.1688,26.5625 Q201.4813,25.4844 201.4813,24.2031 L201.4813,23.0469 Q201.4813,21.7188 202.0906,20.5781 Q202.7156,19.4219 203.8094,18.8125 Q204.9031,18.1875 206.1375,18.1875 Q206.8719,18.1875 207.5125,18.3594 Q208.1688,18.5156 208.7156,18.875 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="101"
+                  x="221.05" y="28.7285">employee.role.1
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="187" x2="329" y1="39" y2="39"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="132" x="192"
+                  y="57.5332">string employeeType
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="192"
+                  y="75.1426">decimal income *
+            </text>
+        </g><!--MD5=[58521b9143a6696c24486cbdfb8e8110]
 class employee-->
-        <rect codeLine="18" fill="#FEFECE" filter="url(#fu7s0syhfve8j)" height="32" id="employee"
-              style="stroke:#A80036;stroke-width:1.5;" width="86" x="309" y="25"/>
-        <ellipse cx="324" cy="41" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
-        <path d="M326.7656,36.875 Q326.9219,36.6563 327.1094,36.5469 Q327.2969,36.4375 327.5156,36.4375 Q327.8906,36.4375 328.125,36.7031 Q328.3594,36.9531 328.3594,37.5625 L328.3594,39.0156 Q328.3594,39.625 328.125,39.8906 Q327.8906,40.1563 327.5156,40.1563 Q327.1719,40.1563 326.9688,39.9531 Q326.7656,39.7656 326.6563,39.25 Q326.6094,38.8906 326.4219,38.7031 Q326.0938,38.3281 325.4844,38.1094 Q324.875,37.8906 324.25,37.8906 Q323.4844,37.8906 322.8438,38.2188 Q322.2188,38.5469 321.7188,39.2969 Q321.2344,40.0469 321.2344,41.0781 L321.2344,42.1719 Q321.2344,43.4063 322.125,44.2344 Q323.0156,45.0469 324.6094,45.0469 Q325.5469,45.0469 326.2031,44.7969 Q326.5938,44.6406 327.0156,44.2031 Q327.2813,43.9375 327.4219,43.8594 Q327.5781,43.7813 327.7813,43.7813 Q328.1094,43.7813 328.3594,44.0469 Q328.625,44.2969 328.625,44.6406 Q328.625,44.9844 328.2813,45.3906 Q327.7813,45.9688 326.9844,46.2969 Q325.9063,46.75 324.6094,46.75 Q323.0938,46.75 321.8906,46.125 Q320.9063,45.625 320.2188,44.5625 Q319.5313,43.4844 319.5313,42.2031 L319.5313,41.0469 Q319.5313,39.7188 320.1406,38.5781 Q320.7656,37.4219 321.8594,36.8125 Q322.9531,36.1875 324.1875,36.1875 Q324.9219,36.1875 325.5625,36.3594 Q326.2188,36.5156 326.7656,36.875 Z "
-              fill="#000000"/>
-        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="54" x="338"
-              y="45.9102">employee
-        </text>
-        <polygon fill="#FEFECE" filter="url(#fu7s0syhfve8j)" points="214,153,226,165,214,177,202,165,214,153"
-                 style="stroke:#A80036;stroke-width:1.5;"/><!--MD5=[abe639915a57cc4665ca41286734383a]
+        <g id="elem_employee">
+            <rect codeLine="18" fill="#F1F1F1" height="32" id="employee" rx="2.5" ry="2.5"
+                  style="stroke:#181818;stroke-width:0.5;" width="93" x="365.5" y="28.5"/>
+            <ellipse cx="380.5" cy="44.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M383.2656,40.375 Q383.4219,40.1563 383.6094,40.0469 Q383.7969,39.9375 384.0156,39.9375 Q384.3906,39.9375 384.625,40.2031 Q384.8594,40.4531 384.8594,41.0625 L384.8594,42.5156 Q384.8594,43.125 384.625,43.3906 Q384.3906,43.6563 384.0156,43.6563 Q383.6719,43.6563 383.4688,43.4531 Q383.2656,43.2656 383.1563,42.75 Q383.1094,42.3906 382.9219,42.2031 Q382.5938,41.8281 381.9844,41.6094 Q381.375,41.3906 380.75,41.3906 Q379.9844,41.3906 379.3438,41.7188 Q378.7188,42.0469 378.2188,42.7969 Q377.7344,43.5469 377.7344,44.5781 L377.7344,45.6719 Q377.7344,46.9063 378.625,47.7344 Q379.5156,48.5469 381.1094,48.5469 Q382.0469,48.5469 382.7031,48.2969 Q383.0938,48.1406 383.5156,47.7031 Q383.7813,47.4375 383.9219,47.3594 Q384.0781,47.2813 384.2813,47.2813 Q384.6094,47.2813 384.8594,47.5469 Q385.125,47.7969 385.125,48.1406 Q385.125,48.4844 384.7813,48.8906 Q384.2813,49.4688 383.4844,49.7969 Q382.4063,50.25 381.1094,50.25 Q379.5938,50.25 378.3906,49.625 Q377.4063,49.125 376.7188,48.0625 Q376.0313,46.9844 376.0313,45.7031 L376.0313,44.5469 Q376.0313,43.2188 376.6406,42.0781 Q377.2656,40.9219 378.3594,40.3125 Q379.4531,39.6875 380.6875,39.6875 Q381.4219,39.6875 382.0625,39.8594 Q382.7188,40.0156 383.2656,40.375 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61"
+                  x="394.5" y="50.2285">employee
+            </text>
+        </g>
+        <g id="elem_anon1">
+            <polygon fill="#F1F1F1" points="258,160,270,172,258,184,246,172,258,160"
+                     style="stroke:#181818;stroke-width:0.5;"/>
+        </g><!--MD5=[abe639915a57cc4665ca41286734383a]
 link employee to anon1-->
-        <path codeLine="23" d="M334.8,57.2 C305.55,83.06 247.04,134.79 223.82,155.32 " fill="none"
-              id="employee-to-anon1" style="stroke:#A80036;stroke-width:1.0;"/>
-        <polygon fill="#A80036"
-                 points="219.91,158.77,229.2998,155.7982,223.6533,155.4553,223.9962,149.8088,219.91,158.77"
-                 style="stroke:#A80036;stroke-width:1.0;"/>
-        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="279"
-              y="119.4951">role
-        </text>
-        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="22" x="233.8608"
-              y="144.6704">0..1
-        </text><!--MD5=[3a9e251035c9308fc6ca566cad08911c]
+        <g id="link_employee_anon1">
+            <path codeLine="23" d="M393.42,60.64 C360.75,87.26 294.05,141.62 268.38,162.54 " fill="none"
+                  id="employee-to-anon1" style="stroke:#181818;stroke-width:1.0;"/>
+            <polygon fill="#181818"
+                     points="264.35,165.82,273.847,163.211,268.2179,162.6515,268.7774,157.0224,264.35,165.82"
+                     style="stroke:#181818;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="331"
+                  y="126.4951">role
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="22"
+                  x="278.0131" y="152.2868">0..1
+            </text>
+        </g><!--MD5=[3a9e251035c9308fc6ca566cad08911c]
 link employee.role to anon1-->
-        <path codeLine="25" d="M103.86,75.01 C132.25,97.95 168.98,127.62 192.02,146.24 " fill="none"
-              id="employee.role-to-anon1" style="stroke:#A80036;stroke-width:1.0;"/>
-        <polygon fill="none" points="196.51,140.87,207.67,158.88,187.71,151.76,196.51,140.87"
-                 style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[a5abbeddf97581eda3f1f51999ef6c65]
+        <g id="link_employee.role_anon1">
+            <path codeLine="25" d="M131.26,82.14 C165.62,106.23 208.91,136.58 234.97,154.85 " fill="none"
+                  id="employee.role-to-anon1" style="stroke:#181818;stroke-width:1.0;"/>
+            <polygon fill="none" points="239.03,149.15,251.39,166.37,231,160.62,239.03,149.15"
+                     style="stroke:#181818;stroke-width:1.0;"/>
+        </g><!--MD5=[a5abbeddf97581eda3f1f51999ef6c65]
 link employee.role.1 to anon1-->
-        <path codeLine="27" d="M214,75.01 C214,92.87 214,114.82 214,132.44 " fill="none" id="employee.role.1-to-anon1"
-              style="stroke:#A80036;stroke-width:1.0;"/>
-        <polygon fill="none" points="221,132.72,214,152.72,207,132.72,221,132.72"
-                 style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[6f121d936647aa12e839983babebb078]
+        <g id="link_employee.role.1_anon1">
+            <path codeLine="27" d="M258,82.14 C258,100.45 258,122.36 258,139.85 " fill="none"
+                  id="employee.role.1-to-anon1" style="stroke:#181818;stroke-width:1.0;"/>
+            <polygon fill="none" points="265,139.9,258,159.9,251,139.9,265,139.9"
+                     style="stroke:#181818;stroke-width:1.0;"/>
+        </g><!--MD5=[7607319311de58fb7226fd13a847f5a1]
 @startuml
 hide <<Path>> circle
 hide <<Response>> circle
@@ -108,11 +114,11 @@ diamond anon1
 
 @enduml
 
-PlantUML version 1.2022.0(Tue Jan 11 18:16:42 IST 2022)
+PlantUML version 1.2022.4(Sat Apr 09 16:29:17 IDT 2022)
 (GPL source distribution)
 Java Runtime: OpenJDK Runtime Environment
 JVM: OpenJDK 64-Bit Server VM
-Default Encoding: Cp1252
+Default Encoding: windows-1252
 Language: en
 Country: US
 -->

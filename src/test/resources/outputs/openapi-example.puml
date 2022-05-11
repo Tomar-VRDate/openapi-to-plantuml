@@ -1,0 +1,195 @@
+@startuml
+hide <<Path>> circle
+hide <<Response>> circle
+hide <<Parameter>> circle
+hide empty methods
+hide empty fields
+set namespaceSeparator none
+
+class "agents" {
+}
+
+class "agent" {
+  {field} string value *
+}
+
+class "craftTypes" {
+}
+
+class "tracks" {
+}
+
+class "craftpic" {
+}
+
+class "craftId" {
+  {field} string value *
+}
+
+class "craftType" {
+  {field} string value *
+}
+
+class "identifierTypes" {
+}
+
+class "identifierType" {
+  {field} string value *
+}
+
+class "craftFix" {
+}
+
+class "craftFixes" {
+}
+
+class "identifier" {
+  {field} string value *
+}
+
+class "property" {
+  {field} string key *
+  {field} string value *
+}
+
+class "fix" {
+  {field} string fixId *
+  {field} timestamp time *
+  {field} decimal lat *
+  {field} decimal lon *
+  {field} decimal altitudeMetres 
+  {field} decimal cog 
+  {field} decimal speedKnots 
+  {field} timestamp closestActualFixTime 
+}
+
+class "GET /agent" <<Path>> {
+}
+
+class "GET /craftType" <<Path>> {
+}
+
+class "GET /identifierType" <<Path>> {
+}
+
+class "GET /track/rect" <<Path>> {
+  {field} timestamp startTimeInclusive *
+  {field} timestamp finishTimeExclusive *
+  {field} string[] identifierValue 
+  {field} string[] craftId 
+  {field} string[] craftType 
+  {field} string[] agent 
+  {field} decimal minLat *
+  {field} decimal maxLat *
+  {field} decimal leftLon *
+  {field} decimal rightLon *
+  {field} boolean includeCraftProperties 
+  {field} boolean includeFixProperties 
+  {field} boolean includeFixIdentifers 
+}
+
+class "GET /track/circle" <<Path>> {
+  {field} timestamp startTimeInclusive *
+  {field} timestamp finishTimeExclusive *
+  {field} string[] identifierValue 
+  {field} string[] craftId 
+  {field} string[] craftType 
+  {field} string[] agent 
+  {field} decimal centreLat *
+  {field} decimal centreLon *
+  {field} decimal radiusNm *
+  {field} boolean includeCraftProperties 
+  {field} boolean includeFixProperties 
+  {field} boolean includeFixIdentifers 
+}
+
+class "GET /craftpic/rect" <<Path>> {
+  {field} timestamp time *
+  {field} decimal beforeHours *
+  {field} decimal afterHours *
+  {field} string[] identifierValue 
+  {field} string[] craftId 
+  {field} string[] craftType 
+  {field} string[] agent 
+  {field} decimal minLat *
+  {field} decimal maxLat *
+  {field} decimal leftLon *
+  {field} decimal rightLon *
+  {field} boolean includeFixProperties 
+  {field} boolean includeCraftProperties 
+  {field} boolean includeFixIdentifers 
+  {field} boolean predicted 
+  {field} decimal speedForMarginKnots 
+}
+
+class "GET /craftpic/circle" <<Path>> {
+  {field} timestamp time *
+  {field} decimal beforeHours *
+  {field} decimal afterHours *
+  {field} string[] identifierValue 
+  {field} string[] craftId 
+  {field} string[] craftType 
+  {field} string[] agent 
+  {field} decimal centreLat *
+  {field} decimal centreLon *
+  {field} decimal radiusNm *
+  {field} boolean includeCraftProperties 
+  {field} boolean includeFixProperties 
+  {field} boolean includeFixIdentifers 
+  {field} boolean predicted 
+  {field} decimal speedForMarginKnots 
+}
+
+"agents" --> "*" "agent"
+
+"craftTypes" --> "*" "craftType"
+
+"tracks" --> "*" "craftFixes"
+
+"craftpic" --> "*" "craftFix"
+
+"identifierTypes" --> "*" "identifierType"
+
+"craftFix" --> "1" "craftId"
+
+"craftFix" --> "1" "craftType"
+
+"craftFix" --> "*" "identifier"  :  "identifiers"
+
+"craftFix" --> "*" "property"  :  "properties"
+
+"craftFix" --> "1" "fix"
+
+"craftFixes" --> "1" "craftId"
+
+"craftFixes" --> "1" "craftType"
+
+"craftFixes" --> "*" "identifier"  :  "identifiers"
+
+"craftFixes" --> "*" "property"  :  "properties"
+
+"craftFixes" --> "*" "fix"  :  "fixes"
+
+"identifier" --> "1" "identifierType"  :  "key"
+
+"fix" --> "1" "agent"
+
+"fix" --> "*" "property"  :  "properties"
+
+"fix" --> "*" "identifier"  :  "identifiers"
+
+"GET /agent" ..> "1" "agents"  :  "200"
+
+"GET /craftType" ..> "1" "craftTypes"  :  "200"
+
+"GET /identifierType" ..> "1" "identifierTypes"  :  "200"
+
+"GET /track/rect" ..> "1" "tracks"  :  "200"
+
+"GET /track/circle" ..> "1" "tracks"  :  "200"
+
+"GET /craftpic/rect" ..> "1" "craftpic"  :  "200"
+
+"GET /craftpic/circle" ..> "1" "craftpic"  :  "200"
+
+@enduml
