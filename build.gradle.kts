@@ -31,7 +31,7 @@ dependencies {
 }
 
 group = "com.github.davidmoten"
-version = parent?.version ?: "2022-05-11"
+version = parent?.version ?: "2022-07-4"
 description = "OpenAPI To PlantUML"
 java.sourceCompatibility = JavaVersion.VERSION_11
 

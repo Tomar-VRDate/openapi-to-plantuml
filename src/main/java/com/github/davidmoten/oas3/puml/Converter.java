@@ -47,6 +47,8 @@ public final class Converter {
 	                                                                             .map(FileFormat::name)
 	                                                                             .filter(fileFormat -> !UNSUPPORTED_FORMATS.contains(fileFormat))
 	                                                                             .collect(Collectors.toCollection(LinkedHashSet::new));
+	public static final  String       SUPPORTED_FORMATS_STRING           = SUPPORTED_FORMATS.toString();
+	public static final  String       DELIMITER                          = ", ";
 	private static final FileFormat[] SUPPORTED_FILE_FORMAT_ARRAY        = Arrays.stream(FileFormat.values())
 	                                                                             .sorted(Comparator.comparing(Object::toString))
 	                                                                             .filter(Converter::isFileFormatSupported)
@@ -55,8 +57,6 @@ public final class Converter {
 	public static final  String       SUPPORTED_FILE_FORMAT_ARRAY_STRING = Arrays.stream(SUPPORTED_FILE_FORMAT_ARRAY)
 	                                                                             .map(Converter::toString)
 	                                                                             .collect(Collectors.joining());
-	public static final  String       SUPPORTED_FORMATS_STRING           = SUPPORTED_FORMATS.toString();
-	public static final  String       DELIMITER                          = ", ";
 	private static final Set<String>  SUPPORTED_OPEN_API_EXTENSIONS      = new LinkedHashSet<>(Arrays.asList("yml",
 	                                                                                                         "yaml"));
 	private static final String       COLON                              = " : ";

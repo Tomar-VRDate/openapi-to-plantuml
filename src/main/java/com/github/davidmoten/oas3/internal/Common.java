@@ -300,7 +300,7 @@ final class Common {
 	                                                                        List<Relationship> relationships,
 	                                                                        String name,
 	                                                                        @SuppressWarnings("rawtypes")
-					                                                                        List<Schema> schemas,
+	                                                                        List<Schema> schemas,
 	                                                                        Names names,
 	                                                                        String property) {
 		List<String> otherClassNames = schemas.stream() //
